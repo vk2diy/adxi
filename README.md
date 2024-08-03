@@ -2,7 +2,12 @@
 
 ADX is abbreviation for Arduino Digital Xceiver.
 
-This fork is focused on restoring the design with known bug fixes for modern KiCad (in progress), and using platformio for building the firmware (done).
+This fork is focused on:
+ * restoring access to the design for modern KiCad (in progress)
+ * integrating known bug fixes (in progress)
+ * improving the layout (in progress)
+ * reducing the BOM cost through integrated components where feasible (in progress)
+ * using platformio to manage the firmware build and dependencies (done).
 
 ## Features
 
@@ -22,6 +27,24 @@ The project was originally designed by [Barb (WB2CBA)](https://github.com/WB2CBA
  - Plug in a USB cable between ADX Arduino and your PC, Select Kenwood TS2000 with 9600bps,8,1 setup as your CAT rig and you will have CAT control on ADX!
 
 It has since been built all over the world.
+
+## Original design
+
+The original design was based on the following major physical modules:
+ * Main ADX PCB
+   * CD2003 radio chip
+   * 74ACT244 buffer/line driver
+ * Arduino Nano (ATmega328P MCU module)
+ * Si535x clock generator module
+ * uSDX LPF band module
+ * External microphone
+ * External speaker
+
+## Revised design
+
+The revised design will likely bring the clock generator on-board.
+
+The speaker and microphone may also be brought on board, or this option provided.
 
 ## Building the firmware
 
