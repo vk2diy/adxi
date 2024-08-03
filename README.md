@@ -75,8 +75,11 @@ Open the project in the IDE then use the buttons provided.
    - KiCad has altered its library management so much that the old files will not import directly to v8.0.4
    - KiCad has improved its internal libraries so that external libraries for many parts are no longer required
    - KiCad has integrated the historic DigiKey library
-   - PCB fixes have not been integrated by the original author
-   - The original layout used fills which are no longer supported by modern KiCad
+   - The schematic is missing known PCB fixes not integrated but documented by the original author
+   - The schematic uses a non-standard symbol for the MCU which is unhelpful
+   - The schematic has a number of further errors making it suboptimal for introducing new students
+   - The layout used a type of fill which is no longer supported by modern KiCad
+   - The layout can probably be improved
  - Conclusion
    - Given the simple nature of the schematic it is better at this point to redraw the schematic and redo the layout, removing all previous KiCad 4 era files
 
