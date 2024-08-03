@@ -19,9 +19,9 @@ The project was originally designed by [Barb (WB2CBA)](https://github.com/WB2CBA
 
 It has been built all over the world.
 
-## Building
+## Building the firmware
 
-The firmware is managed through [platformio](https://github.com/platformio/platformio-core).
+Firmware is managed through [platformio](https://github.com/platformio/platformio-core).
 
 Rationale:
  - While excellent in its simplicity, Arduino IDE is generally inappropriate for long lived projects.
@@ -43,7 +43,7 @@ Benefits:
 Simply change to the source code directory and type `pio run`.
 
 ```
-$ cd src
+$ cd firmware
 $ pio run
 ```
 
