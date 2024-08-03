@@ -2,11 +2,16 @@
 
 ADX is abbreviation for Arduino Digital Xceiver.
 
-Features:
+This fork is focused on restoring the design with known bug fixes for modern KiCad (in progress), and using platformio for building the firmware (done).
+
+## Features
+
  * ADX is a mono band (actually quad band) digital modes optimized HF transceiver that can cover four pre-programmed bands one band at a time by swapping Band LPF Modules.
    * It can work on 80m, 40m, 30m, 20m, 17m, 15m and 10m bands
    * It can operate on four of the most popular digital modes, FT8, FT4, JS8call and WSPR.
  * ADX supports computer control (CAT) by emulating KENWOOD TS2000 HF Transceiver over a 9600 8N1 serial link to control Band and Mode changes.
+
+## Goals
 
 The project was originally designed by [Barb (WB2CBA)](https://github.com/WB2CBA/ADX) ([original project website](https://antrak.org.tr/blog/adx-arduino-digital-transceiver/))  with the goal to design a simple HF Transceiver optimized for operating on Digital modes:
  - Simple to procure – meaning not effected by chip shortage
@@ -16,7 +21,7 @@ The project was originally designed by [Barb (WB2CBA)](https://github.com/WB2CBA
  - Dirt Cheap – Costs less than 25$ to get all parts and PCB if we exclude ridiculous shipping costs!
  - Plug in a USB cable between ADX Arduino and your PC, Select Kenwood TS2000 with 9600bps,8,1 setup as your CAT rig and you will have CAT control on ADX!
 
-It has been built all over the world.
+It has since been built all over the world.
 
 ## Building the firmware
 
@@ -51,11 +56,12 @@ $ pio run
 Open the project in the IDE then use the buttons provided.
 
 
-## Status
+## Current status of this fork
+
  - Firmware now builds correctly under platformio
  - KiCad files open, both schematic and layout, but with issues
 
-## Next steps
+### Next steps
  - A revised schematic and layout will be created
 
 ## History
