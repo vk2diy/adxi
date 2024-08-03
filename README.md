@@ -2,7 +2,6 @@
 
 ADX is abbreviation for Arduino Digital Xceiver.
 
-
 Features:
  * ADX is a mono band (actually quad band) digital modes optimized HF transceiver that can cover four pre-programmed bands one band at a time by swapping Band LPF Modules.
    * It can work on 80m, 40m, 30m, 20m, 17m, 15m and 10m bands
@@ -52,6 +51,13 @@ $ pio run
 Open the project in the IDE then use the buttons provided.
 
 
+## Status
+ - Firmware now builds correctly under platformio
+ - KiCad files open, both schematic and layout, but with issues
+
+## Next steps
+ - A revised schematic and layout will be created
+
 ## History
 
 ### 2024-08-03
@@ -59,6 +65,14 @@ Open the project in the IDE then use the buttons provided.
  - Forked, general cleanup and migrated to [platformio](https://github.com/platformio/platformio-core).
    - Previously Arduino IDE builds were the norm
    - Apparently the files had apparently not been opened since KiCad v4 ... KiCad is now at v8.0.4
+ - Outstanding issues
+   - KiCad has altered its library management so much that the old files will not import directly to v8.0.4
+   - KiCad has improved its internal libraries so that external libraries for many parts are no longer required
+   - KiCad has integrated the historic DigiKey library
+   - PCB fixes have not been integrated by the original author
+   - The original layout used fills which are no longer supported by modern KiCad
+ - Conclusion
+   - Given the simple nature of the schematic it is better at this point to redraw the schematic and redo the layout, removing all previous KiCad 4 era files
 
 ### 2023-07-14
 
