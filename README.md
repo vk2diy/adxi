@@ -2,13 +2,14 @@
 
 ADX is abbreviation for Arduino Digital Xceiver.
 
+
 Features:
  * ADX is a mono band (actually quad band) digital modes optimized HF transceiver that can cover four pre-programmed bands one band at a time by swapping Band LPF Modules.
    * It can work on 80m, 40m, 30m, 20m, 17m, 15m and 10m bands
    * It can operate on four of the most popular digital modes, FT8, FT4, JS8call and WSPR.
  * ADX supports computer control (CAT) by emulating KENWOOD TS2000 HF Transceiver over a 9600 8N1 serial link to control Band and Mode changes.
 
-The project was originally designed by [Barb (WB2CBA)](https://github.com/WB2CBA/ADX) with the goal to design a simple HF Transceiver optimized for operating on Digital modes:
+The project was originally designed by [Barb (WB2CBA)](https://github.com/WB2CBA/ADX) ([original project website](https://antrak.org.tr/blog/adx-arduino-digital-transceiver/))  with the goal to design a simple HF Transceiver optimized for operating on Digital modes:
  - Simple to procure – meaning not effected by chip shortage
  - Simple to build – 2 modules, 2 IC’s and 4 Mosfets!
  - Simple to setup and tune – One simple calibration procedure is all needed.
@@ -82,3 +83,7 @@ Open the project in the IDE then use the buttons provided.
  * [Richard Hinsley (W5ARH/VK2ARH)](): Buildathons, outreach and build documentation.
  * Joerg Frede (DK3JF): CAT and other software contributions.
  * Peter Petrov (LA7WRA) and Mark Culross (KD5RXT): Band display bug corrections.
+ * Burkhard Kainka (DK7JD): Initial FSK TX signal generation code - http://elektronik-labor.de/HF/SDRtxFSK2.html
+ * Jason Mildrum (NT7S): SI5351 Library - https://github.com/etherkit/Si5351Arduino
+ * Lajos Höss (HA8HL): Inspiration for CAT code based on his TS2000 CAT implementation.
+ * JE1RAV: Improved FSK TX signal generation code - https://github.com/je1rav/QP-7C
