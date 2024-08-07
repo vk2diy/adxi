@@ -163,7 +163,7 @@ Open the project in the IDE then use the buttons provided.
 ### ADX Project
 
  * [Barb (WB2CBA)](https://github.com/WB2CBA/ADX): Project conception and original design.
- * [Richard Hinsley (W5ARH/VK2ARH)](): Buildathons, outreach and build documentation.
+ * [Richard Hinsley (W5ARH/VK2ARH)](https://www.qrz.com/db/W5ARH): Buildathons, outreach and build documentation.
  * Joerg Frede (DK3JF): CAT and other software contributions.
  * Peter Petrov (LA7WRA) and Mark Culross (KD5RXT): Band display bug corrections.
  * Burkhard Kainka (DK7JD): Initial FSK TX signal generation code - http://elektronik-labor.de/HF/SDRtxFSK2.html
