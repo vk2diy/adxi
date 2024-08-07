@@ -89,12 +89,17 @@ Open the project in the IDE then use the buttons provided.
 ## Current status of this fork
 
  - Firmware now builds correctly under platformio
- - KiCad files open, both schematic and layout, but with issues
+ - KiCad 8 redrawing of the schematic and a draft layout are well underway and nearing completion
 
 ### Next steps
- - A revised schematic and layout will be created
+ - Complete schematic and layout
+ - Order boards
+ - Verify functionality
 
 ## History
+
+### 2024-08-07
+ - First 'mostly there' release of Kicad v8 schematic and board design
 
 ### 2024-08-03
 
