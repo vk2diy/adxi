@@ -1,22 +1,26 @@
-# ADX - Arduino Digital Modes Transceiver
+# adxi - ADX Improved
 
 ADX is abbreviation for Arduino Digital Xceiver.
 
-This fork is focused on:
- * restoring access to the design for modern KiCad (in progress)
- * integrating known bug fixes (in progress)
- * improving the layout (in progress)
- * reducing the BOM cost through integrated components where feasible (in progress)
- * using platformio to manage the firmware build and dependencies (done).
+This fork is called __adxi__ (or "ADX Improved") and is focused on:
+ * restoring access to the design for modern KiCad
+ * integrating known bug fixes
+ * revised layout
+ * additional protection
+ * reducing the BOM cost and enhancing functionality through integrated components where feasible
+ * improved documentation to facilitate teaching and learning
+ * using platformio to manage the firmware build and dependencies in a modern way
 
-## Features
+## ADX Original Project
+
+### Features
 
  * ADX is a mono band (actually quad band) digital modes optimized HF transceiver that can cover four pre-programmed bands one band at a time by swapping Band LPF Modules.
    * It can work on 80m, 40m, 30m, 20m, 17m, 15m and 10m bands
    * It can operate on four of the most popular digital modes, FT8, FT4, JS8call and WSPR.
  * ADX supports computer control (CAT) by emulating KENWOOD TS2000 HF Transceiver over a 9600 8N1 serial link to control Band and Mode changes.
 
-## Goals
+### Goals
 
 The project was originally designed by [Barb (WB2CBA)](https://github.com/WB2CBA/ADX) ([original project website](https://antrak.org.tr/blog/adx-arduino-digital-transceiver/))  with the goal to design a simple HF Transceiver optimized for operating on Digital modes:
  - Simple to procure – meaning not effected by chip shortage
@@ -28,7 +32,7 @@ The project was originally designed by [Barb (WB2CBA)](https://github.com/WB2CBA
 
 It has since been built all over the world.
 
-## Original design
+### Design
 
 The original design was based on the following major physical modules:
  * Main ADX PCB
@@ -37,14 +41,14 @@ The original design was based on the following major physical modules:
  * Arduino Nano (ATmega328P MCU module)
  * Si535x clock generator module
  * uSDX LPF band module
- * External microphone
- * External speaker
+ * External PC microphone interface (for sending received signals to the computer)
+ * External PC speaker interface (for receiving encoded signals from the computer)
 
 ## Revised design
 
-The revised design will likely bring the clock generator on-board.
+The revised design brings the clock generator on-board.
 
-The speaker and microphone may also be brought on board, or this option provided.
+It removes the physical interface and replaces it with host computer control (known as a "computer aided transceiver" or "CAT") via [wsjtx](https://wsjt.sourceforge.io/) (G4WJS/K9AN/IV3NWV) which is itself based on [hamlib](https://hamlib.github.io/) (VK3FCS/F8CFE/etc.)
 
 ## Building the firmware
 
@@ -124,6 +128,12 @@ Open the project in the IDE then use the buttons provided.
 - Add zener diode PA mosfet protection from excessive SWR conditions.
 
 ## Contributors
+
+### adxi project
+
+ * VK2DIY
+
+### ADX Project
 
  * [Barb (WB2CBA)](https://github.com/WB2CBA/ADX): Project conception and original design.
  * [Richard Hinsley (W5ARH/VK2ARH)](): Buildathons, outreach and build documentation.
