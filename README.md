@@ -18,6 +18,11 @@ This fork is called __adxi__ (or "ADX Improved") and is focused on:
  * Draft is nearing completion, about 90%.
  * Still need a band-switch, output multiplexer if LEDs are kept, reduce audio connector footprints.
 
+## Current documentation
+ * [Bandpass filter model](doc/filter-models/bandpass-filter/) showing audio frequency bandpass filter
+ * [CD2003 5V supply filter model](doc/filter-models/cd2003-supply-low-pass-filter/) showing power supply filtering for the radio receiver chipset
+ * [Multi-band low pass filters](doc/multi-band-lpfs) showing various third party designs for multi-band LPFs and including notes considering practical aspects of the design problem.
+
 ## ADX Original Project
 
 ### Features
