@@ -164,9 +164,9 @@ Open the project in the IDE then use the buttons provided.
 
  * [Barb (WB2CBA)](https://github.com/WB2CBA/ADX): Project conception and original design.
  * [Richard Hinsley (W5ARH/VK2ARH)](https://www.qrz.com/db/W5ARH): Buildathons, outreach and build documentation.
- * Joerg Frede (DK3JF): CAT and other software contributions.
- * Peter Petrov (LA7WRA) and Mark Culross (KD5RXT): Band display bug corrections.
- * Burkhard Kainka (DK7JD): Initial FSK TX signal generation code - http://elektronik-labor.de/HF/SDRtxFSK2.html
- * Jason Mildrum (NT7S): SI5351 Library - https://github.com/etherkit/Si5351Arduino
- * Lajos Höss (HA8HL): Inspiration for CAT code based on his TS2000 CAT implementation.
- * JE1RAV: Improved FSK TX signal generation code - https://github.com/je1rav/QP-7C
+ * [Joerg Frede (DK3JF)](https://www.qrz.com/db/DK3JF): CAT and other software contributions.
+ * [Peter Petrov (LA7WRA)](https://www.qrz.com/db/LA7WRA) and [Mark Culross (KD5RXT)](https://www.qrz.com/db/KD5RXT): Band display bug corrections.
+ * [Burkhard Kainka (DK7JD)](http://elektronik-labor.de/): Initial FSK TX signal generation code - http://elektronik-labor.de/HF/SDRtxFSK2.html
+ * [Jason Mildrum (NT7S)](https://www.qrz.com/db/NT7S): SI5351 Library - https://github.com/etherkit/Si5351Arduino
+ * [Lajos Höss (HA8HL)](https://www.qrz.com/db/HA8HL): Inspiration for CAT code based on his TS2000 CAT implementation.
+ * [JE1RAV](https://www.qrz.com/db/JE1RAV): Improved FSK TX signal generation code - https://github.com/je1rav/QP-7C
