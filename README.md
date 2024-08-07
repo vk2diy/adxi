@@ -3,13 +3,14 @@
 ADX is abbreviation for Arduino Digital Xceiver.
 
 This fork is called __adxi__ (or "ADX Improved") and is focused on:
- * restoring access to the design for modern KiCad
- * integrating known bug fixes
- * revised layout
- * additional protection
- * reducing the BOM cost and enhancing functionality through integrated components where feasible
- * improved documentation to facilitate teaching and learning
- * using platformio to manage the firmware build and dependencies in a modern way
+ * __restoring access to the project for modern KiCad__
+ * __integrating known bug fixes__
+ * __full computer control__ (remove buttons/blinkenlights interface)
+ * __broader power supply acceptance__ (~12-36V nominal)
+ * __improved filtering__
+ * __use of modern surface mount components__ nominally reducing the BOM cost and enhancing functionality through integrated components where feasible
+ * __improved documentation__ to facilitate teaching and learning
+ * __using platformio__ to manage the firmware build and dependencies in a modern way
 
 ## Current draft PCB (2024-08-07)
 
