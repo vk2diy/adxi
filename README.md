@@ -11,6 +11,13 @@ This fork is called __adxi__ (or "ADX Improved") and is focused on:
  * improved documentation to facilitate teaching and learning
  * using platformio to manage the firmware build and dependencies in a modern way
 
+## Current draft PCB (2024-08-07)
+
+![image](adxi-draft-pcb-2024-08-07.webp)
+
+ * Draft is nearing completion, about 90%.
+ * Still need a band-switch, output multiplexer if LEDs are kept, reduce audio connector footprints.
+
 ## ADX Original Project
 
 ### Features
