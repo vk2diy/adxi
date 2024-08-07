@@ -22,6 +22,7 @@ This fork is called __adxi__ (or "ADX Improved") and is focused on:
  * Filters
    * [Bandpass filter model](doc/filter-models/bandpass-filter/) showing audio frequency bandpass filter
    * [CD2003 5V supply filter model](doc/filter-models/cd2003-supply-low-pass-filter/) showing power supply filtering for the radio receiver chipset
+   * [DC blocking filter](doc/filter-models/dc-blocking-filter/) showing how capacitors block DC and their nominal frequency relationship
  * Schematic design notes
    * [Multi-band low pass filters](doc/multi-band-lpfs) showing various third party designs for multi-band LPFs and including notes considering practical aspects of the design problem.
    * [SWR and power metering](doc/swr-and-power-metering) discussing the planned approach to obtaining this information simply
