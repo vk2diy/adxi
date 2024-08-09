@@ -13,6 +13,17 @@ This fork is called __adxi__ (or "ADX Improved") with the following changes:
  * __improved documentation__ hoping to facilitate learning
  * __using platformio__ to manage the firmware build and dependencies in a modern way
 
+## Updated draft PCB (2024-09-09)
+
+![image](adxi-draft-pcb-2024-08-09.webp)
+![image](adxi-draft-pcb-2024-08-09-rear.webp)
+
+This version adopts a band-module approach in order to reduce iteration cost.
+
+The basic notion is that a 7x3cm module can be plugged in to provide band-specific low pass filtering.
+
+There is space on the front of the PCB for three of these modules, and on the rear of the board another three modules. Modules are staggered to minimize the effects of electromagnetic coupling between modules and their terminals. Sockets are used on the board and pins on the filter modules in order to reduce the volume of metal present when less filters are connected.
+
 ## Initial draft PCB (2024-08-07)
 
 ![image](adxi-draft-pcb-2024-08-07.webp)
