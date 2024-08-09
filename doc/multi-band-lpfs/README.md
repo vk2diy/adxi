@@ -253,13 +253,30 @@ Use capacitors specifically designed for RF applications with low ESR and ESL to
 
 Ensure all components are rated for peak volages present in the circuit.
 
-Actual calculation is based on Q factor.
+Actual calculation is based on Q factor, which may be roughly described as "sensitivity" or "amplification". 
 
-Q factors are broadly distributed as follows:
+Note that while Q is a dynamic value that rises with frequency, Q factors are broadly distributed as follows:
  * Low Q (1 to 10): For circuits with significant resistive losses, such as those using standard resistors, inductors, and capacitors with higher equivalent series resistance (ESR). These are often found in low-frequency filters and general-purpose circuits.
  * Moderate Q (10 to 100): For circuits using higher-quality inductors and capacitors with lower ESR. These can be found in RF circuits, tuned amplifiers, and more precise filter designs.
- * High Q (100 to 1000 or more): For circuits with very low resistive losses, such as those using air-core inductors, high-Q ceramic capacitors, and inductor coils with minimal resistive loss. These are typical in high-frequency applications and precision filters.
+ * High Q (100 to 1000 or more): For circuits with very low resistive losses, such as those using air-core inductors, high-Q ceramic capacitors, and inductor coils with minimal resistive loss. These are typical in high-frequency applications and precision filters. High Q is desirable in these cases.
 
-The peak voltage is simply calculated as the nominal voltage multiplied by the Q factor, so for 12V x (Q=10) you would assume 120V peak voltage.
+Peak voltage is calculated as the nominal voltage multiplied by the Q factor, so for 12V x (Q=10) you would assume 120V peak voltage.
 
 As an alternative to selecting components rated this highly (which can be impossible, bulky or expensive), it is possible to select a diode for TVS (transient voltage suppression) between the normal operating voltage and the component breakdown voltage.
+
+## Notes on the overall design problem
+
+After considering the practical concerns of component selection, the following points can be made:
+
+ * It is __far easier to design filters correctly at lower frequencies / higher wavelengths__
+ * As frequencies increase / wavelengths shorten there occur two major challenges:
+   * __Self-resonant frequency__, or the frequency at which the capacitors and inductors misbehave, becomes insufficient on any larger-value component:
+     * Three strategies for managing this challenge:
+       * The selection of a plurality of tiny components placed in series
+       * The selection of capacitor-only rather than capacitor-inductor type filter topologies, since inductors tend to reach this limit before capacitors do
+       * The careful design of custom [distributed filters](https://en.wikipedia.org/wiki/Distributed-element_filter), which are built in to the PCB rather than deployed as discrete components. Wikipedia summarizes: "Distributed-element filters are mostly used at frequencies above the VHF (Very High Frequency) band (30 to 300 MHz). At these frequencies, the physical length of passive components is a significant fraction of the wavelength of the operating frequency, and it becomes difficult to use the conventional lumped element model. The exact point at which distributed-element modelling becomes necessary depends on the particular design under consideration." This is complex and time consuming.
+   * __Power rating__, or the incapacity of components to safely deal with power levels present in the post power amplifier (PA) stage of the radio system
+     * Two strategies:
+       * Parallelism, or the selection of larger components and their placement in parallel in order to provide a higher effective power rating
+         * This is not without its drawbacks, chiefly cost and space but also components that are not within a tight tolerance may introduce problematic behaviours in their interaction
+     * I suspect that pre-amp rather than post-amp filters are preferred at these frequencies for this reason
