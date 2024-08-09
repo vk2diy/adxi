@@ -13,6 +13,7 @@ The tuning process has been semi-automated by some people who generate different
 Examples of such approaches:
  * https://web.archive.org/web/20200220050317/http://www.hamstack.com/project_antenna_analyzer.html
    * Based on https://www.instructables.com/HF-Antenna-Analyser-With-Arduino-and-DDS-Module/
+ * https://github.com/jmharvey1/DDS_AD9850_AntennaAnalyzer also profiled at https://hackaday.com/2015/08/06/40-antenna-analyzer-with-arduino-and-ad9850/
 
 After making some readings, variables can be changed (ie. variable capacitors or inductors tweaked, different antenna connected, elements reconfigured in multi-element or reconfigurable antennas, etc.), until you get a better match.
 
@@ -25,7 +26,7 @@ Some people have automated the tuning process using large backs of those horribl
 Examples of such approaches:
  * http://www.ok2zar.cz/php/show_page.php?soubor=auto_tuner/auto_tuner.html
    * Based on http://f5rds.free.fr/F5RDS_remote_antenna_tuner.html
- * https://k6jca.blogspot.com/2016/01/antenna-auto-tuner-design-part-10-final.html (best project of the category in my view)
+ * https://k6jca.blogspot.com/2016/01/antenna-auto-tuner-design-part-10-final.html (best project of the category in my view, especially the notes on [antenna tuning](https://k6jca.blogspot.com/2015/07/antenna-auto-tuner-design-part-6-notes.html) and [directional couplers](https://k6jca.blogspot.com/2015/07/antenna-auto-tuner-design-part-5.html))
  * http://www.krait-technologies.com/20240227_kt-005.pdf
 
 However, clicky mechanical relays have a few problems.
