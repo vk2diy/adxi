@@ -606,6 +606,174 @@
     [
       "c3abf330-1856-4368-a03b-0e6191ae29a9",
       "Root"
+    ],
+    [
+      "050ccaea-64e6-44b9-a928-88158e23cf39",
+      "2M LPF IN"
+    ],
+    [
+      "1722a34f-43cc-42b3-a304-5c929b9e512d",
+      "60M LPF IN"
+    ],
+    [
+      "a2f40df1-65e2-4f0f-8705-75630581b71b",
+      "2M LPF OUT"
+    ],
+    [
+      "c64214ea-db14-469b-a5bd-86107f0000cf",
+      "10M LPF IN"
+    ],
+    [
+      "0aa15a4a-d372-49b7-b94c-15f86a3d62ef",
+      "10M LPF OUT"
+    ],
+    [
+      "822a55c6-f80c-4d5c-88c4-eaf5c94b7e50",
+      "20M LPF IN"
+    ],
+    [
+      "656cb77b-eb1e-4be5-b880-c9a770e5d030",
+      "20M LPF OUT"
+    ],
+    [
+      "19582f50-b063-4125-9548-8e0584637976",
+      "40M LPF IN"
+    ],
+    [
+      "b1a431f3-132e-4e0c-95da-cc82abfe69c8",
+      "40M LPF OUT"
+    ],
+    [
+      "7f2c0654-b688-41f5-8445-3ddabf825a42",
+      "80M LPF IN"
+    ],
+    [
+      "aa405319-9412-4aa9-a4b3-9e757edfbbff",
+      "80M LPF OUT"
+    ],
+    [
+      "4bed0468-3ef3-43ae-86cd-7d15afd655b3",
+      "10m LPF (SMT)"
+    ],
+    [
+      "82c34b35-06b5-4519-8b80-8344f238d558",
+      "2m LPF (SMT)"
+    ],
+    [
+      "c4c14f2a-5eed-4fbd-84fc-7dedf7e1d431",
+      "20m LPF (SMT)"
+    ],
+    [
+      "8c898856-4b06-4fe5-9f12-ccd8c8eabd99",
+      "40m LPF (SMT)"
+    ],
+    [
+      "e67f56ff-7bda-4995-81ef-c522f5a4d849",
+      "80m LPF (SMT)"
+    ],
+    [
+      "395a14f9-1524-4195-b3ff-927a0f69d75e",
+      "15M LPF IN"
+    ],
+    [
+      "68675920-add0-4d25-b161-eaee63a63fb2",
+      "15m LPF (SMT)"
+    ],
+    [
+      "e3410e64-af2b-4ae6-aba6-6f2e39ee76d7",
+      "15M LPF OUT"
+    ],
+    [
+      "3a39c74b-2731-42e0-9406-3d02bf225df7",
+      "60M LPF OUT"
+    ],
+    [
+      "787b22d2-50cf-4a0b-b0dd-762d0c21e1eb",
+      "60m LPF (SMT)"
+    ],
+    [
+      "e46964ce-83fd-49cc-8c4d-13dc3ab93bb9",
+      "30M LPF IN"
+    ],
+    [
+      "b64dbdf4-30dc-4359-b9b2-24dc90dd5428",
+      "30M LPF OUT"
+    ],
+    [
+      "f02bd9d4-e8cf-4d4c-bea3-101145bedff0",
+      "30m LPF (SMT)"
+    ],
+    [
+      "496a2f3c-5f1f-4dc9-bb96-4a0ab08794f8",
+      "17M LPF IN"
+    ],
+    [
+      "27683ae4-1d95-4a27-9529-ec89b37ce42a",
+      "17M LPF OUT"
+    ],
+    [
+      "f4e82807-25d6-477e-92aa-6d05f3573797",
+      "17m LPF (SMT)"
+    ],
+    [
+      "c1f2eed0-7fc6-4ace-89f0-806fb3be6d79",
+      "6M LPF IN"
+    ],
+    [
+      "96824809-1c0a-4438-95c6-1b94e17d05ff",
+      "6M LPF OUT"
+    ],
+    [
+      "89243ecd-733d-4cae-bfd5-43b5bae8c7f3",
+      "6m LPF (SMT)"
+    ],
+    [
+      "e783e8e7-ad15-470d-8717-5e6cadef10e8",
+      "12M LPF IN"
+    ],
+    [
+      "d63cba2e-17ff-4661-b4d0-8e4f2f03292a",
+      "12M LPF OUT"
+    ],
+    [
+      "5f8ee15c-7ab8-4ccd-ad53-7c6cedc9fb60",
+      "12m LPF (SMT)"
+    ],
+    [
+      "703c4b0e-4e55-459f-ba48-a23001227e70",
+      "160M LPF IN"
+    ],
+    [
+      "a89a7291-3e04-4d63-abfe-aa84049a29a7",
+      "160M LPF OUT"
+    ],
+    [
+      "edf1c10f-0bdc-4fe8-9804-ce28a86572b8",
+      "160m LPF (SMT)"
+    ],
+    [
+      "deb223f4-31d2-4777-a402-3befca1cf276",
+      "630M LPF IN"
+    ],
+    [
+      "09f442a3-8847-4522-a854-c944eb2b160b",
+      "630M LPF OUT"
+    ],
+    [
+      "45b077a6-c9ac-48b9-a42a-6627340441cd",
+      "630m LPF (SMT)"
+    ],
+    [
+      "e3e8aee5-3009-4f2e-9e1b-7f43543b5f3b",
+      "2200M LPF OUT"
+    ],
+    [
+      "dd50e7bd-0a1e-45e0-a406-84e3cd5cbf40",
+      "2200M LPF IN"
+    ],
+    [
+      "01440e7e-6957-4f7e-93d9-c375eb2e2686",
+      "2200m LPF (SMT)"
     ]
   ],
   "text_variables": {}
