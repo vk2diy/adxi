@@ -6,7 +6,7 @@ Generally some sort of external box / unit is used. Within that unit is typicall
 
 Some power units / SWR units include variable capacitors and inductors which can be tweaked to obtain a better match. Other times there is a separate antenna tuning unit (ATU) which performs this function.
 
-Many people build these by themselves with soldered components, it has apparently been a classic HAM project for many years.
+Many people, like [this guy](https://www.aa5tb.com/tuner.html) or [this guy](https://www.hamradiosecrets.com/homebrew-antenna-tuner.html), build these by themselves with soldered components, it has apparently been a classic HAM project for many years.
 
 The tuning process has been semi-automated by some people who generate different frequency signals and read SWR back to determine nominal 'fit-ness' of the antenna at different frequencies.
 
@@ -27,6 +27,14 @@ Examples of such approaches:
  * http://www.ok2zar.cz/php/show_page.php?soubor=auto_tuner/auto_tuner.html
    * Based on http://f5rds.free.fr/F5RDS_remote_antenna_tuner.html
  * https://k6jca.blogspot.com/2016/01/antenna-auto-tuner-design-part-10-final.html (best project of the category in my view, especially the notes on [antenna tuning](https://k6jca.blogspot.com/2015/07/antenna-auto-tuner-design-part-6-notes.html) and [directional couplers](https://k6jca.blogspot.com/2015/07/antenna-auto-tuner-design-part-5.html))
+ * https://hamprojects.wordpress.com/2016/12/31/hf-automatic-tuner/
+
+Less commonly with servo motors:
+ * https://www.pa3hcm.nl/?p=336
+ * https://www.qsl.net/on7eq/projects/arduino_atu.htm (servo motor and mechanical variable capacitor based)
+
+And you can even get kits:
+ * http://www.merseyradar.co.uk/building-improving-the-atu-100-n7dcc-automatic-antenna-tuner/
  * http://www.krait-technologies.com/20240227_kt-005.pdf
 
 However, clicky mechanical relays have a few problems.
