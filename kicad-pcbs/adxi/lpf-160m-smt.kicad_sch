@@ -5,6 +5,298 @@
 	(uuid "a7673342-0257-4e66-b0ee-c90794dde225")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Diode:SD15_SOD323"
 			(pin_numbers hide)
 			(pin_names
@@ -299,16 +591,6 @@
 		)
 		(uuid "e80543d1-1e74-4fa4-8951-1cb377985d60")
 	)
-	(text "?% SRF=?MHz, DCR=?, I=?, Q=?"
-		(exclude_from_sim no)
-		(at 138.684 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0b070a11-0182-4ead-80a0-428857e68a70")
-	)
 	(text "160M Band (1.8-2 MHz)"
 		(exclude_from_sim no)
 		(at 147.32 72.898 0)
@@ -321,7 +603,17 @@
 		)
 		(uuid "45999eb8-c26c-4a59-af80-8d50e5d71603")
 	)
-	(text "Inductor (L): x uH\nCapacitor (C): x pF"
+	(text "2% SRF>1GHz, DCR=0.56, I=650mA, Q=45@F, V=?"
+		(exclude_from_sim no)
+		(at 137.414 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "521c8698-1d91-489e-a8f8-c1fcb61cdbe8")
+	)
+	(text "Inductor (L): 100 nH\nCapacitor (C): 680 pF"
 		(exclude_from_sim no)
 		(at 146.812 78.74 0)
 		(effects
@@ -333,7 +625,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 158.75 105.41 270)
+		(at 158.75 100.33 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -412,7 +704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30cb069c-febb-4622-8eca-b8f8dbb0ddf3")
-		(property "Reference" "D76"
+		(property "Reference" "D78"
 			(at 168.91 96.52 90)
 			(effects
 				(font
@@ -483,15 +775,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b6881cd2-0259-4cf6-bd0a-d39f160f289f")
+			(uuid "57239398-f3be-4a06-8364-507e0d54ef9e")
 		)
 		(pin "1"
-			(uuid "f3e07ee3-9a55-4ff4-9614-85528fd12ee8")
+			(uuid "f86bea56-5f15-4ff7-92d7-942b0beae443")
 		)
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/edf1c10f-0bdc-4fe8-9804-ce28a86572b8"
-					(reference "D76")
+					(reference "D78")
 					(unit 1)
 				)
 			)
@@ -507,7 +799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "494cea79-ed1d-429b-983e-7c323403f99a")
-		(property "Reference" "D77"
+		(property "Reference" "D79"
 			(at 180.34 96.52 90)
 			(effects
 				(font
@@ -578,15 +870,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "7bdd32e8-6393-4d8d-ba99-eaa2956926d3")
+			(uuid "1c95c49b-d882-42ac-a715-a51c40c7653a")
 		)
 		(pin "1"
-			(uuid "4a355574-cda6-4721-a71e-c9227b36a33a")
+			(uuid "aaa3e3b7-2452-4bdc-a01d-7bc204aa2387")
 		)
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/edf1c10f-0bdc-4fe8-9804-ce28a86572b8"
-					(reference "D77")
+					(reference "D79")
 					(unit 1)
 				)
 			)
@@ -602,7 +894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66316b36-f526-411d-bd7d-5cbf1cc89edf")
-		(property "Reference" "D75"
+		(property "Reference" "D77"
 			(at 123.19 96.52 90)
 			(effects
 				(font
@@ -673,15 +965,217 @@
 			)
 		)
 		(pin "2"
-			(uuid "a8bc5fe6-92ca-40e5-9822-15b6a17b20a0")
+			(uuid "10b32cdb-b322-49ea-a27f-45ed28275d85")
 		)
 		(pin "1"
-			(uuid "615cb3c7-9a56-473c-b028-060d458fee2d")
+			(uuid "ca027789-ef86-42c6-9644-6f35dbecbf29")
 		)
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/edf1c10f-0bdc-4fe8-9804-ce28a86572b8"
-					(reference "D75")
+					(reference "D77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 137.16 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78d48bd1-e46d-42cc-84c3-1201a73b5ac6")
+		(property "Reference" "L36"
+			(at 135.89 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nH"
+			(at 134.112 95.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_PSA-Prosperity-Dielectrics-FEC1008CP-R10G-LRH_C346437.pdf"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "650mA 100nH ±2% 560mΩ 1008 Inductors (SMD) ROHS"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "For 2M band, 144-148MHz."
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C346437"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FEC1008CP-R10G-LRH"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Prosperity"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b399254-e758-4a4e-94bd-2e4e02362fe3")
+		)
+		(pin "2"
+			(uuid "f5c2db52-6503-40ba-b454-c80d92bea8e3")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/edf1c10f-0bdc-4fe8-9804-ce28a86572b8"
+					(reference "L36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 158.75 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99fa08ad-3898-4d43-9f61-194445e4d24f")
+		(property "Reference" "C87"
+			(at 156.21 96.5262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "680pF"
+			(at 156.21 99.0662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_CCTC-TCC1206COG681J500DT_C282803.pdf"
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 680pF C0G ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C282803"
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TCC1206COG681J500DT"
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CCTC"
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c83f6e1-27fd-467c-9014-01eff9771424")
+		)
+		(pin "1"
+			(uuid "11e3cab7-7644-4031-87c9-a86c07968694")
+		)
+		(instances
+			(project ""
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/edf1c10f-0bdc-4fe8-9804-ce28a86572b8"
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -696,7 +1190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac3130ed-a745-488c-8237-43b9ebe0a15e")
-		(property "Reference" "D74"
+		(property "Reference" "D76"
 			(at 111.76 96.52 90)
 			(effects
 				(font
@@ -767,15 +1261,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a902da6e-4afd-4470-a6a3-2dcfc769a75a")
+			(uuid "680a9a16-5a40-4c88-9b22-39bc875b578c")
 		)
 		(pin "1"
-			(uuid "7fec8cb7-f8f2-4884-ac87-dee9e4d7d250")
+			(uuid "b58a533c-6b21-43fc-9cbb-63707761252c")
 		)
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/edf1c10f-0bdc-4fe8-9804-ce28a86572b8"
-					(reference "D74")
+					(reference "D76")
 					(unit 1)
 				)
 			)

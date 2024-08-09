@@ -861,7 +861,7 @@
 			)
 			(justify right)
 		)
-		(uuid "3c45e6f4-9f42-4a78-9b99-1d3c3e19c0f1")
+		(uuid "07f8110f-2752-41cb-b852-cc3f5d5bdd1a")
 	)
 	(hierarchical_label "OUTPUT"
 		(shape output)
@@ -873,7 +873,7 @@
 			)
 			(justify left)
 		)
-		(uuid "4753fa0e-6c03-4bae-9cb1-98dedf209d9f")
+		(uuid "5a443da8-2860-402e-9a36-2f8254ca9561")
 	)
 	(hierarchical_label "GND"
 		(shape passive)
@@ -885,7 +885,7 @@
 			)
 			(justify right)
 		)
-		(uuid "69c512d4-f240-45a3-b9f3-7fdc1a7f374b")
+		(uuid "94b3f1c9-2229-40ec-a80e-e7d3b18926d7")
 	)
 	(hierarchical_label "INPUT"
 		(shape input)
@@ -897,7 +897,7 @@
 			)
 			(justify right)
 		)
-		(uuid "b9a38b38-2645-4c6e-85da-43007f91cda6")
+		(uuid "dead9fb3-491c-40be-85ad-b7fdaf04ed8b")
 	)
 	(hierarchical_label "GND"
 		(shape passive)
@@ -909,7 +909,7 @@
 			)
 			(justify right)
 		)
-		(uuid "e3445ad7-4134-4e8e-84f9-32b019de2641")
+		(uuid "f49189d4-561f-4b7f-b2ec-f7e43861f4d5")
 	)
 	(hierarchical_label "GND"
 		(shape passive)
@@ -925,396 +925,13 @@
 	)
 	(symbol
 		(lib_id "Diode:SD15_SOD323")
-		(at 104.14 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08c8bdf5-f5b1-456e-b8b0-fa2624d1fbd8")
-		(property "Reference" "D52"
-			(at 100.33 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "13V 5W"
-			(at 98.552 92.202 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_DOWO-SMB5350B_C284082.pdf"
-			(at 104.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Independent Type 5W 13V SMB(DO-214AA) Zener Diodes ROHS"
-			(at 104.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C284082"
-			(at 104.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SMB5350B"
-			(at 104.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "DOWO"
-			(at 104.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f8f2915a-c70e-4ab4-8503-7780fa5a55c1")
-		)
-		(pin "1"
-			(uuid "0d775393-26eb-4c91-95eb-eae8a67de127")
-		)
-		(instances
-			(project "adxi"
-				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/f02bd9d4-e8cf-4d4c-bea3-101145bedff0"
-					(reference "D52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 123.19 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "449107a5-e509-43b9-bef6-c4b33282e186")
-		(property "Reference" "L7"
-			(at 123.19 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220nH"
-			(at 123.19 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 123.19 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231030_FH--Guangdong-Fenghua-Advanced-Tech-FHW0805UCR22JGT_C108960.pdf"
-			(at 123.19 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400mA 220nH ±5% 1.05Ω 0805 Inductors (SMD) ROHS"
-			(at 123.19 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C108960"
-			(at 123.19 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "FHW0805UCR22JGT"
-			(at 123.19 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Fenghua"
-			(at 123.19 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f48d450e-b664-4b40-8362-4966fc56176d")
-		)
-		(pin "2"
-			(uuid "6620720b-e9d4-4b1b-98c8-9bab79591f1d")
-		)
-		(instances
-			(project ""
-				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/f02bd9d4-e8cf-4d4c-bea3-101145bedff0"
-					(reference "L7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 163.83 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c835daa-9997-422f-90db-3f656144eb71")
-		(property "Reference" "C65"
-			(at 166.37 90.1762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1pF"
-			(at 166.37 92.7162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 163.83 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-1206CG1R0C500NT_C1891.pdf"
-			(at 163.83 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 163.83 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1891"
-			(at 163.83 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "1206CG1R0C500NT"
-			(at 163.83 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Fenghua"
-			(at 163.83 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f541d54-3cd0-4e06-8902-340de0547627")
-		)
-		(pin "1"
-			(uuid "1add39c0-0205-45b2-86c1-7b12c4bb56bf")
-		)
-		(instances
-			(project "adxi"
-				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/f02bd9d4-e8cf-4d4c-bea3-101145bedff0"
-					(reference "C65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 153.67 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5da907b0-2807-4e76-8c51-afe4ac373e81")
-		(property "Reference" "C67"
-			(at 156.21 90.1762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33pF"
-			(at 156.21 92.7162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 153.67 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-GRM31A5C2J330JW01D_C415521.pdf"
-			(at 153.67 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "630V 33pF C0G ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 153.67 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C415521"
-			(at 153.67 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM31A5C2J330JW01D"
-			(at 153.67 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 153.67 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a4b1877-e865-45a2-8623-bb10b30e8d2f")
-		)
-		(pin "2"
-			(uuid "e7f3776a-7ccf-4f99-867f-f93cdcd10698")
-		)
-		(instances
-			(project "adxi"
-				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/f02bd9d4-e8cf-4d4c-bea3-101145bedff0"
-					(reference "C67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SD15_SOD323")
 		(at 185.42 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8b3d32d6-fe87-47c4-be9a-a5dfc9b80b72")
+		(uuid "09c49a80-8ffc-4fed-aae5-b4c54269101d")
 		(property "Reference" "D54"
 			(at 181.61 90.17 90)
 			(effects
@@ -1402,16 +1019,16 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 123.19 88.9 90)
-		(mirror x)
+		(at 123.19 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "af5bf484-42ed-449e-a962-a342ae284ee2")
-		(property "Reference" "L12"
-			(at 123.19 93.98 90)
+		(fields_autoplaced yes)
+		(uuid "449107a5-e509-43b9-bef6-c4b33282e186")
+		(property "Reference" "L30"
+			(at 123.19 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,7 +1036,7 @@
 			)
 		)
 		(property "Value" "220nH"
-			(at 123.19 91.44 90)
+			(at 123.19 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,7 +1044,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 123.19 88.9 0)
+			(at 123.19 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,7 +1053,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231030_FH--Guangdong-Fenghua-Advanced-Tech-FHW0805UCR22JGT_C108960.pdf"
-			(at 123.19 88.9 0)
+			(at 123.19 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1445,7 +1062,7 @@
 			)
 		)
 		(property "Description" "400mA 220nH ±5% 1.05Ω 0805 Inductors (SMD) ROHS"
-			(at 123.19 88.9 0)
+			(at 123.19 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1071,7 @@
 			)
 		)
 		(property "LCSC Part #" "C108960"
-			(at 123.19 88.9 90)
+			(at 123.19 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +1080,7 @@
 			)
 		)
 		(property "MPN" "FHW0805UCR22JGT"
-			(at 123.19 88.9 90)
+			(at 123.19 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +1089,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 123.19 88.9 90)
+			(at 123.19 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1481,15 +1098,303 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd7a8237-d16f-49fb-a4f5-f52c5cc74467")
+			(uuid "f48d450e-b664-4b40-8362-4966fc56176d")
 		)
 		(pin "2"
-			(uuid "8da68a8d-e379-4280-a251-4887df1b71af")
+			(uuid "6620720b-e9d4-4b1b-98c8-9bab79591f1d")
+		)
+		(instances
+			(project ""
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/f02bd9d4-e8cf-4d4c-bea3-101145bedff0"
+					(reference "L30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 163.83 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c835daa-9997-422f-90db-3f656144eb71")
+		(property "Reference" "C73"
+			(at 166.37 90.1762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1pF"
+			(at 166.37 92.7162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-1206CG1R0C500NT_C1891.pdf"
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1891"
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1206CG1R0C500NT"
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fenghua"
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f541d54-3cd0-4e06-8902-340de0547627")
+		)
+		(pin "1"
+			(uuid "1add39c0-0205-45b2-86c1-7b12c4bb56bf")
 		)
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/f02bd9d4-e8cf-4d4c-bea3-101145bedff0"
-					(reference "L12")
+					(reference "C73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD15_SOD323")
+		(at 104.14 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55d41c5d-6190-4ce4-8a42-b8c70adb262f")
+		(property "Reference" "D52"
+			(at 100.33 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "13V 5W"
+			(at 98.552 92.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 109.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_DOWO-SMB5350B_C284082.pdf"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Independent Type 5W 13V SMB(DO-214AA) Zener Diodes ROHS"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C284082"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMB5350B"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DOWO"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f8f2915a-c70e-4ab4-8503-7780fa5a55c1")
+		)
+		(pin "1"
+			(uuid "0d775393-26eb-4c91-95eb-eae8a67de127")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/f02bd9d4-e8cf-4d4c-bea3-101145bedff0"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 153.67 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5da907b0-2807-4e76-8c51-afe4ac373e81")
+		(property "Reference" "C72"
+			(at 156.21 90.1762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33pF"
+			(at 156.21 92.7162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-GRM31A5C2J330JW01D_C415521.pdf"
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "630V 33pF C0G ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C415521"
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31A5C2J330JW01D"
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a4b1877-e865-45a2-8623-bb10b30e8d2f")
+		)
+		(pin "2"
+			(uuid "e7f3776a-7ccf-4f99-867f-f93cdcd10698")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/f02bd9d4-e8cf-4d4c-bea3-101145bedff0"
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -1504,7 +1409,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cdb2c089-1225-467c-8a31-769c696ce544")
+		(uuid "5f504de6-6d06-4c00-855f-d41c27f74f03")
 		(property "Reference" "D55"
 			(at 193.04 90.17 90)
 			(effects
@@ -1591,44 +1496,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 143.51 91.44 0)
+		(lib_id "Device:L")
+		(at 123.19 88.9 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4325533-4205-4d84-be6b-0e2b1067d49b")
-		(property "Reference" "C66"
-			(at 146.05 90.1762 0)
+		(uuid "af5bf484-42ed-449e-a962-a342ae284ee2")
+		(property "Reference" "L31"
+			(at 123.19 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "33pF"
-			(at 146.05 92.7162 0)
+		(property "Value" "220nH"
+			(at 123.19 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 143.51 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-GRM31A5C2J330JW01D_C415521.pdf"
-			(at 143.51 91.44 0)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 123.19 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,8 +1530,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "630V 33pF C0G ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 143.51 91.44 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231030_FH--Guangdong-Fenghua-Advanced-Tech-FHW0805UCR22JGT_C108960.pdf"
+			(at 123.19 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1645,8 +1539,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C415521"
-			(at 143.51 91.44 0)
+		(property "Description" "400mA 220nH ±5% 1.05Ω 0805 Inductors (SMD) ROHS"
+			(at 123.19 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1654,8 +1548,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM31A5C2J330JW01D"
-			(at 143.51 91.44 0)
+		(property "LCSC Part #" "C108960"
+			(at 123.19 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1663,8 +1557,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 143.51 91.44 0)
+		(property "MPN" "FHW0805UCR22JGT"
+			(at 123.19 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fenghua"
+			(at 123.19 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1673,112 +1576,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e96eff76-ae2c-4705-8b16-ea4caf402a93")
+			(uuid "dd7a8237-d16f-49fb-a4f5-f52c5cc74467")
 		)
 		(pin "2"
-			(uuid "8be3bde7-7b4e-4525-b660-2365a0e3de69")
+			(uuid "8da68a8d-e379-4280-a251-4887df1b71af")
 		)
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/f02bd9d4-e8cf-4d4c-bea3-101145bedff0"
-					(reference "C66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 133.35 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcdb92cb-aa9a-4869-8f25-a2de08b3b4ba")
-		(property "Reference" "C63"
-			(at 135.89 90.1762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33pF"
-			(at 135.89 92.7162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 133.35 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-GRM31A5C2J330JW01D_C415521.pdf"
-			(at 133.35 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "630V 33pF C0G ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 133.35 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C415521"
-			(at 133.35 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM31A5C2J330JW01D"
-			(at 133.35 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 133.35 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68dab319-7405-419d-b38a-e94da692c543")
-		)
-		(pin "2"
-			(uuid "8fec12ee-00f0-4660-b657-5b5ed9eaa10e")
-		)
-		(instances
-			(project "adxi"
-				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/f02bd9d4-e8cf-4d4c-bea3-101145bedff0"
-					(reference "C63")
+					(reference "L31")
 					(unit 1)
 				)
 			)
@@ -1793,7 +1599,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e9d5160e-25d9-4866-a855-89f96fbd977a")
+		(uuid "bcbf2b06-2b6a-4e68-a143-48e2fd0a19b9")
 		(property "Reference" "D53"
 			(at 111.76 90.17 90)
 			(effects
@@ -1874,6 +1680,200 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/f02bd9d4-e8cf-4d4c-bea3-101145bedff0"
 					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 143.51 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4325533-4205-4d84-be6b-0e2b1067d49b")
+		(property "Reference" "C71"
+			(at 146.05 90.1762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33pF"
+			(at 146.05 92.7162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-GRM31A5C2J330JW01D_C415521.pdf"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "630V 33pF C0G ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C415521"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31A5C2J330JW01D"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e96eff76-ae2c-4705-8b16-ea4caf402a93")
+		)
+		(pin "2"
+			(uuid "8be3bde7-7b4e-4525-b660-2365a0e3de69")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/f02bd9d4-e8cf-4d4c-bea3-101145bedff0"
+					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 133.35 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcdb92cb-aa9a-4869-8f25-a2de08b3b4ba")
+		(property "Reference" "C70"
+			(at 135.89 90.1762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33pF"
+			(at 135.89 92.7162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-GRM31A5C2J330JW01D_C415521.pdf"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "630V 33pF C0G ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C415521"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31A5C2J330JW01D"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68dab319-7405-419d-b38a-e94da692c543")
+		)
+		(pin "2"
+			(uuid "8fec12ee-00f0-4660-b657-5b5ed9eaa10e")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/f02bd9d4-e8cf-4d4c-bea3-101145bedff0"
+					(reference "C70")
 					(unit 1)
 				)
 			)

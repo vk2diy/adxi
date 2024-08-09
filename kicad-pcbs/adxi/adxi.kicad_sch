@@ -6896,7 +6896,7 @@
 	)
 	(text "These filters are very likely to change. Therefore it makes sense\nto keep them on a separate board.\n\nPA -> Interface -> LPF board -> Interface back to mainboard -> Antenna\n\nHow does the system know which board is plugged in? It should be able\nto query somehow to determine the frequency range. \n\nHow can this be done easily? Allow the board to provide some data to\nread back to the master board describing its supported frequency band(s).\n\nOr, just rely on the user to make sure everyhing works (bad idea).\n\nWhat about reading back power levels? This can occur on the main board\nusing the defined strategy."
 		(exclude_from_sim no)
-		(at 303.022 296.418 0)
+		(at 303.53 279.654 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7184,6 +7184,19 @@
 		)
 		(uuid "a35d6f74-37fd-409f-bc6e-e30eced1fdff")
 	)
+	(text "70CM"
+		(exclude_from_sim no)
+		(at 250.19 331.47 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "a52c2662-c3e7-4ae8-8bd0-1c73b3724705")
+	)
 	(text "DESIGN GOAL:\n\"GOOD ENOUGH\"\nFORWARD AND\nREVERSE POWER\nAND SWR PLUS\nANTENNA ABSENCE\nOR BREAKAGE\nDETECTION FOR\nSAFETY PURPOSES."
 		(exclude_from_sim no)
 		(at 91.694 122.174 0)
@@ -7281,7 +7294,7 @@
 	)
 	(text "INTERFACE FOR ANTENNA BAND PASS FILTERS"
 		(exclude_from_sim no)
-		(at 306.578 278.892 0)
+		(at 307.086 262.128 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7484,7 +7497,7 @@
 	)
 	(global_label "160M-LPF-ENABLE"
 		(shape input)
-		(at 259.08 306.07 180)
+		(at 259.08 290.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7494,7 +7507,7 @@
 		)
 		(uuid "05ca4c7a-cf13-42da-adee-40d5bfc820e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.4682 306.07 0)
+			(at 237.4682 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7539,6 +7552,28 @@
 		(uuid "07b30fa3-e084-4407-be9e-1480165a75e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 78.74 57.8144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "70CM-LPF-ENABLE"
+		(shape input)
+		(at 259.08 260.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "093e6f3b-0d85-43ab-8a25-c492fd7426e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.4077 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7836,7 +7871,7 @@
 	)
 	(global_label "80M-LPF-ENABLE"
 		(shape input)
-		(at 259.08 302.26 180)
+		(at 259.08 288.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7846,7 +7881,7 @@
 		)
 		(uuid "0feca83e-9e57-482d-890e-7a0b79bc510a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.6777 302.26 0)
+			(at 238.6777 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8056,7 +8091,7 @@
 	)
 	(global_label "2M-LPF-ENABLE"
 		(shape input)
-		(at 259.08 276.86 180)
+		(at 259.08 262.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8066,7 +8101,7 @@
 		)
 		(uuid "1a0dbd62-e4d6-4a9f-954c-1d685aa31f5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.8872 276.86 0)
+			(at 239.8872 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8204,6 +8239,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "70CM-LPF-IN"
+		(shape input)
+		(at 311.15 328.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cf3450b-f0fa-4b2d-82de-ac1bca13e930")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 327.7424 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8386,7 +8443,7 @@
 	)
 	(global_label "2200M-LPF-ENABLE"
 		(shape input)
-		(at 259.08 311.15 180)
+		(at 259.08 295.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8396,7 +8453,7 @@
 		)
 		(uuid "22f4a905-8ec6-4126-b4fb-041abc52fd25")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.2587 311.15 0)
+			(at 236.2587 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8716,7 +8773,7 @@
 	)
 	(global_label "30M-LPF-ENABLE"
 		(shape input)
-		(at 259.08 294.64 180)
+		(at 259.08 280.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8726,7 +8783,7 @@
 		)
 		(uuid "2b37de90-8b10-49f5-8137-907e43bc592c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.6777 294.64 0)
+			(at 238.6777 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8870,7 +8927,7 @@
 	)
 	(global_label "60M-LPF-ENABLE"
 		(shape input)
-		(at 259.08 299.72 180)
+		(at 259.08 285.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8880,7 +8937,7 @@
 		)
 		(uuid "2d678a4e-76be-4261-b6cc-9a0695b1b6c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.6777 299.72 0)
+			(at 238.6777 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8908,6 +8965,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 311.15 334.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d97895e-47dc-4e06-a176-39b5124bb2cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 316.8944 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8947,6 +9026,28 @@
 		(uuid "2ea20318-42b6-4742-ac02-19464dcff1b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 326.5328 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "70CM-LPF-OUT"
+		(shape input)
+		(at 424.18 330.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ee2da05-7c14-4dba-b021-b5d557638058")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 442.4657 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9594,6 +9695,28 @@
 			)
 		)
 	)
+	(global_label "70CM-LPF-OUT"
+		(shape output)
+		(at 363.22 328.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d65a807-48ba-43cc-a561-b02b62b2e43a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 381.5057 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "630M-LPF-ENABLE"
 		(shape input)
 		(at 398.78 368.3 180)
@@ -9750,7 +9873,7 @@
 	)
 	(global_label "17M-LPF-ENABLE"
 		(shape input)
-		(at 259.08 289.56 180)
+		(at 259.08 275.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9760,7 +9883,7 @@
 		)
 		(uuid "5654cdd7-f645-445b-b934-a30749491f54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.6777 289.56 0)
+			(at 238.6777 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9805,6 +9928,50 @@
 		(uuid "581c3fb5-60d8-4277-8bb4-0468b5717751")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 112.3656 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "70CM-LPF-ENABLE"
+		(shape input)
+		(at 398.78 332.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "586b234e-fcd7-42df-812a-7c3860c2de5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 377.1077 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 285.75 334.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5913ae06-056c-4208-9d62-d0076d11f696")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.4667 334.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,6 +10729,28 @@
 			)
 		)
 	)
+	(global_label "12V"
+		(shape input)
+		(at 285.75 326.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75190fab-7967-439f-b36f-e29f818c7cae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.2572 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape passive)
 		(at 85.09 267.97 0)
@@ -11090,6 +11279,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape passive)
+		(at 344.17 331.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "843d605e-8b2d-47c3-aa31-68b1c183104b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 338.4256 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C-SCL-3.3V"
 		(shape output)
 		(at 335.28 69.85 0)
@@ -11158,7 +11369,7 @@
 	)
 	(global_label "20M-LPF-ENABLE"
 		(shape input)
-		(at 259.08 292.1 180)
+		(at 259.08 278.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11168,7 +11379,7 @@
 		)
 		(uuid "868512f0-357c-49e9-9fba-c7a77e70b5a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.6777 292.1 0)
+			(at 238.6777 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11202,7 +11413,7 @@
 	)
 	(global_label "6M-LPF-ENABLE"
 		(shape input)
-		(at 259.08 279.4 180)
+		(at 259.08 265.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11212,7 +11423,7 @@
 		)
 		(uuid "8bd482a3-8978-4d45-89fb-48cd04b72bd7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.8872 279.4 0)
+			(at 239.8872 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11224,7 +11435,7 @@
 	)
 	(global_label "12M-LPF-ENABLE"
 		(shape input)
-		(at 259.08 284.48 180)
+		(at 259.08 270.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11234,7 +11445,7 @@
 		)
 		(uuid "8bd9856a-c74a-43fe-9c2b-0a36c23d73a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.6777 284.48 0)
+			(at 238.6777 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11356,7 +11567,7 @@
 	)
 	(global_label "15M-LPF-ENABLE"
 		(shape input)
-		(at 259.08 287.02 180)
+		(at 259.08 273.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11366,7 +11577,7 @@
 		)
 		(uuid "919842de-019d-486c-bebe-e3ed6a401edb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.6777 287.02 0)
+			(at 238.6777 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11620,7 +11831,7 @@
 	)
 	(global_label "630M-LPF-ENABLE"
 		(shape input)
-		(at 259.08 308.61 180)
+		(at 259.08 293.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11630,7 +11841,7 @@
 		)
 		(uuid "9a21ac3d-5183-4542-9562-375a92b19c62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.4682 308.61 0)
+			(at 237.4682 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11807,6 +12018,28 @@
 		(uuid "9fc6b4ca-2938-4fe9-9738-f4ddbc21dde8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 161.4495 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "70CM-LPF-ENABLE"
+		(shape input)
+		(at 285.75 331.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a00b7694-c194-4b23-af6a-245866d8004f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.0777 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12652,6 +12885,28 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 398.78 335.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5a797c0-738c-43c5-b4e8-bb6bc576be10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 393.4967 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ANTENNA"
 		(shape output)
 		(at 173.99 227.33 180)
@@ -13290,6 +13545,50 @@
 			)
 		)
 	)
+	(global_label "ANTENNA"
+		(shape output)
+		(at 398.78 330.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de7233b3-f3c7-464a-a36c-b691ce2605de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 387.5095 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 424.18 335.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfe7b43d-82a4-4e6f-84d9-0a473b812159")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 429.9244 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5V"
 		(shape input)
 		(at 59.69 302.26 180)
@@ -13358,7 +13657,7 @@
 	)
 	(global_label "40M-LPF-ENABLE"
 		(shape input)
-		(at 259.08 297.18 180)
+		(at 259.08 283.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13368,7 +13667,7 @@
 		)
 		(uuid "e49b38dc-9a23-4dd2-b8d3-55fccd58b134")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.6777 297.18 0)
+			(at 238.6777 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13435,6 +13734,28 @@
 		(uuid "e5d3398b-b9c9-4833-a0c9-d59c87ed6cf2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 166.2272 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V"
+		(shape input)
+		(at 398.78 327.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6237c46-7a26-45dd-888e-aa3013fe653d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 392.2872 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13862,6 +14183,28 @@
 			)
 		)
 	)
+	(global_label "PA-DRAIN"
+		(shape output)
+		(at 285.75 328.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f585b591-c328-4b1c-a4c8-bf91becf4382")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.2699 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "12M-LPF-ENABLE"
 		(shape input)
 		(at 59.69 265.43 180)
@@ -13952,7 +14295,7 @@
 	)
 	(global_label "10M-LPF-ENABLE"
 		(shape input)
-		(at 259.08 281.94 180)
+		(at 259.08 267.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13962,7 +14305,7 @@
 		)
 		(uuid "f8ecacb2-b385-412e-8771-4db233a0f76f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.6777 281.94 0)
+			(at 238.6777 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14056,6 +14399,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "70CM-LPF-IN"
+		(shape input)
+		(at 344.17 328.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fce5375d-f61e-4afb-83d7-1881231a93d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 327.5776 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -20810,6 +21175,104 @@
 		)
 	)
 	(sheet
+		(at 398.78 326.39)
+		(size 25.4 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2768ebc5-4822-4447-a269-86a8fe5339e5")
+		(property "Sheetname" "70CM LPF OUT"
+			(at 398.78 325.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nfet-highside-load-switch.kicad_sch"
+			(at 398.78 338.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWITCHING-VOLTAGE" input
+			(at 398.78 327.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "67e56261-c931-49c3-b648-bf64c8160204")
+		)
+		(pin "LOAD-ANODE" output
+			(at 424.18 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5864b5da-42ce-4967-b56a-8963f525cab5")
+		)
+		(pin "GND" passive
+			(at 424.18 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1a185294-bc4e-4271-bce9-348478c8e986")
+		)
+		(pin "SUPPLY" input
+			(at 398.78 330.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6bc842cb-230f-4f0c-89a8-88307e05290c")
+		)
+		(pin "~{ENABLE-LOAD}" input
+			(at 398.78 332.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8f9b80e9-f9fe-4121-a05d-42b6a4627b15")
+		)
+		(pin "5V" input
+			(at 398.78 335.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed09e093-68da-45e1-bb41-9fd1ecb7577a")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(page "45")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 59.69 275.59)
 		(size 25.4 11.43)
 		(fields_autoplaced yes)
@@ -21006,6 +21469,74 @@
 		)
 	)
 	(sheet
+		(at 344.17 326.39)
+		(size 19.05 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "44dd9bca-6161-4d06-84e0-0f48363b8396")
+		(property "Sheetname" "70cm LPF (SMT)"
+			(at 344.17 325.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lpf-70cm-smt.kicad_sch"
+			(at 344.17 334.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INPUT" input
+			(at 344.17 328.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "79c64176-9d40-46a3-8bfc-72363bc62aa4")
+		)
+		(pin "GND" passive
+			(at 344.17 331.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ca7a732e-a34a-4111-ab4b-f25da336840e")
+		)
+		(pin "OUTPUT" output
+			(at 363.22 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a66e0bdc-6ab1-4b19-a079-35c32978b05a")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(page "46")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 344.17 361.95)
 		(size 19.05 7.62)
 		(fields_autoplaced yes)
@@ -21167,6 +21698,104 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 285.75 325.12)
+		(size 25.4 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4b7f80fa-4f8e-482f-8e14-e0f7d59092a2")
+		(property "Sheetname" "70CM LPF IN"
+			(at 285.75 324.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nfet-highside-load-switch.kicad_sch"
+			(at 285.75 337.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWITCHING-VOLTAGE" input
+			(at 285.75 326.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "76f366fe-b1dc-4012-978b-5475808ec397")
+		)
+		(pin "LOAD-ANODE" output
+			(at 311.15 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "827088f9-5e9e-4f76-af18-2d73567eb949")
+		)
+		(pin "GND" passive
+			(at 311.15 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4298d742-dc2b-4fd7-83e7-16cf218664ac")
+		)
+		(pin "SUPPLY" input
+			(at 285.75 328.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f84b9515-bc3d-4e06-becd-e288bb104389")
+		)
+		(pin "~{ENABLE-LOAD}" input
+			(at 285.75 331.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b76102f9-30c9-4184-82b5-8647e9234ace")
+		)
+		(pin "5V" input
+			(at 285.75 334.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8ea36f72-43a8-4e5b-be95-7fc15bb04906")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(page "44")
 				)
 			)
 		)

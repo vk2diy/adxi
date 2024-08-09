@@ -1261,7 +1261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c8ffa4d-3607-4685-b7aa-0927b1184d93")
-		(property "Reference" "L10"
+		(property "Reference" "L8"
 			(at 99.822 80.01 90)
 			(effects
 				(font
@@ -1351,7 +1351,7 @@
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/4bed0468-3ef3-43ae-86cd-7d15afd655b3"
-					(reference "L10")
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -1367,7 +1367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d385179-9955-4f36-a1a0-f5d46529e892")
-		(property "Reference" "L16"
+		(property "Reference" "L6"
 			(at 78.74 80.01 90)
 			(effects
 				(font
@@ -1446,7 +1446,7 @@
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/4bed0468-3ef3-43ae-86cd-7d15afd655b3"
-					(reference "L16")
+					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -1557,7 +1557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a2c8cef-8af1-4bfd-a451-f9d4ce21b232")
-		(property "Reference" "L17"
+		(property "Reference" "L7"
 			(at 86.36 80.01 90)
 			(effects
 				(font
@@ -1636,7 +1636,7 @@
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/4bed0468-3ef3-43ae-86cd-7d15afd655b3"
-					(reference "L17")
+					(reference "L7")
 					(unit 1)
 				)
 			)
@@ -1747,7 +1747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "331f0270-6a12-4930-8858-5d16d1597a6c")
-		(property "Reference" "C31"
+		(property "Reference" "C30"
 			(at 121.92 87.6362 0)
 			(effects
 				(font
@@ -1828,7 +1828,7 @@
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/4bed0468-3ef3-43ae-86cd-7d15afd655b3"
-					(reference "C31")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -2516,7 +2516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c27e854a-fd99-40a4-8b31-aba38b989513")
-		(property "Reference" "C30"
+		(property "Reference" "C31"
 			(at 132.08 87.6362 0)
 			(effects
 				(font
@@ -2597,7 +2597,7 @@
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/4bed0468-3ef3-43ae-86cd-7d15afd655b3"
-					(reference "C30")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -2710,7 +2710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd586e24-a6c7-4a99-bf98-66e2a91169f3")
-		(property "Reference" "L15"
+		(property "Reference" "L5"
 			(at 71.12 80.01 90)
 			(effects
 				(font
@@ -2785,6 +2785,14 @@
 		)
 		(pin "1"
 			(uuid "87562ace-44bc-4d86-9743-3588a7d084e8")
+		)
+		(instances
+			(project ""
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/4bed0468-3ef3-43ae-86cd-7d15afd655b3"
+					(reference "L5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2893,7 +2901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6c70339-f390-49df-a943-352d7a812eca")
-		(property "Reference" "L11"
+		(property "Reference" "L9"
 			(at 107.442 80.01 90)
 			(effects
 				(font
@@ -2983,7 +2991,7 @@
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/4bed0468-3ef3-43ae-86cd-7d15afd655b3"
-					(reference "L11")
+					(reference "L9")
 					(unit 1)
 				)
 			)

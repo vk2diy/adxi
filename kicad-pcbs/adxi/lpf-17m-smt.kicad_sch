@@ -1165,7 +1165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d50e566-496c-403c-a2f9-07f9c6cfef97")
-		(property "Reference" "L13"
+		(property "Reference" "L32"
 			(at 133.35 87.63 90)
 			(effects
 				(font
@@ -1244,7 +1244,7 @@
 		(instances
 			(project ""
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/f4e82807-25d6-477e-92aa-6d05f3573797"
-					(reference "L13")
+					(reference "L32")
 					(unit 1)
 				)
 			)
@@ -1260,7 +1260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93fa0a1e-8168-4076-a925-ee6627133782")
-		(property "Reference" "C55"
+		(property "Reference" "C74"
 			(at 143.51 95.2562 0)
 			(effects
 				(font
@@ -1341,7 +1341,7 @@
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/f4e82807-25d6-477e-92aa-6d05f3573797"
-					(reference "C55")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -1357,7 +1357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99e8faef-8e3e-45e5-8ec4-69b6faf49cfd")
-		(property "Reference" "C68"
+		(property "Reference" "C75"
 			(at 153.67 95.2562 0)
 			(effects
 				(font
@@ -1438,7 +1438,7 @@
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/f4e82807-25d6-477e-92aa-6d05f3573797"
-					(reference "C68")
+					(reference "C75")
 					(unit 1)
 				)
 			)

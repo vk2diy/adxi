@@ -5,6 +5,298 @@
 	(uuid "a7673342-0257-4e66-b0ee-c90794dde225")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Diode:SD15_SOD323"
 			(pin_numbers hide)
 			(pin_names
@@ -299,15 +591,15 @@
 		)
 		(uuid "e80543d1-1e74-4fa4-8951-1cb377985d60")
 	)
-	(text "?% SRF=?MHz, DCR=?, I=?, Q=?"
+	(text "2% SRF>1GHz, DCR=0.56, I=650mA, Q=45@F"
 		(exclude_from_sim no)
-		(at 138.684 86.36 0)
+		(at 137.414 89.154 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "0b070a11-0182-4ead-80a0-428857e68a70")
+		(uuid "3c4079fe-cb0d-400d-bdad-13782071d9ca")
 	)
 	(text "2200M Band (135.7-137.9 KHz)"
 		(exclude_from_sim no)
@@ -321,7 +613,7 @@
 		)
 		(uuid "45999eb8-c26c-4a59-af80-8d50e5d71603")
 	)
-	(text "Inductor (L): x uH\nCapacitor (C): x pF"
+	(text "Inductor (L): 100 nH\nCapacitor (C): 100 nF"
 		(exclude_from_sim no)
 		(at 146.812 78.74 0)
 		(effects
@@ -333,7 +625,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 158.75 105.41 270)
+		(at 176.53 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -341,7 +633,7 @@
 			)
 			(justify right)
 		)
-		(uuid "2aef5a13-f663-40e5-be61-27df72d74ebb")
+		(uuid "0a3d9224-5a75-4cc2-8967-e4ea7f47d56b")
 	)
 	(hierarchical_label "GND"
 		(shape passive)
@@ -353,31 +645,7 @@
 			)
 			(justify right)
 		)
-		(uuid "b0ff0f7f-30c1-47d0-8992-c1fe3a527a11")
-	)
-	(hierarchical_label "GND"
-		(shape passive)
-		(at 176.53 102.87 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c07c6a4e-e5b8-4947-91f8-81c171a2bb0c")
-	)
-	(hierarchical_label "INPUT"
-		(shape input)
-		(at 106.68 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dcc62758-be26-4f0e-9f40-0954d81a67b2")
+		(uuid "1172af6b-45ed-4d37-920a-25fa61efb320")
 	)
 	(hierarchical_label "OUTPUT"
 		(shape output)
@@ -389,7 +657,7 @@
 			)
 			(justify left)
 		)
-		(uuid "e02a62b1-0c6f-47bd-bf12-041aa09decec")
+		(uuid "2a25e62b-62d7-401f-9af9-60fedc6293ac")
 	)
 	(hierarchical_label "GND"
 		(shape passive)
@@ -401,7 +669,31 @@
 			)
 			(justify right)
 		)
-		(uuid "e5c9558c-6f57-4b14-8714-2063ff007f58")
+		(uuid "80e29260-486e-4b31-8727-7d058b978541")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 158.75 100.33 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4629530-3d9c-4572-a3d0-f8cc92ad67b6")
+	)
+	(hierarchical_label "INPUT"
+		(shape input)
+		(at 106.68 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efeaf8e2-9702-4720-a691-f6ddd29777fe")
 	)
 	(symbol
 		(lib_id "Diode:SD15_SOD323")
@@ -411,8 +703,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "30cb069c-febb-4622-8eca-b8f8dbb0ddf3")
-		(property "Reference" "D88"
+		(uuid "03f9a4b4-739e-4ba2-92fa-afad6a3e7a17")
+		(property "Reference" "D90"
 			(at 168.91 96.52 90)
 			(effects
 				(font
@@ -491,102 +783,7 @@
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/01440e7e-6957-4f7e-93d9-c375eb2e2686"
-					(reference "D88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SD15_SOD323")
-		(at 176.53 97.79 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "494cea79-ed1d-429b-983e-7c323403f99a")
-		(property "Reference" "D89"
-			(at 180.34 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "13V 5W"
-			(at 182.118 98.552 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 171.45 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_DOWO-SMB5350B_C284082.pdf"
-			(at 176.53 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Independent Type 5W 13V SMB(DO-214AA) Zener Diodes ROHS"
-			(at 176.53 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C284082"
-			(at 176.53 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SMB5350B"
-			(at 176.53 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "DOWO"
-			(at 176.53 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1c1b8efc-0588-4d92-b982-300e7868d230")
-		)
-		(pin "1"
-			(uuid "fd0e817d-32f0-4ae6-960c-30f27b921183")
-		)
-		(instances
-			(project "adxi"
-				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/01440e7e-6957-4f7e-93d9-c375eb2e2686"
-					(reference "D89")
+					(reference "D90")
 					(unit 1)
 				)
 			)
@@ -601,8 +798,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "66316b36-f526-411d-bd7d-5cbf1cc89edf")
-		(property "Reference" "D87"
+		(uuid "0a75feae-5c64-4ff7-80f7-db0ade5e0e9c")
+		(property "Reference" "D89"
 			(at 123.19 96.52 90)
 			(effects
 				(font
@@ -681,7 +878,304 @@
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/01440e7e-6957-4f7e-93d9-c375eb2e2686"
-					(reference "D87")
+					(reference "D89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD15_SOD323")
+		(at 176.53 97.79 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16053476-d25b-413e-a5ad-dc2967a9d081")
+		(property "Reference" "D91"
+			(at 180.34 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "13V 5W"
+			(at 182.118 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_DOWO-SMB5350B_C284082.pdf"
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Independent Type 5W 13V SMB(DO-214AA) Zener Diodes ROHS"
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C284082"
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMB5350B"
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DOWO"
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c1b8efc-0588-4d92-b982-300e7868d230")
+		)
+		(pin "1"
+			(uuid "fd0e817d-32f0-4ae6-960c-30f27b921183")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/01440e7e-6957-4f7e-93d9-c375eb2e2686"
+					(reference "D91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 158.75 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a2ceb4f-5036-4efe-9bcb-36b838c76f3c")
+		(property "Reference" "C89"
+			(at 156.21 96.5262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 156.21 99.0662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 100nF C0G ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C97946"
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed574c4c-9287-4c1c-aa5d-0cb545caf961")
+		)
+		(pin "1"
+			(uuid "ea335ab0-27c1-4dbb-accc-b1ee8debd15b")
+		)
+		(instances
+			(project ""
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/01440e7e-6957-4f7e-93d9-c375eb2e2686"
+					(reference "C89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 137.16 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de871f8e-aaa4-4081-949c-244893b59052")
+		(property "Reference" "L38"
+			(at 135.89 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nH"
+			(at 134.112 95.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_PSA-Prosperity-Dielectrics-FEC1008CP-R10G-LRH_C346437.pdf"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "650mA 100nH ±2% 560mΩ 1008 Inductors (SMD) ROHS"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "For 2M band, 144-148MHz."
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C346437"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FEC1008CP-R10G-LRH"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Prosperity"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcd76ec1-7cd5-4a0f-8396-a0db91ddeb7e")
+		)
+		(pin "2"
+			(uuid "fb7f9ebb-73fa-411e-aa5c-4d70cfe85863")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/01440e7e-6957-4f7e-93d9-c375eb2e2686"
+					(reference "L38")
 					(unit 1)
 				)
 			)
@@ -695,8 +1189,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ac3130ed-a745-488c-8237-43b9ebe0a15e")
-		(property "Reference" "D86"
+		(uuid "e07321c5-8839-433b-8dcf-4cbf4fc59e20")
+		(property "Reference" "D88"
 			(at 111.76 96.52 90)
 			(effects
 				(font
@@ -775,7 +1269,7 @@
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/01440e7e-6957-4f7e-93d9-c375eb2e2686"
-					(reference "D86")
+					(reference "D88")
 					(unit 1)
 				)
 			)

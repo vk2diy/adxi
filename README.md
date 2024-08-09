@@ -2,22 +2,24 @@
 
 ADX is abbreviation for Arduino Digital Xceiver.
 
-This fork is called __adxi__ (or "ADX Improved") and is focused on:
- * __restoring access to the project for modern KiCad__
- * __integrating known bug fixes__
+This fork is called __adxi__ (or "ADX Improved") with the following changes:
+ * __restores access to the project for modern KiCad__
+ * __integrates known bug fixes__
  * __full computer control__ (remove buttons/blinkenlights interface)
  * __broader power supply acceptance__ (~12-36V nominal)
  * __improved filtering__
- * __use of modern surface mount components__ nominally reducing the BOM cost and enhancing functionality through integrated components where feasible
- * __improved documentation__ to facilitate teaching and learning
+ * __supports more amateur bands__: 70cm/2m/10m/15m/17m/20m/30m/40m/60m/80m/160m/630m/2200m - only missing 23cm
+ * __use of modern surface mount components__ for repeatability
+ * __improved documentation__ hoping to facilitate learning
  * __using platformio__ to manage the firmware build and dependencies in a modern way
 
-## Current draft PCB (2024-08-07)
+## Initial draft PCB (2024-08-07)
 
 ![image](adxi-draft-pcb-2024-08-07.webp)
 
- * Draft is nearing completion, about 90%.
- * Still need a band-switch, output multiplexer if LEDs are kept, reduce audio connector footprints.
+ * Draft now changed, potentially to have pluggable LPFs instead of a monolithic all-band-onboard architecture
+   * This requires the design of an interface for the same
+ * Filter switching added
 
 ## Current documentation
  * Filters

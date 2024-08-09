@@ -797,18 +797,6 @@
 		)
 		(uuid "f3a1e2e0-ffa6-4641-9a7e-4da22a4d42d3")
 	)
-	(hierarchical_label "OUTPUT"
-		(shape output)
-		(at 195.58 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "359cb3da-1193-4c70-af00-4c7cca2efb54")
-	)
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 104.14 100.33 270)
@@ -819,7 +807,19 @@
 			)
 			(justify right)
 		)
-		(uuid "35c4ae1c-264a-4dfb-98a2-840e0ac630a4")
+		(uuid "0e829326-38cf-4082-9b9e-0c4832468bd5")
+	)
+	(hierarchical_label "OUTPUT"
+		(shape output)
+		(at 195.58 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "418f5f64-24a1-42e2-bbc7-e0c67dfc2d96")
 	)
 	(hierarchical_label "INPUT"
 		(shape input)
@@ -831,19 +831,7 @@
 			)
 			(justify right)
 		)
-		(uuid "63e828da-6ec4-46dc-b939-f1c8266e686c")
-	)
-	(hierarchical_label "GND"
-		(shape passive)
-		(at 186.69 101.6 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cdc305db-fb9f-4cea-91a1-b285d975f0da")
+		(uuid "93077bcc-b4d2-475f-bd0a-867c6c875271")
 	)
 	(hierarchical_label "GND"
 		(shape passive)
@@ -855,7 +843,19 @@
 			)
 			(justify right)
 		)
-		(uuid "d6dedf60-aa93-4df1-9111-f7b85bcaab2f")
+		(uuid "9b36b128-e664-4f7e-bd6f-12230c2c0bbc")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 186.69 101.6 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1513a58-b940-4102-b5bf-050b8303c0d3")
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -866,7 +866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1328186e-6e33-42ae-a760-cfcdcb882640")
-		(property "Reference" "L23"
+		(property "Reference" "L15"
 			(at 118.11 97.028 90)
 			(effects
 				(font
@@ -954,293 +954,7 @@
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/68675920-add0-4d25-b161-eaee63a63fb2"
-					(reference "L23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SD15_SOD323")
-		(at 186.69 96.52 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d44b2e8-4e4b-4ae4-9a4f-03fa75ddc5d6")
-		(property "Reference" "D43"
-			(at 190.5 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "13V 5W"
-			(at 192.278 97.282 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 181.61 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_DOWO-SMB5350B_C284082.pdf"
-			(at 186.69 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Independent Type 5W 13V SMB(DO-214AA) Zener Diodes ROHS"
-			(at 186.69 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C284082"
-			(at 186.69 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SMB5350B"
-			(at 186.69 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "DOWO"
-			(at 186.69 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8ac9bf9b-53f3-4512-937f-636e0b1b90b7")
-		)
-		(pin "1"
-			(uuid "a1e7925b-67a4-4060-8a31-1d2bfa34e455")
-		)
-		(instances
-			(project "adxi"
-				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/68675920-add0-4d25-b161-eaee63a63fb2"
-					(reference "D43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SD15_SOD323")
-		(at 100.33 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e38c289-cbd8-4f66-a010-0592469cae1d")
-		(property "Reference" "D40"
-			(at 96.52 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "13V 5W"
-			(at 94.742 97.282 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 105.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_DOWO-SMB5350B_C284082.pdf"
-			(at 100.33 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Independent Type 5W 13V SMB(DO-214AA) Zener Diodes ROHS"
-			(at 100.33 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C284082"
-			(at 100.33 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SMB5350B"
-			(at 100.33 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "DOWO"
-			(at 100.33 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5fdb7c7a-497d-4c6e-ad91-21a79a015bac")
-		)
-		(pin "1"
-			(uuid "ec529b21-8adc-476b-a9ce-130d4625c727")
-		)
-		(instances
-			(project "adxi"
-				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/68675920-add0-4d25-b161-eaee63a63fb2"
-					(reference "D40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 124.46 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b0336a7-336f-4656-944c-4563159d937a")
-		(property "Reference" "C64"
-			(at 127 93.9862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33pF"
-			(at 127 96.5262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-GRM31A5C2J330JW01D_C415521.pdf"
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "630V 33pF C0G ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C415521"
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM31A5C2J330JW01D"
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b0bc30b-b244-44d4-9db8-18cf9738b5c2")
-		)
-		(pin "2"
-			(uuid "9e7afbe0-0667-441f-a7b7-94338ea830e5")
-		)
-		(instances
-			(project "adxi"
-				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/68675920-add0-4d25-b161-eaee63a63fb2"
-					(reference "C64")
+					(reference "L15")
 					(unit 1)
 				)
 			)
@@ -1255,7 +969,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6f53f1b9-37e3-451d-ac91-6e939c2b59d4")
+		(uuid "41001bfb-e837-41c0-936e-e6c694ddf4c8")
 		(property "Reference" "D41"
 			(at 107.95 95.25 90)
 			(effects
@@ -1342,16 +1056,114 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SD15_SOD323")
-		(at 182.88 96.52 90)
+		(lib_id "Device:C_Small")
+		(at 124.46 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "79ef9a49-33a6-4201-8a60-d8b2debb1946")
-		(property "Reference" "D42"
-			(at 179.07 95.25 90)
+		(fields_autoplaced yes)
+		(uuid "6b0336a7-336f-4656-944c-4563159d937a")
+		(property "Reference" "C56"
+			(at 127 93.9862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33pF"
+			(at 127 96.5262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-GRM31A5C2J330JW01D_C415521.pdf"
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "630V 33pF C0G ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C415521"
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31A5C2J330JW01D"
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b0bc30b-b244-44d4-9db8-18cf9738b5c2")
+		)
+		(pin "2"
+			(uuid "9e7afbe0-0667-441f-a7b7-94338ea830e5")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/68675920-add0-4d25-b161-eaee63a63fb2"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD15_SOD323")
+		(at 186.69 96.52 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d3ebcd5-c0e1-4e71-be29-91906087794c")
+		(property "Reference" "D43"
+			(at 190.5 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,7 +1171,7 @@
 			)
 		)
 		(property "Value" "13V 5W"
-			(at 177.292 97.282 90)
+			(at 192.278 97.282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,7 +1179,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 187.96 96.52 0)
+			(at 181.61 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +1188,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_DOWO-SMB5350B_C284082.pdf"
-			(at 182.88 96.52 0)
+			(at 186.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1385,7 +1197,7 @@
 			)
 		)
 		(property "Description" "Independent Type 5W 13V SMB(DO-214AA) Zener Diodes ROHS"
-			(at 182.88 96.52 0)
+			(at 186.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1206,7 @@
 			)
 		)
 		(property "LCSC Part #" "C284082"
-			(at 182.88 96.52 0)
+			(at 186.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1215,7 @@
 			)
 		)
 		(property "MPN" "SMB5350B"
-			(at 182.88 96.52 0)
+			(at 186.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,7 +1224,7 @@
 			)
 		)
 		(property "Manufacturer" "DOWO"
-			(at 182.88 96.52 0)
+			(at 186.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,15 +1233,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4f686f0e-bf41-4ee6-acaa-74618230350e")
+			(uuid "8ac9bf9b-53f3-4512-937f-636e0b1b90b7")
 		)
 		(pin "1"
-			(uuid "8fa0b1f7-a9ea-4d1b-94f4-f45b6230a3e9")
+			(uuid "a1e7925b-67a4-4060-8a31-1d2bfa34e455")
 		)
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/68675920-add0-4d25-b161-eaee63a63fb2"
-					(reference "D42")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -1444,7 +1256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e8d6c6d-469f-48c3-bec4-0adeec89b4a4")
-		(property "Reference" "L22"
+		(property "Reference" "L14"
 			(at 118.11 87.63 90)
 			(effects
 				(font
@@ -1532,7 +1344,7 @@
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/68675920-add0-4d25-b161-eaee63a63fb2"
-					(reference "L22")
+					(reference "L14")
 					(unit 1)
 				)
 			)
@@ -1548,7 +1360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96fb08cc-d0e1-4df4-87aa-ef41a01f4258")
-		(property "Reference" "C54"
+		(property "Reference" "C59"
 			(at 157.48 93.9862 0)
 			(effects
 				(font
@@ -1629,7 +1441,7 @@
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/68675920-add0-4d25-b161-eaee63a63fb2"
-					(reference "C54")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -1742,7 +1554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd1a7ec3-35ff-4065-af86-f93e4977e770")
-		(property "Reference" "C53"
+		(property "Reference" "C58"
 			(at 146.9357 93.8856 0)
 			(effects
 				(font
@@ -1823,7 +1635,195 @@
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/68675920-add0-4d25-b161-eaee63a63fb2"
-					(reference "C53")
+					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD15_SOD323")
+		(at 100.33 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be786901-c267-4a8d-9131-57ea1666a778")
+		(property "Reference" "D40"
+			(at 96.52 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "13V 5W"
+			(at 94.742 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_DOWO-SMB5350B_C284082.pdf"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Independent Type 5W 13V SMB(DO-214AA) Zener Diodes ROHS"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C284082"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMB5350B"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DOWO"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fdb7c7a-497d-4c6e-ad91-21a79a015bac")
+		)
+		(pin "1"
+			(uuid "ec529b21-8adc-476b-a9ce-130d4625c727")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/68675920-add0-4d25-b161-eaee63a63fb2"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD15_SOD323")
+		(at 182.88 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8a1e822-3153-413c-89e0-5a49039865bb")
+		(property "Reference" "D42"
+			(at 179.07 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "13V 5W"
+			(at 177.292 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 187.96 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_DOWO-SMB5350B_C284082.pdf"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Independent Type 5W 13V SMB(DO-214AA) Zener Diodes ROHS"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C284082"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMB5350B"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DOWO"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f686f0e-bf41-4ee6-acaa-74618230350e")
+		)
+		(pin "1"
+			(uuid "8fa0b1f7-a9ea-4d1b-94f4-f45b6230a3e9")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/68675920-add0-4d25-b161-eaee63a63fb2"
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -1839,7 +1839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f55d5590-9b2c-460f-bb86-0a9b265b8e15")
-		(property "Reference" "C52"
+		(property "Reference" "C57"
 			(at 137.16 93.9862 0)
 			(effects
 				(font
@@ -1920,7 +1920,7 @@
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/68675920-add0-4d25-b161-eaee63a63fb2"
-					(reference "C52")
+					(reference "C57")
 					(unit 1)
 				)
 			)
