@@ -704,7 +704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "242ffedd-6f48-4d58-a132-83fa55c11a4b")
-		(property "Reference" "C86"
+		(property "Reference" "C89"
 			(at 156.21 96.5262 0)
 			(effects
 				(font
@@ -794,7 +794,7 @@
 		(instances
 			(project ""
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/44dd9bca-6161-4d06-84e0-0f48363b8396"
-					(reference "C86")
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -998,7 +998,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5afd7173-9728-4dbe-88f2-b550335dbe23")
-		(property "Reference" "L35"
+		(property "Reference" "L38"
 			(at 135.89 91.694 90)
 			(effects
 				(font
@@ -1088,7 +1088,7 @@
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/44dd9bca-6161-4d06-84e0-0f48363b8396"
-					(reference "L35")
+					(reference "L38")
 					(unit 1)
 				)
 			)
