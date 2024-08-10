@@ -13,6 +13,18 @@ This fork is called __adxi__ (or "ADX Improved") with the following changes:
  * __improved documentation__ hoping to facilitate learning
  * __using platformio__ to manage the firmware build and dependencies in a modern way
 
+## Updated draft PCB (2024-09-10)
+
+![image](adxi-draft-pcb-2024-08-10.webp)
+
+ * Further consideration of overall layout, switching placement.
+ * It seems there will need to be a series-parallel array of RF choke inductors to cover the broad target frequency range.
+   * This is not necessarily expensive, just complex.
+   * There will also be at least one switchable inductor in the main RF choke.
+ * Other additions:
+   * I2C LCD pin header
+   * Further antenna connector (MMCX)
+
 ## Updated draft PCB (2024-09-09)
 
 ![image](adxi-draft-pcb-2024-08-09.webp)
