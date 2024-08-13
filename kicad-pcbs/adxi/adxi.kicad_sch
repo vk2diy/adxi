@@ -5749,16 +5749,6 @@
 	)
 	(polyline
 		(pts
-			(xy 343.535 125.095) (xy 343.535 144.145)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41efc60e-1bf6-41a6-8b93-0b79a7f7c594")
-	)
-	(polyline
-		(pts
 			(xy 21.59 25.4) (xy 21.59 96.52)
 		)
 		(stroke
@@ -6057,16 +6047,6 @@
 		)
 		(uuid "67eb620d-8248-4366-86a6-620b8a175d0f")
 	)
-	(polyline
-		(pts
-			(xy 339.725 144.145) (xy 343.535 144.145)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "688e27bd-2869-4cbe-be9d-5a29556848be")
-	)
 	(wire
 		(pts
 			(xy 247.65 148.59) (xy 248.92 148.59)
@@ -6116,6 +6096,16 @@
 			(type default)
 		)
 		(uuid "6e5fa0cf-7bbe-464c-81ba-ff517046dc9e")
+	)
+	(polyline
+		(pts
+			(xy 304.546 108.458) (xy 304.8 108.458)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9ba3f7-09aa-47c5-b74c-4d5baa39ea8a")
 	)
 	(wire
 		(pts
@@ -6246,16 +6236,6 @@
 			(type default)
 		)
 		(uuid "895ce77e-24bc-414d-8292-68872e26f768")
-	)
-	(wire
-		(pts
-			(xy 314.96 128.27) (xy 314.96 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8adf921a-04de-41c6-95c7-95054036489b")
 	)
 	(wire
 		(pts
@@ -6957,6 +6937,16 @@
 		)
 		(uuid "de39e680-9406-48eb-b2b7-f80b7d1673a1")
 	)
+	(polyline
+		(pts
+			(xy 304.8 180.34) (xy 354.076 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deab41c7-5818-486d-841b-f9bfca8a8321")
+	)
 	(wire
 		(pts
 			(xy 226.06 125.73) (xy 228.6 125.73)
@@ -7006,16 +6996,6 @@
 			(type default)
 		)
 		(uuid "e5c2b671-0c88-4977-ba51-0515c65da87b")
-	)
-	(polyline
-		(pts
-			(xy 339.725 125.095) (xy 343.535 125.095)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8fcf5f4-4351-4007-8461-ad9187f625ff")
 	)
 	(polyline
 		(pts
@@ -7086,6 +7066,16 @@
 			(type default)
 		)
 		(uuid "eff2f397-450c-4e04-a75e-b9f5fe6db6b3")
+	)
+	(polyline
+		(pts
+			(xy 354.076 108.458) (xy 354.076 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f11e0f08-9d5f-449f-ad94-94610c21d6c1")
 	)
 	(wire
 		(pts
@@ -7217,6 +7207,16 @@
 		)
 		(uuid "fbf56e2d-4db7-47ae-8275-07288fa9522e")
 	)
+	(polyline
+		(pts
+			(xy 304.8 108.458) (xy 354.076 108.458)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf32d29-e6bf-4758-8ea7-3c4f0d3c6c28")
+	)
 	(wire
 		(pts
 			(xy 59.69 80.01) (xy 59.69 82.55)
@@ -7300,17 +7300,6 @@
 			)
 		)
 		(uuid "0c282add-ac8c-4b34-9239-357c7439689d")
-	)
-	(text "SRF > 1.2GHz\nHIGH Q (50+)\nDCR <=0.1"
-		(exclude_from_sim no)
-		(at 322.072 141.224 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0efcc8ae-32e6-40fa-9157-0800ef44eaca")
 	)
 	(text "NB. IN A CLASS E\nRF POWER AMPLIFIER\nTHE PA-DRAIN FLOWS\nINWARD WHEN ENABLED\nAND IS SUNK AT THE\nMOSFET SOURCE PINS."
 		(exclude_from_sim no)
@@ -7407,32 +7396,6 @@
 		)
 		(uuid "42a30227-255c-420a-a0cb-b65b3e711f47")
 	)
-	(text "PRIMARY\nRF CHOKE\nINDUCTOR"
-		(exclude_from_sim no)
-		(at 322.072 122.428 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "4d7b6113-4c9b-4865-bec0-50dd7325a682")
-	)
-	(text "SECONDARY/\nTERTIARY\nSWITCHABLE\nRF CHOKE\nINDUCTORS"
-		(exclude_from_sim no)
-		(at 322.326 152.146 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "50ae41e3-0d18-4391-8354-3799886a2862")
-	)
 	(text "DRAIN"
 		(exclude_from_sim no)
 		(at 268.986 156.718 0)
@@ -7470,17 +7433,6 @@
 		)
 		(uuid "61206c84-2e9a-48f1-b2df-266f02340d9c")
 	)
-	(text "OPERATION ON\nALL FREQUENCIES.\nSOLE OPERATION\nON 70CM (430 MHz)\nTO 160M (1.8 MHz)."
-		(exclude_from_sim no)
-		(at 322.072 131.572 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6344e3e8-c6a0-4580-ad49-0e3088a4170e")
-	)
 	(text "USED FOR\nFIRMWARE\nUPLOADS"
 		(exclude_from_sim no)
 		(at 306.578 37.084 0)
@@ -7504,9 +7456,9 @@
 		)
 		(uuid "67ff200e-448d-4685-ad3f-8137aed3b3d0")
 	)
-	(text "ADD PULLUPS/PULLDOWNS FOR ALL IMPORTANT PINS\nCLASS E INDUCTOR FOR PA / ATS\nANTENNA MATCHING NETWORK OR ATU\nADD/TEST AUDIO+ANTENNA CABLE DETECTION\nADD MORE MOSFET SWITCHES\nADD SOME KIND OF MULTIPLEXING?\nADD OPTIONAL INTERFACE PCB - EASY MOUNTING AT RIGHT ANGLES\nADD TEST POINTS\nEITHER PREVENT RADIO POWERUP USING USB-SUPPLIED POWER (EG. 12V SUPPLY PRESENCE ENABLES 5V LINE) OR CONSIDER POWER LIMITS OF USB2 SUPPLIES"
+	(text "ADD PULLUPS/PULLDOWNS FOR ALL IMPORTANT PINS\nREST OF PA\nANTENNA MATCHING NETWORK OR ATU\nADD/TEST AUDIO + ANTENNA CABLE DETECTION\nADD MORE MOSFET SWITCHES\nADD SOME KIND OF MULTIPLEXING?\nADD OPTIONAL INTERFACE PCB - EASY MOUNTING AT RIGHT ANGLES\nADD OPTIONAL SQUEAKER\nADD TEST POINTS\nEITHER PREVENT RADIO POWERUP USING USB-SUPPLIED POWER (EG. 12V SUPPLY PRESENCE ENABLES 5V LINE) OR CONSIDER POWER LIMITS OF USB2 SUPPLIES\nOPTION FOR SUBSYSTEM POWER METERING"
 		(exclude_from_sim no)
-		(at 269.748 -30.48 0)
+		(at 268.732 -38.862 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -7651,6 +7603,16 @@
 		)
 		(uuid "b49a5a55-628c-48c5-9f1e-42b7c8628005")
 	)
+	(text "SWITCHED BASED ON FREQUENCY BAND"
+		(exclude_from_sim no)
+		(at 324.104 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8c95440-9c8d-482a-aa18-d953c83c59d8")
+	)
 	(text "400kHz"
 		(exclude_from_sim no)
 		(at 283.464 237.744 0)
@@ -7674,16 +7636,17 @@
 		)
 		(uuid "c638b237-16e3-4589-af6b-2194574fe837")
 	)
-	(text "DIFFICULT TO ACHIEVE WITH\nOBSERVED SMT PRODUCTS:\n - HIGH DCR AND LOW ACCURACY\n   ON HIGH I INDUCTORS.\n - LOW I ON HIGH SRF LOW DCR\n   HIGH ACCURACY INDUCTORS.\n\nSOLUTION: SERIES-PARALLEL\n          CONFIGURATION."
+	(text "POWER AMPLIFIER CHOKE"
 		(exclude_from_sim no)
-		(at 346.202 135.255 0)
+		(at 322.326 141.732 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
-			(justify left)
 		)
-		(uuid "df4833de-6324-4a13-817a-94264b30772a")
+		(uuid "c74a5f06-59ae-4b47-91ac-ada8c4009253")
 	)
 	(text "AUDIO INPUT\nFROM COMPUTER"
 		(exclude_from_sim no)
@@ -10415,6 +10378,28 @@
 			)
 		)
 	)
+	(global_label "PA-DRAIN"
+		(shape output)
+		(at 339.09 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79040a7f-8dd9-4f3c-8d50-b5e937f6c4aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 351.5701 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BM5-ENABLE"
 		(shape input)
 		(at 367.03 292.1 180)
@@ -11495,22 +11480,22 @@
 	)
 	(global_label "PA-12V"
 		(shape input)
-		(at 314.96 120.65 90)
+		(at 307.34 164.465 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a39de8e7-870b-4033-847b-bb0c0dd88b45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.96 110.2262 90)
+			(at 296.9162 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -20064,76 +20049,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 314.96 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddc91226-87f5-4d66-8876-22bbdf9dee72")
-		(property "Reference" "L5"
-			(at 316.23 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "L"
-			(at 316.23 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 314.96 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 314.96 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 314.96 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d2e7d862-cd83-48b2-b270-65523993bd84")
-		)
-		(pin "1"
-			(uuid "24bf103d-3d8e-488c-b86c-2681c9b60310")
-		)
-		(instances
-			(project ""
-				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
-					(reference "L5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 229.87 87.63 0)
 		(unit 1)
@@ -21325,6 +21240,114 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 307.34 149.86)
+		(size 31.75 22.225)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9fcca4e6-b308-4729-bd6b-d78819e3b857")
+		(property "Sheetname" "PA Switched RF Choke"
+			(at 307.34 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pa-switched-rf-choke.kicad_sch"
+			(at 307.34 172.6696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 307.34 169.545 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6a04f898-281d-43e8-8af1-44bdf469b644")
+		)
+		(pin "24V" input
+			(at 307.34 167.005 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe9dc2c6-ec42-4acd-8149-af0cdad225d3")
+		)
+		(pin "5V" input
+			(at 307.34 161.925 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c5223649-de3e-49d1-95ff-de1db8ca3c96")
+		)
+		(pin "50UH-ENABLE-WHEN-LOW" input
+			(at 307.34 154.305 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8db6e21c-d129-479e-9925-0624a2f8a367")
+		)
+		(pin "10UH-ENABLE-WHEN-LOW" input
+			(at 307.34 151.765 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fb72e178-7c72-4ed7-a9d9-7ee48f972e57")
+		)
+		(pin "100UH-ENABLE-WHEN-LOW" input
+			(at 307.34 156.845 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3148ccd9-d948-419d-98a3-ed24fe1e5e91")
+		)
+		(pin "PA-DRAIN" output
+			(at 339.09 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd111826-0a2d-41fc-8608-2b31f0dc6645")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(page "15")
 				)
 			)
 		)

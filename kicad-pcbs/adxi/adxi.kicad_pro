@@ -652,6 +652,22 @@
       "PA-POWER-PWM"
     ],
     [
+      "5e6b9912-9ee6-4af9-ab1f-aff273c60e1b",
+      "PA-RF-CHOKE-L-10UH-SWITCH"
+    ],
+    [
+      "02b6b893-c44f-4424-8073-76337c6977ff",
+      "PA-RF-CHOKE-L-50UH-SWITCH"
+    ],
+    [
+      "9fcca4e6-b308-4729-bd6b-d78819e3b857",
+      "PA Switched RF Choke"
+    ],
+    [
+      "a962033c-61a7-482d-8d60-4ea125726cab",
+      "PA-RF-CHOKE-L-100UH-SWITCH"
+    ],
+    [
       "cda8ba14-e625-4820-815b-7655eaddf9ad",
       "BM1-SWITCH-PA"
     ],

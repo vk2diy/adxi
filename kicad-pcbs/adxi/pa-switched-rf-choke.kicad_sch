@@ -1,0 +1,7626 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f94a9333-f589-417b-9a54-09c0e7fb6943")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 189.23 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07a8e06c-b83d-47f0-b6c3-96a2f05d5aa2")
+	)
+	(junction
+		(at 99.06 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0acc5a1e-e597-4b37-99d5-0f89730c4f53")
+	)
+	(junction
+		(at 251.46 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c04cb62-4554-41ad-b408-bfb3d8aafcd7")
+	)
+	(junction
+		(at 172.72 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "110233d2-9c6a-499c-965f-92567b4622e9")
+	)
+	(junction
+		(at 189.23 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "187e6d94-bb36-4605-8894-9aabe8bea472")
+	)
+	(junction
+		(at 189.23 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1897322b-1e0b-4315-8da6-de8e8a48bc67")
+	)
+	(junction
+		(at 189.23 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "199672ba-4c14-46ba-a5bc-c5aa18b3ac64")
+	)
+	(junction
+		(at 99.06 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1df49d5f-7755-46f4-be58-a5ee454686ab")
+	)
+	(junction
+		(at 72.39 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f4cd851-6a3f-4d1e-ab9b-95bd2977d3ba")
+	)
+	(junction
+		(at 125.73 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "200502cd-d474-47f9-b6cb-ddf36d1809ed")
+	)
+	(junction
+		(at 251.46 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "211433d9-1bd6-4f30-bb25-7c8edc47a568")
+	)
+	(junction
+		(at 172.72 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22632aae-bcee-4b8f-ba0c-a3e4f9f269b9")
+	)
+	(junction
+		(at 99.06 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26624c29-2428-4322-bc08-309d6f4f98dd")
+	)
+	(junction
+		(at 172.72 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34594611-1b50-43fc-a273-a9d776bca0c9")
+	)
+	(junction
+		(at 172.72 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38d09621-de62-4187-8365-27776d9b2cd0")
+	)
+	(junction
+		(at 172.72 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3be50234-0034-45da-a742-577923f9e783")
+	)
+	(junction
+		(at 172.72 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f10f808-5d3a-4e02-a0e9-cfa9df9660a0")
+	)
+	(junction
+		(at 72.39 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b45e6a4-8fb0-4e4e-84a0-4f8e3d4dfa68")
+	)
+	(junction
+		(at 125.73 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5221907b-d8af-43b9-b856-cda8522ae332")
+	)
+	(junction
+		(at 72.39 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5799a121-6fea-49be-ae7f-8fe9c94a6b89")
+	)
+	(junction
+		(at 189.23 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "587d02f7-5008-4a17-b768-7557e6f01ae0")
+	)
+	(junction
+		(at 125.73 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a749095-938b-4361-a7e9-6c3c00c11523")
+	)
+	(junction
+		(at 251.46 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fe76883-3e65-492c-81a1-9f3041931622")
+	)
+	(junction
+		(at 189.23 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67134039-8c0c-4266-a956-770001cecad5")
+	)
+	(junction
+		(at 125.73 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "672c1f5f-0405-4acf-ac58-0bf588289843")
+	)
+	(junction
+		(at 99.06 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f33484b-79d0-46a1-8719-1c80719752cf")
+	)
+	(junction
+		(at 72.39 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84dafd66-776c-4d85-b4b2-ec654e9c558c")
+	)
+	(junction
+		(at 125.73 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aa9f3fe-8a1a-4b32-bd66-ec0fccfed074")
+	)
+	(junction
+		(at 172.72 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d0ca5c3-2137-41cd-a1f0-9be054297363")
+	)
+	(junction
+		(at 251.46 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "982128a5-6bc2-4edb-b5e3-4d27ad6829ac")
+	)
+	(junction
+		(at 172.72 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ffd437d-9ed2-44df-b285-e6c87c6eac76")
+	)
+	(junction
+		(at 189.23 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a043267b-d1a5-4462-aa1c-b31ed086acef")
+	)
+	(junction
+		(at 125.73 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab781e56-ff0e-4a9a-89bd-2cdb04fdc80d")
+	)
+	(junction
+		(at 172.72 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6ef6c5b-a468-4bda-974b-16a6e6d286ab")
+	)
+	(junction
+		(at 72.39 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbec5a36-4587-4dbd-b966-104e2b54b7b9")
+	)
+	(junction
+		(at 189.23 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c335fdd7-edd0-49f6-be23-c4bb8beca973")
+	)
+	(junction
+		(at 172.72 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4254730-7ca0-4fc2-b294-aa90654f1953")
+	)
+	(junction
+		(at 72.39 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5d65427-6c51-4d48-8733-ef79457c36ae")
+	)
+	(junction
+		(at 189.23 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c619bdf5-7d69-47c0-8804-51f9a97ce9c5")
+	)
+	(junction
+		(at 99.06 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dec9f1c8-56e7-4798-9e54-7908e0b7b5e3")
+	)
+	(junction
+		(at 189.23 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f31ab7f9-0f97-4bab-ac21-95db862a033a")
+	)
+	(junction
+		(at 99.06 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc9fe238-0035-4115-9daf-0e97bd7c8156")
+	)
+	(wire
+		(pts
+			(xy 72.39 220.98) (xy 81.28 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0062c3e5-fe41-457e-9708-cff2ebcd357b")
+	)
+	(wire
+		(pts
+			(xy 90.17 220.98) (xy 99.06 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010b2dbf-1605-44d5-a5dd-9ff6201d67a4")
+	)
+	(wire
+		(pts
+			(xy 125.73 238.76) (xy 125.73 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02ed61f0-c31a-4a57-8ca1-40c8d0d83138")
+	)
+	(wire
+		(pts
+			(xy 246.38 215.9) (xy 251.46 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053428e4-9fc6-4a34-947d-f796fe0fcc79")
+	)
+	(wire
+		(pts
+			(xy 58.42 210.82) (xy 72.39 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096c08a1-0dc7-45c6-afa2-291038142592")
+	)
+	(wire
+		(pts
+			(xy 185.42 250.19) (xy 189.23 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1a1440-0b13-46d3-a620-6b4f1ade4766")
+	)
+	(wire
+		(pts
+			(xy 86.36 171.45) (xy 101.6 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1011db1b-c862-468a-9043-969a4cf3f2ad")
+	)
+	(wire
+		(pts
+			(xy 189.23 222.25) (xy 189.23 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1254b5d0-d496-4336-917b-3b5f47097086")
+	)
+	(wire
+		(pts
+			(xy 172.72 222.25) (xy 176.53 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14793be6-1490-422a-b5ac-1b30cb79ccd3")
+	)
+	(wire
+		(pts
+			(xy 125.73 231.14) (xy 134.62 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1779ad3b-8a60-4ad9-9445-aacce5a0aaf7")
+	)
+	(wire
+		(pts
+			(xy 172.72 248.92) (xy 172.72 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4033ac-cdd1-434a-b013-c4844eb520c0")
+	)
+	(wire
+		(pts
+			(xy 189.23 257.81) (xy 189.23 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de7c123-8676-42b9-9575-9aa9dd02749d")
+	)
+	(wire
+		(pts
+			(xy 265.43 171.45) (xy 280.67 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ead81ac-bc2b-42b9-8733-7aa0acbc1d81")
+	)
+	(wire
+		(pts
+			(xy 115.57 212.09) (xy 115.57 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f40e624-4a68-435d-8ac6-9ef496a1e094")
+	)
+	(wire
+		(pts
+			(xy 237.49 213.36) (xy 251.46 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "208a54a6-d334-43b0-952e-a297309f2815")
+	)
+	(wire
+		(pts
+			(xy 72.39 231.14) (xy 81.28 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221d3808-924b-4ae4-bf15-bc12a4eebe57")
+	)
+	(wire
+		(pts
+			(xy 251.46 223.52) (xy 256.54 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d1ff8e-0380-4785-9a05-ee8e6cc6a462")
+	)
+	(wire
+		(pts
+			(xy 189.23 241.3) (xy 193.04 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2805ff55-e986-46ee-9c38-9ce2c4ef8bd9")
+	)
+	(wire
+		(pts
+			(xy 251.46 213.36) (xy 251.46 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd25653-249b-45c5-9267-08a2bfa634f9")
+	)
+	(wire
+		(pts
+			(xy 72.39 213.36) (xy 81.28 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e531fb4-b22e-4af6-8bdb-4f598be438d2")
+	)
+	(wire
+		(pts
+			(xy 189.23 232.41) (xy 193.04 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c87247-bf52-4cfb-8ffd-fa4715430459")
+	)
+	(wire
+		(pts
+			(xy 226.06 171.45) (xy 240.03 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "317ac0f6-e5ba-4420-a00f-9d856832294c")
+	)
+	(wire
+		(pts
+			(xy 99.06 212.09) (xy 99.06 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332f7fbb-a975-4ac2-a0d9-242db1a0479b")
+	)
+	(wire
+		(pts
+			(xy 168.91 250.19) (xy 172.72 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35476b78-16e2-4f60-a13e-123d0698c6cd")
+	)
+	(wire
+		(pts
+			(xy 72.39 222.25) (xy 81.28 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a766bab-3b51-4988-a3db-2284448e8847")
+	)
+	(wire
+		(pts
+			(xy 125.73 229.87) (xy 134.62 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b2bfddd-736e-486c-b8f8-2afc1a7d3af6")
+	)
+	(wire
+		(pts
+			(xy 185.42 214.63) (xy 189.23 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e368d07-3e4e-45f7-9395-007111c320a9")
+	)
+	(wire
+		(pts
+			(xy 172.72 257.81) (xy 176.53 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2a197c-60ea-45e2-92b9-6cd2a8807554")
+	)
+	(wire
+		(pts
+			(xy 125.73 242.57) (xy 139.7 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f879068-8240-44b8-9789-b20ca3df5a84")
+	)
+	(wire
+		(pts
+			(xy 189.23 248.92) (xy 189.23 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a0ef13-492b-47bd-b0cb-757fc04dd2b6")
+	)
+	(wire
+		(pts
+			(xy 246.38 232.41) (xy 251.46 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "459cdf41-3465-4123-82cc-17b23725afa0")
+	)
+	(wire
+		(pts
+			(xy 90.17 229.87) (xy 99.06 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "470835b0-35e0-4226-922c-d6210c368f1e")
+	)
+	(wire
+		(pts
+			(xy 125.73 238.76) (xy 134.62 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c54fb8-d0d0-4127-b9df-65413ec330cd")
+	)
+	(wire
+		(pts
+			(xy 99.06 220.98) (xy 107.95 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df41535-1fbf-4a77-972f-f05cd6ac9782")
+	)
+	(wire
+		(pts
+			(xy 184.15 171.45) (xy 199.39 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fcc4ae6-bf5f-42b2-9fa1-52612d3c83e9")
+	)
+	(wire
+		(pts
+			(xy 72.39 229.87) (xy 72.39 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5120caf5-1971-42a1-887b-f1571648136c")
+	)
+	(wire
+		(pts
+			(xy 168.91 222.25) (xy 172.72 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d8ddee-1a9b-4758-972b-8a7411bf6611")
+	)
+	(wire
+		(pts
+			(xy 116.84 213.36) (xy 125.73 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555299cd-319e-4a19-ab75-0a69d9e072e8")
+	)
+	(wire
+		(pts
+			(xy 125.73 213.36) (xy 134.62 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555d98b9-40ce-450c-bad2-8a34d3c13232")
+	)
+	(wire
+		(pts
+			(xy 99.06 229.87) (xy 99.06 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "565cbea3-b91c-4131-98db-b496ccbdb639")
+	)
+	(wire
+		(pts
+			(xy 90.17 231.14) (xy 99.06 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "577a9786-9767-4567-b03d-f8f973ade3be")
+	)
+	(wire
+		(pts
+			(xy 63.5 213.36) (xy 72.39 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57cb8edf-499d-4f79-b12a-8cccf8f867f3")
+	)
+	(wire
+		(pts
+			(xy 90.17 238.76) (xy 99.06 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6f7ab2-7f55-4145-9d53-efe8289ef8f5")
+	)
+	(wire
+		(pts
+			(xy 116.84 229.87) (xy 125.73 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e43da3a-5926-44cd-897e-f0c0b767aade")
+	)
+	(wire
+		(pts
+			(xy 125.73 212.09) (xy 125.73 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e5c132d-ee81-4d72-b8c7-98af3bdd37d4")
+	)
+	(wire
+		(pts
+			(xy 88.9 240.03) (xy 88.9 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f8c8499-729a-4fdb-9f6b-80cf0f3a3147")
+	)
+	(wire
+		(pts
+			(xy 144.78 171.45) (xy 158.75 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644e7b82-6505-4ac6-b564-bd112eabe6c5")
+	)
+	(wire
+		(pts
+			(xy 172.72 240.03) (xy 172.72 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656a410b-9b08-4149-9afc-837df5198e0a")
+	)
+	(wire
+		(pts
+			(xy 172.72 231.14) (xy 172.72 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66628a39-13d9-4030-9673-285524d87089")
+	)
+	(wire
+		(pts
+			(xy 72.39 238.76) (xy 81.28 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687ff336-8bf4-4794-8431-785a7659a558")
+	)
+	(wire
+		(pts
+			(xy 99.06 229.87) (xy 107.95 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d2eb00b-c7b0-461f-802d-fd8d32351413")
+	)
+	(wire
+		(pts
+			(xy 168.91 214.63) (xy 172.72 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705d03bd-9796-4f3e-ade2-6a80e1d0e1cc")
+	)
+	(wire
+		(pts
+			(xy 189.23 240.03) (xy 189.23 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710c2ab5-1938-483a-bc3f-628f43a87a5d")
+	)
+	(wire
+		(pts
+			(xy 189.23 231.14) (xy 189.23 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b47acd-afe4-42f8-a8b2-42d15a7c819d")
+	)
+	(wire
+		(pts
+			(xy 172.72 259.08) (xy 184.15 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ba5105-0638-40b8-861c-1a208fabfc7e")
+	)
+	(wire
+		(pts
+			(xy 172.72 257.81) (xy 172.72 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a4c43ca-a251-4423-ad4c-4479a53b26a6")
+	)
+	(wire
+		(pts
+			(xy 189.23 250.19) (xy 193.04 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bcf5a1f-246e-4e8a-b5a9-f91e270ebe16")
+	)
+	(wire
+		(pts
+			(xy 251.46 236.22) (xy 265.43 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c1ba0c3-2ada-4a73-b624-142f87318a61")
+	)
+	(wire
+		(pts
+			(xy 116.84 231.14) (xy 125.73 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5ac051-e408-49c6-a7cf-f1ac1747b5e4")
+	)
+	(wire
+		(pts
+			(xy 189.23 260.35) (xy 201.93 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ed9d4a8-36c1-495a-b620-9670ed6c1672")
+	)
+	(wire
+		(pts
+			(xy 185.42 223.52) (xy 189.23 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d906c8-f5ac-4c39-baea-8345d9744ed0")
+	)
+	(wire
+		(pts
+			(xy 172.72 232.41) (xy 176.53 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8358867c-fb10-4cb8-b64b-b24004fbdf56")
+	)
+	(wire
+		(pts
+			(xy 72.39 238.76) (xy 72.39 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8539fdf8-2490-4177-89be-73d7fc23f187")
+	)
+	(wire
+		(pts
+			(xy 63.5 238.76) (xy 72.39 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865d9525-3a2a-43b5-b737-8501a84047e9")
+	)
+	(wire
+		(pts
+			(xy 246.38 224.79) (xy 251.46 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869db482-fbc5-49a7-b5cd-5a034ca22a9d")
+	)
+	(wire
+		(pts
+			(xy 172.72 212.09) (xy 172.72 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87709dde-03d5-4b6d-97f3-c2cb4b755565")
+	)
+	(wire
+		(pts
+			(xy 116.84 238.76) (xy 125.73 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8884ae17-8753-4a36-a240-ce0cc367366a")
+	)
+	(wire
+		(pts
+			(xy 90.17 213.36) (xy 99.06 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88860cab-49f3-45db-9072-4114a04fc68c")
+	)
+	(wire
+		(pts
+			(xy 172.72 250.19) (xy 176.53 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8adfd626-9465-42b7-aa6d-65b1ae4e92e2")
+	)
+	(wire
+		(pts
+			(xy 46.99 171.45) (xy 60.96 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b176263-8196-4d64-8d0f-8643a925b629")
+	)
+	(wire
+		(pts
+			(xy 88.9 212.09) (xy 99.06 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b704d8d-44af-4b7d-9cd4-0caabd117723")
+	)
+	(wire
+		(pts
+			(xy 63.5 231.14) (xy 72.39 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907149a8-b127-4547-819f-d2927157c26d")
+	)
+	(wire
+		(pts
+			(xy 63.5 220.98) (xy 72.39 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9449db83-4067-4501-bd8d-9fdaf3d8ba54")
+	)
+	(wire
+		(pts
+			(xy 184.15 213.36) (xy 189.23 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "948d58db-4eba-4a99-b219-67b2b1cd0f05")
+	)
+	(wire
+		(pts
+			(xy 115.57 212.09) (xy 125.73 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e50065-8698-4057-8f79-04e7552c46c0")
+	)
+	(wire
+		(pts
+			(xy 63.5 222.25) (xy 72.39 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978b0421-b9f6-4929-9155-61d4a88e4226")
+	)
+	(wire
+		(pts
+			(xy 189.23 240.03) (xy 193.04 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4f5799-a242-4557-8bfe-d3c44ea2677e")
+	)
+	(wire
+		(pts
+			(xy 172.72 223.52) (xy 176.53 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bcf9698-ab18-4a65-8b06-7cd9a421ab12")
+	)
+	(wire
+		(pts
+			(xy 168.91 240.03) (xy 172.72 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c288f09-8194-421b-b916-296d9ac0aeef")
+	)
+	(wire
+		(pts
+			(xy 99.06 238.76) (xy 99.06 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f590fcd-4d66-480c-896a-a5fd1ab6cb6b")
+	)
+	(wire
+		(pts
+			(xy 251.46 232.41) (xy 256.54 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3358213-b5f2-4ff0-b6dc-7768e3f8ef4f")
+	)
+	(wire
+		(pts
+			(xy 72.39 240.03) (xy 88.9 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44d766b-9362-43fc-9f80-7380a6231839")
+	)
+	(wire
+		(pts
+			(xy 172.72 222.25) (xy 172.72 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b3f50c-9cf0-49c7-839e-cb97a3442ac0")
+	)
+	(wire
+		(pts
+			(xy 125.73 222.25) (xy 134.62 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9be60c3-d3ac-450a-8ec3-2f234c10a784")
+	)
+	(wire
+		(pts
+			(xy 90.17 222.25) (xy 99.06 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab788e19-7fd1-456e-a49d-3ce30aea0499")
+	)
+	(wire
+		(pts
+			(xy 185.42 231.14) (xy 189.23 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9a8ad9-5c1c-42c4-b6f2-ec705d21a770")
+	)
+	(wire
+		(pts
+			(xy 168.91 231.14) (xy 172.72 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1bedccc-cc28-4ff2-ab3a-c0472c5d9839")
+	)
+	(wire
+		(pts
+			(xy 185.42 222.25) (xy 189.23 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e7a00f-400c-4291-b8b5-107852c484ea")
+	)
+	(wire
+		(pts
+			(xy 72.39 210.82) (xy 72.39 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5eeb441-e758-4ee2-b6d2-ab71c83305ef")
+	)
+	(wire
+		(pts
+			(xy 185.42 232.41) (xy 189.23 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7143640-6d02-4740-88fa-7c682bb28b72")
+	)
+	(wire
+		(pts
+			(xy 116.84 222.25) (xy 125.73 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba736ebc-9355-4ef5-ada7-6da54009b204")
+	)
+	(wire
+		(pts
+			(xy 185.42 241.3) (xy 189.23 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc26f808-4ea7-4312-9ed7-51516c519ac0")
+	)
+	(wire
+		(pts
+			(xy 168.91 257.81) (xy 172.72 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd822d50-a68f-4404-bc16-83a41269ed30")
+	)
+	(wire
+		(pts
+			(xy 168.91 241.3) (xy 172.72 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bddd6bb7-9389-41ac-9db8-f0ceb87184c3")
+	)
+	(wire
+		(pts
+			(xy 189.23 222.25) (xy 193.04 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0dade77-5aa4-4c7e-a0de-530f712295bd")
+	)
+	(wire
+		(pts
+			(xy 246.38 223.52) (xy 251.46 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f1d3f7-d2e1-4d57-9ca6-5a5182b5a082")
+	)
+	(wire
+		(pts
+			(xy 189.23 213.36) (xy 189.23 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ffced4-8f45-4e74-a2f8-2b4fdd4f3771")
+	)
+	(wire
+		(pts
+			(xy 63.5 229.87) (xy 72.39 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c39dfa54-0e25-4b5b-aaae-5835c53e787f")
+	)
+	(wire
+		(pts
+			(xy 185.42 257.81) (xy 189.23 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54aca65-deb0-4310-99bd-831346153df8")
+	)
+	(wire
+		(pts
+			(xy 189.23 214.63) (xy 193.04 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c59d9525-33d8-4b3c-bb97-8e171a1a3dfb")
+	)
+	(wire
+		(pts
+			(xy 99.06 213.36) (xy 107.95 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97623ca-ad14-489a-b223-26485e695a53")
+	)
+	(wire
+		(pts
+			(xy 99.06 220.98) (xy 99.06 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca944cd6-853b-4b11-af50-016415f2f1fd")
+	)
+	(wire
+		(pts
+			(xy 99.06 238.76) (xy 107.95 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cddb82ee-83d0-4d45-a642-2d909fc1fab0")
+	)
+	(wire
+		(pts
+			(xy 168.91 248.92) (xy 172.72 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d065fe00-2bf2-467a-a89c-94319bda4f25")
+	)
+	(wire
+		(pts
+			(xy 99.06 240.03) (xy 115.57 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10d3363-9f3a-4d3f-a06b-7864c5c4e90f")
+	)
+	(wire
+		(pts
+			(xy 172.72 214.63) (xy 176.53 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1caa259-7a6a-479d-bb9f-052b46765a66")
+	)
+	(wire
+		(pts
+			(xy 184.15 259.08) (xy 184.15 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6191c82-05c5-4eb0-a1ad-926d30340d86")
+	)
+	(wire
+		(pts
+			(xy 72.39 220.98) (xy 72.39 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70a0a73-915b-4743-a218-d1e55647967c")
+	)
+	(wire
+		(pts
+			(xy 172.72 241.3) (xy 176.53 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7719a0f-9bfb-4cfc-81b3-7f1f26f5e86a")
+	)
+	(wire
+		(pts
+			(xy 99.06 222.25) (xy 107.95 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7958058-b257-4c6f-9973-76e45330da14")
+	)
+	(wire
+		(pts
+			(xy 72.39 229.87) (xy 81.28 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88ac6b9-8f15-4616-ba89-255ffeabfa49")
+	)
+	(wire
+		(pts
+			(xy 99.06 231.14) (xy 107.95 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e87bad-f870-4ae1-b8a9-2d2d4934aa7d")
+	)
+	(wire
+		(pts
+			(xy 125.73 229.87) (xy 125.73 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d977e4fa-46ab-4b7a-b1b4-8bd5e1123fc2")
+	)
+	(wire
+		(pts
+			(xy 189.23 223.52) (xy 193.04 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbaf68e1-c9d4-47d0-b4a3-842b84d118dc")
+	)
+	(wire
+		(pts
+			(xy 251.46 232.41) (xy 251.46 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddcb7256-732b-4780-aeaf-6c73071a0862")
+	)
+	(wire
+		(pts
+			(xy 172.72 231.14) (xy 176.53 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd9417a-0e47-415d-838d-7a367eb10bad")
+	)
+	(wire
+		(pts
+			(xy 251.46 223.52) (xy 251.46 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2fe7686-cdc2-4e94-b320-1fe6ee3deb70")
+	)
+	(polyline
+		(pts
+			(xy 87.63 209.55) (xy 95.25 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "e7317474-6e28-4c4d-aaf2-3152239f9857")
+	)
+	(wire
+		(pts
+			(xy 251.46 215.9) (xy 256.54 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86b7281-db0c-4a61-b56f-44cb2cdf51e7")
+	)
+	(wire
+		(pts
+			(xy 172.72 248.92) (xy 176.53 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0a1665-c553-45cd-ae6f-0699c865f1d4")
+	)
+	(wire
+		(pts
+			(xy 125.73 220.98) (xy 134.62 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0aa7d4-96dc-4e9e-af69-edeb58fa9497")
+	)
+	(wire
+		(pts
+			(xy 189.23 231.14) (xy 193.04 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb4d5f0c-5815-4781-91ea-c6dde9642e32")
+	)
+	(wire
+		(pts
+			(xy 189.23 257.81) (xy 193.04 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed73dddd-777b-4c9c-a4ff-fea225e83143")
+	)
+	(wire
+		(pts
+			(xy 172.72 240.03) (xy 176.53 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeab41e5-c2ca-473d-88f8-902a4794ab94")
+	)
+	(wire
+		(pts
+			(xy 185.42 240.03) (xy 189.23 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef12af72-db67-4b7c-844f-abe2c39e697a")
+	)
+	(wire
+		(pts
+			(xy 189.23 248.92) (xy 193.04 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef625523-602c-4ab1-aeb9-9bab36e49e07")
+	)
+	(wire
+		(pts
+			(xy 116.84 220.98) (xy 125.73 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0fe9ae8-3c70-4029-baa5-a3df7ba1bc2a")
+	)
+	(wire
+		(pts
+			(xy 160.02 212.09) (xy 172.72 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32c4319-00e0-4799-a00e-80cf9b07627d")
+	)
+	(wire
+		(pts
+			(xy 168.91 232.41) (xy 172.72 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f434bbd3-faea-4c0c-91d2-fd2efcdb586f")
+	)
+	(wire
+		(pts
+			(xy 168.91 223.52) (xy 172.72 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5016b46-a9a7-48af-b386-d4a01b45dda0")
+	)
+	(wire
+		(pts
+			(xy 251.46 224.79) (xy 256.54 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd1823e5-c030-47fb-9e78-22666f7370a0")
+	)
+	(wire
+		(pts
+			(xy 125.73 220.98) (xy 125.73 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc5c109-6892-43e8-9e83-076bce086d7b")
+	)
+	(wire
+		(pts
+			(xy 185.42 248.92) (xy 189.23 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe52a327-124e-4914-a9f9-e89c802b7d0c")
+	)
+	(text "12pF (70cm + 15m)"
+		(exclude_from_sim no)
+		(at 97.79 108.712 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0471451c-0a49-47bd-9d93-362bc51755cd")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 189.23 37.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "04dfe4ce-c046-4d24-9eaa-6eefe3640ca9")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 212.09 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0518f9f9-b7d4-42e1-a232-12387f62ecb8")
+	)
+	(text "ALTERNATIVE PARTS ARE:\n - SUNLORD (C305135) SDWL2520C3R3JSTF\n - PROSPERITY (C329445) FEC1008CP-3R3J-LRH\n - EMTEK (C252046) LSF1008-3R3J-T"
+		(exclude_from_sim no)
+		(at 77.724 247.396 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "06d57ff5-630c-4d54-9dbe-2a1c34d66843")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 189.23 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "09d8faae-f97e-4844-b889-1f721d578275")
+	)
+	(text "FREQUENCY INSUFFICIENT, REQUIRES RESPEC"
+		(exclude_from_sim no)
+		(at 88.392 202.692 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "104210e8-a533-4c58-a183-1e69bc620b2c")
+	)
+	(text "50uH"
+		(exclude_from_sim no)
+		(at 172.974 205.232 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "237f830d-4b7b-4bcb-9029-cd36b893dda4")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 195.072 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "26bebc2b-97ca-47a6-9b76-ab7d4ca4ff23")
+	)
+	(text "$0.36 SRF=9MHz / 7.5Ω / 360mA"
+		(exclude_from_sim no)
+		(at 255.524 208.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3e7ecb08-8268-44d7-8d2c-7c943c072651")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 223.266 53.086 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4a60defd-7d29-42f5-a72a-548ce3433b7c")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 182.626 41.148 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "58d0dd43-ee6a-4805-aa54-360e58a9eebc")
+	)
+	(text "FOR 10M-60M"
+		(exclude_from_sim no)
+		(at 176.784 199.39 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5f34b243-cd8e-4001-aeee-fd651611932d")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 189.23 42.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6b89b9f0-77b3-42fd-9486-139c3d49d525")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 195.072 41.148 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6ee25e0f-3853-438e-b0d0-4ead769c9115")
+	)
+	(text "100uH"
+		(exclude_from_sim no)
+		(at 252.984 205.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "7540d0aa-d59d-4ff8-a9fa-6583509c33eb")
+	)
+	(text "70cm	430 - 450 MHz	10 µH	11.8 - 12.4 pF (12.1 pF)	12 pF (−1.7%)\n2m	   144 - 148 MHz	10 µH	34.7 - 35.7 pF (35.2 pF)	33 pF (−6.1%)\n10m	  28 - 29.7 MHz	50 µH	6.45 pF (6.45 pF)	6.8 pF (+5.7%)\n15m   21 - 21.45 MHz	50 µH	11.9 - 12.1 pF (12.0 pF)	12 pF (−0.8%)\n17m	18.068 - 18.168 MHz	50 µH	14.4 - 14.6 pF (14.5 pF)	15 pF (+3.4%)\n20m	14 - 14.35 MHz	50 µH	19.6 - 20.0 pF (19.8 pF)	20 pF (+1.0%)\n30m	10.1 - 10.15 MHz	50 µH	43.9 - 44.3 pF (44.1 pF)	47 pF (+6.6%)\n40m	7.0 - 7.1 MHz	50 µH	84.4 - 85.2 pF (84.8 pF)	82 pF (−2.4%)\n60m	5.3 - 5.4 MHz	50 µH	146 - 149 pF (147.5 pF)	150 pF (+1.7%)\n160m	1.8 - 1.85 MHz	100 µH	5.80 - 6.00 nF (5.90 nF)	5.6 nF (−5.7%)\n2200m	1350 - 1400 kHz	100 µH	60.4 - 62.5 nF (61.5 nF)	68 nF (+10.5%)"
+		(exclude_from_sim no)
+		(at 55.626 88.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "760432ad-5c6e-4b7b-b158-9abe1e5cf2a1")
+	)
+	(text "FOR 160M/2200M"
+		(exclude_from_sim no)
+		(at 252.222 199.644 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "7c3495f1-9c35-4d64-a25f-30cb8682b4ca")
+	)
+	(text "FOR 70CM-2M"
+		(exclude_from_sim no)
+		(at 98.552 199.136 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "7d1dedab-dc04-460f-a5f9-06bec74d5ef1")
+	)
+	(text "$3 SRF=55MHz / 8.55Ω / 555mA"
+		(exclude_from_sim no)
+		(at 96.52 207.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "856ade00-1985-4b68-8bf3-0d195b720792")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 199.898 46.736 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9c12c1b0-f4d2-4e1c-9764-dbbed7600ea2")
+	)
+	(text "FOR 60M/2200M"
+		(exclude_from_sim no)
+		(at 103.378 69.596 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "9dd4c647-fe8d-423b-bbef-973053978cc3")
+	)
+	(text "10uH"
+		(exclude_from_sim no)
+		(at 97.028 205.232 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a29c7690-d7f9-414a-8b97-b35f79472c8a")
+	)
+	(text "$0.80 SRF=55MHz / 1.75Ω / 310mA\n"
+		(exclude_from_sim no)
+		(at 175.768 208.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a5e5d1bf-8bf2-4881-9350-d18275610500")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 217.678 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "af9d4bad-daaf-4a33-803e-465a0e59efb6")
+	)
+	(text "X\nX"
+		(exclude_from_sim no)
+		(at 170.18 55.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b541e272-1031-43d4-8e03-deb066df9678")
+	)
+	(text "14.5 (17m) + 19.8 (20m) = 35 (2m)"
+		(exclude_from_sim no)
+		(at 100.838 112.268 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ba5f0422-3be6-4e69-82f9-d89bf3d5b23f")
+	)
+	(text "70cm\n2m\n10m\n15m\n17m\n20m\n30m\n40m\n60m\n160m\n2200m"
+		(exclude_from_sim no)
+		(at 155.956 48.006 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "bc6fcb5f-0e4e-4a61-a7f6-7b79d927053d")
+	)
+	(text "X\nX"
+		(exclude_from_sim no)
+		(at 158.75 37.338 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c68285bb-d28c-40fa-913c-14133d3bab37")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 207.01 55.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d35f0e74-cbd6-46a8-b210-cfef7b8c989e")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 199.898 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d847eaa9-858d-4fa6-9a93-3db46cf9dd6f")
+	)
+	(text "\n\nX\nX\nX\nX\nX\nX\nX"
+		(exclude_from_sim no)
+		(at 163.576 37.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d9330840-1694-4b4c-a4a1-ca57c5865e75")
+	)
+	(text "DIFFICULT TO ACHIEVE WITH\nOBSERVED SMT PRODUCTS:\n - HIGH DCR AND LOW ACCURACY\n   ON HIGH I INDUCTORS.\n - LOW I ON HIGH SRF LOW DCR\n   HIGH ACCURACY INDUCTORS.\n\nSOLUTION: SERIES-PARALLEL\n          CONFIGURATION."
+		(exclude_from_sim no)
+		(at 160.528 138.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e04051e3-87ec-4114-9dd4-4f6b72fe4b16")
+	)
+	(text "70cm (430-450MHz) = 10uH inductor + 12pF capacitor\n2m (144-148MHz) = 10uH inductor + 15pF capacitor + 20pF capacitor\n10m (28-29.7MHz) = 50uH inductor + 6.8pF capacitor (6.34pF target)\n15m (21-21.45MHz) = 50uH inductor + 12pF capacitor\n17m (18.068-18.168MHz) = 50uH inductor + 15pF capacitor\n20m (14-14.35MHz) = 50uH inductor + 20pF capacitor\n30m (10.1-10.15MHz) = 50uH inductor + 12pF capacitor + 15pF capacitor + 20pF capacitor\n40m (7-7.1MHz) = 50uH inductor + 82pF capacitor(84.8pF target)\n60m (5.3-5.4GHz) = 50uH inductor + 150pF capacitor (147.5pF target)\n160m (1.8-1.85MHz) = 100uH inductor + 5.6nF capacitor (5.9nF target)\n2200m (1350-1400kHz) = 100uH inductor + 68nF capacitor (61.5nF target)"
+		(exclude_from_sim no)
+		(at 52.324 48.006 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4a1aeb1-f3bb-4a27-9124-c35ac97b8a8f")
+	)
+	(text "10uH 50uH 100uH       6.8pF 12pF 15pF 20pF 5.6nF 68nF 82pF 150pF"
+		(exclude_from_sim no)
+		(at 156.464 34.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "fdd2c68c-610c-41f3-9507-9687b2fff45a")
+	)
+	(label "L-100UH-A"
+		(at 267.97 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1be8e88f-c890-4dee-8812-1a5d08b6906d")
+	)
+	(label "L-50UH-B"
+		(at 190.5 260.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73fcabaa-11af-4620-b74b-3a134c6c1062")
+	)
+	(label "L-50UH-A"
+		(at 186.69 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74e04e3e-fb16-48f2-bfdf-3fc493683493")
+	)
+	(label "L-50UH-A"
+		(at 161.29 212.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "909e5728-46dd-4c13-899f-452fdd272fa5")
+	)
+	(label "L-10UH-A"
+		(at 59.69 210.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "940d1457-2904-4581-9e81-fe33b6187d75")
+	)
+	(label "L-10UH-A"
+		(at 88.9 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a043e429-3076-4ea4-8967-88ea6272b931")
+	)
+	(label "L-100UH-A"
+		(at 238.76 213.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4af5650-6f02-44f1-9fba-b19b685aa5a1")
+	)
+	(label "L-100UH-B"
+		(at 252.73 236.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4bbc48a-96ad-479c-a56b-c8b94a987a76")
+	)
+	(label "L-10UH-B"
+		(at 127 242.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f39b5ca9-802a-4fd5-a4e2-4d73b446bd98")
+	)
+	(hierarchical_label "24V"
+		(shape input)
+		(at 158.75 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00418fef-dedc-4a46-b938-f96116da46d1")
+	)
+	(hierarchical_label "24V"
+		(shape input)
+		(at 240.03 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "028c7801-ec26-4365-9a64-de20bb11d699")
+	)
+	(hierarchical_label "100UH-ENABLE-WHEN-LOW"
+		(shape input)
+		(at 240.03 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21be63e3-e8e8-4109-b5ac-0fd2a3a6c3c4")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 184.15 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26ceb15f-7536-437f-9140-4deab90a1318")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 86.36 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47a3b9b8-7bf2-44ba-8ae7-5d1e6bbce3fe")
+	)
+	(hierarchical_label "10UH-ENABLE-WHEN-LOW"
+		(shape input)
+		(at 60.96 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "556f646f-71bb-4b8f-bd9c-125cf5ab4af0")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 240.03 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5768f4f5-80ef-4277-b304-65cebc52d473")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 265.43 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "684685e6-0903-43f7-82ba-6dada21a42cb")
+	)
+	(hierarchical_label "50UH-ENABLE-WHEN-LOW"
+		(shape input)
+		(at 158.75 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84025ff1-a02a-4282-b3b9-3ad712ef3ad8")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 60.96 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ed9ecb2-4436-4178-a912-a28584fca538")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 158.75 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c38f89c3-8845-4336-982c-8e9ea05ada46")
+	)
+	(hierarchical_label "24V"
+		(shape input)
+		(at 60.96 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa34b997-93c1-4c0d-92b4-01e0ee9c958c")
+	)
+	(hierarchical_label "PA-DRAIN"
+		(shape output)
+		(at 251.46 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd8df9ce-a881-4530-aba9-467df56232c3")
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 134.62 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0384db5a-d144-4137-9c14-9faff5854537")
+		(property "Reference" "L35"
+			(at 135.89 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 135.89 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 134.62 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 134.62 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 134.62 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 134.62 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 134.62 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 134.62 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b6bd86a-dcfe-48ae-8c47-3cfc8f49d232")
+		)
+		(pin "2"
+			(uuid "e0677644-e89c-4852-9cf6-922d626116f5")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 185.42 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03a59c49-5343-44d8-b65d-a7f995b3bd8d")
+		(property "Reference" "L57"
+			(at 186.69 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 186.69 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 185.42 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 185.42 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 185.42 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 185.42 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 185.42 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 185.42 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5d687e6-b240-41df-9fbc-fb2a4d1e4599")
+		)
+		(pin "1"
+			(uuid "c242f7f0-475f-419f-8e59-21f6615414b7")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 193.04 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0acab960-dbb1-4a36-9d84-c24cbcdc9358")
+		(property "Reference" "L59"
+			(at 194.31 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 194.31 219.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 193.04 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 193.04 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 193.04 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 193.04 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 193.04 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 193.04 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c7867131-8e4f-4a5b-b174-7a568e188081")
+		)
+		(pin "1"
+			(uuid "416c63c9-4d76-4602-9539-c0ca5f07c22f")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 246.38 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bfe1752-661f-4861-b5d8-6fb42c96418a")
+		(property "Reference" "L6"
+			(at 247.65 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uH"
+			(at 247.65 220.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 246.38 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2306021139_MetalLions-MLW2012RF-101KT_C2885956.pdf"
+			(at 246.38 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "180mA 100uH ±10% 7.5Ω SMD,1.7x2.3mm Inductors (SMD) ROHS"
+			(at 246.38 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2885956"
+			(at 246.38 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MLW2012RF-101KT"
+			(at 246.38 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MetalLions"
+			(at 246.38 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "afb073c4-f1dc-45b2-b470-553335a0f459")
+		)
+		(pin "1"
+			(uuid "fc533de4-92fc-41aa-8e51-5ba2e212a8eb")
+		)
+		(instances
+			(project ""
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 99.06 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "133e32d4-72c1-41e2-80cd-d25dd711ccde")
+		(property "Reference" "L25"
+			(at 100.33 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 100.33 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 99.06 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 99.06 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 99.06 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 99.06 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 99.06 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 99.06 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a3a8324-9d98-4bbc-9eb5-c4df1870ddb9")
+		)
+		(pin "2"
+			(uuid "47662121-f575-4847-9066-8e5cf5b6a270")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 81.28 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "146f0673-ae13-4af9-bf26-861427e2201c")
+		(property "Reference" "L19"
+			(at 82.55 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 82.55 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 81.28 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 81.28 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 81.28 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 81.28 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 81.28 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 81.28 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e5d8300-4a0b-4bba-92c3-471323c10d34")
+		)
+		(pin "2"
+			(uuid "680d22d0-e3bf-41a4-9ee1-fd4a9ed741cd")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 193.04 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19081bfb-1bc6-47f3-a20e-1b00a78be5b5")
+		(property "Reference" "L60"
+			(at 194.31 226.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 194.31 228.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 193.04 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 193.04 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 193.04 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 193.04 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 193.04 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 193.04 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4e3bad7-6fe4-4bfd-ac94-60627b8f4960")
+		)
+		(pin "1"
+			(uuid "8376910d-47cd-4a8d-ae37-cbbd0c3ac7d6")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 246.38 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ae742e0-ecd3-405f-a560-e4b09482adaf")
+		(property "Reference" "L7"
+			(at 247.65 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uH"
+			(at 247.65 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 246.38 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2306021139_MetalLions-MLW2012RF-101KT_C2885956.pdf"
+			(at 246.38 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "180mA 100uH ±10% 7.5Ω SMD,1.7x2.3mm Inductors (SMD) ROHS"
+			(at 246.38 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2885956"
+			(at 246.38 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MLW2012RF-101KT"
+			(at 246.38 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MetalLions"
+			(at 246.38 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09d76432-6511-4d97-a2e1-26a4afaca4a0")
+		)
+		(pin "1"
+			(uuid "1c3d5ca6-b7c5-4c69-ace6-a76b9cd7a46d")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 90.17 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d974946-0397-4d7d-8140-34f86fd0b545")
+		(property "Reference" "L10"
+			(at 91.44 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 91.44 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 90.17 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 90.17 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 90.17 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 90.17 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 90.17 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 90.17 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ec2d5a5-6a33-4621-af08-3be2833d9603")
+		)
+		(pin "2"
+			(uuid "de2f9a43-ff43-4a17-9f14-508238cd5eaa")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 107.95 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2069cefe-bb0f-470a-a5ca-8ef01feca0ee")
+		(property "Reference" "L32"
+			(at 109.22 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 109.22 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 107.95 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 107.95 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 107.95 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 107.95 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 107.95 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 107.95 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4422bfad-a9bd-4923-8f57-8f9fde77999b")
+		)
+		(pin "2"
+			(uuid "2bdc8477-b02b-439f-b558-bcb38f4f89dd")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 168.91 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f4afa43-79bb-462d-8396-76e54ea800b9")
+		(property "Reference" "L50"
+			(at 170.18 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 170.18 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 168.91 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 168.91 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 168.91 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 168.91 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 168.91 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 168.91 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5ed4abe-b0f3-42eb-af3b-51766d35fc13")
+		)
+		(pin "1"
+			(uuid "e0df94f2-7581-4fbd-ae79-bf622f117301")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 176.53 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38b22d4c-f3bd-4e89-b63a-fed8209ef0a0")
+		(property "Reference" "L49"
+			(at 177.8 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 177.8 237.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 176.53 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 176.53 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 176.53 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 176.53 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 176.53 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 176.53 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4bf64dbf-97dd-4ee6-b6da-079dbed79860")
+		)
+		(pin "1"
+			(uuid "63a01100-4edf-4521-91b7-2f45e35d4af4")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 99.06 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39432e8f-0cb6-4267-a2ef-8d8e914c1490")
+		(property "Reference" "L26"
+			(at 100.33 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 100.33 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 99.06 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 99.06 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 99.06 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 99.06 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 99.06 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 99.06 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0f16ae8-c46d-4b19-a004-6c46a8376304")
+		)
+		(pin "2"
+			(uuid "b8800db4-8250-41ee-b176-6322ab3c8b27")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 125.73 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ce880d8-1ba7-48d1-a365-18084570f4f1")
+		(property "Reference" "L29"
+			(at 127 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 127 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 125.73 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 125.73 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 125.73 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 125.73 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 125.73 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 125.73 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "972bffa4-9e14-479f-8004-98e99c4ae0e8")
+		)
+		(pin "2"
+			(uuid "1a5c27d1-06e2-4a8b-8898-95a3fa814a7e")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 134.62 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3db9eaa0-9142-49c9-ae60-47a89f313e8d")
+		(property "Reference" "L34"
+			(at 135.89 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 135.89 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 134.62 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 134.62 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 134.62 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 134.62 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 134.62 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 134.62 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a39d922-aeb8-431a-8054-0563c18894a4")
+		)
+		(pin "2"
+			(uuid "b5323560-17c4-4573-8277-6111b029a184")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 81.28 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e38460d-0667-4d58-8585-1903e4ba0049")
+		(property "Reference" "L16"
+			(at 82.55 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 82.55 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 81.28 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 81.28 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 81.28 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 81.28 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 81.28 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 81.28 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bdcc623-54e6-4169-bbb7-33cfd230085c")
+		)
+		(pin "2"
+			(uuid "558b2830-d476-4fc3-8a81-ea8f4419560f")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 176.53 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43ddc691-8fec-40e3-9bf8-fdc85ff3020d")
+		(property "Reference" "L51"
+			(at 177.8 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 177.8 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 176.53 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 176.53 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 176.53 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 176.53 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 176.53 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 176.53 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "adeb5c9d-1033-4e06-acae-0fb2c5cff0c2")
+		)
+		(pin "1"
+			(uuid "da90021d-496a-4ae9-8e3a-09c2529c5d0f")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 81.28 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4483319c-6c4e-4644-8b51-4ec74f5716a2")
+		(property "Reference" "L22"
+			(at 82.55 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 82.55 236.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 81.28 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 81.28 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 81.28 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 81.28 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 81.28 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 81.28 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d1ec8c6-5118-4cae-8b6b-de2e85337ffa")
+		)
+		(pin "2"
+			(uuid "2816ea38-cd73-40db-a93c-5833501b8abe")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 176.53 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ddaa697-6336-4ea6-8fce-9cac27d029ec")
+		(property "Reference" "L53"
+			(at 177.8 252.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 177.8 255.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 176.53 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 176.53 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 176.53 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 176.53 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 176.53 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 176.53 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7bc9b25-33a3-4957-8381-485cc5eb3817")
+		)
+		(pin "1"
+			(uuid "d96e7e3b-b991-4220-8ddf-4ad8670e7356")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 63.5 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52a08d7d-7a6a-4172-96e0-1180e0e5c1c9")
+		(property "Reference" "L14"
+			(at 64.77 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 64.77 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 63.5 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 63.5 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 63.5 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 63.5 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 63.5 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 63.5 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dff1f122-8918-46ac-bdec-ddf70d0a68ea")
+		)
+		(pin "2"
+			(uuid "427b6df9-ff89-4538-962b-06762b110568")
+		)
+		(instances
+			(project ""
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 116.84 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59db0d17-9c05-4c5f-975b-a2942f2cd8cc")
+		(property "Reference" "L13"
+			(at 118.11 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 118.11 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 116.84 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 116.84 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 116.84 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 116.84 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 116.84 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 116.84 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "299816b6-b94b-4ea1-9793-33f5d5689bad")
+		)
+		(pin "2"
+			(uuid "f01d1f08-b1ff-447a-a4b4-a7efd30a0b6d")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 107.95 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e6a2e68-b81d-4834-8001-137fc8c51495")
+		(property "Reference" "L33"
+			(at 109.22 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 109.22 236.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 107.95 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 107.95 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 107.95 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 107.95 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 107.95 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 107.95 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04701486-e706-4f96-85c2-f412f5f2b04c")
+		)
+		(pin "2"
+			(uuid "71f8c6f1-2015-430f-9119-3a8b2d7d58bc")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 90.17 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e917fcc-7d9b-46f3-8297-ae826901e84d")
+		(property "Reference" "L12"
+			(at 91.44 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 91.44 236.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 90.17 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 90.17 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 90.17 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 90.17 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 90.17 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 90.17 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02c109b3-34c5-439a-99fc-7905d5d9818b")
+		)
+		(pin "2"
+			(uuid "3fcda755-4973-4300-a9d3-33a97435fea3")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 256.54 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67747a1f-18d9-4f6e-a309-d151d25d2bf7")
+		(property "Reference" "L9"
+			(at 257.81 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uH"
+			(at 257.81 220.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 256.54 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2306021139_MetalLions-MLW2012RF-101KT_C2885956.pdf"
+			(at 256.54 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "180mA 100uH ±10% 7.5Ω SMD,1.7x2.3mm Inductors (SMD) ROHS"
+			(at 256.54 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2885956"
+			(at 256.54 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MLW2012RF-101KT"
+			(at 256.54 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MetalLions"
+			(at 256.54 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f744a396-310b-4e25-b117-ded105ff2c84")
+		)
+		(pin "1"
+			(uuid "c5f50ff1-8653-49b8-939f-8ef384574178")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 107.95 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c223a5e-3f5b-4244-aee9-e153d55f6181")
+		(property "Reference" "L31"
+			(at 109.22 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 109.22 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 107.95 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 107.95 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 107.95 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 107.95 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 107.95 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 107.95 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e01b915-19b0-4552-9f9c-95ca3c11ba6c")
+		)
+		(pin "2"
+			(uuid "bf87fb8b-0c71-46f1-a6f3-79ac2235f07a")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 185.42 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "757c1d9c-15b0-4bac-b7aa-f1ed88996904")
+		(property "Reference" "L58"
+			(at 186.69 252.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 186.69 255.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 185.42 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 185.42 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 185.42 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 185.42 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 185.42 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 185.42 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb3f476e-000b-4d5a-b271-d24460c3ffe4")
+		)
+		(pin "1"
+			(uuid "7b3e62a4-379c-4594-a6e6-2721fe3faeca")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 72.39 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77a5bec9-ffa5-4a17-80a5-cd0b0889109b")
+		(property "Reference" "L21"
+			(at 73.66 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 73.66 236.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 72.39 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 72.39 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 72.39 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 72.39 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 72.39 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 72.39 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46d9782a-5220-425b-9d4d-563fbd8e5708")
+		)
+		(pin "2"
+			(uuid "06875ef6-1db0-442d-bf7e-f70f74d157b1")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 125.73 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "823b5b5e-00b2-4bb6-9eb0-c656704734d1")
+		(property "Reference" "L28"
+			(at 127 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 127 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 125.73 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 125.73 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 125.73 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 125.73 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 125.73 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 125.73 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "012ee049-2d3f-4258-85f1-e0e9e76e97f9")
+		)
+		(pin "2"
+			(uuid "16e5c6ca-ec8b-4b26-8c1b-5bbaf0ef0bc5")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 116.84 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ddaaf89-e021-48f9-befd-92c2da9bc905")
+		(property "Reference" "L24"
+			(at 118.11 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 118.11 236.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 116.84 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 116.84 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 116.84 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 116.84 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 116.84 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 116.84 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e1ee801-ef2d-448c-bb31-752d029a5737")
+		)
+		(pin "2"
+			(uuid "1e54576d-e16e-49b8-8857-67c903d07a58")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 99.06 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "941977ac-57b0-4818-a738-b7af20c20a72")
+		(property "Reference" "L27"
+			(at 100.33 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 100.33 236.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 99.06 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 99.06 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 99.06 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 99.06 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 99.06 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 99.06 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f10c9953-0a8c-4c2d-83c0-01d4d0b138c0")
+		)
+		(pin "2"
+			(uuid "f0f67d5f-a2dd-4a5f-9980-40c3cd5b970e")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 90.17 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97d1ae9a-47e0-45cb-9589-a225bf8dd418")
+		(property "Reference" "L11"
+			(at 91.44 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 91.44 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 90.17 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 90.17 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 90.17 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 90.17 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 90.17 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 90.17 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b29be10-6419-408c-83a5-1727becb0e99")
+		)
+		(pin "2"
+			(uuid "a583371c-74c0-48ee-bf5d-ac8c41611efb")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 176.53 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a12ed761-0323-474c-be22-c18850259dde")
+		(property "Reference" "L47"
+			(at 177.8 226.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 177.8 228.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 176.53 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 176.53 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 176.53 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 176.53 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 176.53 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 176.53 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91ec3758-c20f-407d-b2c0-f95d21365ec5")
+		)
+		(pin "1"
+			(uuid "5898fa62-f848-43a5-a9e5-35bcf3b3ef97")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 125.73 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2258c82-4481-4265-9004-4a95f245f8b1")
+		(property "Reference" "L30"
+			(at 127 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 127 236.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 125.73 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 125.73 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 125.73 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 125.73 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 125.73 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 125.73 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68c3c69f-b070-426a-a4fa-d24d7dac9e0b")
+		)
+		(pin "2"
+			(uuid "21c2c437-172f-4952-975b-c3f12371f19b")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 168.91 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2da9c35-55fe-4d5c-97c2-44c486763b93")
+		(property "Reference" "L44"
+			(at 170.18 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 170.18 219.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 168.91 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 168.91 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 168.91 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 168.91 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 168.91 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 168.91 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "563c265d-a054-4411-ac6c-835d8460aac8")
+		)
+		(pin "1"
+			(uuid "79fde0fc-d7b1-41d1-9c77-ebd7c8bb4f6b")
+		)
+		(instances
+			(project ""
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 193.04 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2f2fd52-5ad4-4441-a1a0-a8215554d68f")
+		(property "Reference" "L63"
+			(at 194.31 252.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 194.31 255.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 193.04 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 193.04 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 193.04 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 193.04 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 193.04 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 193.04 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44a04f34-cb5d-4714-aa28-d5686f983ddc")
+		)
+		(pin "1"
+			(uuid "f76e8f51-4b12-4eed-8826-4177c4b2a76f")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 185.42 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6e77b11-4b65-444b-8aa9-54b84fc1a6a3")
+		(property "Reference" "L56"
+			(at 186.69 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 186.69 237.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 185.42 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 185.42 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 185.42 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 185.42 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 185.42 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 185.42 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33b05b31-ff4e-446a-882f-06be04607b9d")
+		)
+		(pin "1"
+			(uuid "522336d2-85f6-4f2b-bdd4-d801b0c75d71")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 256.54 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7de4275-495f-4033-b85b-a33d3fe60585")
+		(property "Reference" "L8"
+			(at 257.81 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uH"
+			(at 257.81 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 256.54 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2306021139_MetalLions-MLW2012RF-101KT_C2885956.pdf"
+			(at 256.54 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "180mA 100uH ±10% 7.5Ω SMD,1.7x2.3mm Inductors (SMD) ROHS"
+			(at 256.54 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2885956"
+			(at 256.54 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MLW2012RF-101KT"
+			(at 256.54 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MetalLions"
+			(at 256.54 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17d3379c-3f45-4bd6-b678-a9a18f2fb6ba")
+		)
+		(pin "1"
+			(uuid "45487729-d1d5-4966-bc3c-a79d0246a8c6")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 72.39 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aff3f712-f341-4b44-9bb7-0ab9e5b755b2")
+		(property "Reference" "L15"
+			(at 73.66 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 73.66 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 72.39 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 72.39 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 72.39 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 72.39 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 72.39 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 72.39 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86cc0311-4b86-4e26-9ba4-7baa4f11be5d")
+		)
+		(pin "2"
+			(uuid "af27d2f9-0476-4abf-a700-bc88c49ed80c")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 168.91 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b621453c-223d-49ce-8c02-2bf6839c14b3")
+		(property "Reference" "L46"
+			(at 170.18 226.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 170.18 228.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 168.91 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 168.91 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 168.91 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 168.91 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 168.91 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 168.91 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c2efb84-e62a-4d05-981e-907b01f1e01d")
+		)
+		(pin "1"
+			(uuid "f1fcdc5c-4808-45f4-b19e-1b06f71988b1")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 193.04 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b636c637-c192-420e-ad19-1b2dd3ea6563")
+		(property "Reference" "L61"
+			(at 194.31 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 194.31 237.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 193.04 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 193.04 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 193.04 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 193.04 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 193.04 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 193.04 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed59b9a6-2111-46ca-80a3-b021ddedb32b")
+		)
+		(pin "1"
+			(uuid "b8ffe02c-ccc6-4e7b-905d-6ca767c0c259")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 176.53 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfd96d2f-1f54-45bb-b4cf-c708be6e1537")
+		(property "Reference" "L45"
+			(at 177.8 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 177.8 219.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 176.53 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 176.53 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 176.53 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 176.53 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 176.53 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 176.53 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92e0e94d-c7bf-4ae0-bfdf-17fc4ae26887")
+		)
+		(pin "1"
+			(uuid "376a75fe-074b-4c95-a218-10a36ac99b82")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 63.5 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd26161e-c834-49ef-a623-9e471ea71b5e")
+		(property "Reference" "L20"
+			(at 64.77 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 64.77 236.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 63.5 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 63.5 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 63.5 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 63.5 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 63.5 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 63.5 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07189815-2ca3-4b74-b5c2-a7b217cc4afb")
+		)
+		(pin "2"
+			(uuid "d5789ad3-b2fc-4be2-a806-a109d0029b88")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 168.91 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d20dab12-61c0-43d7-b5a1-cb0701eba960")
+		(property "Reference" "L52"
+			(at 170.18 252.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 170.18 255.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 168.91 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 168.91 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 168.91 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 168.91 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 168.91 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 168.91 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6903811d-55b7-42b3-b510-4eb835ba2bf2")
+		)
+		(pin "1"
+			(uuid "0498c142-bad9-4e17-bb5b-765eff0b12d1")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 185.42 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4358ff4-9774-4220-be58-d795e7e76897")
+		(property "Reference" "L55"
+			(at 186.69 226.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 186.69 228.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 185.42 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 185.42 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 185.42 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 185.42 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 185.42 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 185.42 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "403bb58f-5b3e-4361-b155-2f313d1a2f6c")
+		)
+		(pin "1"
+			(uuid "e29519f5-ee94-417e-8123-15c365cfeef4")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 72.39 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da6d8277-4078-4f06-bbcd-e4722ef7f424")
+		(property "Reference" "L18"
+			(at 73.66 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 73.66 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 72.39 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 72.39 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 72.39 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 72.39 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 72.39 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 72.39 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93ba2dbf-5325-4b5a-b16c-78cc415c15af")
+		)
+		(pin "2"
+			(uuid "414b53ea-5cc9-428b-97ab-3da52056005d")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 168.91 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0f338ca-06a6-40df-abc5-50694e45f4a8")
+		(property "Reference" "L48"
+			(at 170.18 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 170.18 237.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 168.91 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 168.91 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 168.91 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 168.91 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 168.91 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 168.91 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3665c77-b423-4ee2-895e-370552ef2c81")
+		)
+		(pin "1"
+			(uuid "33ee3f94-8862-4c0d-85fd-e844e764b793")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 63.5 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb364147-4d66-4f59-bf45-a6cea0cbdde9")
+		(property "Reference" "L17"
+			(at 64.77 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 64.77 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 63.5 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 63.5 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 63.5 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 63.5 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 63.5 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 63.5 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9427376-c7f1-4edd-9d0f-899da1adf53f")
+		)
+		(pin "2"
+			(uuid "aea8c7d5-cfde-4f4b-869a-0aa0c9f7e208")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 185.42 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f40efb01-6e1f-4adb-a22d-26bf56bf28f0")
+		(property "Reference" "L54"
+			(at 186.69 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 186.69 219.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 185.42 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 185.42 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 185.42 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 185.42 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 185.42 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 185.42 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e8a91692-652b-4af0-ab72-57ef32e72c0f")
+		)
+		(pin "1"
+			(uuid "dd3e929e-385e-47b8-8342-97d01931dd03")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 116.84 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4a209c1-0757-465d-8f19-523d36d12612")
+		(property "Reference" "L23"
+			(at 118.11 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 118.11 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 116.84 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 116.84 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 116.84 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 116.84 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 116.84 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 116.84 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "213b5b4d-16e5-4aa7-8d0b-9fd3398d21f8")
+		)
+		(pin "2"
+			(uuid "42e64800-794e-467a-bc36-b06cfc6e3b8b")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 134.62 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f68a9dee-2521-476e-ab01-c958387e29cc")
+		(property "Reference" "L36"
+			(at 135.89 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 135.89 236.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 134.62 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-3R3J-EFD_C295353.pdf"
+			(at 134.62 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "185mA 3.3uH ±5% 1008 Power Inductors ROHS"
+			(at 134.62 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295353"
+			(at 134.62 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-3R3J-EFD"
+			(at 134.62 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 134.62 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6254a37e-2128-4c83-b71b-866b792e5241")
+		)
+		(pin "2"
+			(uuid "018d562f-3fad-442b-8d04-a2301705ce14")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 193.04 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7a2f436-c23a-42bc-bf33-b8ae9bbe9920")
+		(property "Reference" "L62"
+			(at 194.31 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 194.31 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 193.04 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TDK-NLV25T-100J-PF_C76825.pdf"
+			(at 193.04 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "155mA 10uH ±5% 1008 Power Inductors ROHS"
+			(at 193.04 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C76825"
+			(at 193.04 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NLV25T-100J-PF"
+			(at 193.04 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 193.04 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e94b884a-53a5-4565-9f8a-60f4a51a7a35")
+		)
+		(pin "1"
+			(uuid "205d51ba-96a1-47fb-a581-5f657ace01e3")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(reference "L62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 167.64)
+		(size 25.4 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "02b6b893-c44f-4424-8073-76337c6977ff")
+		(property "Sheetname" "PA-RF-CHOKE-L-50UH-SWITCH"
+			(at 158.75 166.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nfet-highside-load-switch.kicad_sch"
+			(at 158.75 179.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWITCHING-VOLTAGE" input
+			(at 158.75 168.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8efc6754-a710-4127-a929-6bb2f23c1587")
+		)
+		(pin "LOAD-ANODE" output
+			(at 184.15 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fcc56178-3365-4837-98d7-618895c1ba80")
+		)
+		(pin "GND" passive
+			(at 184.15 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0802387c-626e-46c0-9606-cb90f6cbc242")
+		)
+		(pin "SUPPLY" input
+			(at 158.75 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39cdfe89-6421-4d35-b783-08d8cf2b891b")
+		)
+		(pin "~{ENABLE-LOAD}" input
+			(at 158.75 173.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4a3e7564-502a-4da4-b608-f3bb800dfceb")
+		)
+		(pin "5V" input
+			(at 158.75 176.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "47846b4f-f2cf-4b77-b984-4e0fa9463fbe")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 167.64)
+		(size 25.4 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e6b9912-9ee6-4af9-ab1f-aff273c60e1b")
+		(property "Sheetname" "PA-RF-CHOKE-L-10UH-SWITCH"
+			(at 60.96 166.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nfet-highside-load-switch.kicad_sch"
+			(at 60.96 179.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWITCHING-VOLTAGE" input
+			(at 60.96 168.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f6faa42e-59fe-4e92-a18e-125f1cd00dac")
+		)
+		(pin "LOAD-ANODE" output
+			(at 86.36 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "907cd3f2-a088-4c59-97cd-d882a91cae73")
+		)
+		(pin "GND" passive
+			(at 86.36 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "884b3988-81f9-462a-9750-50d010268660")
+		)
+		(pin "SUPPLY" input
+			(at 60.96 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "42532009-fd21-4d3b-83b7-f53c788a3852")
+		)
+		(pin "~{ENABLE-LOAD}" input
+			(at 60.96 173.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "36358bd4-e8f7-4808-9df3-61f870e46e43")
+		)
+		(pin "5V" input
+			(at 60.96 176.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4bc9d58b-852c-44a9-9efc-d23c96afa02c")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 240.03 167.64)
+		(size 25.4 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a962033c-61a7-482d-8d60-4ea125726cab")
+		(property "Sheetname" "PA-RF-CHOKE-L-100UH-SWITCH"
+			(at 240.03 166.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nfet-highside-load-switch.kicad_sch"
+			(at 240.03 179.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWITCHING-VOLTAGE" input
+			(at 240.03 168.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f9fefb90-c7bc-4fd5-8d6d-a8f99eebc62a")
+		)
+		(pin "LOAD-ANODE" output
+			(at 265.43 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b4713f4b-1c3a-45b6-9689-d7f351547f34")
+		)
+		(pin "GND" passive
+			(at 265.43 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fee6edee-5d8c-4f68-8712-e094fd259426")
+		)
+		(pin "SUPPLY" input
+			(at 240.03 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0d6a3041-9466-4968-b908-e248fcd4a741")
+		)
+		(pin "~{ENABLE-LOAD}" input
+			(at 240.03 173.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "608ad3f1-ac4e-42d6-be7a-f13e8a9e31e4")
+		)
+		(pin "5V" input
+			(at 240.03 176.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "81f33364-5479-45aa-9b85-48792daa6763")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/9fcca4e6-b308-4729-bd6b-d78819e3b857"
+					(page "16")
+				)
+			)
+		)
+	)
+)
