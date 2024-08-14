@@ -106,9 +106,13 @@ This in turn consists of specific component blocks.
 
 #### RF choke
 
-The RF choke is an inductor to ground. It should be selected based upon the frequency range for which it is expected to perform. Unlike the inductor within the low pass filter (LPF), this inductor should have a low `Q` factor. It must, however, have a significantly higher self-resonant frequency (`SRF`) than the maximum frequency at which it is expected to operate.
+The RF choke is an inductor to ground coupled with a capacitor array to provide a low impedance path for RF signals. Ideally it should be selected based upon the frequency range for which it is expected to perform. However, given we also have a low pass filter (LPF) per frequency band, it makes sense to select a general RF choke to cover all bands.
 
-In addition, it is conventional to add a capacitor to provide a low impedance path to ground for high frequency signals to ensure they do not leak in to other parts of the circuit or the power supply.
+Unlike the inductor within the low pass filter (LPF), the RF choke inductor should have a low `Q` factor. It must, however, have a significantly higher self-resonant frequency (`SRF`) than the maximum frequency at which it is expected to operate.
+
+This makes it very hard to select, because to achieve such a large inducance with high SRF components requires a very large number of them.
+
+In addition, it is conventional to add a capacitor or parallel capacitor array to provide a low impedance path to ground for high frequency signals to ensure they do not leak in to other parts of the circuit or the power supply.
 
 The capacitor or parallel capacitor array may be selected based upon the operational frequencies, in this case up to 140MHz.
 
@@ -116,4 +120,4 @@ High quality (eg. `C0G`) capacitors should be selected with low equivalent serie
 
 #### Resonator
 
-...
+This is an inductor-capacitor (LC) combination that varies by frequency band. In our implementation it is switched to provide the appropriate band-specific resonance. The entire range of frequencies is divided in to three inductor values, and the capacitance required is divided in to a small number of combinations.
