@@ -1,1 +1,7 @@
 wget https://people.eecs.berkeley.edu/~culler/AIIT/papers/radio/Sokal%20AACD5-poweramps.pdf
+wget http://www.classeradio.com/sokal2corrected.pdf # or available at https://people.physics.anu.edu.au/~dxt103/160m/class_E_amplifier_design.pdf
+wget https://rfcafe.com/references/articles/Load-Network-Design-Techniques-for-Class-E-RF-and-Microwave-Amplifier.pdf
+wget https://vtechworks.lib.vt.edu/server/api/core/bitstreams/7af44772-7ddc-4f11-bfbe-8925b8e0a877/content
+wget https://www.microchip.com/content/dam/mchp/documents/PSDS/ApplicationNotes/ApplicationNotes/APT0001.pdf
+wget https://www.microsemi.com/document-portal/doc_view/14697-making-use-of-gate-charge-information-in-mosfet-and-igbt-data-sheets
+wget http://norcalqrp.org/files/Class_E_Amplifiers.pdf
