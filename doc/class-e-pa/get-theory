@@ -1,3 +1,5 @@
+mkdir pdfs 2>/dev/null
+cd pdfs
 wget https://people.eecs.berkeley.edu/~culler/AIIT/papers/radio/Sokal%20AACD5-poweramps.pdf
 wget http://www.classeradio.com/sokal2corrected.pdf # or available at https://people.physics.anu.edu.au/~dxt103/160m/class_E_amplifier_design.pdf
 wget https://rfcafe.com/references/articles/Load-Network-Design-Techniques-for-Class-E-RF-and-Microwave-Amplifier.pdf
