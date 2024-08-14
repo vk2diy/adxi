@@ -22,7 +22,11 @@ Recent work:
  * Input of general dimensions of two boxes which have been selected as possible form factors. Have another idea to use this sort of thing as a modular approach: ![image](tiffin.webp)
  * General cleanup of schematic
 
-## Updated draft PCB (2024-09-10)
+## Update (2024-09-11)
+
+ * [Further work on power amplifier theory and component selection](doc/class-e-pa/)
+
+## Update (2024-09-10)
 
 ![image](adxi-draft-pcb-2024-08-10.webp)
 
