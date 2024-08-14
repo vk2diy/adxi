@@ -3,7 +3,7 @@ wget http://www.classeradio.com/sokal2corrected.pdf # or available at https://pe
 wget https://rfcafe.com/references/articles/Load-Network-Design-Techniques-for-Class-E-RF-and-Microwave-Amplifier.pdf
 wget https://vtechworks.lib.vt.edu/server/api/core/bitstreams/7af44772-7ddc-4f11-bfbe-8925b8e0a877/content -O cmos-class-e-power-amplifier.pdf
 wget https://www.microchip.com/content/dam/mchp/documents/PSDS/ApplicationNotes/ApplicationNotes/APT0001.pdf
-wget https://www.microsemi.com/document-portal/doc_view/14697-making-use-of-gate-charge-information-in-mosfet-and-igbt-data-sheets
+wget https://www.microsemi.com/document-portal/doc_view/14697-making-use-of-gate-charge-information-in-mosfet-and-igbt-data-sheets -O making-use-of-gate-charge-info-in-datasheets.pdf
 wget http://norcalqrp.org/files/Class_E_Amplifiers.pdf
 wget https://ocw.mit.edu/courses/6-976-high-speed-communication-circuits-and-systems-spring-2003/74927837820d5a11a2443b5b86ce0f50_guest3.pdf
 wget https://www.cambridgewireless.co.uk/media/uploads/files/Radio_SIG_Event_22.5.18_An_introduction_to_RF_Power_Amplifier_Design_-_Chris_Potter.pdf
