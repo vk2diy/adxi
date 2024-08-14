@@ -16,6 +16,7 @@ This fork is called __adxi__ (or "ADX Improved") with the following changes:
 ## Update (2024-09-11)
 
  * [Further work on power amplifier theory and component selection](doc/class-e-pa/)
+ * We now have theoretically adequate SRF on inductor arrays for all bands
 
 ## Updated (2024-09-13)
 
