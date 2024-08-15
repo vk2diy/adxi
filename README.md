@@ -13,7 +13,7 @@ This fork is called __adxi__ (or "ADX Improved") with the following changes:
  * __improved documentation__ hoping to facilitate learning
  * __using platformio__ to manage the firmware build and dependencies in a modern way
 
-## Update (2024-09-11)
+## Update (2024-08-15)
 
 ![image](adxi-draft-pcb-2024-08-13.webp)
 
@@ -22,7 +22,7 @@ This fork is called __adxi__ (or "ADX Improved") with the following changes:
  * RF choke still needs a high SRF all-band solution but nominal values of near 220uF and an associated capacitor array have been chosen
  * Tiffin system added to potential footprint drawings
 
-## Updated (2024-09-13)
+## Updated (2024-08-13)
 
 Recent work:
  * More work on power amplifier
@@ -31,7 +31,7 @@ Recent work:
  * Input of general dimensions of two boxes which have been selected as possible form factors. Have another idea to use this sort of thing as a modular approach: ![image](tiffin.webp)
  * General cleanup of schematic
 
-## Updated draft PCB (2024-09-10)
+## Updated draft PCB (2024-08-10)
 
 ![image](adxi-draft-pcb-2024-08-10.webp)
 
@@ -43,7 +43,7 @@ Recent work:
    * I2C LCD pin header
    * Further antenna connector (MMCX)
 
-## Updated draft PCB (2024-09-09)
+## Updated draft PCB (2024-08-09)
 
 ![image](adxi-draft-pcb-2024-08-09.webp)
 ![image](adxi-draft-pcb-2024-08-09-rear.webp)
