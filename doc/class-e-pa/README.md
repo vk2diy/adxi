@@ -106,15 +106,30 @@ This in turn consists of specific component blocks.
 
 #### RF choke
 
-The RF choke is an inductor to ground coupled with a capacitor array to provide a low impedance path for RF signals. Ideally it should be selected based upon the frequency range for which it is expected to perform. However, given we also have a low pass filter (LPF) per frequency band, it makes sense to select a general RF choke to cover all bands.
+The RF choke is an inductor to ground coupled with a capacitor array to provide a low impedance path for RF signals. Ideally it should be selected based upon the frequency range for which it is expected to perform. However, given we also have a low pass filter (LPF) per frequency band, it might make sense to select a general RF choke to cover all bands.
 
 Unlike the inductor within the low pass filter (LPF), the RF choke inductor should have a low `Q` factor. It must, however, have a significantly higher self-resonant frequency (`SRF`) than the maximum frequency at which it is expected to operate.
 
 This makes it very hard to select, because to achieve such a large inducance with high SRF components requires a very large number of them.
 
+The conventional choice for this choke is to use a hand-wound coil, but we wish to avoid this approach for repeatability where possible.
+
+Unfortunately, it is very hard to find an inductor with a high enough self-resonant frequency (SRF) to cover the entire frequency range up to 70cm. Those which are capable tend to be very small (1uF range) whereas around 220uF has been recommended. Short of a massive series array of tiny inductors with the corresponding DC resistance impact, or a series-parallel array attempting to control the impact, it is uncertain how we can obtain this outcome with a purely surface mounted design.
+
+This motivated an attempt (first ever!) to manufacture a coil by hand. Around a 1CM diameter winding-time core was used, around 15 turns were made, and weire was selected with thick insulation, which was then superglued in to a fixed coil shape before removing the winding-time core to result in an air cored winding. The result was measured with a [NanoVNA](https://nanovna.com/) and [NanoVNA-saver](https://github.com/NanoVNA-Saver/nanovna-saver) and showed the following characteristics.
+
+![image](s21.png)
+
+My inexperienced interpretation is as follows:
+ * Probably there is some kind of fundamental measurement or calibration error as the entire thing apparently has terrible characteristics for all frequencies (-30 - -80dB gain across the board?)
+ * Nevertheless, the expected curve trending upward to a high point before descending appears to indicate the self resonant frequency (SRF) is at 210MHz
+ * Unfortunately, this is well short of the required frequency of 440MHz for the 70cm band
+ * Using thinner wire, spacing the wire out, using a larger diameter winding-time core and adding capacitance should all result in higher SRF
+ * Further prototypes can be produced and measured, but this does not really strike me as time efficient relative to learning how to do it properly with surface mount
+
 In addition, it is conventional to add a capacitor or parallel capacitor array to provide a low impedance path to ground for high frequency signals to ensure they do not leak in to other parts of the circuit or the power supply.
 
-The capacitor or parallel capacitor array may be selected based upon the operational frequencies, in this case up to 140MHz.
+The capacitor or parallel capacitor array may be selected based upon the operational frequencies, in this case up to 450MHz.
 
 High quality (eg. `C0G`) capacitors should be selected with low equivalent series resistance (ESR) and equivalent series inductance (ESL).
 
