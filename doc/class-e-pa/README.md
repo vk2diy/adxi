@@ -118,6 +118,14 @@ Unfortunately, it is very hard to find an inductor with a high enough self-reson
 
 This motivated an attempt (first ever!) to manufacture a coil by hand. Around a 1CM diameter winding-time core was used, around 15 turns were made, and weire was selected with thick insulation, which was then superglued in to a fixed coil shape before removing the winding-time core to result in an air cored winding. The result was measured with a [NanoVNA](https://nanovna.com/) and [NanoVNA-saver](https://github.com/NanoVNA-Saver/nanovna-saver) and showed the following characteristics.
 
+![image](coil-winding.webp)
+
+Measuring on the NanoVNA directly.
+
+![image](coil-on-nanovna.webp)
+
+Detailed sweep measurement from NanoVNA-Saver.
+
 ![image](s21.png)
 
 My inexperienced interpretation is as follows:
