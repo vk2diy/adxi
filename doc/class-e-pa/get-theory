@@ -25,3 +25,4 @@ wget https://www.coilcraft.com/getmedia/8ef1bd18-d092-40e8-a3c8-929bec6adfc9/doc
 
 # Measurement
 wget http://download.ni.com/evaluation/rf/Introduction_to_Network_Analyzer_Measurements.pdf
+wget https://www.coilcraft.com/getmedia/8ef1bd18-d092-40e8-a3c8-929bec6adfc9/doc363_measuringsrf.pdf -o 'Coilcraft - Measuring SRF.pdf'
