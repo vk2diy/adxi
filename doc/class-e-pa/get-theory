@@ -21,7 +21,7 @@ wget http://k9yc.com/RFI-Ham.pdf
 wget http://k9yc.com/2018Cookbook-Pacificon2021.pdf
 wget http://k9yc.com/ChokesVHF.pdf
 wget http://k9yc.com/RXChokesTransformers.pdf
-wget https://www.coilcraft.com/getmedia/8ef1bd18-d092-40e8-a3c8-929bec6adfc9/doc363_measuringsrf.pdf
+wget https://www.coilcraft.com/getmedia/d4efe41a-82c6-4dbd-97a0-9a24c0a013d4/Coilcraft-eBook_RF_Magnetics.pdf -o 'Coilcraft - Fundamentals of RF Inductors.pdf'
 
 # Measurement
 wget http://download.ni.com/evaluation/rf/Introduction_to_Network_Analyzer_Measurements.pdf
