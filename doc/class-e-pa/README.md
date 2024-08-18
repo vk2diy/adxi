@@ -141,6 +141,8 @@ The capacitor or parallel capacitor array may be selected based upon the operati
 
 High quality (eg. `C0G`) capacitors should be selected with low equivalent series resistance (ESR) and equivalent series inductance (ESL).
 
+After looking around, it seems the value attempted (~220uH) is far too high and was misplaced. Looking at [this calculator](https://3roam.com/rf-choke-calculator/), plugging in the values 50 ohms / 500 ohms, 450MHz, it recommends 176.844nH. This is much closer to a range reasonably obtained using surface mount components.
+
 #### Resonator
 
 This is an inductor-capacitor (LC) combination that varies by frequency band. In our implementation it is switched to provide the appropriate band-specific resonance. The entire range of frequencies is divided in to three inductor values, and the capacitance required is divided in to a small number of combinations.
