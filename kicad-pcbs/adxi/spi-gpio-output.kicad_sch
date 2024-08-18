@@ -1,0 +1,1061 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "15bf74d0-c06c-42a4-9116-cc06a60aec5a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xx:74HC595"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74HC595"
+				(at -7.62 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "HCMOS SR 3State"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* SOIC*5.3x10.2mm*P1.27mm* SOIC*7.5x10.3mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74HC595_1_0"
+				(pin tri_state line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "QB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~{SRCLR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SRCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "RCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "SER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "QA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "QC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "QD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "QE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "QF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "QG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "QH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "QH'"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC595_1_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 137.16 151.13)
+		(uuid "46da20fa-e26a-4655-b596-8a231acddd4f")
+	)
+	(wire
+		(pts
+			(xy 137.16 104.14) (xy 137.16 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10922882-168a-479d-85c2-d11717627973")
+	)
+	(wire
+		(pts
+			(xy 114.3 116.84) (xy 114.3 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1c8849-8054-469f-a868-5e73010d6f5d")
+	)
+	(wire
+		(pts
+			(xy 137.16 116.84) (xy 114.3 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6097b9-af82-4754-b111-dfb8dc02b72e")
+	)
+	(wire
+		(pts
+			(xy 114.3 128.27) (xy 116.84 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa81f1e-7edc-49b7-b653-c798f41f7f03")
+	)
+	(text "SPI GPIO OUTPUT EXPANSION"
+		(exclude_from_sim no)
+		(at 110.744 69.342 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.5994)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "de68f26b-b8ea-4e8e-8e6e-828bb71a0f39")
+	)
+	(hierarchical_label "O-11"
+		(shape output)
+		(at 137.16 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "013106e3-81b1-4bcd-aafb-31f169331ee3")
+	)
+	(hierarchical_label "O-2"
+		(shape output)
+		(at 137.16 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0313d32e-9a39-437c-a3fd-f8dc9b23fb50")
+	)
+	(hierarchical_label "SPI_SCK"
+		(shape input)
+		(at 116.84 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03690849-091a-4be2-8b7e-0dc090aae787")
+	)
+	(hierarchical_label "O-7"
+		(shape output)
+		(at 137.16 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09a6526a-3276-4f66-92b3-06f1d9c3bc8c")
+	)
+	(hierarchical_label "O-5"
+		(shape output)
+		(at 137.16 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1292eca9-1681-4385-bc53-865a8835b995")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 116.84 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1dd5ba84-1b46-4000-8cf5-b2cf06801f79")
+	)
+	(hierarchical_label "O-3"
+		(shape output)
+		(at 137.16 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d17e5c3-6521-437b-976b-124e9a69e31c")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 116.84 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "355c1b94-b3cf-4498-8b98-0314cc50ebc6")
+	)
+	(hierarchical_label "SPI_SCK"
+		(shape input)
+		(at 116.84 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a4cfa4e-0cfc-4e26-b203-3ffaee59e9a2")
+	)
+	(hierarchical_label "O-15"
+		(shape output)
+		(at 137.16 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ee54881-1d3f-4f28-b895-3b6cfe985796")
+	)
+	(hierarchical_label "O-12"
+		(shape output)
+		(at 137.16 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c60f44c-4c8f-4519-ad1a-e008ff5ee31a")
+	)
+	(hierarchical_label "O-14"
+		(shape output)
+		(at 137.16 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57d84feb-7029-4289-a675-ef619d319f3d")
+	)
+	(hierarchical_label "O-8"
+		(shape output)
+		(at 137.16 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63d99efb-b2d5-4c0e-94fb-3a7fe939f0ed")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 127 123.19 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67ed9b75-c5ff-4e9e-9cce-b54a809e6ff1")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 116.84 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f60e7ed-500b-480d-92e6-f4bf7d4cb852")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 116.84 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "883bb299-8414-4de9-acca-58b64e438380")
+	)
+	(hierarchical_label "SPI_SS"
+		(shape input)
+		(at 116.84 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95544716-e922-418b-ad8f-bc0ce36e47a4")
+	)
+	(hierarchical_label "O-9"
+		(shape output)
+		(at 137.16 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ade3e87e-83a4-4552-b435-1b78aba228b4")
+	)
+	(hierarchical_label "O-13"
+		(shape output)
+		(at 137.16 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b93dab8c-10a5-4237-98d1-b1ed9cc69491")
+	)
+	(hierarchical_label "SPI_SS"
+		(shape input)
+		(at 116.84 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9ae5cf4-7e47-4b36-adf7-58bd2525f735")
+	)
+	(hierarchical_label "O-10"
+		(shape output)
+		(at 137.16 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c191cf7d-3dac-456d-9a9e-f9c7d2769c00")
+	)
+	(hierarchical_label "O-4"
+		(shape output)
+		(at 137.16 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9ff36db-8683-42b2-b729-2b88b2086ee3")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 127 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d802073e-963d-4d53-849f-161a84cad5bf")
+	)
+	(hierarchical_label "O-16"
+		(shape output)
+		(at 137.16 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfa4ef96-a916-48d7-b014-df84a34b9ec0")
+	)
+	(hierarchical_label "O-1"
+		(shape output)
+		(at 137.16 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1173040-a170-47e1-8e3e-14baf099dee6")
+	)
+	(hierarchical_label "SPI_MOSI"
+		(shape input)
+		(at 116.84 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1402ce8-c5e8-453f-b946-4c64bf5d2db8")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 127 76.2 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f184c47f-d084-4667-abb9-c56d19c9c4d2")
+	)
+	(hierarchical_label "O-6"
+		(shape output)
+		(at 137.16 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f45709c8-ee4d-40c4-887a-5d97ab07e15e")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 127 156.21 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f74de90d-b4bc-4bba-8f59-2d068e72d163")
+	)
+	(symbol
+		(lib_id "74xx:74HC595")
+		(at 127 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006141a8d9")
+		(property "Reference" "U?"
+			(at 133.985 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595"
+			(at 133.985 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 127 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811021715_Nexperia-74HC595D,118_C5947.pdf"
+			(at 127 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5947"
+			(at 127 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HC595D,118"
+			(at 127 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 127 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "1724680e-b8c5-49f8-ae50-218c46908c47")
+		)
+		(pin "8"
+			(uuid "b535f4b7-8ad3-4c4b-b4dc-eea44813746a")
+		)
+		(pin "16"
+			(uuid "6382e55c-e5d5-4636-b627-f800ddb6bb51")
+		)
+		(pin "2"
+			(uuid "9f8b822a-94e3-44a4-8961-ba1d5a582e77")
+		)
+		(pin "3"
+			(uuid "e6f5b9d7-1753-4c69-bc89-3c0e4e6c75e7")
+		)
+		(pin "9"
+			(uuid "9f69436c-e44d-4b71-810b-2961d4ebf0df")
+		)
+		(pin "1"
+			(uuid "927b6cf4-ee1d-4302-95eb-351f4988f940")
+		)
+		(pin "13"
+			(uuid "adfcc6e9-5005-453d-a528-0c7b9d47e27e")
+		)
+		(pin "10"
+			(uuid "49bdf861-2f43-4b72-9e7f-3ba6ff71c10f")
+		)
+		(pin "14"
+			(uuid "64c4b985-6296-4cf5-acff-c0337ef878d0")
+		)
+		(pin "15"
+			(uuid "618ec974-9f40-42c9-9883-e23550f28d9e")
+		)
+		(pin "4"
+			(uuid "ad23a8b5-5435-4a10-a4fa-d0a431569d5d")
+		)
+		(pin "5"
+			(uuid "17735537-ebb0-4729-8290-fd048b85ae5c")
+		)
+		(pin "11"
+			(uuid "e7effe33-728b-4b25-a4ae-1a5236a359d9")
+		)
+		(pin "12"
+			(uuid "f05a28ad-f680-4043-b5a7-084f9fbe7142")
+		)
+		(pin "6"
+			(uuid "81c7c4ea-8324-45c8-aef8-bf8c0b32eaef")
+		)
+		(instances
+			(project ""
+				(path "/15bf74d0-c06c-42a4-9116-cc06a60aec5a"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/78428e41-003b-411e-a951-46f73eeac9f7"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC595")
+		(at 127 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "873c8364-8dca-4226-8e99-fa911913a800")
+		(property "Reference" "U5"
+			(at 133.985 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595"
+			(at 133.985 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811021715_Nexperia-74HC595D,118_C5947.pdf"
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5947"
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HC595D,118"
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "0750b835-9149-430c-827b-f74230657e2d")
+		)
+		(pin "8"
+			(uuid "773dcba8-de75-4693-a8e4-57c79be1224b")
+		)
+		(pin "16"
+			(uuid "0de9f1b7-7c5b-40a8-a9df-3614df095c7d")
+		)
+		(pin "2"
+			(uuid "e2263974-c3a5-4ba4-ba58-cb4367b69c3d")
+		)
+		(pin "3"
+			(uuid "271b695c-f0fb-4468-bdf4-ffea61453f7d")
+		)
+		(pin "9"
+			(uuid "ce31e5f4-e2bd-40fb-9235-a5a4737fa648")
+		)
+		(pin "1"
+			(uuid "3f1e5020-3a94-4231-9342-d5f593fa1231")
+		)
+		(pin "13"
+			(uuid "7784e578-d6da-4580-a321-ac4b3152827c")
+		)
+		(pin "10"
+			(uuid "2c3532ed-1759-4d80-9b7e-81dff34d0176")
+		)
+		(pin "14"
+			(uuid "65a0536d-e24f-4575-9c91-0c1c7ddc6e73")
+		)
+		(pin "15"
+			(uuid "31bb6cdc-2db1-4165-9a5b-020913f85425")
+		)
+		(pin "4"
+			(uuid "72555aec-92e6-4826-8d08-e2bd923386d3")
+		)
+		(pin "5"
+			(uuid "7f02a05e-99f8-4e0c-90eb-177b71a03fc4")
+		)
+		(pin "11"
+			(uuid "096d3593-1173-4122-b158-72fa244ece4a")
+		)
+		(pin "12"
+			(uuid "9872310b-99ea-4591-b8ec-be86b6417c43")
+		)
+		(pin "6"
+			(uuid "7c98de9e-8981-425e-bbfb-519dfa12eda2")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/78428e41-003b-411e-a951-46f73eeac9f7"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

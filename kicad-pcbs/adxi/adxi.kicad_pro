@@ -653,19 +653,67 @@
     ],
     [
       "5e6b9912-9ee6-4af9-ab1f-aff273c60e1b",
-      "PA-RF-CHOKE-L-10UH-SWITCH"
+      "PA-RESONATOR-L-10UH-SWITCH-A"
     ],
     [
       "02b6b893-c44f-4424-8073-76337c6977ff",
-      "PA-RF-CHOKE-L-50UH-SWITCH"
+      "PA-RESONATOR-L-50UH-SWITCH-A"
     ],
     [
       "9fcca4e6-b308-4729-bd6b-d78819e3b857",
-      "PA Switched RF Choke"
+      "PA Switched Resonator"
     ],
     [
       "a962033c-61a7-482d-8d60-4ea125726cab",
-      "PA-RF-CHOKE-L-100UH-SWITCH"
+      "PA-RESONATOR-L-100UH-SWITCH-A"
+    ],
+    [
+      "351b9910-9533-4fcc-87fd-1e5a45fe5e20",
+      "PA-RESONATOR-L-10UH-SWITCH-B"
+    ],
+    [
+      "bb303924-f16a-4e0e-8a02-c058950294ba",
+      "PA-RESONATOR-L-50UH-SWITCH-B"
+    ],
+    [
+      "03b68d4e-e799-4682-9f99-99addba490a3",
+      "PA-RESONATOR-L-100UH-SWITCH-A1"
+    ],
+    [
+      "edb4c7e2-98aa-4e50-bf9b-f77a28c6219c",
+      "PA-RESONATOR-C-6.8PF"
+    ],
+    [
+      "a3a9ff31-7e95-4359-a47e-0af79058720a",
+      "PA-RESONATOR-C-12PF"
+    ],
+    [
+      "8ab05852-1a83-406e-89be-89ec83e4c4f4",
+      "PA-RESONATOR-C-15PF"
+    ],
+    [
+      "fb0d86ea-cd6a-47df-acc1-340a8cdbfd85",
+      "PA-RESONATOR-C-20PF"
+    ],
+    [
+      "da29f3c6-7b14-40de-ae64-978c1da64ba3",
+      "PA-RESONATOR-C-5.6NF"
+    ],
+    [
+      "29438f3a-aece-4d3b-8b82-e610b74b2afa",
+      "PA-RESONATOR-C-68NF"
+    ],
+    [
+      "72227932-67da-4c97-ba70-a3b85863a451",
+      "PA-RESONATOR-C-82PF"
+    ],
+    [
+      "c2273f4a-2fc3-4a08-a5bf-28ed232808be",
+      "PA-RESONATOR-C-150PF"
+    ],
+    [
+      "78428e41-003b-411e-a951-46f73eeac9f7",
+      "Digital output expansion"
     ],
     [
       "cda8ba14-e625-4820-815b-7655eaddf9ad",
