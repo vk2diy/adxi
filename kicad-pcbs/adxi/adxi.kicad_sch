@@ -4763,7 +4763,7 @@
 		)
 	)
 	(junction
-		(at 242.57 147.32)
+		(at 261.62 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0183e046-c0b9-4c45-b537-dc3ce601bb11")
@@ -4775,7 +4775,7 @@
 		(uuid "038e1aa9-baa7-4070-80b6-4c211a277332")
 	)
 	(junction
-		(at 217.17 147.32)
+		(at 236.22 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0485f6e5-722b-4107-9868-c07f7f86596c")
@@ -4787,22 +4787,28 @@
 		(uuid "07091b95-3841-45f7-bb8d-08d0b182b8d6")
 	)
 	(junction
-		(at 217.17 144.78)
+		(at 236.22 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a2ed4e5-cd43-4b6b-a3a1-ffc579464ee3")
 	)
 	(junction
-		(at 242.57 144.78)
+		(at 261.62 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fd7433b-68a4-462e-b7e2-433439c96952")
 	)
 	(junction
-		(at 318.77 111.76)
+		(at 325.12 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1396b0a9-5f0e-451b-9289-8032a0cb631b")
+	)
+	(junction
+		(at 336.55 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15d67181-8c69-472e-bf75-c1ff15661bf7")
 	)
 	(junction
 		(at 95.25 213.36)
@@ -4811,13 +4817,13 @@
 		(uuid "18ae221f-6c0b-4287-9e85-ff82ade4cc34")
 	)
 	(junction
-		(at 284.48 140.97)
+		(at 303.53 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1cf60fe4-5a17-4526-9511-578a93b65e39")
+		(uuid "1aa1140f-811a-49f0-a3ab-40c96c95b98c")
 	)
 	(junction
-		(at 217.17 142.24)
+		(at 236.22 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "234a8f3f-8c14-4593-b331-c88beebbc19b")
@@ -4827,6 +4833,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24932ee8-f32d-4dae-a31c-73d452119cf5")
+	)
+	(junction
+		(at 336.55 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2551d613-9692-473e-80bd-8b9d65d2a31c")
 	)
 	(junction
 		(at 43.18 107.95)
@@ -4841,13 +4853,13 @@
 		(uuid "30fb5627-b4a8-4f26-b906-99151cc31031")
 	)
 	(junction
-		(at 318.77 153.67)
+		(at 325.12 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31c9ae62-d4d1-4e47-ac43-d3507f917ad5")
 	)
 	(junction
-		(at 217.17 137.16)
+		(at 236.22 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3316fb11-0bc5-4e61-b7b8-d23b399e2659")
@@ -4859,7 +4871,7 @@
 		(uuid "38f52fee-714b-4eb3-bbcc-a274fef5e072")
 	)
 	(junction
-		(at 318.77 123.19)
+		(at 325.12 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43d7adcc-80b0-4cbb-bff1-b232e63aabd7")
@@ -4883,12 +4895,6 @@
 		(uuid "5301542f-5ba3-4010-ada6-aa4d03b45a65")
 	)
 	(junction
-		(at 229.87 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "568c384f-05ad-410e-8dbd-1bc9e81254ed")
-	)
-	(junction
 		(at 78.74 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4901,10 +4907,10 @@
 		(uuid "5744b3a5-5a9a-404e-b4fa-b00e40a846d5")
 	)
 	(junction
-		(at 219.71 121.92)
+		(at 218.44 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "64a01ef9-c072-4834-90d0-ab68977de175")
+		(uuid "57801aa3-26a7-4722-a1fe-6eda67b99d58")
 	)
 	(junction
 		(at 177.8 116.84)
@@ -4917,6 +4923,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67285de5-02ad-4b76-97e1-cdee7c86dafa")
+	)
+	(junction
+		(at 212.09 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69020bb7-cc3f-4402-a06f-d0a45e9d75f5")
+	)
+	(junction
+		(at 218.44 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69421009-b200-44a0-b852-05e351580137")
 	)
 	(junction
 		(at 158.75 53.34)
@@ -4955,19 +4973,25 @@
 		(uuid "7c47b01d-a83b-457f-bb2d-228ef998090c")
 	)
 	(junction
-		(at 242.57 140.97)
+		(at 261.62 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d94657b-334e-41bc-bc86-c586517aa9dd")
 	)
 	(junction
-		(at 318.77 119.38)
+		(at 224.79 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82983acb-50d5-428c-8867-c0fa518ec7d3")
+	)
+	(junction
+		(at 325.12 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8383e0bd-ce35-4f15-bc14-c9fb6f407983")
 	)
 	(junction
-		(at 242.57 142.24)
+		(at 261.62 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8786c02f-cc5c-40ce-825a-6905eac5f73a")
@@ -4979,7 +5003,7 @@
 		(uuid "8889a2ba-8463-47d8-bc8c-fc4a1c258130")
 	)
 	(junction
-		(at 242.57 139.7)
+		(at 261.62 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89f861ff-19c5-4005-bcef-4521773187bc")
@@ -4991,7 +5015,7 @@
 		(uuid "99122d16-6daf-40de-af32-29059a4c6dfa")
 	)
 	(junction
-		(at 217.17 134.62)
+		(at 236.22 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99f0e263-f0e4-44da-a13f-a0f4784bbf6c")
@@ -5021,19 +5045,13 @@
 		(uuid "a37448ea-07d1-4aa8-abf1-39e1a4472b86")
 	)
 	(junction
-		(at 229.87 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3841790-0ed7-4497-846a-0e97cf332b32")
-	)
-	(junction
-		(at 242.57 137.16)
+		(at 261.62 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6bf1df4-d4e4-445a-a4ea-ede7206d3a37")
 	)
 	(junction
-		(at 318.77 130.81)
+		(at 325.12 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6dd037b-75f6-4c3b-9c9d-66ade53adafb")
@@ -5051,25 +5069,25 @@
 		(uuid "b47ae6af-50ae-4dd7-a78b-738bb4d70ab9")
 	)
 	(junction
-		(at 318.77 134.62)
+		(at 325.12 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8fa537a-e1f2-4481-8f9d-f9a072d1a091")
 	)
 	(junction
-		(at 284.48 133.35)
+		(at 303.53 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9acc6e8-8d0c-4c89-b8af-897a053b9fbf")
 	)
 	(junction
-		(at 318.77 146.05)
+		(at 325.12 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "baf40642-81dc-4e77-b924-05b0129edf9d")
 	)
 	(junction
-		(at 318.77 142.24)
+		(at 325.12 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be0bd363-ec3e-4380-b8cc-b830f0d26d8a")
@@ -5099,7 +5117,7 @@
 		(uuid "c6b656e1-3d93-42e9-bc1c-9cc4ec998994")
 	)
 	(junction
-		(at 250.19 140.97)
+		(at 269.24 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7a07bbe-106b-4d7d-bdf3-2aa23ca20526")
@@ -5117,16 +5135,10 @@
 		(uuid "cd75ea8f-642d-4b4c-8c55-dd424c906d2c")
 	)
 	(junction
-		(at 217.17 139.7)
+		(at 236.22 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0fc07d3-c42d-4b0c-b36d-57fd3023bbb1")
-	)
-	(junction
-		(at 229.87 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1571a8d-96ae-4222-8176-500478dbac87")
 	)
 	(junction
 		(at 168.91 58.42)
@@ -5135,7 +5147,7 @@
 		(uuid "d45c31dd-9b25-4e56-b518-32d1b6029c7e")
 	)
 	(junction
-		(at 284.48 137.16)
+		(at 303.53 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e05bbb6f-ff14-4599-9eb2-df5898f4283a")
@@ -5153,7 +5165,7 @@
 		(uuid "e614a1c8-98e7-4876-b952-42c082bbe262")
 	)
 	(junction
-		(at 318.77 165.1)
+		(at 325.12 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e643d5f9-7c40-48f7-b39b-d230dec0a668")
@@ -5169,12 +5181,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7e7e1d0-5c85-4ced-aa5c-1874e7d8ef17")
-	)
-	(junction
-		(at 219.71 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e971fba7-eeba-47b7-8923-7bb240bb4fa8")
 	)
 	(junction
 		(at 59.69 80.01)
@@ -5195,16 +5201,22 @@
 		(uuid "f3735421-5f5d-40ac-bc99-e2fa03926fa8")
 	)
 	(junction
-		(at 242.57 134.62)
+		(at 261.62 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5b8021b-2130-4383-8fd6-14e6727a1bd6")
 	)
 	(junction
-		(at 318.77 157.48)
+		(at 325.12 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbc5edda-7eba-4281-ae2f-e21f44f5f8f3")
+	)
+	(junction
+		(at 312.42 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffac89a7-eaaa-448d-9177-f8ed760181f6")
 	)
 	(no_connect
 		(at 284.48 48.26)
@@ -5372,7 +5384,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 123.19) (xy 318.77 123.19)
+			(xy 321.31 121.92) (xy 325.12 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5412,7 +5424,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 165.1) (xy 313.69 165.1)
+			(xy 312.42 163.83) (xy 320.04 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5432,7 +5444,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 144.78) (xy 318.77 144.78)
+			(xy 320.04 143.51) (xy 325.12 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5472,7 +5484,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 146.05) (xy 318.77 146.05)
+			(xy 321.31 144.78) (xy 325.12 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5502,16 +5514,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 170.18) (xy 411.48 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11302038-12b3-41bc-9896-e1d79f4ff8e4")
-	)
-	(wire
-		(pts
 			(xy 171.45 53.34) (xy 180.34 53.34)
 		)
 		(stroke
@@ -5522,7 +5524,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.835 172.72) (xy 306.07 172.72)
+			(xy 203.835 196.85) (xy 414.02 196.85)
 		)
 		(stroke
 			(width 0)
@@ -5569,16 +5571,6 @@
 			(type default)
 		)
 		(uuid "179d73eb-da32-44b4-8c5e-8862e7564e0a")
-	)
-	(wire
-		(pts
-			(xy 411.48 157.48) (xy 398.78 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17f198ea-4533-4adf-9b37-302927c8e34e")
 	)
 	(wire
 		(pts
@@ -5632,7 +5624,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 130.81) (xy 318.77 130.81)
+			(xy 321.31 129.54) (xy 325.12 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5642,7 +5634,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 123.19) (xy 322.58 123.19)
+			(xy 325.12 121.92) (xy 328.93 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5652,7 +5644,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 121.92) (xy 318.77 123.19)
+			(xy 325.12 120.65) (xy 325.12 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5682,7 +5674,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 140.97) (xy 256.54 140.97)
+			(xy 269.24 123.19) (xy 275.59 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5702,7 +5694,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 134.62) (xy 242.57 137.16)
+			(xy 261.62 116.84) (xy 261.62 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5712,7 +5704,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 130.81) (xy 318.77 132.08)
+			(xy 325.12 129.54) (xy 325.12 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5722,7 +5714,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 133.35) (xy 284.48 137.16)
+			(xy 303.53 115.57) (xy 303.53 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5732,7 +5724,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 143.51) (xy 306.07 143.51)
+			(xy 325.12 142.24) (xy 312.42 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5762,7 +5754,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 142.24) (xy 313.69 133.35)
+			(xy 320.04 140.97) (xy 320.04 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5772,7 +5764,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 119.38) (xy 322.58 119.38)
+			(xy 325.12 118.11) (xy 328.93 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5792,7 +5784,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 132.08) (xy 306.07 132.08)
+			(xy 325.12 130.81) (xy 312.42 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5812,17 +5804,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 110.49) (xy 306.07 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a8497fe-7e9a-4f20-9c9e-64e870804d99")
-	)
-	(wire
-		(pts
-			(xy 217.17 132.08) (xy 217.17 134.62)
+			(xy 236.22 114.3) (xy 236.22 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5832,7 +5814,17 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 165.1) (xy 322.58 165.1)
+			(xy 224.79 106.68) (xy 248.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cfd408b-13e3-4bad-9e01-63178c8c7dea")
+	)
+	(wire
+		(pts
+			(xy 325.12 163.83) (xy 328.93 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5872,16 +5864,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 114.3) (xy 219.71 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "322316bd-b665-4c1c-aae8-ae69c845e5bd")
-	)
-	(wire
-		(pts
 			(xy 53.34 80.01) (xy 53.34 81.28)
 		)
 		(stroke
@@ -5902,7 +5884,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 144.78) (xy 318.77 146.05)
+			(xy 325.12 143.51) (xy 325.12 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5912,7 +5894,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 139.7) (xy 242.57 140.97)
+			(xy 261.62 121.92) (xy 261.62 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5932,7 +5914,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 119.38) (xy 313.69 110.49)
+			(xy 320.04 118.11) (xy 320.04 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5962,7 +5944,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 140.97) (xy 243.84 140.97)
+			(xy 261.62 123.19) (xy 262.89 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5982,7 +5964,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 140.97) (xy 250.19 142.24)
+			(xy 269.24 123.19) (xy 269.24 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6002,7 +5984,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 157.48) (xy 318.77 157.48)
+			(xy 321.31 156.21) (xy 325.12 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6031,6 +6013,16 @@
 		)
 		(uuid "3e6dafa9-2941-4d2d-a71a-04b8ff64f675")
 	)
+	(wire
+		(pts
+			(xy 312.42 107.95) (xy 312.42 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4056e786-5d13-4380-970c-b27a2daaeae7")
+	)
 	(polyline
 		(pts
 			(xy 36.83 102.87) (xy 22.225 102.87)
@@ -6043,7 +6035,17 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 142.24) (xy 313.69 142.24)
+			(xy 212.09 106.68) (xy 218.44 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "423996ac-20f2-4b25-9ee8-9ddcee41ff18")
+	)
+	(wire
+		(pts
+			(xy 312.42 140.97) (xy 320.04 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6053,7 +6055,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 153.67) (xy 313.69 144.78)
+			(xy 320.04 152.4) (xy 320.04 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6083,7 +6085,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 142.24) (xy 217.17 144.78)
+			(xy 236.22 124.46) (xy 236.22 127)
 		)
 		(stroke
 			(width 0)
@@ -6103,7 +6105,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 144.78) (xy 242.57 147.32)
+			(xy 261.62 127) (xy 261.62 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6133,7 +6135,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.835 100.965) (xy 203.835 172.72)
+			(xy 203.708 100.965) (xy 203.708 196.85)
 		)
 		(stroke
 			(width 0)
@@ -6153,7 +6155,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 133.35) (xy 318.77 133.35)
+			(xy 320.04 132.08) (xy 325.12 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6173,7 +6175,17 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 134.62) (xy 318.77 134.62)
+			(xy 312.42 107.95) (xy 336.55 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d867c7e-2a5d-4173-9a74-97720041e977")
+	)
+	(wire
+		(pts
+			(xy 321.31 133.35) (xy 325.12 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6200,26 +6212,6 @@
 			(type default)
 		)
 		(uuid "50b5dd74-79c1-487e-9f8a-a54f7e40cf09")
-	)
-	(wire
-		(pts
-			(xy 219.71 121.92) (xy 219.71 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "541456b7-4229-4f5d-a2f1-37d2daca4596")
-	)
-	(wire
-		(pts
-			(xy 229.87 114.3) (xy 229.87 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "546a440a-a9ca-4c4a-b17a-1f06de3a5c22")
 	)
 	(polyline
 		(pts
@@ -6253,7 +6245,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 134.62) (xy 322.58 134.62)
+			(xy 325.12 133.35) (xy 328.93 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6263,7 +6255,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 154.94) (xy 306.07 154.94)
+			(xy 325.12 153.67) (xy 312.42 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6273,7 +6265,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 165.1) (xy 318.77 166.37)
+			(xy 325.12 163.83) (xy 325.12 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6293,7 +6285,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 146.05) (xy 322.58 146.05)
+			(xy 325.12 144.78) (xy 328.93 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6333,16 +6325,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 121.92) (xy 229.87 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5faa7185-1535-45a1-be0a-cda8d43ff0c8")
-	)
-	(wire
-		(pts
 			(xy 78.74 44.45) (xy 78.74 46.99)
 		)
 		(stroke
@@ -6353,7 +6335,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 142.24) (xy 242.57 144.78)
+			(xy 261.62 124.46) (xy 261.62 127)
 		)
 		(stroke
 			(width 0)
@@ -6383,7 +6365,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 165.1) (xy 313.69 156.21)
+			(xy 320.04 163.83) (xy 320.04 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6433,17 +6415,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 114.3) (xy 219.71 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67cc1436-43dc-49d7-933c-b2c0fe912883")
-	)
-	(wire
-		(pts
-			(xy 318.77 153.67) (xy 322.58 153.67)
+			(xy 325.12 152.4) (xy 328.93 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6461,19 +6433,19 @@
 		)
 		(uuid "67eb620d-8248-4366-86a6-620b8a175d0f")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 391.16 172.72) (xy 414.02 172.72)
+			(xy 391.16 180.34) (xy 407.67 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "686cdfd5-1bb8-4a1b-b273-6aa215e0162d")
+		(uuid "68fc6192-c0b4-4377-95d5-c8f652353df7")
 	)
 	(wire
 		(pts
-			(xy 248.92 140.97) (xy 250.19 140.97)
+			(xy 267.97 123.19) (xy 269.24 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6493,7 +6465,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 120.65) (xy 306.07 120.65)
+			(xy 325.12 119.38) (xy 312.42 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6503,7 +6475,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 130.81) (xy 313.69 121.92)
+			(xy 320.04 129.54) (xy 320.04 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6523,7 +6495,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 137.16) (xy 242.57 139.7)
+			(xy 261.62 119.38) (xy 261.62 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6563,7 +6535,17 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 129.54) (xy 284.48 133.35)
+			(xy 218.44 106.68) (xy 224.79 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70214c3b-bda3-4e85-9d1c-9df9ec0ecc7f")
+	)
+	(wire
+		(pts
+			(xy 303.53 111.76) (xy 303.53 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6573,7 +6555,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 130.81) (xy 322.58 130.81)
+			(xy 325.12 129.54) (xy 328.93 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6583,7 +6565,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 144.78) (xy 217.17 147.32)
+			(xy 236.22 127) (xy 236.22 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6603,13 +6585,23 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 120.65) (xy 306.07 123.19)
+			(xy 312.42 119.38) (xy 312.42 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79a5935f-d466-4e93-af75-2d8caa794cf2")
+	)
+	(wire
+		(pts
+			(xy 398.78 146.05) (xy 407.67 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c635332-6fe7-4aa0-b51b-e8e49c8ee512")
 	)
 	(wire
 		(pts
@@ -6633,7 +6625,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 110.49) (xy 318.77 110.49)
+			(xy 320.04 109.22) (xy 325.12 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6703,7 +6695,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 130.81) (xy 313.69 130.81)
+			(xy 312.42 129.54) (xy 320.04 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6713,7 +6705,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 139.7) (xy 217.17 142.24)
+			(xy 236.22 121.92) (xy 236.22 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6723,7 +6715,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 142.24) (xy 318.77 142.24)
+			(xy 321.31 140.97) (xy 325.12 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6753,6 +6745,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 107.95) (xy 312.42 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89aee266-2f9d-4aaa-ba0b-14fac4dd905b")
+	)
+	(wire
+		(pts
 			(xy 43.18 132.08) (xy 43.18 133.35)
 		)
 		(stroke
@@ -6763,7 +6765,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 142.24) (xy 318.77 143.51)
+			(xy 325.12 140.97) (xy 325.12 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6780,6 +6782,16 @@
 			(type default)
 		)
 		(uuid "8b90b843-276f-48a7-ab68-6b6bbd47d813")
+	)
+	(wire
+		(pts
+			(xy 209.55 106.68) (xy 212.09 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bfd294b-51c7-4f3d-86df-f7460764aa5c")
 	)
 	(wire
 		(pts
@@ -6803,7 +6815,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 137.16) (xy 217.17 139.7)
+			(xy 236.22 119.38) (xy 236.22 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6823,7 +6835,17 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 147.32) (xy 217.17 149.86)
+			(xy 303.53 107.95) (xy 303.53 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee4bdf0-36cc-4a4f-b9bd-9ddb10593839")
+	)
+	(wire
+		(pts
+			(xy 236.22 129.54) (xy 236.22 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6843,7 +6865,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 143.51) (xy 306.07 146.05)
+			(xy 312.42 142.24) (xy 312.42 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6893,16 +6915,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 121.92) (xy 229.87 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9495091d-e2a2-46bd-8dc9-36b09c4cdada")
-	)
-	(wire
-		(pts
 			(xy 191.77 88.9) (xy 191.77 104.14)
 		)
 		(stroke
@@ -6933,7 +6945,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 110.49) (xy 318.77 111.76)
+			(xy 325.12 109.22) (xy 325.12 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6963,23 +6975,13 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 142.24) (xy 322.58 142.24)
+			(xy 325.12 140.97) (xy 328.93 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9c504753-eeb2-4ad9-be7a-20e947ac7a97")
-	)
-	(wire
-		(pts
-			(xy 284.48 140.97) (xy 284.48 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cba56d6-1c7c-4b40-8571-61adb139745e")
 	)
 	(polyline
 		(pts
@@ -7033,7 +7035,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 156.21) (xy 318.77 156.21)
+			(xy 320.04 154.94) (xy 325.12 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7070,6 +7072,16 @@
 			(type default)
 		)
 		(uuid "a470e52e-ded4-4223-8e1c-96bc550d6712")
+	)
+	(wire
+		(pts
+			(xy 336.55 107.95) (xy 336.55 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68020a4-43a8-444d-8c91-a7508916af11")
 	)
 	(wire
 		(pts
@@ -7133,7 +7145,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 157.48) (xy 322.58 157.48)
+			(xy 325.12 156.21) (xy 328.93 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7203,7 +7215,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 119.38) (xy 318.77 120.65)
+			(xy 325.12 118.11) (xy 325.12 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7243,7 +7255,17 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 165.1) (xy 318.77 165.1)
+			(xy 336.55 166.37) (xy 336.55 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf72f19-ff1c-45c5-9000-ab9c944c9abe")
+	)
+	(wire
+		(pts
+			(xy 321.31 163.83) (xy 325.12 163.83)
 		)
 		(stroke
 			(width 0)
@@ -7253,7 +7275,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 153.67) (xy 318.77 154.94)
+			(xy 325.12 152.4) (xy 325.12 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7283,7 +7305,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 132.08) (xy 242.57 134.62)
+			(xy 261.62 114.3) (xy 261.62 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7303,17 +7325,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 111.76) (xy 229.87 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c22f8a83-9d7e-4678-8c8c-75074deebfeb")
-	)
-	(wire
-		(pts
-			(xy 318.77 156.21) (xy 318.77 157.48)
+			(xy 325.12 154.94) (xy 325.12 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7333,13 +7345,23 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 153.67) (xy 313.69 153.67)
+			(xy 312.42 152.4) (xy 320.04 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c49b4a10-4073-46d2-89bf-1707a964bbda")
+	)
+	(wire
+		(pts
+			(xy 330.2 180.34) (xy 336.55 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4bab42c-c6ba-4f1d-8fce-a6c07fba68d8")
 	)
 	(wire
 		(pts
@@ -7393,7 +7415,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 111.76) (xy 318.77 111.76)
+			(xy 321.31 110.49) (xy 325.12 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7463,7 +7485,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 132.08) (xy 306.07 134.62)
+			(xy 312.42 130.81) (xy 312.42 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7483,7 +7505,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 153.67) (xy 318.77 153.67)
+			(xy 321.31 152.4) (xy 325.12 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7503,13 +7525,23 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 154.94) (xy 306.07 157.48)
+			(xy 312.42 153.67) (xy 312.42 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d13c748e-3e32-4ddb-80dd-016df45809fe")
+	)
+	(wire
+		(pts
+			(xy 336.55 180.34) (xy 359.41 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d190d434-40e5-4d68-b756-f02ce83ac955")
 	)
 	(polyline
 		(pts
@@ -7523,6 +7555,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 111.76) (xy 218.44 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27359db-7c73-4db7-9ce9-aae617032d15")
+	)
+	(wire
+		(pts
 			(xy 59.69 80.01) (xy 63.5 80.01)
 		)
 		(stroke
@@ -7530,6 +7572,16 @@
 			(type default)
 		)
 		(uuid "d3f91a62-070b-4329-8f8d-37d58e782671")
+	)
+	(wire
+		(pts
+			(xy 212.09 111.76) (xy 218.44 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44d1df0-f634-42ae-8cdb-2c8957938b50")
 	)
 	(wire
 		(pts
@@ -7543,17 +7595,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 121.92) (xy 222.25 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5af3a80-ae4c-4c8a-a8b6-17d70e116f0c")
-	)
-	(wire
-		(pts
-			(xy 306.07 119.38) (xy 313.69 119.38)
+			(xy 312.42 118.11) (xy 320.04 118.11)
 		)
 		(stroke
 			(width 0)
@@ -7573,23 +7615,23 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 119.38) (xy 318.77 119.38)
+			(xy 407.67 146.05) (xy 407.67 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8fa4e8e-70cd-44a7-9462-db3eb7011f7e")
+	)
+	(wire
+		(pts
+			(xy 321.31 118.11) (xy 325.12 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "da2b04ae-0eb5-4a38-92aa-5bbcf5bd0784")
-	)
-	(wire
-		(pts
-			(xy 219.71 118.11) (xy 219.71 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbe4802d-7782-4222-82b7-acd76650e91b")
 	)
 	(wire
 		(pts
@@ -7600,6 +7642,16 @@
 			(type default)
 		)
 		(uuid "dc544d94-94ce-48b4-a9a0-93e5955e8cc8")
+	)
+	(wire
+		(pts
+			(xy 218.44 111.76) (xy 224.79 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddce037a-40b7-4b8b-a550-47dd7b21b46f")
 	)
 	(polyline
 		(pts
@@ -7623,43 +7675,13 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 137.16) (xy 284.48 140.97)
+			(xy 303.53 119.38) (xy 303.53 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "de39e680-9406-48eb-b2b7-f80b7d1673a1")
-	)
-	(polyline
-		(pts
-			(xy 306.07 172.72) (xy 391.16 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deab41c7-5818-486d-841b-f9bfca8a8321")
-	)
-	(wire
-		(pts
-			(xy 227.33 118.11) (xy 229.87 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3b29482-eb51-453b-a2d5-a209d28d4aad")
-	)
-	(wire
-		(pts
-			(xy 227.33 114.3) (xy 229.87 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e476778c-222a-4dd9-8966-102f0fe844ac")
 	)
 	(polyline
 		(pts
@@ -7683,7 +7705,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 140.97) (xy 242.57 142.24)
+			(xy 261.62 123.19) (xy 261.62 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7713,7 +7735,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 133.35) (xy 318.77 134.62)
+			(xy 325.12 132.08) (xy 325.12 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7723,17 +7745,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 118.11) (xy 229.87 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebf7f6d6-80ea-49e0-8a4f-c0ee557588e3")
-	)
-	(wire
-		(pts
-			(xy 318.77 111.76) (xy 322.58 111.76)
+			(xy 325.12 110.49) (xy 328.93 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7783,7 +7795,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 121.92) (xy 318.77 121.92)
+			(xy 320.04 120.65) (xy 325.12 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7793,7 +7805,7 @@
 	)
 	(polyline
 		(pts
-			(xy 414.02 100.838) (xy 414.02 172.72)
+			(xy 414.02 100.838) (xy 414.02 196.85)
 		)
 		(stroke
 			(width 0)
@@ -7810,16 +7822,6 @@
 			(type default)
 		)
 		(uuid "f1de93d3-4411-42a9-a797-149260c40b65")
-	)
-	(wire
-		(pts
-			(xy 411.48 170.18) (xy 411.48 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f24573cd-fe1b-4702-be10-75fdb86712a1")
 	)
 	(polyline
 		(pts
@@ -7841,16 +7843,6 @@
 		)
 		(uuid "f3005799-dbd0-4551-80c5-8402634ce4ce")
 	)
-	(wire
-		(pts
-			(xy 219.71 118.11) (xy 222.25 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f37084dc-cc15-4b23-aed9-9aa8a53a3ba5")
-	)
 	(polyline
 		(pts
 			(xy 22.225 102.87) (xy 22.225 156.21)
@@ -7863,7 +7855,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 147.32) (xy 242.57 149.86)
+			(xy 261.62 129.54) (xy 261.62 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7890,6 +7882,16 @@
 			(type default)
 		)
 		(uuid "f55bda38-15ff-4806-bacd-c001565d3d09")
+	)
+	(wire
+		(pts
+			(xy 336.55 180.34) (xy 336.55 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6cd3404-cc3d-4e94-9f73-62f0bb430e8e")
 	)
 	(wire
 		(pts
@@ -7923,7 +7925,17 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 134.62) (xy 217.17 137.16)
+			(xy 367.03 146.05) (xy 336.55 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa131620-123f-4349-8c2e-ab15bd08f6fb")
+	)
+	(wire
+		(pts
+			(xy 236.22 116.84) (xy 236.22 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8015,13 +8027,14 @@
 	)
 	(text "LINE DRIVER"
 		(exclude_from_sim no)
-		(at 239.014 163.322 0)
+		(at 244.602 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
+			(justify right)
 		)
 		(uuid "0a91cfe4-b334-4cee-80ea-f1c1567b32b2")
 	)
@@ -8037,7 +8050,7 @@
 	)
 	(text "NB. IN A CLASS E\nRF POWER AMPLIFIER\nTHE PA-DRAIN FLOWS\nINWARD WHEN ENABLED\nAND IS SUNK AT THE\nMOSFET SOURCE PINS."
 		(exclude_from_sim no)
-		(at 271.526 156.972 0)
+		(at 290.576 139.192 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8089,7 +8102,7 @@
 	)
 	(text "TRANSMIT POWER CONTROL"
 		(exclude_from_sim no)
-		(at 272.034 106.426 0)
+		(at 317.754 172.466 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8110,6 +8123,18 @@
 			(justify right)
 		)
 		(uuid "29213430-1ad8-49be-8620-c5048a4db3f8")
+	)
+	(text "RESISTIVE LOAD"
+		(exclude_from_sim no)
+		(at 374.904 176.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "34f1d6e7-5e04-4365-a389-0adb5f1e0524")
 	)
 	(text "CERAMIC CAPS\nFOR MID AND \nHIGH FREQUENCY\nFILTERING"
 		(exclude_from_sim no)
@@ -8156,7 +8181,7 @@
 	)
 	(text "0.8Ω 210nH 1A SRF=1800MHz"
 		(exclude_from_sim no)
-		(at 313.69 108.712 0)
+		(at 321.056 106.426 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8164,9 +8189,9 @@
 		)
 		(uuid "500006f9-8e98-4dfe-aac7-58bf53bddac2")
 	)
-	(text "DRAIN"
+	(text "SWITCHING DEVICE"
 		(exclude_from_sim no)
-		(at 270.256 149.098 0)
+		(at 289.306 131.318 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8259,7 +8284,7 @@
 	)
 	(text "RF CHOKE"
 		(exclude_from_sim no)
-		(at 313.69 106.426 0)
+		(at 320.548 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8271,11 +8296,12 @@
 	)
 	(text "INVERTING OCTAL BUFFER\nCONFIGURED IN PARALLEL\n"
 		(exclude_from_sim no)
-		(at 245.364 166.878 0)
+		(at 244.602 149.606 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "800c4b17-ae9a-47a2-82f9-05b4e2c77442")
 	)
@@ -8408,7 +8434,7 @@
 	)
 	(text "SWITCHED BASED ON FREQUENCY BAND"
 		(exclude_from_sim no)
-		(at 383.54 112.522 0)
+		(at 383.54 108.712 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8441,7 +8467,7 @@
 	)
 	(text "POWER AMPLIFIER SWITCHED RESONATOR"
 		(exclude_from_sim no)
-		(at 383.794 109.728 0)
+		(at 383.794 105.918 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8506,17 +8532,6 @@
 			)
 		)
 		(uuid "ed4655f4-f05a-4f9b-9ce0-f5b09bae544c")
-	)
-	(label "PA-DRAIN"
-		(at 401.32 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc6f330d-4290-489f-b007-b98187654c4c")
 	)
 	(global_label "12V"
 		(shape input)
@@ -8696,7 +8711,7 @@
 	)
 	(global_label "15PF-ENABLE-WHEN-LOW"
 		(shape input)
-		(at 367.03 133.35 180)
+		(at 367.03 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8706,7 +8721,7 @@
 		)
 		(uuid "0433903f-f5c2-4bcc-a269-2609df316070")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 338.4634 133.35 0)
+			(at 338.4634 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8850,7 +8865,7 @@
 	)
 	(global_label "50UH-ENABLE-WHEN-LOW"
 		(shape input)
-		(at 367.03 121.92 180)
+		(at 367.03 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8860,7 +8875,7 @@
 		)
 		(uuid "0a0814f5-b05e-4ef2-919b-86dc78b12f3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 338.161 121.92 0)
+			(at 338.161 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8894,7 +8909,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 256.54 137.16 180)
+		(at 275.59 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8904,7 +8919,7 @@
 		)
 		(uuid "0b3a087e-0e95-4343-8260-632b73ee2e3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.7956 137.16 0)
+			(at 269.8456 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8916,7 +8931,7 @@
 	)
 	(global_label "24V"
 		(shape input)
-		(at 367.03 158.75 180)
+		(at 367.03 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8926,7 +8941,7 @@
 		)
 		(uuid "0b521275-c585-41cc-ad87-5dd5eff65256")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 360.5372 158.75 0)
+			(at 360.5372 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9136,7 +9151,7 @@
 	)
 	(global_label "5.6NF-ENABLE-WHEN-LOW"
 		(shape input)
-		(at 367.03 140.97 180)
+		(at 367.03 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9146,7 +9161,7 @@
 		)
 		(uuid "16f44098-088a-47ca-a000-a9412a11fb26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 337.7981 140.97 0)
+			(at 337.7981 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,7 +9217,7 @@
 	)
 	(global_label "150PF-ENABLE-WHEN-LOW"
 		(shape input)
-		(at 367.03 146.05 180)
+		(at 367.03 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9212,7 +9227,7 @@
 		)
 		(uuid "1c2f8a4c-423d-485a-9306-293116dff3f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 337.2539 146.05 0)
+			(at 337.2539 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9290,7 +9305,7 @@
 	)
 	(global_label "24V"
 		(shape input)
-		(at 259.08 111.76 180)
+		(at 304.8 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9300,7 +9315,7 @@
 		)
 		(uuid "1dbe1ddb-9096-4987-b6c4-d5a05f31c815")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.5872 111.76 0)
+			(at 298.3072 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9378,7 +9393,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 367.03 162.56 180)
+		(at 367.03 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9388,7 +9403,7 @@
 		)
 		(uuid "1f8f0afa-4245-4651-a4bc-f8e8814153fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.2856 162.56 0)
+			(at 361.2856 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9444,7 +9459,7 @@
 	)
 	(global_label "PA-DRIVE-PWM"
 		(shape input)
-		(at 259.08 116.84 180)
+		(at 304.8 182.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9454,7 +9469,7 @@
 		)
 		(uuid "21d469df-e4ce-467d-a43a-f0f13cccae3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.0362 116.84 0)
+			(at 286.7562 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9664,7 +9679,7 @@
 	)
 	(global_label "10UH-ENABLE-WHEN-LOW"
 		(shape input)
-		(at 367.03 119.38 180)
+		(at 367.03 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9674,7 +9689,7 @@
 		)
 		(uuid "296aa8ba-f81e-4ebd-903e-c2c7ff0f3682")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 338.161 119.38 0)
+			(at 338.161 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10016,7 +10031,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 219.71 124.46 270)
+		(at 218.44 114.3 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10026,7 +10041,7 @@
 		)
 		(uuid "37ccd982-3031-4710-b0c2-e36966d6ce06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.71 130.2044 90)
+			(at 218.44 120.0444 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10390,7 +10405,7 @@
 	)
 	(global_label "100UH-ENABLE-WHEN-LOW"
 		(shape input)
-		(at 367.03 124.46 180)
+		(at 367.03 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10400,7 +10415,7 @@
 		)
 		(uuid "47800e8d-b3b0-4eb9-b8fc-ee074a30a602")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 336.9515 124.46 0)
+			(at 336.9515 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10676,7 +10691,7 @@
 	)
 	(global_label "82PF-ENABLE-WHEN-LOW"
 		(shape input)
-		(at 367.03 138.43 180)
+		(at 367.03 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10686,7 +10701,7 @@
 		)
 		(uuid "50a0bad8-5030-4cc9-9b00-8d7449c82e09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 338.4634 138.43 0)
+			(at 338.4634 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10720,7 +10735,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 217.17 157.48 180)
+		(at 236.22 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10730,7 +10745,7 @@
 		)
 		(uuid "526dca39-ca0b-480a-8aa7-7edd3613414e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.4256 157.48 0)
+			(at 230.4756 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10918,7 +10933,7 @@
 	)
 	(global_label "68NF-ENABLE-WHEN-LOW"
 		(shape input)
-		(at 367.03 143.51 180)
+		(at 367.03 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10928,7 +10943,7 @@
 		)
 		(uuid "608afba0-da20-4bf5-b6b7-8784f4234e64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 338.4029 143.51 0)
+			(at 338.4029 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11644,7 +11659,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 259.08 119.38 180)
+		(at 304.8 185.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11654,7 +11669,7 @@
 		)
 		(uuid "79ef5a09-9713-49e7-aa1b-a04f949bedbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.7967 119.38 0)
+			(at 299.5167 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12304,7 +12319,7 @@
 	)
 	(global_label "12PF-ENABLE-WHEN-LOW"
 		(shape input)
-		(at 367.03 130.81 180)
+		(at 367.03 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12314,7 +12329,7 @@
 		)
 		(uuid "90a3d621-75e4-4f43-b434-a37c61da136d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 338.4634 130.81 0)
+			(at 338.4634 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12436,7 +12451,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 250.19 147.32 270)
+		(at 269.24 129.54 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12446,7 +12461,7 @@
 		)
 		(uuid "933f6669-f99e-447d-be75-b8f4089e495a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.19 153.0644 90)
+			(at 269.24 135.2844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12606,28 +12621,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PA-12V"
-		(shape output)
-		(at 284.48 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "98102178-d023-4a8b-9c52-5ca9ca025cbb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.9038 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -12854,7 +12847,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 229.87 165.1 270)
+		(at 248.92 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12864,7 +12857,7 @@
 		)
 		(uuid "a9041885-75ee-4fc3-b589-87951772baa1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.87 170.8444 90)
+			(at 248.92 153.0644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13072,6 +13065,28 @@
 			)
 		)
 	)
+	(global_label "ANTENNA-A"
+		(shape bidirectional)
+		(at 359.41 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba27b0ec-d14e-4559-9e89-d7b74f38a270")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 374.4528 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5V"
 		(shape output)
 		(at 276.86 35.56 90)
@@ -13206,22 +13221,22 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 229.87 111.76 90)
+		(at 209.55 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c740c35e-3b67-4991-bedc-b2059bad7b80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.87 106.4767 90)
+			(at 204.2667 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13492,7 +13507,7 @@
 	)
 	(global_label "20PF-ENABLE-WHEN-LOW"
 		(shape input)
-		(at 367.03 135.89 180)
+		(at 367.03 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13502,7 +13517,7 @@
 		)
 		(uuid "d0deb118-8f19-4b48-9a64-0fb00a66c264")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 338.4634 135.89 0)
+			(at 338.4634 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13514,7 +13529,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 217.17 154.94 180)
+		(at 236.22 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13524,7 +13539,7 @@
 		)
 		(uuid "d1a9ef08-2b21-4a06-a7fe-e819ef473142")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.4256 154.94 0)
+			(at 230.4756 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13558,7 +13573,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 284.48 119.38 0)
+		(at 330.2 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13568,7 +13583,7 @@
 		)
 		(uuid "d54349f3-f5af-458b-a095-d89216e01989")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.2244 119.38 0)
+			(at 335.9444 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13580,7 +13595,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 256.54 133.35 180)
+		(at 275.59 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13590,7 +13605,7 @@
 		)
 		(uuid "d598440c-2e71-4970-9096-276b7bba2be2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.7956 133.35 0)
+			(at 269.8456 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13734,7 +13749,7 @@
 	)
 	(global_label "TX-CLK"
 		(shape input)
-		(at 217.17 132.08 180)
+		(at 236.22 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13744,7 +13759,7 @@
 		)
 		(uuid "dd0c0a8b-0136-4818-a530-5a5581d29918")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.8672 132.08 0)
+			(at 225.9172 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13866,7 +13881,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 256.54 129.54 180)
+		(at 275.59 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13876,7 +13891,7 @@
 		)
 		(uuid "e2765fad-16eb-4931-8b95-f2195da7c5cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.7956 129.54 0)
+			(at 269.8456 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14460,7 +14475,7 @@
 	)
 	(global_label "12V"
 		(shape input)
-		(at 259.08 114.3 180)
+		(at 304.8 180.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14470,7 +14485,7 @@
 		)
 		(uuid "f7990061-4b44-4bcd-84b5-f407a58befdf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.5872 114.3 0)
+			(at 298.3072 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14482,7 +14497,7 @@
 	)
 	(global_label "6.8PF-ENABLE-WHEN-LOW"
 		(shape input)
-		(at 367.03 128.27 180)
+		(at 367.03 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14492,7 +14507,7 @@
 		)
 		(uuid "f82c0d3d-632e-4cfd-9180-e7c968d3e285")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 337.8586 128.27 0)
+			(at 337.8586 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14590,6 +14605,28 @@
 			)
 		)
 	)
+	(global_label "ANTENNA-B"
+		(shape bidirectional)
+		(at 391.16 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fbd95eb5-5653-4b5f-acc0-1c6a02ab5670")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 375.9358 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ANTENNA"
 		(shape input)
 		(at 87.63 176.53 180)
@@ -14658,7 +14695,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 367.03 153.67 180)
+		(at 367.03 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14668,7 +14705,7 @@
 		)
 		(uuid "fcfa2574-b52e-4699-ad5f-cbb68c564eb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.7467 153.67 0)
+			(at 361.7467 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15158,7 +15195,7 @@
 	)
 	(symbol
 		(lib_id "kicad-parts:HY1904C2")
-		(at 270.51 140.97 0)
+		(at 289.56 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15166,7 +15203,7 @@
 		(dnp no)
 		(uuid "0c59f008-33c1-435b-85ad-94a56985cfec")
 		(property "Reference" "Q2"
-			(at 264.922 145.034 0)
+			(at 283.972 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15174,7 +15211,7 @@
 			)
 		)
 		(property "Value" "HY1904C2"
-			(at 272.542 145.034 0)
+			(at 291.592 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15182,7 +15219,7 @@
 			)
 		)
 		(property "Footprint" "kicad-parts:HY1904C2"
-			(at 270.51 151.13 0)
+			(at 289.56 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15191,7 +15228,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1910111742_HUAYI-HY1904C2_C358116.pdf"
-			(at 262.89 139.7 0)
+			(at 281.94 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15200,7 +15237,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 270.51 140.97 0)
+			(at 289.56 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15209,7 +15246,7 @@
 			)
 		)
 		(property "LCSC Part #" "C358116"
-			(at 270.51 153.67 0)
+			(at 289.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15824,7 +15861,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 322.58 127 0)
+		(at 328.93 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15833,7 +15870,7 @@
 		(fields_autoplaced yes)
 		(uuid "191acbec-0b40-4b56-a57c-e84677e10c59")
 		(property "Reference" "L146"
-			(at 323.85 125.7299 0)
+			(at 330.2 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15842,7 +15879,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 323.85 128.2699 0)
+			(at 330.2 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15851,7 +15888,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 322.58 127 0)
+			(at 328.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15860,7 +15897,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 322.58 127 0)
+			(at 328.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15869,7 +15906,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 322.58 127 0)
+			(at 328.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15878,7 +15915,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 322.58 127 0)
+			(at 328.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15887,7 +15924,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 322.58 127 0)
+			(at 328.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15896,7 +15933,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 322.58 127 0)
+			(at 328.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16125,7 +16162,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 250.19 144.78 180)
+		(at 269.24 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16134,7 +16171,7 @@
 		(fields_autoplaced yes)
 		(uuid "2136f2db-922b-4b33-b917-07fa1fedc7b4")
 		(property "Reference" "R13"
-			(at 252.73 143.5099 0)
+			(at 271.78 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16143,7 +16180,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 252.73 146.0499 0)
+			(at 271.78 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16152,7 +16189,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 250.19 144.78 0)
+			(at 269.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16161,7 +16198,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1003T5E_C17900.pdf"
-			(at 250.19 144.78 0)
+			(at 269.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16170,7 +16207,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 250.19 144.78 0)
+			(at 269.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16179,7 +16216,7 @@
 			)
 		)
 		(property "LCSC Part #" "C17900"
-			(at 250.19 144.78 90)
+			(at 269.24 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16188,7 +16225,7 @@
 			)
 		)
 		(property "MPN" "1206W4F1003T5E"
-			(at 250.19 144.78 90)
+			(at 269.24 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16197,7 +16234,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal"
-			(at 250.19 144.78 90)
+			(at 269.24 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16658,7 +16695,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 306.07 115.57 0)
+		(at 312.42 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16666,7 +16703,7 @@
 		(dnp no)
 		(uuid "38b685ec-7e91-4aea-a866-1a9a54164677")
 		(property "Reference" "L143"
-			(at 307.34 114.2999 0)
+			(at 313.69 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16675,7 +16712,7 @@
 			)
 		)
 		(property "Value" "33nH"
-			(at 307.34 116.8399 0)
+			(at 313.69 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16684,7 +16721,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 306.07 115.57 0)
+			(at 312.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16693,7 +16730,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231030_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC033JGT_C304280.pdf"
-			(at 306.07 115.57 0)
+			(at 312.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16702,7 +16739,7 @@
 			)
 		)
 		(property "Description" "1A 33nH ±5% 110mΩ 1210 Inductors (SMD) ROHS"
-			(at 306.07 115.57 0)
+			(at 312.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16711,7 +16748,7 @@
 			)
 		)
 		(property "LCSC Part #" "C304280"
-			(at 306.07 115.57 0)
+			(at 312.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16720,7 +16757,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC033JGT"
-			(at 306.07 115.57 0)
+			(at 312.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16729,7 +16766,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 306.07 115.57 0)
+			(at 312.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16850,7 +16887,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 322.58 138.43 0)
+		(at 328.93 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16859,7 +16896,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a56d356-2963-4716-a65e-594c7a82efc5")
 		(property "Reference" "L149"
-			(at 323.85 137.1599 0)
+			(at 330.2 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16868,7 +16905,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 323.85 139.6999 0)
+			(at 330.2 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16877,7 +16914,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 322.58 138.43 0)
+			(at 328.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16886,7 +16923,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 322.58 138.43 0)
+			(at 328.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16895,7 +16932,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 322.58 138.43 0)
+			(at 328.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16904,7 +16941,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 322.58 138.43 0)
+			(at 328.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16913,7 +16950,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 322.58 138.43 0)
+			(at 328.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16922,7 +16959,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 322.58 138.43 0)
+			(at 328.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18222,7 +18259,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 224.79 114.3 270)
+		(at 212.09 109.22 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18231,7 +18268,7 @@
 		(dnp no)
 		(uuid "5e641f41-a669-432d-a313-baf8a365fa3d")
 		(property "Reference" "C24"
-			(at 224.7836 108.2675 90)
+			(at 212.09 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18239,7 +18276,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 224.7836 110.8075 90)
+			(at 212.09 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18247,7 +18284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 114.3 0)
+			(at 212.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18256,7 +18293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 114.3 0)
+			(at 212.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18265,7 +18302,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 224.79 114.3 0)
+			(at 212.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18290,8 +18327,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 224.79 118.11 270)
-		(mirror x)
+		(at 218.44 109.22 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18299,7 +18336,7 @@
 		(dnp no)
 		(uuid "5ef26dab-cd92-472b-a04a-9804dea7c2ac")
 		(property "Reference" "C25"
-			(at 217.17 116.84 90)
+			(at 218.44 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18307,7 +18344,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 215.9 119.126 90)
+			(at 218.44 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18315,7 +18352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 118.11 0)
+			(at 218.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18324,7 +18361,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 118.11 0)
+			(at 218.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18333,7 +18370,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 224.79 118.11 0)
+			(at 218.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19054,7 +19091,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 246.38 140.97 90)
+		(at 265.43 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19063,7 +19100,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d830e02-f4c9-4e5e-ab44-98e6aff320ba")
 		(property "Reference" "C27"
-			(at 246.3863 134.62 90)
+			(at 265.4363 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19071,7 +19108,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 246.3863 137.16 90)
+			(at 265.4363 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19079,7 +19116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 140.97 0)
+			(at 265.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19088,7 +19125,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 140.97 0)
+			(at 265.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19097,7 +19134,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 246.38 140.97 0)
+			(at 265.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19122,7 +19159,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 306.07 138.43 0)
+		(at 312.42 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19130,7 +19167,7 @@
 		(dnp no)
 		(uuid "70b89bcd-08fc-4b79-8186-6431fa961ac6")
 		(property "Reference" "L147"
-			(at 307.34 137.1599 0)
+			(at 313.69 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19139,7 +19176,7 @@
 			)
 		)
 		(property "Value" "33nH"
-			(at 307.34 139.6999 0)
+			(at 313.69 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19148,7 +19185,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 306.07 138.43 0)
+			(at 312.42 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19157,7 +19194,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231030_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC033JGT_C304280.pdf"
-			(at 306.07 138.43 0)
+			(at 312.42 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19166,7 +19203,7 @@
 			)
 		)
 		(property "Description" "1A 33nH ±5% 110mΩ 1210 Inductors (SMD) ROHS"
-			(at 306.07 138.43 0)
+			(at 312.42 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19175,7 +19212,7 @@
 			)
 		)
 		(property "LCSC Part #" "C304280"
-			(at 306.07 138.43 0)
+			(at 312.42 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19184,7 +19221,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC033JGT"
-			(at 306.07 138.43 0)
+			(at 312.42 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19193,7 +19230,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 306.07 138.43 0)
+			(at 312.42 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19218,7 +19255,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 314.96 149.86 0)
+		(at 321.31 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19227,7 +19264,7 @@
 		(fields_autoplaced yes)
 		(uuid "76c8dc7b-bf24-49e0-ad8d-56062b049b24")
 		(property "Reference" "L151"
-			(at 316.23 148.5899 0)
+			(at 322.58 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19236,7 +19273,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 316.23 151.1299 0)
+			(at 322.58 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19245,7 +19282,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 314.96 149.86 0)
+			(at 321.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19254,7 +19291,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 314.96 149.86 0)
+			(at 321.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19263,7 +19300,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 314.96 149.86 0)
+			(at 321.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19272,7 +19309,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 314.96 149.86 0)
+			(at 321.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19281,7 +19318,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 314.96 149.86 0)
+			(at 321.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19290,7 +19327,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 314.96 149.86 0)
+			(at 321.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19884,7 +19921,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 322.58 115.57 0)
+		(at 328.93 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19893,7 +19930,7 @@
 		(fields_autoplaced yes)
 		(uuid "88f26830-72aa-4ac3-aeb7-5092fac18427")
 		(property "Reference" "L142"
-			(at 323.85 114.2999 0)
+			(at 330.2 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19902,7 +19939,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 323.85 116.8399 0)
+			(at 330.2 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19911,7 +19948,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 322.58 115.57 0)
+			(at 328.93 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19920,7 +19957,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 322.58 115.57 0)
+			(at 328.93 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19929,7 +19966,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 322.58 115.57 0)
+			(at 328.93 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19938,7 +19975,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 322.58 115.57 0)
+			(at 328.93 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19947,7 +19984,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 322.58 115.57 0)
+			(at 328.93 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19956,7 +19993,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 322.58 115.57 0)
+			(at 328.93 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20741,7 +20778,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 314.96 161.29 0)
+		(at 321.31 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20750,7 +20787,7 @@
 		(fields_autoplaced yes)
 		(uuid "99b58e97-06bf-47f3-9470-6d0528d7e1ce")
 		(property "Reference" "L154"
-			(at 316.23 160.0199 0)
+			(at 322.58 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20759,7 +20796,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 316.23 162.5599 0)
+			(at 322.58 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20768,7 +20805,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 314.96 161.29 0)
+			(at 321.31 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20777,7 +20814,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 314.96 161.29 0)
+			(at 321.31 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20786,7 +20823,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 314.96 161.29 0)
+			(at 321.31 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20795,7 +20832,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 314.96 161.29 0)
+			(at 321.31 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20804,7 +20841,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 314.96 161.29 0)
+			(at 321.31 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20813,7 +20850,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 314.96 161.29 0)
+			(at 321.31 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20923,7 +20960,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 306.07 161.29 0)
+		(at 312.42 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20931,7 +20968,7 @@
 		(dnp no)
 		(uuid "9d22782e-6d24-477c-b44c-5bae44391242")
 		(property "Reference" "L153"
-			(at 307.34 160.0199 0)
+			(at 313.69 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20940,7 +20977,7 @@
 			)
 		)
 		(property "Value" "33nH"
-			(at 307.34 162.5599 0)
+			(at 313.69 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20949,7 +20986,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 306.07 161.29 0)
+			(at 312.42 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20958,7 +20995,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231030_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC033JGT_C304280.pdf"
-			(at 306.07 161.29 0)
+			(at 312.42 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20967,7 +21004,7 @@
 			)
 		)
 		(property "Description" "1A 33nH ±5% 110mΩ 1210 Inductors (SMD) ROHS"
-			(at 306.07 161.29 0)
+			(at 312.42 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20976,7 +21013,7 @@
 			)
 		)
 		(property "LCSC Part #" "C304280"
-			(at 306.07 161.29 0)
+			(at 312.42 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20985,7 +21022,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC033JGT"
-			(at 306.07 161.29 0)
+			(at 312.42 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20994,7 +21031,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 306.07 161.29 0)
+			(at 312.42 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21113,7 +21150,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 306.07 127 0)
+		(at 312.42 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21121,7 +21158,7 @@
 		(dnp no)
 		(uuid "a1bb4d86-bff4-46ba-87fd-e115a8329505")
 		(property "Reference" "L144"
-			(at 307.34 125.7299 0)
+			(at 313.69 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21130,7 +21167,7 @@
 			)
 		)
 		(property "Value" "33nH"
-			(at 307.34 128.2699 0)
+			(at 313.69 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21139,7 +21176,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 306.07 127 0)
+			(at 312.42 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21148,7 +21185,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231030_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC033JGT_C304280.pdf"
-			(at 306.07 127 0)
+			(at 312.42 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21157,7 +21194,7 @@
 			)
 		)
 		(property "Description" "1A 33nH ±5% 110mΩ 1210 Inductors (SMD) ROHS"
-			(at 306.07 127 0)
+			(at 312.42 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21166,7 +21203,7 @@
 			)
 		)
 		(property "LCSC Part #" "C304280"
-			(at 306.07 127 0)
+			(at 312.42 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21175,7 +21212,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC033JGT"
-			(at 306.07 127 0)
+			(at 312.42 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21184,7 +21221,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 306.07 127 0)
+			(at 312.42 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21303,7 +21340,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74AHCT244")
-		(at 229.87 144.78 0)
+		(at 248.92 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21312,7 +21349,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7582bcd-8b7b-4f98-95cb-807a42c5aea2")
 		(property "Reference" "U3"
-			(at 232.0641 124.46 0)
+			(at 251.1141 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21321,7 +21358,7 @@
 			)
 		)
 		(property "Value" "74ACT244"
-			(at 232.0641 127 0)
+			(at 251.1141 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21330,7 +21367,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
-			(at 229.87 144.78 0)
+			(at 248.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21339,7 +21376,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1809042113_Texas-Instruments-SN74ACT244PWR_C6930.pdf"
-			(at 229.87 144.78 0)
+			(at 248.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21348,7 +21385,7 @@
 			)
 		)
 		(property "Description" "8-bit Buffer/Line Driver 3-state"
-			(at 229.87 144.78 0)
+			(at 248.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21357,7 +21394,7 @@
 			)
 		)
 		(property "LCSC Part #" "C6930"
-			(at 229.87 144.78 0)
+			(at 248.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21366,7 +21403,7 @@
 			)
 		)
 		(property "MPN" "SN74ACT244PWR"
-			(at 229.87 144.78 0)
+			(at 248.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21375,7 +21412,7 @@
 			)
 		)
 		(property "Manufacturer" "TI"
-			(at 229.87 144.78 0)
+			(at 248.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21854,7 +21891,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 322.58 161.29 0)
+		(at 328.93 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21863,7 +21900,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7aa4996-74d9-4f52-9994-b17d8720d7a9")
 		(property "Reference" "L155"
-			(at 323.85 160.0199 0)
+			(at 330.2 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21872,7 +21909,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 323.85 162.5599 0)
+			(at 330.2 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21881,7 +21918,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 322.58 161.29 0)
+			(at 328.93 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21890,7 +21927,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 322.58 161.29 0)
+			(at 328.93 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21899,7 +21936,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 322.58 161.29 0)
+			(at 328.93 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21908,7 +21945,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 322.58 161.29 0)
+			(at 328.93 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21917,7 +21954,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 322.58 161.29 0)
+			(at 328.93 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21926,7 +21963,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 322.58 161.29 0)
+			(at 328.93 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22347,7 +22384,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 314.96 138.43 0)
+		(at 321.31 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22356,7 +22393,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5e32e18-ed8c-43a6-a9b7-038f12258af8")
 		(property "Reference" "L148"
-			(at 316.23 137.1599 0)
+			(at 322.58 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22365,7 +22402,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 316.23 139.6999 0)
+			(at 322.58 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22374,7 +22411,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 314.96 138.43 0)
+			(at 321.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22383,7 +22420,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 314.96 138.43 0)
+			(at 321.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22392,7 +22429,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 314.96 138.43 0)
+			(at 321.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22401,7 +22438,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 314.96 138.43 0)
+			(at 321.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22410,7 +22447,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 314.96 138.43 0)
+			(at 321.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22419,7 +22456,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 314.96 138.43 0)
+			(at 321.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22529,8 +22566,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 224.79 121.92 270)
-		(mirror x)
+		(at 224.79 109.22 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22538,7 +22575,7 @@
 		(dnp no)
 		(uuid "d90a529d-8a16-43e9-8e78-321c0b41a31c")
 		(property "Reference" "C26"
-			(at 224.79 127.508 90)
+			(at 224.79 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22546,7 +22583,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 224.79 125.222 90)
+			(at 224.79 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22554,7 +22591,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 121.92 0)
+			(at 224.79 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22563,7 +22600,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 121.92 0)
+			(at 224.79 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22572,7 +22609,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 224.79 121.92 0)
+			(at 224.79 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22597,7 +22634,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 322.58 149.86 0)
+		(at 328.93 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22606,7 +22643,7 @@
 		(fields_autoplaced yes)
 		(uuid "d95644cb-53d8-4393-8077-71df8728758a")
 		(property "Reference" "L152"
-			(at 323.85 148.5899 0)
+			(at 330.2 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22615,7 +22652,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 323.85 151.1299 0)
+			(at 330.2 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22624,7 +22661,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 322.58 149.86 0)
+			(at 328.93 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22633,7 +22670,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 322.58 149.86 0)
+			(at 328.93 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22642,7 +22679,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 322.58 149.86 0)
+			(at 328.93 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22651,7 +22688,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 322.58 149.86 0)
+			(at 328.93 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22660,7 +22697,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 322.58 149.86 0)
+			(at 328.93 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22669,7 +22706,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 322.58 149.86 0)
+			(at 328.93 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22694,7 +22731,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 314.96 127 0)
+		(at 321.31 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22703,7 +22740,7 @@
 		(fields_autoplaced yes)
 		(uuid "dea05d77-96ae-431a-a52f-7d463a86935b")
 		(property "Reference" "L145"
-			(at 316.23 125.7299 0)
+			(at 322.58 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22712,7 +22749,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 316.23 128.2699 0)
+			(at 322.58 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22721,7 +22758,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 314.96 127 0)
+			(at 321.31 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22730,7 +22767,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 314.96 127 0)
+			(at 321.31 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22739,7 +22776,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 314.96 127 0)
+			(at 321.31 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22748,7 +22785,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 314.96 127 0)
+			(at 321.31 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22757,7 +22794,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 314.96 127 0)
+			(at 321.31 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22766,7 +22803,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 314.96 127 0)
+			(at 321.31 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22791,7 +22828,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 306.07 149.86 0)
+		(at 312.42 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22799,7 +22836,7 @@
 		(dnp no)
 		(uuid "e6ca7c35-be98-42ea-b594-3046db7b9754")
 		(property "Reference" "L150"
-			(at 307.34 148.5899 0)
+			(at 313.69 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22808,7 +22845,7 @@
 			)
 		)
 		(property "Value" "33nH"
-			(at 307.34 151.1299 0)
+			(at 313.69 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22817,7 +22854,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 306.07 149.86 0)
+			(at 312.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22826,7 +22863,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231030_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC033JGT_C304280.pdf"
-			(at 306.07 149.86 0)
+			(at 312.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22835,7 +22872,7 @@
 			)
 		)
 		(property "Description" "1A 33nH ±5% 110mΩ 1210 Inductors (SMD) ROHS"
-			(at 306.07 149.86 0)
+			(at 312.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22844,7 +22881,7 @@
 			)
 		)
 		(property "LCSC Part #" "C304280"
-			(at 306.07 149.86 0)
+			(at 312.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22853,7 +22890,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC033JGT"
-			(at 306.07 149.86 0)
+			(at 312.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22862,7 +22899,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 306.07 149.86 0)
+			(at 312.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22887,7 +22924,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 314.96 115.57 0)
+		(at 321.31 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22896,7 +22933,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed93c6ce-9d19-4eb3-8a0b-ef2e83dd48b9")
 		(property "Reference" "L141"
-			(at 316.23 114.2999 0)
+			(at 322.58 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22905,7 +22942,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 316.23 116.8399 0)
+			(at 322.58 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22914,7 +22951,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 314.96 115.57 0)
+			(at 321.31 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22923,7 +22960,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 314.96 115.57 0)
+			(at 321.31 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22932,7 +22969,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 314.96 115.57 0)
+			(at 321.31 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22941,7 +22978,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 314.96 115.57 0)
+			(at 321.31 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22950,7 +22987,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 314.96 115.57 0)
+			(at 321.31 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22959,7 +22996,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 314.96 115.57 0)
+			(at 321.31 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23195,6 +23232,76 @@
 			(project ""
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 336.55 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa18f342-80b0-4946-8696-2701088ef761")
+		(property "Reference" "C38"
+			(at 339.09 167.6462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 339.09 170.1862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 336.55 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 336.55 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97834a0c-5972-45f5-a3e8-2526289d044d")
+		)
+		(pin "2"
+			(uuid "0d63053e-1302-4643-b0d9-9294f640f9be")
+		)
+		(instances
+			(project ""
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -24427,7 +24534,7 @@
 		)
 	)
 	(sheet
-		(at 367.03 116.84)
+		(at 367.03 113.03)
 		(size 31.75 48.26)
 		(fields_autoplaced yes)
 		(stroke
@@ -24439,7 +24546,7 @@
 		)
 		(uuid "9fcca4e6-b308-4729-bd6b-d78819e3b857")
 		(property "Sheetname" "PA Switched Resonator"
-			(at 367.03 116.1284 0)
+			(at 367.03 112.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24448,7 +24555,7 @@
 			)
 		)
 		(property "Sheetfile" "pa-switched-resonator.kicad_sch"
-			(at 367.03 165.6846 0)
+			(at 367.03 161.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24457,7 +24564,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 367.03 162.56 180)
+			(at 367.03 158.75 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24467,7 +24574,7 @@
 			(uuid "6a04f898-281d-43e8-8af1-44bdf469b644")
 		)
 		(pin "24V" input
-			(at 367.03 158.75 180)
+			(at 367.03 154.94 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24477,7 +24584,7 @@
 			(uuid "fe9dc2c6-ec42-4acd-8149-af0cdad225d3")
 		)
 		(pin "5V" input
-			(at 367.03 153.67 180)
+			(at 367.03 149.86 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24487,7 +24594,7 @@
 			(uuid "c5223649-de3e-49d1-95ff-de1db8ca3c96")
 		)
 		(pin "50UH-ENABLE-WHEN-LOW" input
-			(at 367.03 121.92 180)
+			(at 367.03 118.11 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24497,7 +24604,7 @@
 			(uuid "8db6e21c-d129-479e-9925-0624a2f8a367")
 		)
 		(pin "10UH-ENABLE-WHEN-LOW" input
-			(at 367.03 119.38 180)
+			(at 367.03 115.57 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24507,7 +24614,7 @@
 			(uuid "fb72e178-7c72-4ed7-a9d9-7ee48f972e57")
 		)
 		(pin "100UH-ENABLE-WHEN-LOW" input
-			(at 367.03 124.46 180)
+			(at 367.03 120.65 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24517,17 +24624,17 @@
 			(uuid "3148ccd9-d948-419d-98a3-ed24fe1e5e91")
 		)
 		(pin "PA-DRAIN" output
-			(at 398.78 157.48 0)
+			(at 367.03 146.05 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "cd111826-0a2d-41fc-8608-2b31f0dc6645")
 		)
 		(pin "15PF-ENABLE-WHEN-LOW" input
-			(at 367.03 133.35 180)
+			(at 367.03 129.54 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24537,7 +24644,7 @@
 			(uuid "69be039b-44a0-4042-9eda-b0a96fb8e22a")
 		)
 		(pin "6.8PF-ENABLE-WHEN-LOW" input
-			(at 367.03 128.27 180)
+			(at 367.03 124.46 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24547,7 +24654,7 @@
 			(uuid "4f594b49-8b2b-4fc9-904c-f8bdf3f66306")
 		)
 		(pin "20PF-ENABLE-WHEN-LOW" input
-			(at 367.03 135.89 180)
+			(at 367.03 132.08 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24557,7 +24664,7 @@
 			(uuid "6a36c6fa-0a05-4bed-b59f-4dff89895a53")
 		)
 		(pin "12PF-ENABLE-WHEN-LOW" input
-			(at 367.03 130.81 180)
+			(at 367.03 127 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24567,7 +24674,7 @@
 			(uuid "2cae79a3-428f-4583-9d40-032e895e63d1")
 		)
 		(pin "5.6NF-ENABLE-WHEN-LOW" input
-			(at 367.03 140.97 180)
+			(at 367.03 137.16 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24577,7 +24684,7 @@
 			(uuid "2af43351-a06c-485a-a343-027d5d7fb818")
 		)
 		(pin "150PF-ENABLE-WHEN-LOW" input
-			(at 367.03 146.05 180)
+			(at 367.03 142.24 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24587,7 +24694,7 @@
 			(uuid "8131a945-d989-4dfb-b8cf-347ad841aa33")
 		)
 		(pin "82PF-ENABLE-WHEN-LOW" input
-			(at 367.03 138.43 180)
+			(at 367.03 134.62 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24597,7 +24704,7 @@
 			(uuid "dda8499c-f56a-4d41-be9f-5d6ca584fd24")
 		)
 		(pin "68NF-ENABLE-WHEN-LOW" input
-			(at 367.03 143.51 180)
+			(at 367.03 139.7 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24605,6 +24712,16 @@
 				(justify left)
 			)
 			(uuid "495ae05d-6040-40a8-bd5a-514b0ee44774")
+		)
+		(pin "PA-SUPPLY" input
+			(at 398.78 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "83b61800-c7e3-4fa2-a01d-39d1458bc6c4")
 		)
 		(instances
 			(project "adxi"
@@ -25105,7 +25222,7 @@
 		)
 	)
 	(sheet
-		(at 259.08 110.49)
+		(at 304.8 176.53)
 		(size 25.4 11.43)
 		(fields_autoplaced yes)
 		(stroke
@@ -25117,7 +25234,7 @@
 		)
 		(uuid "faeb3fbc-3621-4946-b7ef-4e1ddf3abfcb")
 		(property "Sheetname" "PA-POWER-PWM"
-			(at 259.08 109.7784 0)
+			(at 304.8 175.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25126,7 +25243,7 @@
 			)
 		)
 		(property "Sheetfile" "nfet-highside-load-switch.kicad_sch"
-			(at 259.08 122.5046 0)
+			(at 304.8 188.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25135,7 +25252,7 @@
 			)
 		)
 		(pin "SWITCHING-VOLTAGE" input
-			(at 259.08 111.76 180)
+			(at 304.8 177.8 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25145,7 +25262,7 @@
 			(uuid "387c1999-e2a5-4720-bab3-42ee2c459f7a")
 		)
 		(pin "LOAD-ANODE" output
-			(at 284.48 114.3 0)
+			(at 330.2 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25155,7 +25272,7 @@
 			(uuid "b48962fe-e523-488d-b20d-b7a69bcfab46")
 		)
 		(pin "GND" passive
-			(at 284.48 119.38 0)
+			(at 330.2 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25165,7 +25282,7 @@
 			(uuid "da830215-69fb-489c-b81d-bca634200d90")
 		)
 		(pin "SUPPLY" input
-			(at 259.08 114.3 180)
+			(at 304.8 180.34 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25175,7 +25292,7 @@
 			(uuid "2a9589ce-a1e0-47cf-8d2f-f8835a9c69ca")
 		)
 		(pin "~{ENABLE-LOAD}" input
-			(at 259.08 116.84 180)
+			(at 304.8 182.88 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25185,7 +25302,7 @@
 			(uuid "96b55ff9-e5af-4c63-a079-b97f0b2746f1")
 		)
 		(pin "5V" input
-			(at 259.08 119.38 180)
+			(at 304.8 185.42 180)
 			(effects
 				(font
 					(size 1.27 1.27)
