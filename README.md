@@ -13,6 +13,13 @@ This fork is called __adxi__ (or "ADX Improved") with the following changes:
  * __improved documentation__ hoping to facilitate learning
  * __using platformio__ to manage the firmware build and dependencies in a modern way
 
+## Update (2024-08-18)
+
+ * MCU output expansion added to drive switched PA resonator inductance and capcitance to achieve full band range
+ * [Having issues](doc/class-e-pa/) identifying a sane strategy for an RF choke capable of the 70cm (450MHz) required
+   * To this end, attempted to make at fabricating a coil for main RF choke but failed
+   * Still keen to obtain an SMT solution
+
 ## Update (2024-08-15)
 
 ![image](adxi-draft-pcb-2024-08-13.webp)
