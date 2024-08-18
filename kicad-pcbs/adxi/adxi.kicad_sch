@@ -4799,6 +4799,12 @@
 		(uuid "0fd7433b-68a4-462e-b7e2-433439c96952")
 	)
 	(junction
+		(at 318.77 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1396b0a9-5f0e-451b-9289-8032a0cb631b")
+	)
+	(junction
 		(at 95.25 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4835,6 +4841,12 @@
 		(uuid "30fb5627-b4a8-4f26-b906-99151cc31031")
 	)
 	(junction
+		(at 318.77 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31c9ae62-d4d1-4e47-ac43-d3507f917ad5")
+	)
+	(junction
 		(at 217.17 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4845,6 +4857,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38f52fee-714b-4eb3-bbcc-a274fef5e072")
+	)
+	(junction
+		(at 318.77 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43d7adcc-80b0-4cbb-bff1-b232e63aabd7")
 	)
 	(junction
 		(at 142.24 139.7)
@@ -4943,6 +4961,12 @@
 		(uuid "7d94657b-334e-41bc-bc86-c586517aa9dd")
 	)
 	(junction
+		(at 318.77 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8383e0bd-ce35-4f15-bc14-c9fb6f407983")
+	)
+	(junction
 		(at 242.57 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5009,6 +5033,12 @@
 		(uuid "a6bf1df4-d4e4-445a-a4ea-ede7206d3a37")
 	)
 	(junction
+		(at 318.77 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6dd037b-75f6-4c3b-9c9d-66ade53adafb")
+	)
+	(junction
 		(at 90.17 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5021,10 +5051,28 @@
 		(uuid "b47ae6af-50ae-4dd7-a78b-738bb4d70ab9")
 	)
 	(junction
+		(at 318.77 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8fa537a-e1f2-4481-8f9d-f9a072d1a091")
+	)
+	(junction
 		(at 284.48 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9acc6e8-8d0c-4c89-b8af-897a053b9fbf")
+	)
+	(junction
+		(at 318.77 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baf40642-81dc-4e77-b924-05b0129edf9d")
+	)
+	(junction
+		(at 318.77 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be0bd363-ec3e-4380-b8cc-b830f0d26d8a")
 	)
 	(junction
 		(at 149.86 163.83)
@@ -5105,6 +5153,12 @@
 		(uuid "e614a1c8-98e7-4876-b952-42c082bbe262")
 	)
 	(junction
+		(at 318.77 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e643d5f9-7c40-48f7-b39b-d230dec0a668")
+	)
+	(junction
 		(at 55.88 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5145,6 +5199,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5b8021b-2130-4383-8fd6-14e6727a1bd6")
+	)
+	(junction
+		(at 318.77 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbc5edda-7eba-4281-ae2f-e21f44f5f8f3")
 	)
 	(no_connect
 		(at 284.48 48.26)
@@ -5310,6 +5370,16 @@
 		)
 		(uuid "056b3f07-f628-4885-879d-829cbe387b6e")
 	)
+	(wire
+		(pts
+			(xy 314.96 123.19) (xy 318.77 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06413622-ce19-427b-86df-9ba225038c75")
+	)
 	(polyline
 		(pts
 			(xy 45.085 211.455) (xy 45.085 237.49)
@@ -5342,6 +5412,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 165.1) (xy 313.69 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09382693-8967-4677-ad77-a147e3c34a14")
+	)
+	(wire
+		(pts
 			(xy 52.07 43.18) (xy 52.07 44.45)
 		)
 		(stroke
@@ -5349,6 +5429,16 @@
 			(type default)
 		)
 		(uuid "09541fef-62eb-4036-a3d5-287d6178f877")
+	)
+	(wire
+		(pts
+			(xy 313.69 144.78) (xy 318.77 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a51dbf7-9282-4614-813b-2acc3b27b1ad")
 	)
 	(polyline
 		(pts
@@ -5379,6 +5469,16 @@
 			(type default)
 		)
 		(uuid "0c5b46a2-6569-4221-8298-7d18d480b8f8")
+	)
+	(wire
+		(pts
+			(xy 314.96 146.05) (xy 318.77 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef64eba-f49d-40cc-a10c-35e1289cfb3c")
 	)
 	(wire
 		(pts
@@ -5530,6 +5630,36 @@
 		)
 		(uuid "1d06e5dc-7ec1-4cd5-9c54-67a5b03cb220")
 	)
+	(wire
+		(pts
+			(xy 314.96 130.81) (xy 318.77 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d541339-207d-4c90-b25d-4329e0b18010")
+	)
+	(wire
+		(pts
+			(xy 318.77 123.19) (xy 322.58 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eca2627-96fb-4ded-ab19-585333f62d62")
+	)
+	(wire
+		(pts
+			(xy 318.77 121.92) (xy 318.77 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed511c7-846c-436d-bd03-f2c713bfc0e4")
+	)
 	(polyline
 		(pts
 			(xy 180.34 45.72) (xy 186.69 45.72)
@@ -5582,6 +5712,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 130.81) (xy 318.77 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fcaabd-df95-48f4-858a-af96a1927e9e")
+	)
+	(wire
+		(pts
 			(xy 284.48 133.35) (xy 284.48 137.16)
 		)
 		(stroke
@@ -5589,6 +5729,16 @@
 			(type default)
 		)
 		(uuid "2631a430-b1cc-4ddb-8999-2dc2846f78c1")
+	)
+	(wire
+		(pts
+			(xy 318.77 143.51) (xy 306.07 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270dd35f-c720-4c22-8398-3f4cede4c955")
 	)
 	(polyline
 		(pts
@@ -5612,6 +5762,26 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 142.24) (xy 313.69 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f43ecc-3258-43fd-af2b-3b6d8f0d4606")
+	)
+	(wire
+		(pts
+			(xy 318.77 119.38) (xy 322.58 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2887160d-0106-4849-b0a9-1460026b47c7")
+	)
+	(wire
+		(pts
 			(xy 163.83 88.9) (xy 171.45 88.9)
 		)
 		(stroke
@@ -5619,6 +5789,16 @@
 			(type default)
 		)
 		(uuid "293b26b0-0036-4d5f-92bb-8f907ddab66e")
+	)
+	(wire
+		(pts
+			(xy 318.77 132.08) (xy 306.07 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a1b161b-7575-4452-a541-bb491fa2eb6f")
 	)
 	(wire
 		(pts
@@ -5632,6 +5812,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 110.49) (xy 306.07 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8497fe-7e9a-4f20-9c9e-64e870804d99")
+	)
+	(wire
+		(pts
 			(xy 217.17 132.08) (xy 217.17 134.62)
 		)
 		(stroke
@@ -5639,6 +5829,16 @@
 			(type default)
 		)
 		(uuid "2a9d26c4-2b07-43e3-816f-bb3029465bcc")
+	)
+	(wire
+		(pts
+			(xy 318.77 165.1) (xy 322.58 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d925d68-cf48-493c-9466-db4c3fc1f5c6")
 	)
 	(wire
 		(pts
@@ -5702,6 +5902,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 144.78) (xy 318.77 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "349b3c53-c67d-4427-a4d5-86549e88e3e5")
+	)
+	(wire
+		(pts
 			(xy 242.57 139.7) (xy 242.57 140.97)
 		)
 		(stroke
@@ -5719,6 +5929,16 @@
 			(type default)
 		)
 		(uuid "35b295b2-8f5d-4a42-a758-af012a8b4030")
+	)
+	(wire
+		(pts
+			(xy 313.69 119.38) (xy 313.69 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "360d5e24-9f2c-4d3a-9c5a-b0b65a608d81")
 	)
 	(wire
 		(pts
@@ -5782,6 +6002,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 157.48) (xy 318.77 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d22ed8a-92f1-45bb-9b18-3374ec4da6ca")
+	)
+	(wire
+		(pts
 			(xy 52.07 44.45) (xy 53.34 44.45)
 		)
 		(stroke
@@ -5810,6 +6040,26 @@
 			(type default)
 		)
 		(uuid "41efa562-b794-4ae1-ace6-07d3e68b87d9")
+	)
+	(wire
+		(pts
+			(xy 306.07 142.24) (xy 313.69 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42cc7132-9404-4adf-bb9b-dee6bc1dd9c2")
+	)
+	(wire
+		(pts
+			(xy 313.69 153.67) (xy 313.69 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43dcb15f-1ab8-4dca-a7ac-fee4bb009833")
 	)
 	(polyline
 		(pts
@@ -5903,6 +6153,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 133.35) (xy 318.77 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bdf9296-a324-4004-acae-4c5f5fb32435")
+	)
+	(wire
+		(pts
 			(xy 55.88 234.95) (xy 80.01 234.95)
 		)
 		(stroke
@@ -5910,6 +6170,16 @@
 			(type default)
 		)
 		(uuid "4be8541b-f62f-4cd6-8ff7-ded163618ac9")
+	)
+	(wire
+		(pts
+			(xy 314.96 134.62) (xy 318.77 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fcbf045-ec26-40b7-95b5-125b8e0d6233")
 	)
 	(wire
 		(pts
@@ -5981,6 +6251,36 @@
 		)
 		(uuid "57993050-a5e7-4d90-a65a-188d572c9ac0")
 	)
+	(wire
+		(pts
+			(xy 318.77 134.62) (xy 322.58 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5891021c-c760-4bfb-bec9-56c569f6d2af")
+	)
+	(wire
+		(pts
+			(xy 318.77 154.94) (xy 306.07 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59309f96-020b-431c-b086-47da4b6fe825")
+	)
+	(wire
+		(pts
+			(xy 318.77 165.1) (xy 318.77 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59618d87-b8af-4f39-a3c6-087d2eaeaf1a")
+	)
 	(polyline
 		(pts
 			(xy 126.365 249.555) (xy 126.365 200.66)
@@ -5990,6 +6290,16 @@
 			(type default)
 		)
 		(uuid "5989b7bf-017a-425a-a78a-39f5484abcc6")
+	)
+	(wire
+		(pts
+			(xy 318.77 146.05) (xy 322.58 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad1ee80-47ce-4145-9aeb-4be0e718db4d")
 	)
 	(wire
 		(pts
@@ -6071,6 +6381,16 @@
 		)
 		(uuid "632708c3-2c80-4789-9c21-144f570745a5")
 	)
+	(wire
+		(pts
+			(xy 313.69 165.1) (xy 313.69 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "646b6d16-0550-4630-bf78-c50e42ec0d00")
+	)
 	(polyline
 		(pts
 			(xy 120.65 96.52) (xy 120.65 25.4)
@@ -6121,6 +6441,16 @@
 		)
 		(uuid "67cc1436-43dc-49d7-933c-b2c0fe912883")
 	)
+	(wire
+		(pts
+			(xy 318.77 153.67) (xy 322.58 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ce0b5d-0fb3-43da-ad61-5f332ba96e09")
+	)
 	(polyline
 		(pts
 			(xy 186.69 45.72) (xy 186.69 46.99)
@@ -6160,6 +6490,26 @@
 			(type default)
 		)
 		(uuid "6a3d01a6-b347-4c51-ba97-e99e3427652a")
+	)
+	(wire
+		(pts
+			(xy 318.77 120.65) (xy 306.07 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a510052-2e0b-4581-b135-9d5d93415754")
+	)
+	(wire
+		(pts
+			(xy 313.69 130.81) (xy 313.69 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bafe5b7-c2d0-4784-bf09-c0582845bb8b")
 	)
 	(wire
 		(pts
@@ -6223,6 +6573,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 130.81) (xy 322.58 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781e1c82-3229-4399-8af2-11a1cdf6f524")
+	)
+	(wire
+		(pts
 			(xy 217.17 144.78) (xy 217.17 147.32)
 		)
 		(stroke
@@ -6243,6 +6603,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 120.65) (xy 306.07 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a5935f-d466-4e93-af75-2d8caa794cf2")
+	)
+	(wire
+		(pts
 			(xy 168.91 58.42) (xy 168.91 63.5)
 		)
 		(stroke
@@ -6260,6 +6630,16 @@
 			(type default)
 		)
 		(uuid "7d470b10-21c0-4031-baa8-166f2ee7101b")
+	)
+	(wire
+		(pts
+			(xy 313.69 110.49) (xy 318.77 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea74bbf-7656-47ef-a3cc-9fda31b491b1")
 	)
 	(wire
 		(pts
@@ -6323,6 +6703,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 130.81) (xy 313.69 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b47310-413f-4e3b-b357-a72b9ad9b01c")
+	)
+	(wire
+		(pts
 			(xy 217.17 139.7) (xy 217.17 142.24)
 		)
 		(stroke
@@ -6330,6 +6720,16 @@
 			(type default)
 		)
 		(uuid "85c94315-e915-4d38-af1f-b51c13520ee3")
+	)
+	(wire
+		(pts
+			(xy 314.96 142.24) (xy 318.77 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8603100e-bb26-4d72-91c7-3b221a3bce1c")
 	)
 	(polyline
 		(pts
@@ -6360,6 +6760,16 @@
 			(type default)
 		)
 		(uuid "8ae2330d-126e-475a-9dd1-37a208b577e9")
+	)
+	(wire
+		(pts
+			(xy 318.77 142.24) (xy 318.77 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b41d5e4-2173-4664-b373-ec6017a91e03")
 	)
 	(polyline
 		(pts
@@ -6430,6 +6840,16 @@
 			(type default)
 		)
 		(uuid "90a93006-2977-44ec-a59b-076a7fc2bd36")
+	)
+	(wire
+		(pts
+			(xy 306.07 143.51) (xy 306.07 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b7cf66-585e-4e57-b05c-547b8b0383d5")
 	)
 	(polyline
 		(pts
@@ -6513,6 +6933,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 110.49) (xy 318.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f715ee-9712-494e-87a7-9cb5a3f00503")
+	)
+	(wire
+		(pts
 			(xy 52.07 232.41) (xy 80.01 232.41)
 		)
 		(stroke
@@ -6530,6 +6960,16 @@
 			(type default)
 		)
 		(uuid "9b376c10-9083-4923-984a-0fb82233411f")
+	)
+	(wire
+		(pts
+			(xy 318.77 142.24) (xy 322.58 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c504753-eeb2-4ad9-be7a-20e947ac7a97")
 	)
 	(wire
 		(pts
@@ -6590,6 +7030,16 @@
 			(type default)
 		)
 		(uuid "a08b440f-a765-400e-815e-ae9e9620cc65")
+	)
+	(wire
+		(pts
+			(xy 313.69 156.21) (xy 318.77 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1953194-0dd0-42ed-8379-183279799a6b")
 	)
 	(wire
 		(pts
@@ -6683,6 +7133,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 157.48) (xy 322.58 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5681a2-4e66-4ba9-8ab0-20af23b09e1b")
+	)
+	(wire
+		(pts
 			(xy 148.59 120.65) (xy 151.13 120.65)
 		)
 		(stroke
@@ -6743,6 +7203,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 119.38) (xy 318.77 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d45e7f-62f1-4652-8f93-742f0f25de0f")
+	)
+	(wire
+		(pts
 			(xy 76.2 132.08) (xy 76.2 133.35)
 		)
 		(stroke
@@ -6770,6 +7240,26 @@
 			(type default)
 		)
 		(uuid "bc23e5ca-93ca-4fea-8d2e-5f16f85a0e50")
+	)
+	(wire
+		(pts
+			(xy 314.96 165.1) (xy 318.77 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea61df6-5c5b-4ebc-9b99-d2bd6dc36585")
+	)
+	(wire
+		(pts
+			(xy 318.77 153.67) (xy 318.77 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bebba904-0e88-4ddd-a4e8-58c5df42f38e")
 	)
 	(wire
 		(pts
@@ -6823,6 +7313,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 156.21) (xy 318.77 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c270dd5f-bd73-487d-8241-f3c8521635c2")
+	)
+	(wire
+		(pts
 			(xy 146.05 88.9) (xy 151.13 88.9)
 		)
 		(stroke
@@ -6830,6 +7330,16 @@
 			(type default)
 		)
 		(uuid "c33f1077-154d-4fe8-9e8b-869834003465")
+	)
+	(wire
+		(pts
+			(xy 306.07 153.67) (xy 313.69 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c49b4a10-4073-46d2-89bf-1707a964bbda")
 	)
 	(wire
 		(pts
@@ -6880,6 +7390,16 @@
 			(type default)
 		)
 		(uuid "c8329481-5d6b-471a-94cc-185ddb05c803")
+	)
+	(wire
+		(pts
+			(xy 314.96 111.76) (xy 318.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c911d748-a8a6-473d-9cd4-419111b23d57")
 	)
 	(wire
 		(pts
@@ -6943,6 +7463,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 132.08) (xy 306.07 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced35c9b-1cfc-406b-9d74-6cd1b4a49c26")
+	)
+	(wire
+		(pts
 			(xy 95.25 208.28) (xy 95.25 213.36)
 		)
 		(stroke
@@ -6953,6 +7483,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 153.67) (xy 318.77 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0162759-2576-48fd-a475-73eecb731e30")
+	)
+	(wire
+		(pts
 			(xy 171.45 88.9) (xy 171.45 91.44)
 		)
 		(stroke
@@ -6960,6 +7500,16 @@
 			(type default)
 		)
 		(uuid "d066589c-4e14-4bdc-8bb4-95becf06e850")
+	)
+	(wire
+		(pts
+			(xy 306.07 154.94) (xy 306.07 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d13c748e-3e32-4ddb-80dd-016df45809fe")
 	)
 	(polyline
 		(pts
@@ -7001,6 +7551,16 @@
 		)
 		(uuid "d5af3a80-ae4c-4c8a-a8b6-17d70e116f0c")
 	)
+	(wire
+		(pts
+			(xy 306.07 119.38) (xy 313.69 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60b8390-a1af-48b4-ab14-f6371d7a1974")
+	)
 	(polyline
 		(pts
 			(xy 237.998 100.838) (xy 203.708 100.838)
@@ -7010,6 +7570,16 @@
 			(type default)
 		)
 		(uuid "d8782d64-15f7-41e0-888d-4a39401e7b4c")
+	)
+	(wire
+		(pts
+			(xy 314.96 119.38) (xy 318.77 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da2b04ae-0eb5-4a38-92aa-5bbcf5bd0784")
 	)
 	(wire
 		(pts
@@ -7143,6 +7713,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 133.35) (xy 318.77 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb20f614-c419-480b-a206-91656be17af7")
+	)
+	(wire
+		(pts
 			(xy 229.87 118.11) (xy 229.87 121.92)
 		)
 		(stroke
@@ -7150,6 +7730,16 @@
 			(type default)
 		)
 		(uuid "ebf7f6d6-80ea-49e0-8a4f-c0ee557588e3")
+	)
+	(wire
+		(pts
+			(xy 318.77 111.76) (xy 322.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4d9fba-9a12-4d20-bc37-9c17c9cac5fd")
 	)
 	(wire
 		(pts
@@ -7190,6 +7780,16 @@
 			(type default)
 		)
 		(uuid "efc4579d-ac0a-4ed1-bc6b-fcb651b1b370")
+	)
+	(wire
+		(pts
+			(xy 313.69 121.92) (xy 318.77 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f7dcec-4ca1-489a-b7c6-05f90f139b88")
 	)
 	(polyline
 		(pts
@@ -7554,9 +8154,9 @@
 		)
 		(uuid "42a30227-255c-420a-a0cb-b65b3e711f47")
 	)
-	(text "SHARED ACROSS ALL\nFREQUENCY BANDS.\nSRF > 140MHz"
+	(text "0.8Ω 210nH 1A SRF=1800MHz"
 		(exclude_from_sim no)
-		(at 311.15 109.982 0)
+		(at 313.69 108.712 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7659,7 +8259,7 @@
 	)
 	(text "RF CHOKE"
 		(exclude_from_sim no)
-		(at 310.896 104.902 0)
+		(at 313.69 106.426 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15223,6 +15823,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 322.58 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "191acbec-0b40-4b56-a57c-e84677e10c59")
+		(property "Reference" "L146"
+			(at 323.85 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18nH"
+			(at 323.85 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 322.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
+			(at 322.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
+			(at 322.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C318035"
+			(at 322.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FHW1210HC018JGT"
+			(at 322.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fenghua"
+			(at 322.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0087fd77-4e88-4e03-920a-864ceb987703")
+		)
+		(pin "2"
+			(uuid "a8e23e09-1914-4b7e-a732-bbe0b8c1c40c")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:MMBF170")
 		(at 154.94 166.37 90)
 		(unit 1)
@@ -15960,6 +16657,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 306.07 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38b685ec-7e91-4aea-a866-1a9a54164677")
+		(property "Reference" "L143"
+			(at 307.34 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33nH"
+			(at 307.34 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 306.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231030_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC033JGT_C304280.pdf"
+			(at 306.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 33nH ±5% 110mΩ 1210 Inductors (SMD) ROHS"
+			(at 306.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C304280"
+			(at 306.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FHW1210HC033JGT"
+			(at 306.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fenghua"
+			(at 306.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c19b72f6-d31f-4983-89e6-5c6bd53009eb")
+		)
+		(pin "2"
+			(uuid "fbfc8503-581f-4b51-96aa-56a73995d48a")
+		)
+		(instances
+			(project ""
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 76.2 137.16 0)
 		(unit 1)
@@ -16050,6 +16843,103 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 322.58 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a56d356-2963-4716-a65e-594c7a82efc5")
+		(property "Reference" "L149"
+			(at 323.85 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18nH"
+			(at 323.85 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 322.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
+			(at 322.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
+			(at 322.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C318035"
+			(at 322.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FHW1210HC018JGT"
+			(at 322.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fenghua"
+			(at 322.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc4af5ea-d144-429d-8988-9ba1757c73d3")
+		)
+		(pin "2"
+			(uuid "1790b842-1eea-450d-8a67-9b3508b9811e")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L149")
 					(unit 1)
 				)
 			)
@@ -18231,6 +19121,199 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 306.07 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70b89bcd-08fc-4b79-8186-6431fa961ac6")
+		(property "Reference" "L147"
+			(at 307.34 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33nH"
+			(at 307.34 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 306.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231030_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC033JGT_C304280.pdf"
+			(at 306.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 33nH ±5% 110mΩ 1210 Inductors (SMD) ROHS"
+			(at 306.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C304280"
+			(at 306.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FHW1210HC033JGT"
+			(at 306.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fenghua"
+			(at 306.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed267b0d-6636-4e54-be55-83d35076b81b")
+		)
+		(pin "2"
+			(uuid "c1bd866c-f49a-456e-ac01-43636e9ad515")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 314.96 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76c8dc7b-bf24-49e0-ad8d-56062b049b24")
+		(property "Reference" "L151"
+			(at 316.23 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18nH"
+			(at 316.23 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 314.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
+			(at 314.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
+			(at 314.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C318035"
+			(at 314.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FHW1210HC018JGT"
+			(at 314.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fenghua"
+			(at 314.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a17568f-c2b6-4327-a78f-043e4e6af735")
+		)
+		(pin "2"
+			(uuid "41ac4b5b-0c26-4a6d-8215-7bb96b81d2db")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Barrel_Jack_MountingPin")
 		(at 135.89 55.88 0)
 		(unit 1)
@@ -18794,6 +19877,103 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 322.58 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88f26830-72aa-4ac3-aeb7-5092fac18427")
+		(property "Reference" "L142"
+			(at 323.85 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18nH"
+			(at 323.85 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 322.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
+			(at 322.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
+			(at 322.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C318035"
+			(at 322.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FHW1210HC018JGT"
+			(at 322.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fenghua"
+			(at 322.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47d5393c-139b-4464-a9e1-f5f7fd2a9e78")
+		)
+		(pin "2"
+			(uuid "5f3926a4-4d7c-46ed-b09b-b66889af858c")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L142")
 					(unit 1)
 				)
 			)
@@ -19560,6 +20740,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 314.96 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99b58e97-06bf-47f3-9470-6d0528d7e1ce")
+		(property "Reference" "L154"
+			(at 316.23 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18nH"
+			(at 316.23 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 314.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
+			(at 314.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
+			(at 314.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C318035"
+			(at 314.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FHW1210HC018JGT"
+			(at 314.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fenghua"
+			(at 314.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30fd2fa9-22dd-441b-9856-fee30d6797ba")
+		)
+		(pin "2"
+			(uuid "5195a9ee-0fef-449b-8680-8827fc1f3c4b")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x07")
 		(at 435.61 289.56 0)
 		(unit 1)
@@ -19639,6 +20916,102 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 306.07 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d22782e-6d24-477c-b44c-5bae44391242")
+		(property "Reference" "L153"
+			(at 307.34 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33nH"
+			(at 307.34 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 306.07 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231030_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC033JGT_C304280.pdf"
+			(at 306.07 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 33nH ±5% 110mΩ 1210 Inductors (SMD) ROHS"
+			(at 306.07 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C304280"
+			(at 306.07 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FHW1210HC033JGT"
+			(at 306.07 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fenghua"
+			(at 306.07 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b4bbc4c-6f1f-4623-b512-ecef8b5a5452")
+		)
+		(pin "2"
+			(uuid "842fa60c-5563-4715-a49d-0b38658357ff")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L153")
 					(unit 1)
 				)
 			)
@@ -19733,6 +21106,102 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 306.07 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1bb4d86-bff4-46ba-87fd-e115a8329505")
+		(property "Reference" "L144"
+			(at 307.34 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33nH"
+			(at 307.34 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 306.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231030_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC033JGT_C304280.pdf"
+			(at 306.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 33nH ±5% 110mΩ 1210 Inductors (SMD) ROHS"
+			(at 306.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C304280"
+			(at 306.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FHW1210HC033JGT"
+			(at 306.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fenghua"
+			(at 306.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac70ae07-cc28-4b84-bff8-90aafe573029")
+		)
+		(pin "2"
+			(uuid "cc8d8d0b-0e08-4538-98f7-5520fff3d25e")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L144")
 					(unit 1)
 				)
 			)
@@ -20384,6 +21853,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 322.58 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7aa4996-74d9-4f52-9994-b17d8720d7a9")
+		(property "Reference" "L155"
+			(at 323.85 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18nH"
+			(at 323.85 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 322.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
+			(at 322.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
+			(at 322.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C318035"
+			(at 322.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FHW1210HC018JGT"
+			(at 322.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fenghua"
+			(at 322.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd432882-c2c8-4cb6-90c7-d956e991b225")
+		)
+		(pin "2"
+			(uuid "a82047b5-5028-42d0-9bc0-cdd355fad759")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
 		(at 90.17 184.15 0)
 		(mirror x)
@@ -20614,76 +22180,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 309.88 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd4a7ab2-28f7-4231-a567-b97fa72b09c8")
-		(property "Reference" "L141"
-			(at 311.15 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uH"
-			(at 311.15 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 309.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 309.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 309.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ed67e1cb-28db-484d-8000-eb269a29d69d")
-		)
-		(pin "1"
-			(uuid "d9e1ee91-61f1-41f8-9169-2431816547a7")
-		)
-		(instances
-			(project ""
-				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
-					(reference "L141")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 146.05 120.65 270)
 		(mirror x)
@@ -20850,6 +22346,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 314.96 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5e32e18-ed8c-43a6-a9b7-038f12258af8")
+		(property "Reference" "L148"
+			(at 316.23 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18nH"
+			(at 316.23 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 314.96 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
+			(at 314.96 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
+			(at 314.96 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C318035"
+			(at 314.96 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FHW1210HC018JGT"
+			(at 314.96 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fenghua"
+			(at 314.96 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45e18604-104c-4d3b-bc52-a601b6c1a9c1")
+		)
+		(pin "2"
+			(uuid "4c8ebe11-117f-42b8-80b5-4046109cc5c8")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x07")
 		(at 480.06 289.56 0)
 		(unit 1)
@@ -20997,6 +22590,393 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 322.58 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d95644cb-53d8-4393-8077-71df8728758a")
+		(property "Reference" "L152"
+			(at 323.85 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18nH"
+			(at 323.85 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 322.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
+			(at 322.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
+			(at 322.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C318035"
+			(at 322.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FHW1210HC018JGT"
+			(at 322.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fenghua"
+			(at 322.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5406558-feeb-4dfa-8815-47bc8692937f")
+		)
+		(pin "2"
+			(uuid "232cc3fc-fec3-4eb8-b2e2-784b8fb61f90")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 314.96 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dea05d77-96ae-431a-a52f-7d463a86935b")
+		(property "Reference" "L145"
+			(at 316.23 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18nH"
+			(at 316.23 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 314.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
+			(at 314.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
+			(at 314.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C318035"
+			(at 314.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FHW1210HC018JGT"
+			(at 314.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fenghua"
+			(at 314.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27eb37d2-c0ec-405f-ad09-2686746ffe56")
+		)
+		(pin "2"
+			(uuid "0d2046b9-3062-4b31-ad38-0638f89f5d9c")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 306.07 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6ca7c35-be98-42ea-b594-3046db7b9754")
+		(property "Reference" "L150"
+			(at 307.34 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33nH"
+			(at 307.34 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 306.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231030_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC033JGT_C304280.pdf"
+			(at 306.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 33nH ±5% 110mΩ 1210 Inductors (SMD) ROHS"
+			(at 306.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C304280"
+			(at 306.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FHW1210HC033JGT"
+			(at 306.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fenghua"
+			(at 306.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f3af551-0735-4483-a78a-c75eadb59626")
+		)
+		(pin "2"
+			(uuid "0f33b8ca-95be-4841-ad35-3179c7341d5e")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 314.96 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed93c6ce-9d19-4eb3-8a0b-ef2e83dd48b9")
+		(property "Reference" "L141"
+			(at 316.23 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18nH"
+			(at 316.23 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 314.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
+			(at 314.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
+			(at 314.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C318035"
+			(at 314.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FHW1210HC018JGT"
+			(at 314.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fenghua"
+			(at 314.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7e5a7d9-341e-4f12-96a7-09cd54fd9b0c")
+		)
+		(pin "2"
+			(uuid "a514da80-4785-4ae0-89e4-7ae621094c94")
+		)
+		(instances
+			(project ""
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L141")
 					(unit 1)
 				)
 			)
