@@ -4781,12 +4781,6 @@
 		(uuid "042fb959-289a-41c8-ac14-dde3723e185a")
 	)
 	(junction
-		(at 350.52 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "047d1660-60c5-4ccc-941e-fe33f09da2a0")
-	)
-	(junction
 		(at 238.76 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4805,12 +4799,6 @@
 		(uuid "0a2ed4e5-cd43-4b6b-a3a1-ffc579464ee3")
 	)
 	(junction
-		(at 326.39 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c8caefc-8a58-4e38-83fb-2382289c3f7d")
-	)
-	(junction
 		(at 264.16 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4823,7 +4811,7 @@
 		(uuid "12106e96-dfde-4055-9d99-773ec5e92a43")
 	)
 	(junction
-		(at 326.39 116.84)
+		(at 327.66 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1396b0a9-5f0e-451b-9289-8032a0cb631b")
@@ -4839,12 +4827,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18ae221f-6c0b-4287-9e85-ff82ade4cc34")
-	)
-	(junction
-		(at 313.69 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a95b1f8-4668-46f8-9d92-e81fbed375dd")
 	)
 	(junction
 		(at 306.07 111.76)
@@ -4883,7 +4865,7 @@
 		(uuid "30fb5627-b4a8-4f26-b906-99151cc31031")
 	)
 	(junction
-		(at 326.39 158.75)
+		(at 327.66 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31c9ae62-d4d1-4e47-ac43-d3507f917ad5")
@@ -4901,7 +4883,19 @@
 		(uuid "38f52fee-714b-4eb3-bbcc-a274fef5e072")
 	)
 	(junction
-		(at 326.39 128.27)
+		(at 424.18 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b2db6b2-e024-49dc-81f1-a87376bc6696")
+	)
+	(junction
+		(at 346.71 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42773bc1-e0da-4d14-963d-c13602756b97")
+	)
+	(junction
+		(at 327.66 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43d7adcc-80b0-4cbb-bff1-b232e63aabd7")
@@ -4931,6 +4925,12 @@
 		(uuid "5301542f-5ba3-4010-ada6-aa4d03b45a65")
 	)
 	(junction
+		(at 434.34 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53d66c83-a8e3-433f-a2a8-d98ddf54f892")
+	)
+	(junction
 		(at 78.74 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4947,6 +4947,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57801aa3-26a7-4722-a1fe-6eda67b99d58")
+	)
+	(junction
+		(at 327.66 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a0468b0-496d-443d-bf90-385d57a0b5f5")
 	)
 	(junction
 		(at 271.78 166.37)
@@ -5039,7 +5045,7 @@
 		(uuid "82983acb-50d5-428c-8867-c0fa518ec7d3")
 	)
 	(junction
-		(at 326.39 124.46)
+		(at 327.66 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8383e0bd-ce35-4f15-bc14-c9fb6f407983")
@@ -5105,7 +5111,7 @@
 		(uuid "a6bf1df4-d4e4-445a-a4ea-ede7206d3a37")
 	)
 	(junction
-		(at 326.39 135.89)
+		(at 327.66 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6dd037b-75f6-4c3b-9c9d-66ade53adafb")
@@ -5117,19 +5123,13 @@
 		(uuid "a78babf8-ac4c-44aa-a87a-40dc468e8801")
 	)
 	(junction
-		(at 350.52 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a82b6dec-105b-4186-9901-b64faade6fce")
-	)
-	(junction
 		(at 63.5 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b47ae6af-50ae-4dd7-a78b-738bb4d70ab9")
 	)
 	(junction
-		(at 326.39 139.7)
+		(at 327.66 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8fa537a-e1f2-4481-8f9d-f9a072d1a091")
@@ -5141,13 +5141,13 @@
 		(uuid "b9acc6e8-8d0c-4c89-b8af-897a053b9fbf")
 	)
 	(junction
-		(at 326.39 151.13)
+		(at 327.66 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "baf40642-81dc-4e77-b924-05b0129edf9d")
 	)
 	(junction
-		(at 326.39 147.32)
+		(at 327.66 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be0bd363-ec3e-4380-b8cc-b830f0d26d8a")
@@ -5213,6 +5213,12 @@
 		(uuid "d7ebd384-b239-4f49-a5f0-264ef48881fa")
 	)
 	(junction
+		(at 314.96 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db5af461-d602-4f50-95de-ac255e11bd4e")
+	)
+	(junction
 		(at 306.07 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5237,7 +5243,7 @@
 		(uuid "e614a1c8-98e7-4876-b952-42c082bbe262")
 	)
 	(junction
-		(at 326.39 170.18)
+		(at 327.66 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e643d5f9-7c40-48f7-b39b-d230dec0a668")
@@ -5259,6 +5265,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9c260f9-88d8-428c-be48-695bbe2f49e3")
+	)
+	(junction
+		(at 346.71 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebdcdc80-a8e0-466b-8f8b-d54b725f2944")
 	)
 	(junction
 		(at 130.81 153.67)
@@ -5285,7 +5297,7 @@
 		(uuid "f8e5255e-6252-471e-986b-744dfea7aca5")
 	)
 	(junction
-		(at 326.39 162.56)
+		(at 327.66 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbc5edda-7eba-4281-ae2f-e21f44f5f8f3")
@@ -5382,6 +5394,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 121.92) (xy 397.51 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020e6af5-342a-4d69-ac5c-7cc07a800747")
+	)
+	(wire
+		(pts
 			(xy 140.97 139.7) (xy 142.24 139.7)
 		)
 		(stroke
@@ -5389,6 +5411,16 @@
 			(type default)
 		)
 		(uuid "0211b9e1-52c8-44b9-896c-224762fa300b")
+	)
+	(wire
+		(pts
+			(xy 453.39 121.92) (xy 461.01 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024db9db-60da-481c-a00b-056eceb625b4")
 	)
 	(wire
 		(pts
@@ -5460,9 +5492,20 @@
 		)
 		(uuid "056b3f07-f628-4885-879d-829cbe387b6e")
 	)
+	(polyline
+		(pts
+			(xy 491.49 81.28) (xy 491.49 195.58)
+		)
+		(stroke
+			(width 0.2794)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "05d0c0e2-05d2-4758-b13f-eab530167c50")
+	)
 	(wire
 		(pts
-			(xy 322.58 128.27) (xy 326.39 128.27)
+			(xy 323.85 128.27) (xy 327.66 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5479,6 +5522,36 @@
 			(type default)
 		)
 		(uuid "06637f5a-c54f-4937-bf26-b6e279c933fa")
+	)
+	(wire
+		(pts
+			(xy 372.11 121.92) (xy 379.73 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068f9271-651b-4b2e-b01b-0e3c7e7cb912")
+	)
+	(wire
+		(pts
+			(xy 453.39 121.92) (xy 453.39 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06947640-25c6-47ba-beaf-36dfa6b0c4f7")
+	)
+	(wire
+		(pts
+			(xy 443.23 160.02) (xy 444.5 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075b77f0-f4ec-4fd4-a025-b92a89d31e43")
 	)
 	(wire
 		(pts
@@ -5502,7 +5575,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 170.18) (xy 321.31 170.18)
+			(xy 314.96 170.18) (xy 322.58 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5522,7 +5595,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 149.86) (xy 326.39 149.86)
+			(xy 322.58 149.86) (xy 327.66 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5562,7 +5635,17 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 151.13) (xy 326.39 151.13)
+			(xy 435.61 121.92) (xy 435.61 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c8602a7-1c34-4307-b269-c3d3d1e9d36a")
+	)
+	(wire
+		(pts
+			(xy 323.85 151.13) (xy 327.66 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5592,16 +5675,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 114.3) (xy 373.38 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11abc0f4-d812-4539-bc6c-6fe31eadbe1b")
-	)
-	(wire
-		(pts
 			(xy 171.45 53.34) (xy 180.34 53.34)
 		)
 		(stroke
@@ -5612,7 +5685,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 161.29) (xy 308.61 161.29)
+			(xy 292.1 161.29) (xy 307.34 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5702,7 +5775,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 114.3) (xy 350.52 114.3)
+			(xy 313.69 114.3) (xy 314.96 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5752,7 +5825,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 135.89) (xy 326.39 135.89)
+			(xy 323.85 135.89) (xy 327.66 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5762,7 +5835,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 128.27) (xy 330.2 128.27)
+			(xy 327.66 128.27) (xy 331.47 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5772,7 +5845,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 127) (xy 326.39 128.27)
+			(xy 327.66 127) (xy 327.66 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5832,6 +5905,16 @@
 	)
 	(wire
 		(pts
+			(xy 434.34 120.65) (xy 434.34 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c4122a-f206-4306-8f2e-e8df504c63e9")
+	)
+	(wire
+		(pts
 			(xy 264.16 116.84) (xy 264.16 119.38)
 		)
 		(stroke
@@ -5842,7 +5925,17 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 135.89) (xy 326.39 137.16)
+			(xy 444.5 121.92) (xy 444.5 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c82cbd-c1ce-4455-9626-d2dddc7ad03d")
+	)
+	(wire
+		(pts
+			(xy 327.66 135.89) (xy 327.66 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5862,7 +5955,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 148.59) (xy 313.69 148.59)
+			(xy 327.66 148.59) (xy 314.96 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5892,7 +5985,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 147.32) (xy 321.31 138.43)
+			(xy 322.58 147.32) (xy 322.58 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5912,7 +6005,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 124.46) (xy 330.2 124.46)
+			(xy 327.66 124.46) (xy 331.47 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5932,7 +6025,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 137.16) (xy 313.69 137.16)
+			(xy 327.66 137.16) (xy 314.96 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5972,7 +6065,17 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 170.18) (xy 330.2 170.18)
+			(xy 407.67 121.92) (xy 407.67 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d01a20d-9984-4e45-b78f-b151dcc5d075")
+	)
+	(wire
+		(pts
+			(xy 327.66 170.18) (xy 331.47 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5989,6 +6092,16 @@
 			(type default)
 		)
 		(uuid "2d952d26-ddb1-48bf-8ce1-1e04fe91554d")
+	)
+	(wire
+		(pts
+			(xy 398.78 121.92) (xy 406.4 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e83446a-7a22-4745-9ca7-6513db100ad6")
 	)
 	(wire
 		(pts
@@ -6022,23 +6135,13 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 161.29) (xy 308.61 172.72)
+			(xy 307.34 161.29) (xy 307.34 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2ff8f64b-3a52-458c-a8ea-fed954fe3dad")
-	)
-	(wire
-		(pts
-			(xy 350.52 114.3) (xy 373.38 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32b238cd-408e-45ea-bc82-919840dd776c")
 	)
 	(wire
 		(pts
@@ -6062,17 +6165,27 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 172.72) (xy 374.65 172.72)
+			(xy 372.11 121.92) (xy 372.11 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33ab384c-f3be-4a9a-bc83-48b486a6fbb7")
+		(uuid "33c7f548-f7a2-4862-ae78-2b293d9ce21f")
 	)
 	(wire
 		(pts
-			(xy 326.39 149.86) (xy 326.39 151.13)
+			(xy 307.34 172.72) (xy 327.66 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33f0d1c6-528f-4a6a-b681-eb0b301e68ff")
+	)
+	(wire
+		(pts
+			(xy 327.66 149.86) (xy 327.66 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6102,13 +6215,23 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 124.46) (xy 321.31 115.57)
+			(xy 322.58 124.46) (xy 322.58 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "360d5e24-9f2c-4d3a-9c5a-b0b65a608d81")
+	)
+	(wire
+		(pts
+			(xy 480.06 121.92) (xy 487.68 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377fc5f6-c6a3-444c-901b-c023e7e8848b")
 	)
 	(wire
 		(pts
@@ -6182,13 +6305,23 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 162.56) (xy 326.39 162.56)
+			(xy 323.85 162.56) (xy 327.66 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3d22ed8a-92f1-45bb-9b18-3374ec4da6ca")
+	)
+	(wire
+		(pts
+			(xy 424.18 162.56) (xy 487.68 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2314fd-716f-480b-b38a-d54dea35aa2c")
 	)
 	(wire
 		(pts
@@ -6211,9 +6344,30 @@
 		)
 		(uuid "3e6dafa9-2941-4d2d-a71a-04b8ff64f675")
 	)
+	(polyline
+		(pts
+			(xy 502.92 72.39) (xy 520.7 72.39)
+		)
+		(stroke
+			(width 0.2794)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "3f56def7-2800-4197-80bc-e2fefe0f05ce")
+	)
 	(wire
 		(pts
-			(xy 313.69 114.3) (xy 313.69 116.84)
+			(xy 370.84 120.65) (xy 434.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fae0180-291c-416a-8544-495e4537a838")
+	)
+	(wire
+		(pts
+			(xy 314.96 114.3) (xy 314.96 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6243,7 +6397,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 147.32) (xy 321.31 147.32)
+			(xy 314.96 147.32) (xy 322.58 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6253,7 +6407,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 158.75) (xy 321.31 149.86)
+			(xy 322.58 158.75) (xy 322.58 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6280,6 +6434,17 @@
 			(type default)
 		)
 		(uuid "4588397c-9e5c-4839-9a12-4893b2e6e364")
+	)
+	(polyline
+		(pts
+			(xy 494.03 81.28) (xy 494.03 161.925)
+		)
+		(stroke
+			(width 0.2794)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "45ae1053-0ed9-4f77-b2ae-dcb7042cd1d3")
 	)
 	(wire
 		(pts
@@ -6313,6 +6478,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 114.3) (xy 346.71 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47aa1ead-ee0e-4adb-8694-4f1bcf366fab")
+	)
+	(wire
+		(pts
 			(xy 54.61 83.82) (xy 54.61 87.63)
 		)
 		(stroke
@@ -6323,16 +6498,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 172.72) (xy 350.52 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48626ff7-f2a0-41fb-96f9-278bd911e92c")
-	)
-	(wire
-		(pts
 			(xy 130.81 139.7) (xy 130.81 143.51)
 		)
 		(stroke
@@ -6340,6 +6505,16 @@
 			(type default)
 		)
 		(uuid "48fef802-99d8-4ecd-810a-d9927fac1b1f")
+	)
+	(wire
+		(pts
+			(xy 462.28 121.92) (xy 462.28 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49179f2a-8158-4e21-9e33-1d642d6623fb")
 	)
 	(polyline
 		(pts
@@ -6363,7 +6538,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 138.43) (xy 326.39 138.43)
+			(xy 322.58 138.43) (xy 327.66 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6393,7 +6568,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 139.7) (xy 326.39 139.7)
+			(xy 323.85 139.7) (xy 327.66 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6453,7 +6628,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 139.7) (xy 330.2 139.7)
+			(xy 327.66 139.7) (xy 331.47 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6463,7 +6638,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 160.02) (xy 313.69 160.02)
+			(xy 327.66 160.02) (xy 314.96 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6473,7 +6648,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 170.18) (xy 326.39 172.72)
+			(xy 327.66 170.18) (xy 327.66 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6493,7 +6668,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 151.13) (xy 330.2 151.13)
+			(xy 327.66 151.13) (xy 331.47 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6510,6 +6685,26 @@
 			(type default)
 		)
 		(uuid "5b2ac546-fd54-47e2-8fd6-8207caf61883")
+	)
+	(wire
+		(pts
+			(xy 424.18 144.78) (xy 424.18 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf0175b-f97a-4671-a32d-5ab26e815530")
+	)
+	(wire
+		(pts
+			(xy 388.62 160.02) (xy 389.89 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5deaa0ca-31cd-48a9-b771-9bf8a6aeb493")
 	)
 	(wire
 		(pts
@@ -6573,7 +6768,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 170.18) (xy 321.31 161.29)
+			(xy 322.58 170.18) (xy 322.58 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6623,7 +6818,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 158.75) (xy 330.2 158.75)
+			(xy 327.66 158.75) (xy 331.47 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6661,6 +6856,16 @@
 		)
 		(uuid "6921d5e7-13cd-432b-a780-d12b591e369e")
 	)
+	(wire
+		(pts
+			(xy 461.01 160.02) (xy 462.28 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a124629-c941-4316-850e-7d5745880737")
+	)
 	(polyline
 		(pts
 			(xy 158.75 34.925) (xy 158.75 51.435)
@@ -6673,7 +6878,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 125.73) (xy 313.69 125.73)
+			(xy 327.66 125.73) (xy 314.96 125.73)
 		)
 		(stroke
 			(width 0)
@@ -6683,7 +6888,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 135.89) (xy 321.31 127)
+			(xy 322.58 135.89) (xy 322.58 127)
 		)
 		(stroke
 			(width 0)
@@ -6743,6 +6948,16 @@
 	)
 	(wire
 		(pts
+			(xy 487.68 144.78) (xy 487.68 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc65007-cade-48ff-a2fd-e60a8f1c152a")
+	)
+	(wire
+		(pts
 			(xy 220.98 106.68) (xy 227.33 106.68)
 		)
 		(stroke
@@ -6750,6 +6965,16 @@
 			(type default)
 		)
 		(uuid "70214c3b-bda3-4e85-9d1c-9df9ec0ecc7f")
+	)
+	(wire
+		(pts
+			(xy 424.18 162.56) (xy 424.18 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7075ae45-c91d-4828-9893-e0f7e04262a5")
 	)
 	(wire
 		(pts
@@ -6763,7 +6988,17 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 151.13) (xy 350.52 172.72)
+			(xy 415.29 160.02) (xy 416.56 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715eb788-4324-4f78-989c-664690d29213")
+	)
+	(wire
+		(pts
+			(xy 346.71 151.13) (xy 346.71 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6773,7 +7008,27 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 114.3) (xy 350.52 120.65)
+			(xy 398.78 121.92) (xy 398.78 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "722d0850-e775-41ad-a817-f2416ba4dd4d")
+	)
+	(wire
+		(pts
+			(xy 416.56 121.92) (xy 424.18 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75bb3697-f771-4f35-b23b-a253c63389c8")
+	)
+	(wire
+		(pts
+			(xy 346.71 114.3) (xy 346.71 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6783,7 +7038,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 135.89) (xy 330.2 135.89)
+			(xy 327.66 135.89) (xy 331.47 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6813,7 +7068,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 125.73) (xy 313.69 128.27)
+			(xy 314.96 125.73) (xy 314.96 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6853,7 +7108,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 115.57) (xy 326.39 115.57)
+			(xy 322.58 115.57) (xy 327.66 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6880,6 +7135,16 @@
 			(type default)
 		)
 		(uuid "80a9a1ea-70be-4f3c-97a3-b3f97731ffd2")
+	)
+	(wire
+		(pts
+			(xy 469.9 160.02) (xy 471.17 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c9135f-7c35-4cd0-9c8b-a31260bf8054")
 	)
 	(polyline
 		(pts
@@ -6933,13 +7198,23 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 135.89) (xy 321.31 135.89)
+			(xy 314.96 135.89) (xy 322.58 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "83b47310-413f-4e3b-b357-a72b9ad9b01c")
+	)
+	(wire
+		(pts
+			(xy 407.67 121.92) (xy 415.29 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85111815-c649-469a-b594-644af50f06dc")
 	)
 	(wire
 		(pts
@@ -6953,7 +7228,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 147.32) (xy 326.39 147.32)
+			(xy 323.85 147.32) (xy 327.66 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6970,6 +7245,16 @@
 			(type default)
 		)
 		(uuid "87347f1b-61e6-44fd-99f9-ee418acd2e90")
+	)
+	(wire
+		(pts
+			(xy 462.28 121.92) (xy 469.9 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87dc9163-71de-4992-9758-79102359f076")
 	)
 	(wire
 		(pts
@@ -6993,6 +7278,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 120.65) (xy 370.84 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3143a4-bd9e-4a0e-b99f-aea672900ee1")
+	)
+	(wire
+		(pts
 			(xy 43.18 132.08) (xy 43.18 133.35)
 		)
 		(stroke
@@ -7003,7 +7298,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 147.32) (xy 326.39 148.59)
+			(xy 327.66 147.32) (xy 327.66 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7040,6 +7335,16 @@
 			(type default)
 		)
 		(uuid "8ca1a10e-ae73-4d32-a6d2-8d166c29fbe2")
+	)
+	(wire
+		(pts
+			(xy 444.5 121.92) (xy 452.12 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d3ed3c1-4c0e-429c-9ac9-5c807fe07e7f")
 	)
 	(wire
 		(pts
@@ -7103,13 +7408,23 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 148.59) (xy 313.69 151.13)
+			(xy 314.96 148.59) (xy 314.96 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "90b7cf66-585e-4e57-b05c-547b8b0383d5")
+	)
+	(wire
+		(pts
+			(xy 389.89 121.92) (xy 389.89 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91051d1e-df40-412d-af5b-ebe06274ce79")
 	)
 	(wire
 		(pts
@@ -7120,6 +7435,16 @@
 			(type default)
 		)
 		(uuid "915b5912-c0c0-4190-a320-7d704fd0c372")
+	)
+	(wire
+		(pts
+			(xy 434.34 114.3) (xy 434.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91cf04ed-57e5-4d17-8205-1fcd7e565da0")
 	)
 	(polyline
 		(pts
@@ -7203,13 +7528,23 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 115.57) (xy 326.39 116.84)
+			(xy 327.66 115.57) (xy 327.66 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "96f715ee-9712-494e-87a7-9cb5a3f00503")
+	)
+	(wire
+		(pts
+			(xy 346.71 114.3) (xy 434.34 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9717a2e0-145e-4767-bddc-e35012dc2bd7")
 	)
 	(wire
 		(pts
@@ -7233,7 +7568,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 147.32) (xy 330.2 147.32)
+			(xy 327.66 147.32) (xy 331.47 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7263,6 +7598,26 @@
 	)
 	(wire
 		(pts
+			(xy 478.79 160.02) (xy 480.06 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd60042-126d-43aa-9fff-1b96c49132be")
+	)
+	(wire
+		(pts
+			(xy 416.56 121.92) (xy 416.56 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed44089-ebb8-45ad-a6b2-38a06f07c7de")
+	)
+	(wire
+		(pts
 			(xy 78.74 44.45) (xy 81.28 44.45)
 		)
 		(stroke
@@ -7280,6 +7635,16 @@
 			(type default)
 		)
 		(uuid "9efcc638-e3b1-4e97-b274-ca1a8d43d5fd")
+	)
+	(wire
+		(pts
+			(xy 370.84 160.02) (xy 372.11 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff839ec-dde2-4599-8f64-9eae2570a8c0")
 	)
 	(polyline
 		(pts
@@ -7303,7 +7668,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 161.29) (xy 326.39 161.29)
+			(xy 322.58 161.29) (xy 327.66 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7320,16 +7685,6 @@
 			(type default)
 		)
 		(uuid "a2101b37-2c86-497d-b883-88a1c0a1db00")
-	)
-	(wire
-		(pts
-			(xy 308.61 172.72) (xy 326.39 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2584818-096d-44dc-9383-dcac904fbfee")
 	)
 	(wire
 		(pts
@@ -7350,6 +7705,26 @@
 			(type default)
 		)
 		(uuid "a470e52e-ded4-4223-8e1c-96bc550d6712")
+	)
+	(wire
+		(pts
+			(xy 406.4 160.02) (xy 407.67 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a569459b-2516-433d-abb7-9f5762d994b8")
+	)
+	(wire
+		(pts
+			(xy 379.73 160.02) (xy 381 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a593a075-ae68-4868-8bf5-b3cdaca11d8a")
 	)
 	(wire
 		(pts
@@ -7380,6 +7755,17 @@
 			(type default)
 		)
 		(uuid "a7c11eb7-675f-4605-a688-9551c980c3bd")
+	)
+	(polyline
+		(pts
+			(xy 520.7 72.39) (xy 520.7 102.235)
+		)
+		(stroke
+			(width 0.2794)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "a804b3a2-3f11-403b-9aff-6857389996c3")
 	)
 	(wire
 		(pts
@@ -7423,7 +7809,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 162.56) (xy 330.2 162.56)
+			(xy 327.66 162.56) (xy 331.47 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7493,13 +7879,23 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 124.46) (xy 326.39 125.73)
+			(xy 327.66 124.46) (xy 327.66 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b6d45e7f-62f1-4652-8f93-742f0f25de0f")
+	)
+	(wire
+		(pts
+			(xy 381 121.92) (xy 381 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b70ddb42-75ce-4c34-8738-5f7291c65b95")
 	)
 	(wire
 		(pts
@@ -7510,6 +7906,17 @@
 			(type default)
 		)
 		(uuid "b7e12b7f-ded4-47d4-96d4-3f42c98472d4")
+	)
+	(polyline
+		(pts
+			(xy 488.95 81.28) (xy 488.95 111.125)
+		)
+		(stroke
+			(width 0.2794)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "ba6f5cf7-3c61-46f1-917e-ac8c52edd2ce")
 	)
 	(wire
 		(pts
@@ -7553,7 +7960,17 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 170.18) (xy 326.39 170.18)
+			(xy 346.71 172.72) (xy 424.18 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be50e4a7-c66b-4222-8565-caa9a7edcccf")
+	)
+	(wire
+		(pts
+			(xy 323.85 170.18) (xy 327.66 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7563,7 +7980,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 158.75) (xy 326.39 160.02)
+			(xy 327.66 158.75) (xy 327.66 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7613,7 +8030,17 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 161.29) (xy 326.39 162.56)
+			(xy 397.51 160.02) (xy 398.78 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1947b66-d7d8-4d1d-a5da-d75d7417a635")
+	)
+	(wire
+		(pts
+			(xy 327.66 161.29) (xy 327.66 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7633,7 +8060,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 158.75) (xy 321.31 158.75)
+			(xy 314.96 158.75) (xy 322.58 158.75)
 		)
 		(stroke
 			(width 0)
@@ -7703,7 +8130,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 116.84) (xy 326.39 116.84)
+			(xy 323.85 116.84) (xy 327.66 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7720,6 +8147,16 @@
 			(type default)
 		)
 		(uuid "ca27a354-2217-495a-877c-ab59a0ed9636")
+	)
+	(wire
+		(pts
+			(xy 381 121.92) (xy 388.62 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4a862a-3d54-4051-acb6-4c6919c81306")
 	)
 	(polyline
 		(pts
@@ -7783,7 +8220,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 137.16) (xy 313.69 139.7)
+			(xy 314.96 137.16) (xy 314.96 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7803,7 +8240,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 158.75) (xy 326.39 158.75)
+			(xy 323.85 158.75) (xy 327.66 158.75)
 		)
 		(stroke
 			(width 0)
@@ -7823,7 +8260,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 160.02) (xy 313.69 162.56)
+			(xy 314.96 160.02) (xy 314.96 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7893,7 +8330,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 124.46) (xy 321.31 124.46)
+			(xy 314.96 124.46) (xy 322.58 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7923,7 +8360,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 124.46) (xy 326.39 124.46)
+			(xy 323.85 124.46) (xy 327.66 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7983,6 +8420,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 172.72) (xy 346.71 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de41a11b-d1c2-4d17-a658-009f03dd594f")
+	)
+	(wire
+		(pts
 			(xy 260.35 166.37) (xy 251.46 166.37)
 		)
 		(stroke
@@ -7990,6 +8437,16 @@
 			(type default)
 		)
 		(uuid "e3fc4729-746a-402f-ad5a-7be24f592110")
+	)
+	(wire
+		(pts
+			(xy 435.61 121.92) (xy 443.23 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e57322c4-74ad-46ef-99dd-25a18edce7a2")
 	)
 	(polyline
 		(pts
@@ -8031,6 +8488,16 @@
 		)
 		(uuid "e6959c6e-3054-4212-83fb-4ea53b8d2a0c")
 	)
+	(wire
+		(pts
+			(xy 480.06 121.92) (xy 480.06 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9447a02-95a9-4937-a84b-806135772c43")
+	)
 	(polyline
 		(pts
 			(xy 165.1 25.4) (xy 125.73 25.4)
@@ -8043,7 +8510,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 138.43) (xy 326.39 139.7)
+			(xy 327.66 138.43) (xy 327.66 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8053,7 +8520,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 116.84) (xy 330.2 116.84)
+			(xy 327.66 116.84) (xy 331.47 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8103,7 +8570,17 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 127) (xy 326.39 127)
+			(xy 471.17 121.92) (xy 478.79 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03b11d4-1e81-442c-874b-a4a513272fa7")
+	)
+	(wire
+		(pts
+			(xy 322.58 127) (xy 327.66 127)
 		)
 		(stroke
 			(width 0)
@@ -8190,6 +8667,36 @@
 			(type default)
 		)
 		(uuid "f55bda38-15ff-4806-bacd-c001565d3d09")
+	)
+	(wire
+		(pts
+			(xy 434.34 160.02) (xy 435.61 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f72f4c5b-9137-4efd-a719-dceb5d9b1005")
+	)
+	(wire
+		(pts
+			(xy 471.17 121.92) (xy 471.17 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a5aefa-d8fa-47f0-8dee-53f656382638")
+	)
+	(wire
+		(pts
+			(xy 452.12 160.02) (xy 453.39 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c57d27-2e76-4338-8c32-2a4aeaaa910a")
 	)
 	(wire
 		(pts
@@ -8342,6 +8849,19 @@
 		(uuid "ff846ac4-f6ce-4cc1-a388-56c9ef4d3581")
 	)
 	(rectangle
+		(start 345.44 198.12)
+		(end 567.69 325.12)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4891f29d-d064-48e3-89b1-835fbdc5909c)
+	)
+	(rectangle
 		(start 22.352 161.29)
 		(end 113.284 195.072)
 		(stroke
@@ -8352,6 +8872,45 @@
 			(type none)
 		)
 		(uuid c4db297c-c332-4c42-9843-a966110a5c51)
+	)
+	(rectangle
+		(start 308.61 113.03)
+		(end 490.22 171.45)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d45f7525-5dc9-4b58-98c7-d43806b9a040)
+	)
+	(rectangle
+		(start 519.43 102.87)
+		(end 563.88 162.56)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d68eeaed-662e-4279-a361-5cebd1628763)
+	)
+	(rectangle
+		(start 492.76 163.83)
+		(end 529.59 176.53)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f3c1725a-bfef-488a-81e3-de47047d9e83)
 	)
 	(text "PROTECTION"
 		(exclude_from_sim no)
@@ -8388,7 +8947,7 @@
 	)
 	(text "160-2200M / 135kHz-2MHz"
 		(exclude_from_sim no)
-		(at 344.932 136.398 90)
+		(at 341.122 136.398 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8425,6 +8984,19 @@
 			)
 		)
 		(uuid "1f6ec759-8f24-48c2-b25d-6779f9a06d86")
+	)
+	(text "PA-DRAIN"
+		(exclude_from_sim no)
+		(at 310.642 106.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+		)
+		(uuid "1fde523c-5c99-414b-887b-47e8c3efcd3d")
 	)
 	(text "12V/1.5A\nREGULATOR"
 		(exclude_from_sim no)
@@ -8472,16 +9044,6 @@
 		)
 		(uuid "29213430-1ad8-49be-8620-c5048a4db3f8")
 	)
-	(text "For 2200m through 160m bands (135 kHz - 2 MHz):\n\n    Inductance: 100-470 μH (series combination may be necessary)\n    Current rating: 100-500 mA (application dependent)\n    Self-resonant frequency (SRF): Above 2 MHz\n    Package size: 1008 (2520 metric) or larger\n    DCR: As low as possible, typically <1 Ω\n\nRecommendations:\n\n    Use multiple high-value SMD inductors in series\n    Consider ferrite core SMD inductors for higher inductance values\n    Example: 4 x 100 μH in series to achieve 400 μH total"
-		(exclude_from_sim no)
-		(at 350.52 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2ad5963d-b16e-49d4-8449-b90c24b1df1a")
-	)
 	(text "RESISTIVE LOAD"
 		(exclude_from_sim no)
 		(at 533.654 181.102 0)
@@ -8527,6 +9089,19 @@
 		)
 		(uuid "3b9a4c37-4c82-45e9-872e-d7f9fc05d2a5")
 	)
+	(text "PA-SUPPLY"
+		(exclude_from_sim no)
+		(at 300.482 183.896 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+		)
+		(uuid "4041c922-c0d6-48eb-9983-858058736c0d")
+	)
 	(text "CD2003GP is a clone of Toshiba TA2003.\nTA2003 is itself a pin-compatible\nupgrade to the earlier Toshiba TA8164.\nOnly the AM section is used as a direct\nconversion receiver."
 		(exclude_from_sim no)
 		(at 165.354 150.876 0)
@@ -8537,9 +9112,22 @@
 		)
 		(uuid "42a30227-255c-420a-a0cb-b65b3e711f47")
 	)
+	(text "RFC-GND"
+		(exclude_from_sim no)
+		(at 312.928 175.006 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+		)
+		(uuid "4aac6cdd-f71e-4b80-acbd-84502c9b190a")
+	)
 	(text "2-60M / 5-144MHz"
 		(exclude_from_sim no)
-		(at 369.57 138.176 90)
+		(at 358.648 138.176 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8549,7 +9137,7 @@
 	)
 	(text "0.8Ω 210nH 1A SRF=1800MHz"
 		(exclude_from_sim no)
-		(at 311.912 137.414 90)
+		(at 313.182 137.414 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8604,16 +9192,6 @@
 			)
 		)
 		(uuid "61206c84-2e9a-48f1-b2df-266f02340d9c")
-	)
-	(text "For 60m through 2m bands (5 MHz - 144 MHz):\n\n    Inductance: 1-10 μH\n    Current rating: 100-500 mA (application dependent)\n    Self-resonant frequency (SRF): Above 150 MHz\n    Q factor: >50 at operating frequencies\n    Package size: 0805 (2012 metric) or 0603 (1608 metric)\n    DCR: <0.5 Ω\n\nRecommendations:\n\n    Use multi-layer or wire-wound SMD inductors for better Q factor\n    Consider series combination of smaller value inductors for higher SRF\n    Example: 2 x 4.7 μH in series to achieve ~9.4 μH with higher SRF\n"
-		(exclude_from_sim no)
-		(at 412.75 152.146 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "61728af9-a526-40e8-a76b-2994ab565b07")
 	)
 	(text "USED FOR\nFIRMWARE\nUPLOADS"
 		(exclude_from_sim no)
@@ -8670,6 +9248,17 @@
 			(justify right)
 		)
 		(uuid "7089be54-3bda-4552-8a91-b28d0bddaccd")
+	)
+	(text "2x (33 x 0.47uH = 15.51uH @ 1.188Ω) = 7.755μH @ 0.594Ω\nSRF=170MHz I>3A"
+		(exclude_from_sim no)
+		(at 371.348 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "724d7996-9323-4f8d-898d-721d867e02c7")
 	)
 	(text "RF CHOKE"
 		(exclude_from_sim no)
@@ -8831,6 +9420,17 @@
 		)
 		(uuid "b49a5a55-628c-48c5-9f1e-42b7c8628005")
 	)
+	(text "=Sokal's 'C1' to be calculated"
+		(exclude_from_sim no)
+		(at 498.602 173.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b83f2fb9-6f95-4da7-8aa1-8333f75f2d90")
+	)
 	(text "SWITCHED BASED ON FREQUENCY BAND"
 		(exclude_from_sim no)
 		(at 542.29 108.712 0)
@@ -8851,6 +9451,16 @@
 			)
 		)
 		(uuid "ba23e5dc-d9c2-420d-ac38-8a0c5647d774")
+	)
+	(text "xΩ xuH >xmA SRF>xMHz"
+		(exclude_from_sim no)
+		(at 360.934 137.414 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "baa965cb-1f97-40de-bf00-7da0533a773a")
 	)
 	(text "FORWARD POWER, REVERSE POWER AND SWR MEASUREMENT"
 		(exclude_from_sim no)
@@ -8878,13 +9488,27 @@
 	)
 	(text "70CM / 450MHz"
 		(exclude_from_sim no)
-		(at 309.626 137.414 90)
+		(at 310.896 137.414 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "ccddad5c-fb0c-4ed3-b076-675ca5b68480")
+	)
+	(text "ALL ARE SWITCHED\nBASED ON FREQUENCY\nAND NOMINALLY ADJACENT.\nIT LIKELY MAKES SENSE TO \nCREATE A UNIFORM INTERFACE\nAND PHYSICAL MODULE."
+		(exclude_from_sim no)
+		(at 502.158 73.406 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right)
+		)
+		(uuid "d6345260-71a6-4773-be89-9ac1db024629")
 	)
 	(text "For effective power supply noise filtering,\na design guideline is to use ferrite beads\nat about 20% of their rated DC current."
 		(exclude_from_sim no)
@@ -8932,7 +9556,7 @@
 	)
 	(text "1.16Ω 400uH >1A SRF=4000MHz"
 		(exclude_from_sim no)
-		(at 347.218 136.144 90)
+		(at 343.408 136.144 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15201,6 +15825,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 469.9 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01e0782d-4347-4cfd-9795-b7b8e9c95494")
+		(property "Reference" "L213"
+			(at 468.63 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 468.63 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 469.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 469.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 469.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 469.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 469.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 469.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ecbf801-aafd-4469-a0e4-0117c2083d83")
+		)
+		(pin "1"
+			(uuid "fcfd3699-3bc4-4aca-80ae-fed6754dd6c5")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 99.06 213.36 90)
 		(unit 1)
@@ -15263,6 +15984,103 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 397.51 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0376a8fe-86e6-49ac-a2d5-1601676a176b")
+		(property "Reference" "L177"
+			(at 396.24 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 396.24 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 397.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 397.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 397.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 397.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 397.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 397.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b37ff99-b9b8-47e4-8290-ccee97453f0a")
+		)
+		(pin "1"
+			(uuid "53e09f99-3de9-4800-aa4d-9a334a609ffb")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L177")
 					(unit 1)
 				)
 			)
@@ -15751,6 +16569,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 434.34 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d7b1e66-c3b4-49db-af85-ff5622ff8cdf")
+		(property "Reference" "L197"
+			(at 433.07 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 433.07 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 434.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 434.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 434.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 434.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 434.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 434.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f92e3242-7530-4a7c-9dc4-79c05ded428d")
+		)
+		(pin "1"
+			(uuid "5254ca91-f652-4cb9-b0b0-fc3a6869e696")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x07")
 		(at 480.06 228.6 0)
 		(unit 1)
@@ -15830,6 +16745,103 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 487.68 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "144875f4-9c67-4043-92f2-2aac8e3a6299")
+		(property "Reference" "L223"
+			(at 486.41 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 486.41 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 487.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 487.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 487.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 487.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 487.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 487.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e98765d-7999-42fa-bd7a-2ff249b66871")
+		)
+		(pin "1"
+			(uuid "c967b9b2-3bb2-4124-8935-ed02c823efaa")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L223")
 					(unit 1)
 				)
 			)
@@ -16324,7 +17336,201 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 330.2 132.08 0)
+		(at 370.84 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "183800af-68e3-4dfc-a7f5-4dce994ecc1b")
+		(property "Reference" "L164"
+			(at 369.57 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 369.57 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 370.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 370.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 370.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 370.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 370.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 370.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20f60dc2-2cb9-4c47-b629-6f25c140ee25")
+		)
+		(pin "1"
+			(uuid "b4b35e59-e5a2-470a-b5e9-079e0f001d35")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 406.4 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18a542a2-f9d6-4400-993d-4afa5a741eb0")
+		(property "Reference" "L182"
+			(at 405.13 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 405.13 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 406.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 406.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 406.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 406.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 406.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 406.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c13a986b-6d6c-49c0-bea3-b31360aa4bfd")
+		)
+		(pin "1"
+			(uuid "763ed445-7a61-40b9-a842-770cda5b3af5")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L182")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 331.47 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16333,7 +17539,7 @@
 		(fields_autoplaced yes)
 		(uuid "191acbec-0b40-4b56-a57c-e84677e10c59")
 		(property "Reference" "L146"
-			(at 331.47 130.8099 0)
+			(at 332.74 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16342,7 +17548,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 331.47 133.3499 0)
+			(at 332.74 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16351,7 +17557,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 330.2 132.08 0)
+			(at 331.47 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16360,7 +17566,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 330.2 132.08 0)
+			(at 331.47 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16369,7 +17575,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 330.2 132.08 0)
+			(at 331.47 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16378,7 +17584,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 330.2 132.08 0)
+			(at 331.47 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16387,7 +17593,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 330.2 132.08 0)
+			(at 331.47 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16396,7 +17602,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 330.2 132.08 0)
+			(at 331.47 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16517,7 +17723,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 350.52 139.7 0)
+		(at 346.71 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16526,7 +17732,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c0381c9-655e-45b0-afbf-d1b848dd859a")
 		(property "Reference" "L158"
-			(at 351.79 138.4299 0)
+			(at 347.98 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16535,7 +17741,7 @@
 			)
 		)
 		(property "Value" "100uH"
-			(at 351.79 140.9699 0)
+			(at 347.98 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16544,7 +17750,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS8040"
-			(at 350.52 139.7 0)
+			(at 346.71 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16553,7 +17759,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251551_Sunlord-SWPA8040S101MT_C83468.pdf"
-			(at 350.52 139.7 0)
+			(at 346.71 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16562,7 +17768,7 @@
 			)
 		)
 		(property "Description" "1A 100uH ±20% 1.15A SMD,8x8mm Power Inductors ROHS"
-			(at 350.52 139.7 0)
+			(at 346.71 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16571,7 +17777,7 @@
 			)
 		)
 		(property "LCSC Part #" "C83468"
-			(at 350.52 139.7 0)
+			(at 346.71 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16580,7 +17786,7 @@
 			)
 		)
 		(property "MPN" "SWPA8040S101MT"
-			(at 350.52 139.7 0)
+			(at 346.71 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16589,7 +17795,7 @@
 			)
 		)
 		(property "Manufacturer" "Sunlord"
-			(at 350.52 139.7 0)
+			(at 346.71 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16607,6 +17813,297 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "L158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 388.62 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c55076b-471f-4c90-909a-393c555eef88")
+		(property "Reference" "L172"
+			(at 387.35 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 387.35 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 388.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 388.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 388.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 388.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 388.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 388.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ce8f606-7ebc-4b75-9f64-f54d406e64c9")
+		)
+		(pin "1"
+			(uuid "00d30423-2ff2-4b55-8c38-1a0879a4e4c1")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 415.29 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d207298-33d3-4362-b169-2efb1fc8fdbd")
+		(property "Reference" "L189"
+			(at 414.02 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 414.02 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 415.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 415.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 415.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 415.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 415.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 415.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71c95493-505c-4218-8f2f-557d1cddd5dd")
+		)
+		(pin "1"
+			(uuid "11413f12-52be-4fd3-87a7-116107ff541d")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 379.73 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e0e5b30-e9fa-46c2-a30c-b46dea8ef28f")
+		(property "Reference" "L170"
+			(at 378.46 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 378.46 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 379.73 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 379.73 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 379.73 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 379.73 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 379.73 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 379.73 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a88d784-a685-4b0a-ad8d-d05fe45077bd")
+		)
+		(pin "1"
+			(uuid "9685570a-022f-426b-9522-9b1d99c43293")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L170")
 					(unit 1)
 				)
 			)
@@ -16817,6 +18314,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 469.9 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "202a0543-8c55-4b85-a761-67615ff27307")
+		(property "Reference" "L215"
+			(at 468.63 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 468.63 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 469.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 469.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 469.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 469.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 469.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 469.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ff0dd46-16f6-4cd5-9281-6c5fa660716a")
+		)
+		(pin "1"
+			(uuid "084646ed-a3cb-4972-bf87-162d0c3d4e8a")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 271.78 127 180)
 		(unit 1)
@@ -16915,16 +18509,16 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 350.52 132.08 0)
+		(at 434.34 148.59 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "237984ec-ee23-4a22-a080-fdb4563624f9")
-		(property "Reference" "L157"
-			(at 351.79 130.8099 0)
+		(uuid "223abde9-e3cf-4d6e-819d-a6b26bad65c4")
+		(property "Reference" "L196"
+			(at 433.07 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16932,8 +18526,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uH"
-			(at 351.79 133.3499 0)
+		(property "Value" "470nH"
+			(at 433.07 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16941,8 +18535,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS8040"
-			(at 350.52 132.08 0)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 434.34 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16950,8 +18544,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251551_Sunlord-SWPA8040S101MT_C83468.pdf"
-			(at 350.52 132.08 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 434.34 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16959,8 +18553,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A 100uH ±20% 1.15A SMD,8x8mm Power Inductors ROHS"
-			(at 350.52 132.08 0)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 434.34 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16968,8 +18562,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C83468"
-			(at 350.52 132.08 0)
+		(property "LCSC Part #" "C316369"
+			(at 434.34 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16977,8 +18571,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SWPA8040S101MT"
-			(at 350.52 132.08 0)
+		(property "MPN" "SPH252012HR47MT"
+			(at 434.34 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16987,7 +18581,201 @@
 			)
 		)
 		(property "Manufacturer" "Sunlord"
-			(at 350.52 132.08 0)
+			(at 434.34 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b44d02f-c4a2-4509-89b7-9331025d6ed6")
+		)
+		(pin "1"
+			(uuid "44281003-d9c8-44c1-add0-8be289d1a598")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 434.34 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22e59b12-9e88-47c9-9d6e-b627e7226932")
+		(property "Reference" "L161"
+			(at 433.07 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 433.07 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 434.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 434.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 434.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 434.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 434.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 434.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0aec3c23-10a3-438d-8021-5d4976767065")
+		)
+		(pin "1"
+			(uuid "52e006ba-c58a-4b52-85cb-74aa05377861")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 346.71 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "237984ec-ee23-4a22-a080-fdb4563624f9")
+		(property "Reference" "L157"
+			(at 347.98 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uH"
+			(at 347.98 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS8040"
+			(at 346.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251551_Sunlord-SWPA8040S101MT_C83468.pdf"
+			(at 346.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 100uH ±20% 1.15A SMD,8x8mm Power Inductors ROHS"
+			(at 346.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C83468"
+			(at 346.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SWPA8040S101MT"
+			(at 346.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 346.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17075,6 +18863,200 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 406.4 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27cc2321-667c-439f-a913-abe94e4dcc7d")
+		(property "Reference" "L185"
+			(at 405.13 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 405.13 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 406.4 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 406.4 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 406.4 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 406.4 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 406.4 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 406.4 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97d499bd-0e1c-4e37-982f-4ba45228d95a")
+		)
+		(pin "1"
+			(uuid "3fcfb0db-5cf1-47c5-b3a9-73c402ad8a2a")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 379.73 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28593869-fe61-4fe8-ac72-48ca871f1d28")
+		(property "Reference" "L167"
+			(at 378.46 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 378.46 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 379.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 379.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 379.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 379.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 379.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 379.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0eec1a9e-9712-4e8e-b6a5-8a25ca5868b0")
+		)
+		(pin "1"
+			(uuid "2127b969-6389-4100-8170-8a57c76662a3")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L167")
 					(unit 1)
 				)
 			)
@@ -17448,7 +19430,201 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 313.69 120.65 0)
+		(at 370.84 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "365d923b-7329-4ce8-b238-a6c0ee0f0147")
+		(property "Reference" "L162"
+			(at 369.57 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 369.57 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 370.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 370.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 370.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 370.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 370.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 370.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "248a0334-20c4-43ba-91e4-6032370ddaf2")
+		)
+		(pin "1"
+			(uuid "6d3f7c7b-b1a7-4724-90f4-81ce518a0729")
+		)
+		(instances
+			(project ""
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 443.23 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "375fb7aa-9d2b-41e5-b196-cab19b40582c")
+		(property "Reference" "L199"
+			(at 441.96 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 441.96 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 443.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 443.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 443.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 443.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 443.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 443.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f6db047-a94c-4bae-b6bc-3bd189414c18")
+		)
+		(pin "1"
+			(uuid "8751300d-1ab4-4f51-93b1-8378ed36b2f7")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L199")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 314.96 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17456,7 +19632,7 @@
 		(dnp no)
 		(uuid "38b685ec-7e91-4aea-a866-1a9a54164677")
 		(property "Reference" "L143"
-			(at 314.96 119.3799 0)
+			(at 316.23 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17465,7 +19641,7 @@
 			)
 		)
 		(property "Value" "33nH"
-			(at 314.96 121.9199 0)
+			(at 316.23 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17474,7 +19650,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 313.69 120.65 0)
+			(at 314.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17483,7 +19659,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231030_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC033JGT_C304280.pdf"
-			(at 313.69 120.65 0)
+			(at 314.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17492,7 +19668,7 @@
 			)
 		)
 		(property "Description" "1A 33nH ±5% 110mΩ 1210 Inductors (SMD) ROHS"
-			(at 313.69 120.65 0)
+			(at 314.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17501,7 +19677,7 @@
 			)
 		)
 		(property "LCSC Part #" "C304280"
-			(at 313.69 120.65 0)
+			(at 314.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17510,7 +19686,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC033JGT"
-			(at 313.69 120.65 0)
+			(at 314.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17519,7 +19695,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 313.69 120.65 0)
+			(at 314.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17640,7 +19816,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 330.2 143.51 0)
+		(at 331.47 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17649,7 +19825,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a56d356-2963-4716-a65e-594c7a82efc5")
 		(property "Reference" "L149"
-			(at 331.47 142.2399 0)
+			(at 332.74 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17658,7 +19834,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 331.47 144.7799 0)
+			(at 332.74 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17667,7 +19843,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 330.2 143.51 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17676,7 +19852,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 330.2 143.51 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17685,7 +19861,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 330.2 143.51 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17694,7 +19870,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 330.2 143.51 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17703,7 +19879,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 330.2 143.51 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17712,7 +19888,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 330.2 143.51 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18025,6 +20201,200 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 461.01 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "435cb2a2-b213-4224-9e2f-e72700164263")
+		(property "Reference" "L212"
+			(at 459.74 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 459.74 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 461.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 461.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 461.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 461.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 461.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 461.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98afc149-bfb4-49a7-8eea-16bfc2f3e6e5")
+		)
+		(pin "1"
+			(uuid "dcedc699-5f15-431c-b5b2-f5d55f6c1992")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 406.4 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "441ac524-89f6-4566-b6ba-1d349759c8c7")
+		(property "Reference" "L183"
+			(at 405.13 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 405.13 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 406.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 406.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 406.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 406.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 406.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 406.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b4792317-6b06-41f1-b993-021714135d25")
+		)
+		(pin "1"
+			(uuid "28d52a84-4d1c-4328-9909-57bd98cf3478")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L183")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x07")
 		(at 480.06 208.28 0)
 		(unit 1)
@@ -18104,6 +20474,103 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 469.9 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47748f50-98c2-4110-9c16-6e3e92bc62a1")
+		(property "Reference" "L216"
+			(at 468.63 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 468.63 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 469.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 469.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 469.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 469.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 469.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 469.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b2d3b9a-64be-4ab6-aad2-5b6a25506f97")
+		)
+		(pin "1"
+			(uuid "d8359cf0-5e62-463a-a279-743957169ad3")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L216")
 					(unit 1)
 				)
 			)
@@ -18447,6 +20914,297 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 469.9 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cd1f3f4-1b18-45cf-bc24-37a15808aa2a")
+		(property "Reference" "L217"
+			(at 468.63 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 468.63 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 469.9 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 469.9 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 469.9 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 469.9 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 469.9 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 469.9 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21814969-c33d-4d23-a68d-518694c70688")
+		)
+		(pin "1"
+			(uuid "4da32f6a-434e-4822-ac46-5ea1f547260a")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 434.34 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cff6964-8879-4061-a9b0-318f78d32c75")
+		(property "Reference" "L195"
+			(at 433.07 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 433.07 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 434.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 434.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 434.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 434.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 434.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 434.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed04e7b1-0ebd-447b-93a8-8e2d9f489e06")
+		)
+		(pin "1"
+			(uuid "7af686f4-7750-4ff3-a84c-de4d34b13466")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L195")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 388.62 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50654f95-bd23-4db2-ae5f-dea45bde6ef2")
+		(property "Reference" "L175"
+			(at 387.35 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 387.35 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 388.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 388.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 388.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 388.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 388.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 388.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18fa7045-a5e1-4cb3-b99e-b6264f9d846d")
+		)
+		(pin "1"
+			(uuid "80379b4b-cb18-4cae-b787-6d6db7a68892")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 76.2 124.46 180)
 		(unit 1)
@@ -18629,6 +21387,200 @@
 			(project ""
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 452.12 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "523d78a5-23f7-4623-915b-c896d73b6526")
+		(property "Reference" "L203"
+			(at 450.85 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 450.85 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 452.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 452.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 452.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 452.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 452.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 452.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46bbf89b-884a-46d7-b0a9-5f931db6ed2b")
+		)
+		(pin "1"
+			(uuid "cf93d799-03bb-44c3-bf3b-f049e8309b8c")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 397.51 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55069fa1-9792-4a85-919b-6ed32549a332")
+		(property "Reference" "L181"
+			(at 396.24 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 396.24 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 397.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 397.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 397.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 397.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 397.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 397.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "27ab1bb6-f0b4-497f-99c7-955c44915fe1")
+		)
+		(pin "1"
+			(uuid "4d7acc73-4dce-4e8b-9407-50b0e80f9b7a")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L181")
 					(unit 1)
 				)
 			)
@@ -19502,6 +22454,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 370.84 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66311a0f-d550-4adc-9d6b-176bc7858492")
+		(property "Reference" "L165"
+			(at 369.57 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 369.57 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 370.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 370.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 370.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 370.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 370.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 370.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca24043d-a4ea-4aee-b275-974c997921a7")
+		)
+		(pin "1"
+			(uuid "ffce0e9f-9703-4494-adfa-9dfd5deb0134")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 130.81 176.53 0)
 		(mirror x)
@@ -20009,7 +23058,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 313.69 143.51 0)
+		(at 314.96 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20017,7 +23066,7 @@
 		(dnp no)
 		(uuid "70b89bcd-08fc-4b79-8186-6431fa961ac6")
 		(property "Reference" "L147"
-			(at 314.96 142.2399 0)
+			(at 316.23 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20026,7 +23075,7 @@
 			)
 		)
 		(property "Value" "33nH"
-			(at 314.96 144.7799 0)
+			(at 316.23 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20035,7 +23084,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 313.69 143.51 0)
+			(at 314.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20044,7 +23093,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231030_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC033JGT_C304280.pdf"
-			(at 313.69 143.51 0)
+			(at 314.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20053,7 +23102,7 @@
 			)
 		)
 		(property "Description" "1A 33nH ±5% 110mΩ 1210 Inductors (SMD) ROHS"
-			(at 313.69 143.51 0)
+			(at 314.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20062,7 +23111,7 @@
 			)
 		)
 		(property "LCSC Part #" "C304280"
-			(at 313.69 143.51 0)
+			(at 314.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20071,7 +23120,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC033JGT"
-			(at 313.69 143.51 0)
+			(at 314.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20080,7 +23129,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 313.69 143.51 0)
+			(at 314.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20105,16 +23154,16 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 373.38 124.46 0)
+		(at 487.68 140.97 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7195b455-928d-4831-a4fc-d8da34316a89")
-		(property "Reference" "L160"
-			(at 374.65 123.1899 0)
+		(uuid "749b5242-17bb-498d-86e4-ecc764388927")
+		(property "Reference" "L225"
+			(at 486.41 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20122,8 +23171,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L"
-			(at 374.65 125.7299 0)
+		(property "Value" "470nH"
+			(at 486.41 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20131,8 +23180,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 373.38 124.46 0)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 487.68 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20140,8 +23189,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 373.38 124.46 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 487.68 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20149,8 +23198,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 373.38 124.46 0)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 487.68 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20158,16 +23207,43 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "461d76ae-1da0-4703-a681-3c139483d967")
+		(property "LCSC Part #" "C316369"
+			(at 487.68 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 487.68 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 487.68 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "cada25e9-0a0c-4bce-82bc-70d9467709d9")
+			(uuid "e38d0b0e-8229-44e5-b6ad-cc2dedb2607c")
+		)
+		(pin "1"
+			(uuid "e9bd0df8-baca-469f-86ed-e9e03a6106a6")
 		)
 		(instances
-			(project ""
+			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
-					(reference "L160")
+					(reference "L225")
 					(unit 1)
 				)
 			)
@@ -20272,7 +23348,104 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 322.58 154.94 0)
+		(at 397.51 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75827f9b-26bf-4cef-8b17-4437bf9f11f7")
+		(property "Reference" "L179"
+			(at 396.24 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 396.24 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 397.51 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 397.51 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 397.51 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 397.51 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 397.51 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 397.51 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85d833e1-7c38-453f-a403-c06217d3a759")
+		)
+		(pin "1"
+			(uuid "8ed0066f-ea9a-4f16-8ad1-90fe0c5efff1")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L179")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 323.85 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20281,7 +23454,7 @@
 		(fields_autoplaced yes)
 		(uuid "76c8dc7b-bf24-49e0-ad8d-56062b049b24")
 		(property "Reference" "L151"
-			(at 323.85 153.6699 0)
+			(at 325.12 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20290,7 +23463,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 323.85 156.2099 0)
+			(at 325.12 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20299,7 +23472,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 322.58 154.94 0)
+			(at 323.85 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20308,7 +23481,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 322.58 154.94 0)
+			(at 323.85 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20317,7 +23490,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 322.58 154.94 0)
+			(at 323.85 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20326,7 +23499,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 322.58 154.94 0)
+			(at 323.85 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20335,7 +23508,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 322.58 154.94 0)
+			(at 323.85 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20344,7 +23517,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 322.58 154.94 0)
+			(at 323.85 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20937,6 +24110,297 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 452.12 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "835617eb-5c4a-40de-8132-fb4ec3d44875")
+		(property "Reference" "L204"
+			(at 450.85 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 450.85 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 452.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 452.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 452.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 452.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 452.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 452.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33176015-c5dd-4a34-83e8-63a2a77e715f")
+		)
+		(pin "1"
+			(uuid "a73d417f-8728-46f8-bba0-bb1c1a355fcd")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 424.18 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8412e21c-d433-4aa4-9926-b2f80e3b819e")
+		(property "Reference" "L193"
+			(at 422.91 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 422.91 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 424.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 424.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 424.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 424.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 424.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 424.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b69c44f7-b786-40f3-b937-88130cc1379d")
+		)
+		(pin "1"
+			(uuid "6ae55618-6cc9-4adf-97d8-ecbed025c38c")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L193")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 434.34 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8792eb2a-d23d-4022-bca6-3914fd804d84")
+		(property "Reference" "L160"
+			(at 433.07 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 433.07 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 434.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 434.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 434.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 434.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 434.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 434.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "995029a1-2202-4252-a6cc-2055682070e7")
+		)
+		(pin "1"
+			(uuid "9c3c4933-f723-476a-a89a-5e635b64bba7")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 43.18 111.76 180)
 		(unit 1)
@@ -21035,7 +24499,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 330.2 120.65 0)
+		(at 331.47 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21044,7 +24508,7 @@
 		(fields_autoplaced yes)
 		(uuid "88f26830-72aa-4ac3-aeb7-5092fac18427")
 		(property "Reference" "L142"
-			(at 331.47 119.3799 0)
+			(at 332.74 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21053,7 +24517,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 331.47 121.9199 0)
+			(at 332.74 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21062,7 +24526,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 330.2 120.65 0)
+			(at 331.47 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21071,7 +24535,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 330.2 120.65 0)
+			(at 331.47 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21080,7 +24544,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 330.2 120.65 0)
+			(at 331.47 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21089,7 +24553,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 330.2 120.65 0)
+			(at 331.47 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21098,7 +24562,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 330.2 120.65 0)
+			(at 331.47 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21107,7 +24571,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 330.2 120.65 0)
+			(at 331.47 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21125,6 +24589,103 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "L142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 478.79 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a835691-492d-4290-b742-f18cb6d52fe9")
+		(property "Reference" "L221"
+			(at 477.52 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 477.52 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 478.79 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 478.79 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 478.79 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 478.79 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 478.79 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 478.79 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2043c24b-1d00-401c-aac0-2fe02a2da1e5")
+		)
+		(pin "1"
+			(uuid "b475ea8b-4fff-47c6-836f-02a28e27010b")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L221")
 					(unit 1)
 				)
 			)
@@ -22086,7 +25647,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 322.58 166.37 0)
+		(at 323.85 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22095,7 +25656,7 @@
 		(fields_autoplaced yes)
 		(uuid "99b58e97-06bf-47f3-9470-6d0528d7e1ce")
 		(property "Reference" "L154"
-			(at 323.85 165.0999 0)
+			(at 325.12 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22104,7 +25665,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 323.85 167.6399 0)
+			(at 325.12 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22113,7 +25674,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 322.58 166.37 0)
+			(at 323.85 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22122,7 +25683,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 322.58 166.37 0)
+			(at 323.85 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22131,7 +25692,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 322.58 166.37 0)
+			(at 323.85 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22140,7 +25701,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 322.58 166.37 0)
+			(at 323.85 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22149,7 +25710,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 322.58 166.37 0)
+			(at 323.85 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22158,7 +25719,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 322.58 166.37 0)
+			(at 323.85 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22268,7 +25829,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 313.69 166.37 0)
+		(at 314.96 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22276,7 +25837,7 @@
 		(dnp no)
 		(uuid "9d22782e-6d24-477c-b44c-5bae44391242")
 		(property "Reference" "L153"
-			(at 314.96 165.0999 0)
+			(at 316.23 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22285,7 +25846,7 @@
 			)
 		)
 		(property "Value" "33nH"
-			(at 314.96 167.6399 0)
+			(at 316.23 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22294,7 +25855,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 313.69 166.37 0)
+			(at 314.96 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22303,7 +25864,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231030_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC033JGT_C304280.pdf"
-			(at 313.69 166.37 0)
+			(at 314.96 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22312,7 +25873,7 @@
 			)
 		)
 		(property "Description" "1A 33nH ±5% 110mΩ 1210 Inductors (SMD) ROHS"
-			(at 313.69 166.37 0)
+			(at 314.96 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22321,7 +25882,7 @@
 			)
 		)
 		(property "LCSC Part #" "C304280"
-			(at 313.69 166.37 0)
+			(at 314.96 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22330,7 +25891,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC033JGT"
-			(at 313.69 166.37 0)
+			(at 314.96 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22339,7 +25900,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 313.69 166.37 0)
+			(at 314.96 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22357,6 +25918,103 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "L153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 424.18 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e8b0db9-6c23-41c3-8433-984144b6877f")
+		(property "Reference" "L194"
+			(at 422.91 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 422.91 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 424.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 424.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 424.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 424.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 424.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 424.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4292682e-711e-4809-a668-4e35385f82b8")
+		)
+		(pin "1"
+			(uuid "e4b7efea-2264-49fe-8e36-eae3b5f70f7f")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L194")
 					(unit 1)
 				)
 			)
@@ -22458,7 +26116,104 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 313.69 132.08 0)
+		(at 443.23 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1a1e55b-da9d-4a05-b892-605c15fc9842")
+		(property "Reference" "L201"
+			(at 441.96 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 441.96 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 443.23 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 443.23 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 443.23 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 443.23 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 443.23 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 443.23 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d1b4172-43b1-431c-b71e-4c0c6a7484cb")
+		)
+		(pin "1"
+			(uuid "7f2e1e51-ea54-4e51-8bc3-7cf4effc400f")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 314.96 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22466,7 +26221,7 @@
 		(dnp no)
 		(uuid "a1bb4d86-bff4-46ba-87fd-e115a8329505")
 		(property "Reference" "L144"
-			(at 314.96 130.8099 0)
+			(at 316.23 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22475,7 +26230,7 @@
 			)
 		)
 		(property "Value" "33nH"
-			(at 314.96 133.3499 0)
+			(at 316.23 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22484,7 +26239,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 313.69 132.08 0)
+			(at 314.96 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22493,7 +26248,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231030_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC033JGT_C304280.pdf"
-			(at 313.69 132.08 0)
+			(at 314.96 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22502,7 +26257,7 @@
 			)
 		)
 		(property "Description" "1A 33nH ±5% 110mΩ 1210 Inductors (SMD) ROHS"
-			(at 313.69 132.08 0)
+			(at 314.96 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22511,7 +26266,7 @@
 			)
 		)
 		(property "LCSC Part #" "C304280"
-			(at 313.69 132.08 0)
+			(at 314.96 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22520,7 +26275,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC033JGT"
-			(at 313.69 132.08 0)
+			(at 314.96 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22529,7 +26284,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 313.69 132.08 0)
+			(at 314.96 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22648,16 +26403,16 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 350.52 124.46 0)
+		(at 461.01 125.73 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a380c8af-9caf-4241-b0b9-3618e7ab63d5")
-		(property "Reference" "L156"
-			(at 351.79 123.1899 0)
+		(uuid "a36079bb-c782-49d9-a860-05ffd9b7fbf7")
+		(property "Reference" "L208"
+			(at 459.74 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22665,8 +26420,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uH"
-			(at 351.79 125.7299 0)
+		(property "Value" "470nH"
+			(at 459.74 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22674,8 +26429,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS8040"
-			(at 350.52 124.46 0)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 461.01 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22683,8 +26438,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251551_Sunlord-SWPA8040S101MT_C83468.pdf"
-			(at 350.52 124.46 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 461.01 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22692,8 +26447,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A 100uH ±20% 1.15A SMD,8x8mm Power Inductors ROHS"
-			(at 350.52 124.46 0)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 461.01 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22701,8 +26456,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C83468"
-			(at 350.52 124.46 0)
+		(property "LCSC Part #" "C316369"
+			(at 461.01 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22710,8 +26465,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SWPA8040S101MT"
-			(at 350.52 124.46 0)
+		(property "MPN" "SPH252012HR47MT"
+			(at 461.01 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22720,7 +26475,104 @@
 			)
 		)
 		(property "Manufacturer" "Sunlord"
-			(at 350.52 124.46 0)
+			(at 461.01 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b717d9ab-29f2-4784-9088-bdbb0e06baae")
+		)
+		(pin "1"
+			(uuid "9c670b24-fa9a-4774-b3f3-2b4f27076548")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 346.71 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a380c8af-9caf-4241-b0b9-3618e7ab63d5")
+		(property "Reference" "L156"
+			(at 347.98 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uH"
+			(at 347.98 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS8040"
+			(at 346.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251551_Sunlord-SWPA8040S101MT_C83468.pdf"
+			(at 346.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 100uH ±20% 1.15A SMD,8x8mm Power Inductors ROHS"
+			(at 346.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C83468"
+			(at 346.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SWPA8040S101MT"
+			(at 346.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 346.71 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22745,7 +26597,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 350.52 147.32 0)
+		(at 346.71 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22754,7 +26606,7 @@
 		(fields_autoplaced yes)
 		(uuid "a630c4c2-ab87-4aea-8e16-06fc36acb49b")
 		(property "Reference" "L159"
-			(at 351.79 146.0499 0)
+			(at 347.98 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22763,7 +26615,7 @@
 			)
 		)
 		(property "Value" "100uH"
-			(at 351.79 148.5899 0)
+			(at 347.98 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22772,7 +26624,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS8040"
-			(at 350.52 147.32 0)
+			(at 346.71 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22781,7 +26633,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251551_Sunlord-SWPA8040S101MT_C83468.pdf"
-			(at 350.52 147.32 0)
+			(at 346.71 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22790,7 +26642,7 @@
 			)
 		)
 		(property "Description" "1A 100uH ±20% 1.15A SMD,8x8mm Power Inductors ROHS"
-			(at 350.52 147.32 0)
+			(at 346.71 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22799,7 +26651,7 @@
 			)
 		)
 		(property "LCSC Part #" "C83468"
-			(at 350.52 147.32 0)
+			(at 346.71 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22808,7 +26660,7 @@
 			)
 		)
 		(property "MPN" "SWPA8040S101MT"
-			(at 350.52 147.32 0)
+			(at 346.71 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22817,7 +26669,7 @@
 			)
 		)
 		(property "Manufacturer" "Sunlord"
-			(at 350.52 147.32 0)
+			(at 346.71 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22992,6 +26844,685 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 452.12 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a78ab31b-abfa-43d5-95d3-8a2cf10e2d18")
+		(property "Reference" "L206"
+			(at 450.85 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 450.85 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 452.12 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 452.12 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 452.12 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 452.12 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 452.12 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 452.12 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e244a08c-2866-4a96-b2fd-3f6ca00f3bc4")
+		)
+		(pin "1"
+			(uuid "765e6380-24e6-4a9c-8f4e-04be3391ac84")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 415.29 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7b3a9be-2e2e-4161-a6ae-04535c315221")
+		(property "Reference" "L188"
+			(at 414.02 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 414.02 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 415.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 415.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 415.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 415.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 415.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 415.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ddeb03ac-eb6e-4175-869e-458ab9c9883d")
+		)
+		(pin "1"
+			(uuid "30d2b9b1-6fc3-4ca3-8983-0daba21ed4cc")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 461.01 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a991f83b-5cc3-4d65-93e2-2b2f551cb00c")
+		(property "Reference" "L211"
+			(at 459.74 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 459.74 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 461.01 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 461.01 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 461.01 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 461.01 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 461.01 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 461.01 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8033ff2-7173-42f9-a012-a122fab92032")
+		)
+		(pin "1"
+			(uuid "9dc9c7b2-7090-4898-9407-03604b9e16c8")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 370.84 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9c80f77-bc42-4234-a973-b06c336cdd83")
+		(property "Reference" "L166"
+			(at 369.57 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 369.57 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 370.84 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 370.84 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 370.84 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 370.84 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 370.84 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 370.84 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "516c01c5-ba7d-4308-aa8f-a7a1bf708530")
+		)
+		(pin "1"
+			(uuid "ea972a79-4ad2-4a4c-a1f8-6e64946f8375")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 397.51 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac74ca76-a0b1-4d13-b000-f38bb46ca10a")
+		(property "Reference" "L178"
+			(at 396.24 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 396.24 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 397.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 397.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 397.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 397.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 397.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 397.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "80bc959a-8066-4201-a07c-81e35e577dd8")
+		)
+		(pin "1"
+			(uuid "6d0f457b-fc5c-4137-8ee1-c7b75d2af902")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 379.73 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acbad64a-5a4d-4084-ad6c-acd0e4a2d25f")
+		(property "Reference" "L169"
+			(at 378.46 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 378.46 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 379.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 379.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 379.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 379.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 379.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 379.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d30f7a8d-89aa-4fc8-b902-100135075fb7")
+		)
+		(pin "1"
+			(uuid "5415eb4a-5da9-4392-8006-3e1976c4b2d2")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 452.12 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af4151a8-80b2-499a-8779-721c14862509")
+		(property "Reference" "L205"
+			(at 450.85 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 450.85 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 452.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 452.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 452.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 452.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 452.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 452.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "614f57e8-fe68-4bb6-9402-dbf570bf10eb")
+		)
+		(pin "1"
+			(uuid "c53c5d3d-f26c-44d6-9156-be92e1106db8")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 180.34 55.88 180)
 		(unit 1)
@@ -23086,6 +27617,297 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 478.79 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b19f8195-3793-4bc3-a368-d7718dd5edec")
+		(property "Reference" "L222"
+			(at 477.52 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 477.52 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 478.79 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 478.79 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 478.79 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 478.79 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 478.79 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 478.79 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c360d2f0-a62f-4c1b-bebb-b1825e415c75")
+		)
+		(pin "1"
+			(uuid "f58aa0ec-9456-4fa3-8cbc-e4f79a8d0a24")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L222")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 478.79 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2104e22-03a9-4884-8249-c368b9e409eb")
+		(property "Reference" "L220"
+			(at 477.52 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 477.52 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 478.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 478.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 478.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 478.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 478.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 478.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "adbf8239-9ba2-4a60-9c57-b05aa40b5576")
+		)
+		(pin "1"
+			(uuid "46b2ee0e-a5ea-4a78-a5fa-0c3f941dd6ca")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 379.73 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b379169a-8def-42b3-88df-6d838ba9c1d5")
+		(property "Reference" "L168"
+			(at 378.46 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 378.46 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 379.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 379.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 379.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 379.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 379.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 379.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d697fdbb-ab11-4697-aa4b-25fb4d76dbc2")
+		)
+		(pin "1"
+			(uuid "0daec0ec-ff41-476c-81ab-af9eecb95cc8")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 176.53 93.98 180)
 		(unit 1)
@@ -23174,6 +27996,103 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 415.29 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b478558e-0364-4af3-9cd0-2b703b32464a")
+		(property "Reference" "L190"
+			(at 414.02 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 414.02 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 415.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 415.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 415.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 415.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 415.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 415.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2bcc39a1-24bd-4066-8b74-de7406f7460f")
+		)
+		(pin "1"
+			(uuid "ef9a44da-96de-4d7d-ac02-3d0c65681ffb")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L190")
 					(unit 1)
 				)
 			)
@@ -23393,7 +28312,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 330.2 166.37 0)
+		(at 331.47 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23402,7 +28321,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7aa4996-74d9-4f52-9994-b17d8720d7a9")
 		(property "Reference" "L155"
-			(at 331.47 165.0999 0)
+			(at 332.74 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23411,7 +28330,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 331.47 167.6399 0)
+			(at 332.74 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23420,7 +28339,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 330.2 166.37 0)
+			(at 331.47 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23429,7 +28348,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 330.2 166.37 0)
+			(at 331.47 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23438,7 +28357,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 330.2 166.37 0)
+			(at 331.47 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23447,7 +28366,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 330.2 166.37 0)
+			(at 331.47 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23456,7 +28375,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 330.2 166.37 0)
+			(at 331.47 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23465,7 +28384,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 330.2 166.37 0)
+			(at 331.47 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23483,6 +28402,103 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "L155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 379.73 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7d424d8-c49d-408a-a3bb-dfca39fa8697")
+		(property "Reference" "L171"
+			(at 378.46 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 378.46 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 379.73 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 379.73 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 379.73 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 379.73 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 379.73 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 379.73 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "627d6e6b-214e-4d1c-b5d8-6174dc48cfff")
+		)
+		(pin "1"
+			(uuid "6d72be27-825d-4e2d-a09f-3203562ec6f3")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L171")
 					(unit 1)
 				)
 			)
@@ -23551,6 +28567,297 @@
 			(project ""
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 487.68 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd9a200b-dc0d-446b-8cb7-5cc80a1893a7")
+		(property "Reference" "L224"
+			(at 486.41 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 486.41 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 487.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 487.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 487.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 487.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 487.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 487.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9d18fd6-5b57-4f05-bc1b-b8cb22301033")
+		)
+		(pin "1"
+			(uuid "76527ad7-82ff-4100-923c-0c5670da629c")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 388.62 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf5b5e5d-9f14-47bf-b2cc-29083ea50f75")
+		(property "Reference" "L173"
+			(at 387.35 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 387.35 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 388.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 388.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 388.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 388.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 388.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 388.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "469f1a18-5bca-4915-82ba-b64ebda06bb5")
+		)
+		(pin "1"
+			(uuid "477fdd6c-13bb-492d-8d42-18e63aecfc9c")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 370.84 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c07105c1-01b9-4ba5-a342-84bf4ab65ebd")
+		(property "Reference" "L163"
+			(at 369.57 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 369.57 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 370.84 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 370.84 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 370.84 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 370.84 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 370.84 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 370.84 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0075385-02a9-4f5c-8e94-60e9e6664854")
+		)
+		(pin "1"
+			(uuid "b72991f8-5fac-4f24-b79d-05e2bcc28537")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L163")
 					(unit 1)
 				)
 			)
@@ -23719,6 +29026,297 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 406.4 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8efcf51-e349-4e2b-84d6-42fcd9702610")
+		(property "Reference" "L184"
+			(at 405.13 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 405.13 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 406.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 406.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 406.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 406.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 406.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 406.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10cb1cdb-bab7-4bd5-98e5-6a09576ddb4c")
+		)
+		(pin "1"
+			(uuid "76b20ad2-8b87-4285-8800-629efdd1d852")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L184")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 415.29 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c919fed0-48d5-4378-99fc-1ab65df9b993")
+		(property "Reference" "L187"
+			(at 414.02 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 414.02 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 415.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 415.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 415.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 415.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 415.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 415.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6830cdd9-f863-4915-a061-ba8698331a07")
+		)
+		(pin "1"
+			(uuid "44f0d98b-7d99-462d-9438-5e2860c083c4")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L187")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 461.01 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9500fb6-df07-458b-9274-08e41b2907e5")
+		(property "Reference" "L209"
+			(at 459.74 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 459.74 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 461.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 461.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 461.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 461.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 461.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 461.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9317931b-9599-4e6d-81ed-cce395726a31")
+		)
+		(pin "1"
+			(uuid "28de30a3-d663-4531-8713-0eeacb6103c6")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 146.05 120.65 270)
 		(mirror x)
@@ -23782,6 +29380,394 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 424.18 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0d286e2-634d-45fa-8047-6bc87d521b0c")
+		(property "Reference" "L192"
+			(at 422.91 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 422.91 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 424.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 424.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 424.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 424.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 424.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 424.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab7807e3-f789-4d99-8d3a-51a0716c225d")
+		)
+		(pin "1"
+			(uuid "2e8e27c8-d45a-4363-ada6-2535603cae4e")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L192")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 478.79 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d24c4af4-c674-4641-8769-d08a55013efe")
+		(property "Reference" "L219"
+			(at 477.52 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 477.52 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 478.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 478.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 478.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 478.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 478.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 478.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21c63cb1-9466-40d2-bc24-a05a0c3d1159")
+		)
+		(pin "1"
+			(uuid "fb04684f-53da-460c-a27c-1fb10d240b6e")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 415.29 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2878edb-f1db-4fc8-808d-71d6a7f539b7")
+		(property "Reference" "L191"
+			(at 414.02 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 414.02 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 415.29 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 415.29 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 415.29 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 415.29 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 415.29 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 415.29 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "befa47c3-27ed-4354-a814-e6214d2d02df")
+		)
+		(pin "1"
+			(uuid "d6f0b52c-4983-4ac7-b134-3bc7b5de00af")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L191")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 397.51 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d48b30b3-e9d5-4c6d-8a1a-cc77ec59c981")
+		(property "Reference" "L180"
+			(at 396.24 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 396.24 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 397.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 397.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 397.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 397.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 397.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 397.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0dec1194-ae32-4047-8cbd-2e77f5036cb6")
+		)
+		(pin "1"
+			(uuid "2d11a337-9491-4de4-8655-8c2f9db8b348")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L180")
 					(unit 1)
 				)
 			)
@@ -23886,7 +29872,104 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 322.58 143.51 0)
+		(at 469.9 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d57ed1c0-d764-4452-91d7-225607c4cb07")
+		(property "Reference" "L214"
+			(at 468.63 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 468.63 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 469.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 469.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 469.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 469.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 469.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 469.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e83fb30-08e2-40cb-93f1-661e59099cfb")
+		)
+		(pin "1"
+			(uuid "e1385ed5-0564-4f69-b570-bb5bb6697e16")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 323.85 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23895,7 +29978,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5e32e18-ed8c-43a6-a9b7-038f12258af8")
 		(property "Reference" "L148"
-			(at 323.85 142.2399 0)
+			(at 325.12 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23904,7 +29987,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 323.85 144.7799 0)
+			(at 325.12 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23913,7 +29996,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 322.58 143.51 0)
+			(at 323.85 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23922,7 +30005,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 322.58 143.51 0)
+			(at 323.85 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23931,7 +30014,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 322.58 143.51 0)
+			(at 323.85 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23940,7 +30023,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 322.58 143.51 0)
+			(at 323.85 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23949,7 +30032,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 322.58 143.51 0)
+			(at 323.85 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23958,7 +30041,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 322.58 143.51 0)
+			(at 323.85 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23976,6 +30059,103 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "L148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 461.01 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d690049f-fa66-4808-af6b-5ee0be6feb23")
+		(property "Reference" "L210"
+			(at 459.74 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 459.74 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 461.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 461.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 461.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 461.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 461.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 461.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41538a6e-ee39-45e8-9536-beb17bc040e8")
+		)
+		(pin "1"
+			(uuid "f46a5417-4608-4b6c-b035-6eb66d2579f0")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L210")
 					(unit 1)
 				)
 			)
@@ -24067,6 +30247,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 388.62 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d779ba7c-aa4a-4a1a-a48f-bf29f7c38b35")
+		(property "Reference" "L174"
+			(at 387.35 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 387.35 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 388.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 388.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 388.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 388.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 388.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 388.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a55eb1d9-9a6d-4776-be8b-f6d1dc481b24")
+		)
+		(pin "1"
+			(uuid "a2d15f7f-f2c7-4d95-ac82-951df1c015a8")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 227.33 109.22 0)
 		(mirror y)
@@ -24136,7 +30413,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 330.2 154.94 0)
+		(at 331.47 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24145,7 +30422,7 @@
 		(fields_autoplaced yes)
 		(uuid "d95644cb-53d8-4393-8077-71df8728758a")
 		(property "Reference" "L152"
-			(at 331.47 153.6699 0)
+			(at 332.74 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24154,7 +30431,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 331.47 156.2099 0)
+			(at 332.74 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24163,7 +30440,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 330.2 154.94 0)
+			(at 331.47 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24172,7 +30449,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 330.2 154.94 0)
+			(at 331.47 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24181,7 +30458,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 330.2 154.94 0)
+			(at 331.47 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24190,7 +30467,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 330.2 154.94 0)
+			(at 331.47 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24199,7 +30476,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 330.2 154.94 0)
+			(at 331.47 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24208,7 +30485,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 330.2 154.94 0)
+			(at 331.47 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24233,7 +30510,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 322.58 132.08 0)
+		(at 323.85 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24242,7 +30519,7 @@
 		(fields_autoplaced yes)
 		(uuid "dea05d77-96ae-431a-a52f-7d463a86935b")
 		(property "Reference" "L145"
-			(at 323.85 130.8099 0)
+			(at 325.12 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24251,7 +30528,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 323.85 133.3499 0)
+			(at 325.12 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24260,7 +30537,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 322.58 132.08 0)
+			(at 323.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24269,7 +30546,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 322.58 132.08 0)
+			(at 323.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24278,7 +30555,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 322.58 132.08 0)
+			(at 323.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24287,7 +30564,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 322.58 132.08 0)
+			(at 323.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24296,7 +30573,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 322.58 132.08 0)
+			(at 323.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24305,7 +30582,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 322.58 132.08 0)
+			(at 323.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24330,7 +30607,298 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 313.69 154.94 0)
+		(at 406.4 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df5fe352-e8cd-4182-9458-e7a0a6216bcb")
+		(property "Reference" "L186"
+			(at 405.13 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 405.13 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 406.4 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 406.4 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 406.4 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 406.4 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 406.4 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 406.4 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3ecfb8f-1bf7-4a62-85c2-a8b1e0c770b8")
+		)
+		(pin "1"
+			(uuid "c8e1a4c1-1c49-4103-b651-78485a1a0ed9")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L186")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 478.79 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df707fa2-9512-46e5-9b49-80738654e211")
+		(property "Reference" "L218"
+			(at 477.52 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 477.52 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 478.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 478.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 478.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 478.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 478.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 478.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f60acee-3b7a-49c4-9446-e7b429208361")
+		)
+		(pin "1"
+			(uuid "62e0d886-75de-495c-9eda-e2f6bd29d21f")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 443.23 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e01c7336-3afd-4532-98c7-00acf30b9358")
+		(property "Reference" "L198"
+			(at 441.96 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 441.96 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 443.23 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 443.23 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 443.23 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 443.23 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 443.23 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 443.23 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2470ecd8-85eb-4aaa-8a29-f29601d40c87")
+		)
+		(pin "1"
+			(uuid "9b8011ca-4b32-492c-b0f8-1855729a13f4")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L198")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 314.96 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24338,7 +30906,7 @@
 		(dnp no)
 		(uuid "e6ca7c35-be98-42ea-b594-3046db7b9754")
 		(property "Reference" "L150"
-			(at 314.96 153.6699 0)
+			(at 316.23 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24347,7 +30915,7 @@
 			)
 		)
 		(property "Value" "33nH"
-			(at 314.96 156.2099 0)
+			(at 316.23 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24356,7 +30924,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 313.69 154.94 0)
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24365,7 +30933,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231030_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC033JGT_C304280.pdf"
-			(at 313.69 154.94 0)
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24374,7 +30942,7 @@
 			)
 		)
 		(property "Description" "1A 33nH ±5% 110mΩ 1210 Inductors (SMD) ROHS"
-			(at 313.69 154.94 0)
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24383,7 +30951,7 @@
 			)
 		)
 		(property "LCSC Part #" "C304280"
-			(at 313.69 154.94 0)
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24392,7 +30960,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC033JGT"
-			(at 313.69 154.94 0)
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24401,7 +30969,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 313.69 154.94 0)
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24523,7 +31091,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 322.58 120.65 0)
+		(at 323.85 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24532,7 +31100,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed93c6ce-9d19-4eb3-8a0b-ef2e83dd48b9")
 		(property "Reference" "L141"
-			(at 323.85 119.3799 0)
+			(at 325.12 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24541,7 +31109,7 @@
 			)
 		)
 		(property "Value" "18nH"
-			(at 323.85 121.9199 0)
+			(at 325.12 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24550,7 +31118,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 322.58 120.65 0)
+			(at 323.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24559,7 +31127,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302231208_FH--Guangdong-Fenghua-Advanced-Tech-FHW1210HC018JGT_C318035.pdf"
-			(at 322.58 120.65 0)
+			(at 323.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24568,7 +31136,7 @@
 			)
 		)
 		(property "Description" "1A 18nH ±5% 100mΩ 1210 Inductors (SMD) ROHS"
-			(at 322.58 120.65 0)
+			(at 323.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24577,7 +31145,7 @@
 			)
 		)
 		(property "LCSC Part #" "C318035"
-			(at 322.58 120.65 0)
+			(at 323.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24586,7 +31154,7 @@
 			)
 		)
 		(property "MPN" "FHW1210HC018JGT"
-			(at 322.58 120.65 0)
+			(at 323.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24595,7 +31163,7 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
-			(at 322.58 120.65 0)
+			(at 323.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24613,6 +31181,103 @@
 			(project ""
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "L141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 443.23 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef4b7cf4-19b2-4165-ba91-8447937bf159")
+		(property "Reference" "L202"
+			(at 441.96 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 441.96 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 443.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 443.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 443.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 443.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 443.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 443.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3dc8a74-b2e8-4b06-a362-add3b2dfe470")
+		)
+		(pin "1"
+			(uuid "ccba37b7-3b99-4420-a9a4-031fe48a21e4")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L202")
 					(unit 1)
 				)
 			)
@@ -24837,6 +31502,200 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 388.62 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5bbf4bf-e872-4257-a7ca-410a8f3c135c")
+		(property "Reference" "L176"
+			(at 387.35 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 387.35 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 388.62 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 388.62 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 388.62 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 388.62 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 388.62 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 388.62 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73da1da6-f620-44e0-94b0-d87c1dc652e5")
+		)
+		(pin "1"
+			(uuid "84697d21-78aa-4854-9e2c-b985c030363d")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 452.12 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f64ec3a6-83a8-41d8-9d99-f37889b934a3")
+		(property "Reference" "L207"
+			(at 450.85 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 450.85 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 452.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 452.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 452.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 452.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 452.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 452.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d54e383-9a88-435a-8fbd-80451abe38a3")
+		)
+		(pin "1"
+			(uuid "e21e0452-edcc-46fc-b781-8bc7ea371f43")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 495.3 168.91 0)
 		(unit 1)
@@ -24901,6 +31760,103 @@
 			(project ""
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 443.23 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa4196e5-ab84-4cf6-bd57-d4252a0e91af")
+		(property "Reference" "L200"
+			(at 441.96 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nH"
+			(at 441.96 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 443.23 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251550_Sunlord-SPH252012HR47MT_C316369.pdf"
+			(at 443.23 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 470nH ±20% 4.1A 1008 Power Inductors ROHS"
+			(at 443.23 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C316369"
+			(at 443.23 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPH252012HR47MT"
+			(at 443.23 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 443.23 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f7b4956-936f-4c5f-aff3-b2ed0467d56e")
+		)
+		(pin "1"
+			(uuid "dea819b8-19eb-4634-85a4-3e083622aacc")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "L200")
 					(unit 1)
 				)
 			)
