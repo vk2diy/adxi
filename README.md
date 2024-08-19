@@ -13,6 +13,13 @@ This fork is called __adxi__ (or "ADX Improved") with the following changes:
  * __improved documentation__ hoping to facilitate learning
  * __using platformio__ to manage the firmware build and dependencies in a modern way
 
+## Update (2024-08-19)
+
+ * Issues largely resolved with the PA choke.
+   * Operating range was divided in to 3 band-groups (similar to resonator) and 2/3 completed with switching work yet to be done.
+   * Final band-group with the largest frequency range may need to be divided again
+ * It seems that to obtain good values for `C1` (Sokal) it will be [necessary to recompute those at each end of the operating band for each resonator and choke selection](https://people.physics.anu.edu.au/~dxt103/calculators/class-e.php), and also to switch those when either PA or resonator change. If these figures work out, however, then confidence in the design should grow.
+
 ## Update (2024-08-18)
 
  * MCU output expansion added to drive switched PA resonator inductance and capcitance to achieve full band range
