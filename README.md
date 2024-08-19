@@ -17,8 +17,9 @@ This fork is called __adxi__ (or "ADX Improved") with the following changes:
 
  * Issues largely resolved with the PA choke.
    * Operating range was divided in to 3 band-groups (similar to resonator) and 2/3 completed with switching work yet to be done.
-   * Final band-group with the largest frequency range may need to be divided again
  * It seems that to obtain good values for `C1` (Sokal) it will be [necessary to recompute those at each end of the operating band for each resonator and choke selection](https://people.physics.anu.edu.au/~dxt103/calculators/class-e.php), and also to switch those when either PA or resonator change. If these figures work out, however, then confidence in the design should grow.
+ * The fact that the Class E PA's RF choke, resonator, C1, and band-specific LPFs all require switching means it is probably best to redesign the group of adjacent passives as a single physical interface and module to support easier and more cost-effective experimental iteration.
+ * This means the previous modularity scheme (ie. one of pluggable band-specific LPFs inspired by previous projects) is probably going to evolve to a higher component count, higher flexibility approach incorporating all of these functional blocks.
 
 ## Update (2024-08-18)
 
