@@ -28,6 +28,13 @@ This fork is called __adxi__ (or "ADX Improved") with the following changes:
      * Since the antenna connection is something that people may want in various formats to suit various wavelengths and usage scenarios (IPEX, BNC, SMA) and some of those physical interfaces are not designed for longevity, and the "tiffin" approach will facilitate both vertical layering and improved EMI, it might make sense to zoom out to consider whether or not the antenna should be part of that module or signals should be routed back to the main board before connecting to the antenna.
        * Layering up makes sense because an antenna connection on top of the system would be a logical position, batteries are heavy and could fit below, and minimizing the overall inter-module routing of RF signals would be desirable.
        * Routing back makes sense because fewer modules are required and the specific modules would presumably work out cheaper. ![image](tiffin-layers.png)
+ * Design conclusions:
+   * Don't bother with a screen, instead rely on the computer to provide status information.
+   * Don't bother with a battery or charge controller, instead rely on an external USB power bank when mobile.
+     * For the purposes of easier mobility and the fact that many laptops or embedded systems cannot supply anything near 1A on their USB ports it may be useful to obtain 5V nominal supply from one port and data from another port, ie. have two USB ports, one for MCU interfacing and one for power delivery.
+     * For the purposes of maximum transmit power draw (~1A @ 5V) versus many USB supply limits (~900mA) and safety buffering, it may be useful to add a supercapacitor to the main board.
+       * This could also allow switching between power sources without loss of operating state and configuration
+   * With increasing density comes decreased isolation and increased potential for electromagnetic coupling which is a double-edged sword.
 
 ## Update (2024-08-19)
 
