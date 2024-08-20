@@ -608,46 +608,6 @@
       "Root"
     ],
     [
-      "a5995172-c555-4d78-9699-9ffb2059c641",
-      "BM2-SWITCH-ANT"
-    ],
-    [
-      "8eea3ef9-b2b2-4bb0-9c18-96ec54552e89",
-      "BM3-SWITCH-ANT"
-    ],
-    [
-      "523e04f8-eb4a-436c-a5a6-b8f1ad8f1440",
-      "BM4-SWITCH-ANT"
-    ],
-    [
-      "749918d0-f155-42e6-bee1-4ed3e9615edf",
-      "BM5-SWITCH-ANT"
-    ],
-    [
-      "0eadb277-a929-492d-996e-08d105823e3f",
-      "BM6-SWITCH-ANT"
-    ],
-    [
-      "4553bcad-051d-48f8-8d6e-ff2bae46148f",
-      "BM2-SWITCH-PA"
-    ],
-    [
-      "f195eeac-72b8-4fb5-b047-f1ed244fcd5f",
-      "BM3-SWITCH-PA"
-    ],
-    [
-      "08fac8d6-415f-4fb4-8c47-e9fdfdca6788",
-      "BM4-SWITCH-PA"
-    ],
-    [
-      "52ffd251-9027-40be-96ce-0081c8067191",
-      "BM5-SWITCH-PA"
-    ],
-    [
-      "f10b309d-f960-41d6-9179-4fbd5eaadab5",
-      "BM6-SWITCH-PA5"
-    ],
-    [
       "faeb3fbc-3621-4946-b7ef-4e1ddf3abfcb",
       "PA-POWER-PWM"
     ],
@@ -714,14 +674,6 @@
     [
       "78428e41-003b-411e-a951-46f73eeac9f7",
       "Digital output expansion"
-    ],
-    [
-      "cda8ba14-e625-4820-815b-7655eaddf9ad",
-      "BM1-SWITCH-PA"
-    ],
-    [
-      "efe89f86-5d97-4af9-8948-a0df12929df8",
-      "BM1-SWITCH-ANT"
     ]
   ],
   "text_variables": {}

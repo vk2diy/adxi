@@ -34,6 +34,11 @@ This fork is called __adxi__ (or "ADX Improved") with the following changes:
      * For the purposes of easier mobility and the fact that many laptops or embedded systems cannot supply anything near 1A on their USB ports it may be useful to obtain 5V nominal supply from one port and data from another port, ie. have two USB ports, one for MCU interfacing and one for power delivery.
      * For the purposes of maximum transmit power draw (~1A @ 5V) versus many USB supply limits (~900mA) and safety buffering, it may be useful to add a supercapacitor to the main board.
        * This could also allow switching between power sources without loss of operating state and configuration
+     * Given that we are sailing so close to maximum draw it seems a tested solution would be desirable. A shortlist of potential integrated solutions includes:
+       * TI TUSB312 - [Chinese](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1809072322_Texas-Instruments-TUSB321RWBR_C139392.pdf), [English](https://www.ti.com/lit/ds/symlink/tusb321.pdf) @ $0.34
+       * ST STUSB4500QTR - [English](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2106070703_STMicroelectronics-STUSB4500QTR_C2678061.pdf) @ $1.29
+       * ONSemi FUSB302 - [English](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_onsemi-Fusb302mpx_C442699.pdf) @ $0.71
+     * Given that the TI chip is so much cheaper but they will all probably do the job I think it's worth moving forward with TI.
    * With increasing density comes decreased isolation and increased potential for electromagnetic coupling which is a double-edged sword.
 
 ## Update (2024-08-19)
