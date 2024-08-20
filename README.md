@@ -13,6 +13,17 @@ This fork is called __adxi__ (or "ADX Improved") with the following changes:
  * __improved documentation__ hoping to facilitate learning
  * __using platformio__ to manage the firmware build and dependencies in a modern way
 
+## Update (2024-08-21)
+
+ * Early stage band module schematic proposal. ![image](adxi-draft-schematic-2024-08-21.png)
+   * The primary difference to the prior ADX design is that the physical module will include portions of the power amplifier (RF choke, Sokals' `C1`, resonator) in addition to the low pass filter (LPF).
+   * This is thought to make sense because:
+     1.  All of these elements were found to require adjustment when considering the revised design's wide aggregate proposed band capabilities; and
+     2. "Getting it right first time" may not be either (a) rational expectation; or (b) therefore a cost-effective development trajectory.
+   * In other words:
+     * I don't trust myself enough to commit to a PCB run where these aspects cannot be further tuned.
+     * By putting in the thinking up front to reduce my own development cost, it should also make the process of extending or tweaking the design further by others much easier.
+
 ## Update (2024-08-19)
 
  * Issues largely resolved with the PA choke.
