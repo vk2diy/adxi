@@ -141,7 +141,7 @@ The capacitor or parallel capacitor array may be selected based upon the operati
 
 High quality (eg. `C0G`) capacitors should be selected with low equivalent series resistance (ESR) and equivalent series inductance (ESL).
 
-After looking around, it seems the value attempted (~220uH) is far too high and was misplaced. Looking at [this calculator](https://3roam.com/rf-choke-calculator/), plugging in the values 50 ohms / 500 ohms, 450MHz, it recommends 176.844nH. This is much closer to a range reasonably obtained using surface mount components.
+After looking around, it seems the value attempted (~220uH) is far too high and was misplaced. Looking at [this calculator](https://3roam.com/rf-choke-calculator/), plugging in the values 50 ohms / 500 ohms, 450MHz, it recommends 176.844nH. This is much closer to a range reasonably obtained using surface mount components. Perhaps I mistook 220nH for 220uH!
 
 #### Resonator
 
