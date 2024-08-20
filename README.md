@@ -23,6 +23,11 @@ This fork is called __adxi__ (or "ADX Improved") with the following changes:
    * In other words:
      * I don't trust myself enough to commit to a PCB run where these aspects cannot be further tuned.
      * By putting in the thinking up front to reduce my own development cost, it should also make the process of extending or tweaking the design further by others much easier.
+   * Outstanding questions:
+     * Since the modular portion includes all of the last stages of the transceiver, it would thus logically include the antenna connection
+     * Since the antenna connection is something that people may want in various formats to suit various wavelengths and usage scenarios (IPEX, BNC, SMA) and some of those physical interfaces are not designed for longevity, and the "tiffin" approach will facilitate both vertical layering and improved EMI, it might make sense to zoom out to consider whether or not the antenna should be part of that module or signals should be routed back to the main board before connecting to the antenna.
+       * Layering up makes sense because an antenna connection on top of the system would be a logical position, batteries are heavy and could fit below, and minimizing the overall inter-module routing of RF signals would be desirable.
+       * Routing back makes sense because fewer modules are required and the specific modules would presumably work out cheaper. ![image](tiffin-layers.png)
 
 ## Update (2024-08-19)
 
