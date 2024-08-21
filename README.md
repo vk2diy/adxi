@@ -38,6 +38,7 @@ This fork is called __adxi__ (or "ADX Improved") with the following changes:
        * TI TUSB312 - [Chinese](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1809072322_Texas-Instruments-TUSB321RWBR_C139392.pdf), [English](https://www.ti.com/lit/ds/symlink/tusb321.pdf) @ $0.34
        * ST STUSB4500QTR - [English](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2106070703_STMicroelectronics-STUSB4500QTR_C2678061.pdf) @ $1.29
        * ONSemi FUSB302 - [English](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_onsemi-Fusb302mpx_C442699.pdf) @ $0.71
+       * Cypress CYPD3177 - [English](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208051100_Infineon-Cypress-Semicon-CYPD3177-24LQXQ_C2959321.pdf) @ $0.81
      * Given that the TI chip is so much cheaper but they will all probably do the job I think it's worth moving forward with TI.
    * With increasing density comes decreased isolation and increased potential for electromagnetic coupling which is a double-edged sword.
 
