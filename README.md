@@ -8,10 +8,24 @@ This fork is called __adxi__ (or "ADX Improved") with the following changes:
  * __full computer control__ (remove buttons/blinkenlights interface)
  * __broader power supply acceptance__ (~12-36V nominal)
  * __improved filtering__
+ * __operates from a single USB-C cable__ for programming and power (DC-IN option), instead of batteries/charge controller, audio in, audio out, sound card.
  * __supports more amateur bands__: 70cm/2m/10m/15m/17m/20m/30m/40m/60m/80m/160m/630m/2200m - only missing 23cm
  * __use of modern surface mount components__ for repeatability
  * __improved documentation__ hoping to facilitate learning
  * __using platformio__ to manage the firmware build and dependencies in a modern way
+
+## Update (2024-08-22)
+
+ * __New power supply mostly implemented__ with dual inputs, either USB-C PD or ~12-36V DC IN
+   * Precise nature of fallback for USB-C power chain yet to be determined re. 1.5A negotiation failure
+ * __Plan is now to onboard both the digital audio interface and a USB hub__ in order to facilitate the use of a __single USB-C cable to the host__ replacing six elements:
+   * Batteries and a charge controller for mobile operation
+   * DC-IN for fixed operation
+   * Audio in
+   * Audio out
+   * Either an onboard module or external sound card for audio interfacing
+   * Programming cable
+ * It will be necessary to draw the schematics for these.
 
 ## Update (2024-08-21)
 
@@ -41,6 +55,13 @@ This fork is called __adxi__ (or "ADX Improved") with the following changes:
        * Cypress CYPD3177 - [English](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208051100_Infineon-Cypress-Semicon-CYPD3177-24LQXQ_C2959321.pdf) @ $0.81
      * Given that the TI chip is so much cheaper but they will all probably do the job I think it's worth moving forward with TI.
    * With increasing density comes decreased isolation and increased potential for electromagnetic coupling which is a double-edged sword.
+ * Other developments:
+   * Considering placing USB audio bridge, USB hub and port for MCU connection on board
+     * This would allow programming and operation through a single port - no audio cables required
+     * The only conceivable downside is, in a mobile scenario, USB power delivery capabilities of some host devices are limited
+       * People can solve this themselves by using USB battery packs with built-in powered USB hubs
+   * At this point, it sort of seems ridiculous to keep using the MCU as a module, but it is a pleasant eccentricity to preserve this design element and hard to match on price
+     * Future versions could be released with newer MCUs, possibly mounted via adapter boards
 
 ## Update (2024-08-19)
 
