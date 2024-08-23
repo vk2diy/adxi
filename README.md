@@ -14,6 +14,15 @@ This fork is called __adxi__ (or "ADX Improved") with the following changes:
  * __improved documentation__ hoping to facilitate learning
  * __using platformio__ to manage the firmware build and dependencies in a modern way
 
+## Update (2024-08-24)
+
+ * Power supply path further implemented
+ * USB-C unified port for all purposes largely implemented including power delivery
+ * USB hub configured
+ * USB audio configured
+ * New parts and footprints created
+ * Minor amount of layout work
+
 ## Update (2024-08-22)
 
  * __New power supply mostly implemented__ with dual inputs, either USB-C PD or ~12-36V DC IN
