@@ -9,10 +9,20 @@ This fork is called __adxi__ (or "ADX Improved") with the following changes:
  * __broader power supply acceptance__ (~12-36V nominal)
  * __improved filtering__
  * __operates from a single USB-C cable__ for programming and power (DC-IN option), instead of batteries/charge controller, audio in, audio out, sound card.
- * __supports more amateur bands__: 70cm/2m/10m/15m/17m/20m/30m/40m/60m/80m/160m/630m/2200m - only missing 23cm
+ * __supports more amateur bands__: 70cm/2m/10m/15m/17m/20m/30m/40m/60m/80m/160m/630m/2200m
  * __use of modern surface mount components__ for repeatability
- * __improved documentation__ hoping to facilitate learning
+ * __improved design documentation__ to facilitate learning
  * __using platformio__ to manage the firmware build and dependencies in a modern way
+
+## Update (2024-08-27)
+
+ * __Substantial amount of additional schematic work and documentation__
+   * [USB hub](doc/usb-hub)
+   * [Power supply](doc/power-supply)
+   * [SPI level conversion](doc/spi-level-conversion)
+ * More component footprints and models
+ * Finished off some missing parts in earlier areas of the schematic
+ * Readying to refocus on the new joint PA/LPF module mechanical and electrical interface design, after which layout should be straightforward
 
 ## Update (2024-08-24)
 
