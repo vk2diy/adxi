@@ -36,7 +36,12 @@ The USB-C input path is governed by the TUSB321 chipset, which:
 
 The chip can be configured to support a range of [USB-PD (USB power delivery)](https://en.wikipedia.org/wiki/USB_hardware#USB_Power_Delivery) modes.
 
-The mode for which the TUSB321 chipset is configured in this schematic is to request 5V 1.5A, which equates to 7.5 watts. This should provide a comfortable conversion loss margin for subsequent power stages. Modern USB-C can go much higher, but it is better not to over-specify the requirements because fallbacks and failure handling then become a requirement.
+If you are unfamiliar with the internals of USB-PD as I was, then the best high-level summary of the evolution of USB connectors and capabilities with respect to USB power delivery I have found online is [this article](https://www.toradex.com/blog/add-usb-c-to-your-next-carrier-board-design-1). Basically, the connector has to support orientation detection and negotiation and fallback across a number of different power delivery configurations, which is where the complexity lies and the need for the IC.
+
+An important point of note is:
+ - "One crucial aspect of USB-C is that the VBUS is not always powered. Unlike the previous USB standards, which had VBUS always powered, the VBUS on the USB-C is switched only after the source side detects a connected sink by observing the voltage levels at the CC pins."
+
+The mode for which the TUSB321 chipset is configured to perform is UFP ("Upstream Facing Port"), meaning a USB client and power sink. The chip in this schematic is to request 5V 1.5A, which equates to 7.5 watts. Apparently there are actually two modes that can enable this power level, either "USB BC 1.2" (Type-A and backward compatible power delivery) or "USB-C 5V/1.5A" (USB-C specific mode). However, the former mode relies upon shorting the data pins and is used only in a charger, which is not appropriate to this situation because we intend to use the data pins for access to programming the MCU and interacting with the embedded USB sound card. Therefore, we use the latter mode. From the perspective of power provided, either mode would be identical to the device and provide a comfortable conversion loss margin for subsequent power stages. Modern USB-C can go much higher (15W, 60W, 100W or even 240W), but it is better not to over-specify the requirements because fallbacks and failure handling then become a requirement.
 
 The `VBUS_DET` pin is adjacent to a resistor which provides for safe connection of the pin to the bus when the bus is in higher voltage modes. There is an additional resistor provided around 900K value in order to reduce the maximum potential bus voltage to a safe level for the IC.
 
