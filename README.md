@@ -2,17 +2,20 @@
 
 [ADX](https://github.com/WB2CBA/ADX) is an abbreviation for Arduino Digital Xceiver, a project emphasizing simplicity and Arduino hardware creating a [direct-conversion receiver](https://en.wikipedia.org/wiki/Direct-conversion_receiver) focused on [digital modes](http://www.arrl.org/digital-data-modes).
 
-This fork is called __adxi__ (or "ADX Improved") with the following changes:
+This fork is called __adxi__ (or "ADX Improved") with the following major changes:
+ * __abandon simplicity as a design philosophy__ since it limits our feature set, final design elegance, and understanding
+ * __improved design documentation__ to facilitate learning
  * __restores access to the project for modern KiCad__
- * __integrates known bug fixes__
- * __full computer control__ (remove buttons/blinkenlights interface)
- * __broader power supply acceptance__ (~12-36V nominal)
- * __improved filtering__
+ * __integrate known bug fixes__
  * __operates from a single USB-C cable__ for programming and power (DC-IN option), instead of batteries/charge controller, audio in, audio out, sound card.
+ * __broader power supply acceptance__ (USBC or any >6W ~12-36V nominal supply)
+ * __full computer control__ (remove buttons/blinkenlights interface)
+ * __improved filtering__
  * __supports more amateur bands__: 70cm/2m/10m/15m/17m/20m/30m/40m/60m/80m/160m/630m/2200m
  * __use of modern surface mount components__ for repeatability
- * __improved design documentation__ to facilitate learning
  * __using platformio__ to manage the firmware build and dependencies in a modern way
+
+The project is not yet complete but is well on the way to a first revision production.
 
 ## Update (2024-08-27)
 
@@ -20,6 +23,7 @@ This fork is called __adxi__ (or "ADX Improved") with the following changes:
    * [USB hub](doc/usb-hub)
    * [Power supply](doc/power-supply)
    * [SPI level conversion](doc/spi-level-conversion)
+   * Added many test points
  * More component footprints and models
  * Finished off some missing parts in earlier areas of the schematic
  * Readying to refocus on the new joint PA/LPF module mechanical and electrical interface design, after which layout should be straightforward
