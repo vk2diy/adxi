@@ -14,7 +14,7 @@ Although the power amplifier (PA) operates at a nominal 12V, the minor current r
 
 ## Design evolution
 
-Initially the design was to be made using a conventional DC input jack (as seen on the "wall wart" style power-pack supplies ubiquitous in pre USB-C electroics), however it was later reasoned that introducing USB-C would probably be feasible, and this would simplify cabling substantially from the four-cable original ADX design (DC power + USB to MCU + audio in + audio out) to a single cable design (USB-C only). The decision was made to keep both a conventional DC input jack and USB-C support to support debugging, future expansion, and flexibility.
+Initially the design was to be made using a conventional DC input jack (as seen on the "wall wart" style power-pack supplies ubiquitous in pre USB-C electronics), however it was later reasoned that introducing USB-C would probably be feasible, and this would simplify cabling substantially from the four-cable original ADX design (DC power + USB to MCU + audio in + audio out) to a single cable design (USB-C only). The decision was made to keep both a conventional DC input jack and USB-C support to support debugging, future expansion, and flexibility.
 
 ## Design overview
 
@@ -38,6 +38,8 @@ The chip can be configured to support a range of [USB-PD (USB power delivery)](h
 
 The mode for which the TUSB321 chipset is configured in this schematic is to request 5V 1.5A, which equates to 7.5 watts. This should provide a comfortable conversion loss margin for subsequent power stages. Modern USB-C can go much higher, but it is better not to over-specify the requirements because fallbacks and failure handling then become a requirement.
 
+The `VBUS_DET` pin is adjacent to a resistor which provides for safe connection of the pin to the bus when the bus is in higher voltage modes. There is an additional resistor provided around 900K value in order to reduce the maximum potential bus voltage to a safe level for the IC.
+
 The requested 5V power is however of an insufficient voltage for much of the radio circuit. Therefore, we need to upconvert ("boost") the voltage from 5V to 12V.
 
 The inexpensive component selected for this purpose is the `MT3608B` boost converter which can be configured through a resistor divider to boost input voltages as low as 2.5V to output voltages as high as 24V and has 4A current support and relatively high and stable efficiency of around 93% declining to 90% at 1A.
@@ -56,6 +58,10 @@ The output voltage is configured through a resistor divider ratio which is calcu
 We use 5.1K and 100K resistors for this purpose, as they are commonly available values matching this ratio.
 
 An additional couple of capitors are provided to smooth the output of the boost converter before a diode which guarantees the correct direction of current flow with respect to the second potential input power path.
+
+However, we should take note of the switching frequency which is variously described as 900kHz-1.2GHz. Therefore a model has been made showing its relationship to amateur radio bands.
+
+![image](switching-harmonics.png)
 
 ### DC input jack power path
 
