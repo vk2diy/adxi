@@ -376,48 +376,8 @@
 		)
 	)
 	(no_connect
-		(at 137.16 151.13)
-		(uuid "46da20fa-e26a-4655-b596-8a231acddd4f")
-	)
-	(wire
-		(pts
-			(xy 137.16 104.14) (xy 137.16 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10922882-168a-479d-85c2-d11717627973")
-	)
-	(wire
-		(pts
-			(xy 114.3 116.84) (xy 114.3 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f1c8849-8054-469f-a868-5e73010d6f5d")
-	)
-	(wire
-		(pts
-			(xy 137.16 116.84) (xy 114.3 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df6097b9-af82-4754-b111-dfb8dc02b72e")
-	)
-	(wire
-		(pts
-			(xy 114.3 128.27) (xy 116.84 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfa81f1e-7edc-49b7-b653-c798f41f7f03")
+		(at 137.16 104.14)
+		(uuid "5acfab18-9d83-46e0-9ba8-f4e407b16bf8")
 	)
 	(text "SPI GPIO OUTPUT EXPANSION"
 		(exclude_from_sim no)
@@ -431,18 +391,6 @@
 			(justify left bottom)
 		)
 		(uuid "de68f26b-b8ea-4e8e-8e6e-828bb71a0f39")
-	)
-	(hierarchical_label "O-11"
-		(shape output)
-		(at 137.16 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "013106e3-81b1-4bcd-aafb-31f169331ee3")
 	)
 	(hierarchical_label "O-2"
 		(shape output)
@@ -492,18 +440,6 @@
 		)
 		(uuid "1292eca9-1681-4385-bc53-865a8835b995")
 	)
-	(hierarchical_label "VCC"
-		(shape input)
-		(at 116.84 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1dd5ba84-1b46-4000-8cf5-b2cf06801f79")
-	)
 	(hierarchical_label "O-3"
 		(shape output)
 		(at 137.16 86.36 0)
@@ -528,54 +464,6 @@
 		)
 		(uuid "355c1b94-b3cf-4498-8b98-0314cc50ebc6")
 	)
-	(hierarchical_label "SPI_SCK"
-		(shape input)
-		(at 116.84 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a4cfa4e-0cfc-4e26-b203-3ffaee59e9a2")
-	)
-	(hierarchical_label "O-15"
-		(shape output)
-		(at 137.16 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3ee54881-1d3f-4f28-b895-3b6cfe985796")
-	)
-	(hierarchical_label "O-12"
-		(shape output)
-		(at 137.16 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4c60f44c-4c8f-4519-ad1a-e008ff5ee31a")
-	)
-	(hierarchical_label "O-14"
-		(shape output)
-		(at 137.16 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "57d84feb-7029-4289-a675-ef619d319f3d")
-	)
 	(hierarchical_label "O-8"
 		(shape output)
 		(at 137.16 99.06 0)
@@ -590,18 +478,6 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 127 123.19 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "67ed9b75-c5ff-4e9e-9cce-b54a809e6ff1")
-	)
-	(hierarchical_label "VCC"
-		(shape input)
 		(at 116.84 88.9 180)
 		(fields_autoplaced yes)
 		(effects
@@ -611,18 +487,6 @@
 			(justify right)
 		)
 		(uuid "6f60e7ed-500b-480d-92e6-f4bf7d4cb852")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 116.84 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "883bb299-8414-4de9-acca-58b64e438380")
 	)
 	(hierarchical_label "SPI_SS"
 		(shape input)
@@ -635,54 +499,6 @@
 			(justify right)
 		)
 		(uuid "95544716-e922-418b-ad8f-bc0ce36e47a4")
-	)
-	(hierarchical_label "O-9"
-		(shape output)
-		(at 137.16 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ade3e87e-83a4-4552-b435-1b78aba228b4")
-	)
-	(hierarchical_label "O-13"
-		(shape output)
-		(at 137.16 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b93dab8c-10a5-4237-98d1-b1ed9cc69491")
-	)
-	(hierarchical_label "SPI_SS"
-		(shape input)
-		(at 116.84 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b9ae5cf4-7e47-4b36-adf7-58bd2525f735")
-	)
-	(hierarchical_label "O-10"
-		(shape output)
-		(at 137.16 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c191cf7d-3dac-456d-9a9e-f9c7d2769c00")
 	)
 	(hierarchical_label "O-4"
 		(shape output)
@@ -707,18 +523,6 @@
 			(justify right)
 		)
 		(uuid "d802073e-963d-4d53-849f-161a84cad5bf")
-	)
-	(hierarchical_label "O-16"
-		(shape output)
-		(at 137.16 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dfa4ef96-a916-48d7-b014-df84a34b9ec0")
 	)
 	(hierarchical_label "O-1"
 		(shape output)
@@ -767,18 +571,6 @@
 			(justify left)
 		)
 		(uuid "f45709c8-ee4d-40c4-887a-5d97ab07e15e")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 127 156.21 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f74de90d-b4bc-4bba-8f59-2d068e72d163")
 	)
 	(symbol
 		(lib_id "74xx:74HC595")
@@ -917,142 +709,6 @@
 			(project ""
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/78428e41-003b-411e-a951-46f73eeac9f7"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC595")
-		(at 127 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "873c8364-8dca-4226-8e99-fa911913a800")
-		(property "Reference" "U6"
-			(at 133.985 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC595"
-			(at 133.985 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 127 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811021715_Nexperia-74HC595D,118_C5947.pdf"
-			(at 127 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C5947"
-			(at 127 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "74HC595D,118"
-			(at 127 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 127 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "0750b835-9149-430c-827b-f74230657e2d")
-		)
-		(pin "8"
-			(uuid "773dcba8-de75-4693-a8e4-57c79be1224b")
-		)
-		(pin "16"
-			(uuid "0de9f1b7-7c5b-40a8-a9df-3614df095c7d")
-		)
-		(pin "2"
-			(uuid "e2263974-c3a5-4ba4-ba58-cb4367b69c3d")
-		)
-		(pin "3"
-			(uuid "271b695c-f0fb-4468-bdf4-ffea61453f7d")
-		)
-		(pin "9"
-			(uuid "ce31e5f4-e2bd-40fb-9235-a5a4737fa648")
-		)
-		(pin "1"
-			(uuid "3f1e5020-3a94-4231-9342-d5f593fa1231")
-		)
-		(pin "13"
-			(uuid "7784e578-d6da-4580-a321-ac4b3152827c")
-		)
-		(pin "10"
-			(uuid "2c3532ed-1759-4d80-9b7e-81dff34d0176")
-		)
-		(pin "14"
-			(uuid "65a0536d-e24f-4575-9c91-0c1c7ddc6e73")
-		)
-		(pin "15"
-			(uuid "31bb6cdc-2db1-4165-9a5b-020913f85425")
-		)
-		(pin "4"
-			(uuid "72555aec-92e6-4826-8d08-e2bd923386d3")
-		)
-		(pin "5"
-			(uuid "7f02a05e-99f8-4e0c-90eb-177b71a03fc4")
-		)
-		(pin "11"
-			(uuid "096d3593-1173-4122-b158-72fa244ece4a")
-		)
-		(pin "12"
-			(uuid "9872310b-99ea-4591-b8ec-be86b6417c43")
-		)
-		(pin "6"
-			(uuid "7c98de9e-8981-425e-bbfb-519dfa12eda2")
-		)
-		(instances
-			(project "adxi"
-				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9/78428e41-003b-411e-a951-46f73eeac9f7"
-					(reference "U6")
 					(unit 1)
 				)
 			)

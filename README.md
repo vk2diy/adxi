@@ -3,7 +3,7 @@
 [ADX](https://github.com/WB2CBA/ADX) is an abbreviation for Arduino Digital Xceiver, a project emphasizing simplicity and Arduino hardware creating a [direct-conversion receiver](https://en.wikipedia.org/wiki/Direct-conversion_receiver) focused on [digital modes](http://www.arrl.org/digital-data-modes).
 
 This fork is called __adxi__ (or "ADX Improved") with the following major changes:
- * __abandon simplicity as a design philosophy__ since it limits our feature set, final design elegance, and understanding
+ * __abandon simplicity as a design philosophy__ since it limits our feature set and understanding
  * __improved design documentation__ to facilitate learning
  * __restores access to the project for modern KiCad__
  * __integrate known bug fixes__
@@ -11,11 +11,35 @@ This fork is called __adxi__ (or "ADX Improved") with the following major change
  * __broader power supply acceptance__ (USBC or any >6W ~12-36V nominal supply)
  * __full computer control__ (remove buttons/blinkenlights interface)
  * __improved filtering__
+ * __SWR, forward power and reverse power metering__ for debugging, safety and performance analysis
  * __supports more amateur bands__: 70cm/2m/10m/15m/17m/20m/30m/40m/60m/80m/160m/630m/2200m
  * __use of modern surface mount components__ for repeatability
  * __using platformio__ to manage the firmware build and dependencies in a modern way
 
 The project is not yet complete but is well on the way to a first revision production.
+
+## Update (2024-08-29)
+
+ * Detailed pin-wise documentation of MCU signals
+ * Altered proposed PA schematic to show logical flow (top left to bottom right) with the proposed abstraction (*Sokal* flows "backwards" with respect to preferred schematic convention)
+ * Completed crystal selection and load capacitance calculation for timer circuit (25MHz@12pF, 2x18pF)
+ * Investigated frequency-specific questions regarding the MCU PA drive PWM line pullup, in particular to support 70cm frequencies, concluding no pullup is best (rely on MCU to set state, conserve power when operating in lower frequency bands, one less component)
+ * Updated `TUSB321` power delivery chipset interface to remove mode-irrelevant pins and configuration.
+ * Updated forward power, reverse power and standing-wave ratio (SWR) sensing schematic to provide better matching of voltage divider output to MCU ADC input range
+ * Revised schematic for legibility, removed certain spurious elements
+ * Reviewed original firmware
+
+## Update (2024-08-28)
+
+ * Completed audio summing for USB audio chip output
+ * Wrapped frequency-response significant portions of the power amplifier (PA), the low pass filter (LPF) and antenna (ANT) interface in to a single unified prototype physical interface
+   * Began to compare proposed component count board space with potential physical designs
+   * An early stage prototype is shown in 3D and schematic views, based upon 3x2.54mm pin headers
+   * Began to write this up as [doc/late-stage-interface](doc/late-stage-interface)
+
+![image](adxi-draft-pcb-2024-08-28-3d.webp)
+![image](adxi-draft-pcb-2024-08-28-schematic.webp)
+
 
 ## Update (2024-08-27)
 
