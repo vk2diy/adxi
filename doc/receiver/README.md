@@ -39,7 +39,7 @@ From the CD2003 datasheet:
 
 There are two associated low pass 'pi' filters (LPFs):
  * __[5V supply LPF](../filter-models/cd2003-supply-low-pass-filter)__: This functions to filter out unwanted noise on the power line in order to ensure correct and reliable functioning for the receiver IC.
- * __[AM RF signal LPF](../filter-models/cd2003-rf-low-pass-filter)__: This functions to filter inbound radio frequency (RF) signals and remove extraneous noise. ![image](../filter-models/cd2003-rf-low-pass-filter/cd2003-rf-low-pass-filter.png)
+ * __[AM RF signal LPF](../filter-models/cd2003-rf-low-pass-filter)__: This functions to filter inbound radio frequency (RF) signals and remove extraneous noise. In the previous ADX project this consisted of 2x2.2uH inductors and a 620pF capacitor, which is an odd value. We instead use 3x220pF capacitors in parallel which provides effectively identical filtering but decreased ESR, better approximation of ideal component values, and increased resistance to component breakdown in addition to being cheaper to produce. ![image](../filter-models/cd2003-rf-low-pass-filter/cd2003-rf-low-pass-filter.png)
 
 There is a limiting circuit:
  * __Signal clamp__: The two fast-switching diodes on the signal line form a type of clamping or clipping circuit to ensure signals fall within an expected voltage range (positive and negative). This protects the IC from unexpected transient voltages. This type of circuit is also known as a bidirectional diode limiter, double-ended clipper or symmetrical clipper. See [Wikipedia](https://en.wikipedia.org/wiki/Clipper_(electronics)#Combinational_two-level_diode_clipper) which calls it a 'combinatorial two-level diode clipper'. Three cheers for standard terminology!
