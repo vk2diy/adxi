@@ -7,7 +7,7 @@ This fork is called __adxi__ (or "ADX Improved") with the following major change
  * __improved design documentation__ to facilitate learning
  * __restores access to the project for modern KiCad__
  * __integrate known bug fixes__
- * __operates from a single USB-C cable__ for programming and power (DC-IN option), instead of batteries/charge controller, audio in, audio out, sound card.
+ * __operates from a single USB-C cable__ replacing the need for an MCU programming cable, a power cable, an audio input cable, an audio output cable, and a host computer sound card.
  * __broader power supply acceptance__ (USBC or any >6W ~12-36V nominal supply)
  * __full computer control__ (remove buttons/blinkenlights interface)
  * __improved filtering__
@@ -17,6 +17,14 @@ This fork is called __adxi__ (or "ADX Improved") with the following major change
  * __using platformio__ to manage the firmware build and dependencies in a modern way
 
 The project is not yet complete but is well on the way to a first revision production.
+
+## Update (2024-09-01)
+
+ * Specified the majority of schematic components still lacking footprints
+ * Reconsider [receiver chip](doc/receiver) associated circuitry using a plethora of datasheets from chips in this family.
+   * Learn more about the benefits of DC isolation for mixed AC/DC ICs.
+   * [Model RF LPF](doc/filter-models/cd2003-rf-low-pass-filter).
+   * Update peripheral circuitry to reduce cost and improve outcomes.
 
 ## Update (2024-08-29)
 
