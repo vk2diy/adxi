@@ -1,0 +1,12 @@
+# CD2003
+wget -O cd2003-wuxi-7page.pdf https://www.ak-modul-bus.de/cat/documentation/CD2003.pdf
+
+# TA8164 (Toshiba)
+wget -O ta8164-toshiba.pdf https://www.nikom.biz/pdf/TA8164P_TOS.pdf # also available at http://doc.chipfind.ru/pdf/toshiba/ta8164.pdf
+
+# TA2003 (Toshiba)
+wget -O ta2003-toshiba.pdf https://ia802708.us.archive.org/24/items/Datasheets/TA2003P_text.pdf # 10 page Toshiba datasheet
+
+# TA2003 (UTC)
+wget -O ta2003-utc-6page.pdf http://e-ele.net/DataSheet/TA2003.pdf # 6 page UTC datasheet, also available at https://electronics-diy.com/pdf/TA2003.pdf
+wget -O ta2003-utc-7page.pdf https://www.es.co.th/Schemetic/PDF/TA2003.PDF # 7 page UTC datasheet
