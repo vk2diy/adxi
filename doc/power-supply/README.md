@@ -16,18 +16,11 @@ Although the power amplifier (PA) operates at a nominal 12V, the minor current r
 
 Initially the design was to be made using a conventional DC input jack (as seen on the "wall wart" style power-pack supplies ubiquitous in pre USB-C electronics), however it was later reasoned that introducing USB-C would probably be feasible, and this would simplify cabling substantially from the four-cable original ADX design (DC power + USB to MCU + audio in + audio out) to a single cable design (USB-C only). The decision was made to keep both a conventional DC input jack and USB-C support to support debugging, future expansion, and flexibility.
 
+Later, this decision was rescinded and only USB-C was retained.
+
 ## Design overview
 
-There are two input power paths:
-
- - USB-C input power path
- - DC input jack power path
-
-These are followed by a common power path.
-
-### USB-C Input Power Path
-
-The USB-C input path is governed by the TUSB321 chipset, which:
+The USB-C input power path is governed by the TUSB321 chipset, which:
  - Detects connectivity using its `VBUS_DET` pin
  - Reads the requested USB power configuration from its `CURRENT_MODE` pin
  - Negotiates the delivery of power through its `CC1` and `CC2` pins
@@ -68,29 +61,7 @@ However, we should take note of the switching frequency which is variously descr
 
 ![image](switching-harmonics.png)
 
-### DC input jack power path
-
-The DC input jack accepts external DC power from a wall-wart style power pack. It is designed to accept as broad a range of supply voltages as possible, from 12V to 36V or so.
-
-Many people have a large number of power packs lying around within this range.
-
-The most common physical size for this general range of voltage (and indeed the most common in general) is 5.5mm (outer diameter) and 2.1mm (inner diameter). The inner pin is the positive supply rail, and the outer sheath is the ground.
-
-A large range of DC input jacks are available for PCB mounting, and within the same outer and inner diameter dimensions substantial variation can still be found, for example in terms of the metallurgy of the connection surfaces, the physical strength and design of the connector, the presence of one or more mounting pins designed to translate physical stresses from insertion and bending (for example due to horizontal force on the plug after it has been inserted) without stressing the relatively delicate soldered pin connections, provide different insertion angles such as perpendicular to the circuitboard, provide an insert detection signal, provide support and fallbacks for supporting less common plugs carrying multiple signals, etc.
-
-Because we don't know what the user will plug in here, we have to treat it as suspect.
-
-The first stage is a ferrite bead for high frequency filtering.
-
-The second stage is clamping to 24V to ensure subsequent components are exposed to a tolerable voltage range.
-
-A diode then ensures this input path behaves correctly after combination with the alternate USB-C input path.
-
-### Common power path
-
-Subsequent to the individual input power paths, a common path occurs.
-
-This consists of bulk capacitance to provide a stable basis for subsequent power. Here we parallel two 470uF electrolytic capacitors to provide a lower [equivalent series resistance](https://en.wikipedia.org/wiki/Equivalent_series_resistance) and some increased longevity in the face of potential capacitor decay, as well as provide filtering.
+Subsequent to the USB-C input power path, there is bulk capacitance to provide a stable basis for the system. Here we parallel two 470uF electrolytic capacitors to provide a lower [equivalent series resistance](https://en.wikipedia.org/wiki/Equivalent_series_resistance) and some increased longevity in the face of potential capacitor decay, as well as provide filtering.
 
 The filtering is broken in to two parts, a capacitor filter using 100nF and 10nF capacitors which are suitable for high frequency attenuation, and an inductor.
 
