@@ -551,28 +551,28 @@
 		(uuid "13829c6a-5094-410e-aa27-83eefb2dfce0")
 	)
 	(pad "5" smd rect
-		(at 7.625095 -2.075083 180)
+		(at -7.625095 -2.075083 180)
 		(size 3.5 2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "b50ea380-bf87-438d-82f6-4c0a54a5ac0c")
+		(uuid "dc9f53cb-ed22-4ea4-8ddc-18629b3fccf3")
 	)
-	(pad "6" smd rect
-		(at 7.625095 4.024994 180)
-		(size 3.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "aeede7c0-d4c2-4e6a-8cf7-53d7c09c4363")
-	)
-	(pad "7" smd rect
+	(pad "5" smd rect
 		(at -7.625095 4.024994 180)
 		(size 3.5 2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "607ef108-352c-4ac4-94c0-a251406753a1")
 	)
-	(pad "8" smd rect
-		(at -7.625095 -2.075083 180)
+	(pad "5" smd rect
+		(at 7.625095 -2.075083 180)
 		(size 3.5 2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "dc9f53cb-ed22-4ea4-8ddc-18629b3fccf3")
+		(uuid "b50ea380-bf87-438d-82f6-4c0a54a5ac0c")
+	)
+	(pad "5" smd rect
+		(at 7.625095 4.024994 180)
+		(size 3.5 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "aeede7c0-d4c2-4e6a-8cf7-53d7c09c4363")
 	)
 	(model "packages3d/USB-A-SMD_10.0-QTJ6.3.wrl"
 		(offset
