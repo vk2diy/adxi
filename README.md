@@ -8,7 +8,7 @@ This fork is called __adxi__ (or "ADX Improved") with the following major change
  * __restores access to the project for modern KiCad__
  * __integrate known bug fixes__
  * __operates from a single USB-C cable__ replacing the need for an MCU programming cable, a power cable, an audio input cable, an audio output cable, and a host computer sound card.
- * __broader power supply acceptance__ (USBC or any >6W ~12-36V nominal supply)
+ * __USB-C power supply__
  * __full computer control__ (remove buttons/blinkenlights interface)
  * __improved filtering__
  * __SWR, forward power and reverse power metering__ for debugging, safety and performance analysis
@@ -17,6 +17,12 @@ This fork is called __adxi__ (or "ADX Improved") with the following major change
  * __using platformio__ to manage the firmware build and dependencies in a modern way
 
 The project is not yet complete but is well on the way to a first revision production.
+
+## Update (2024-09-03)
+ * Add silkscreen graphics
+ * Add four M3 mounting holes with screw head footprint indicator silkscreen
+ * Improve certain footprints
+ * Simplify power supply to USBC only
 
 ## Update (2024-09-02)
 
