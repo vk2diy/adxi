@@ -18,6 +18,15 @@ This fork is called __adxi__ (or "ADX Improved") with the following major change
 
 The project is not yet complete but is well on the way to a first revision production.
 
+## Update (2024-09-02)
+
+![image](adxi-draft-pcb-2024-09-02-3d.webp)
+
+ * Remodeled and improved [receiver chip](doc/receiver) [power filter](doc/filter-models/cd2003-supply-low-pass-filter).
+ * Changed [stereo to mono audio summing to op-amp based](doc/audio-summing) (despite probable functional futility thereof since this is sourced locally) as theoretically this results in a cleaner output for an extremely nominal cost, and integrated the correct output bias line.
+ * Found, reported and worked around [some](https://github.com/TousstNicolas/JLC2KiCad_lib/issues/77) [bugs](https://github.com/TousstNicolas/JLC2KiCad_lib/issues/76) in an [upstream library tool](https://github.com/TousstNicolas/JLC2KiCad_lib).
+ * Executed most basic layout and verified all components fit in the allocated board space.
+
 ## Update (2024-09-01)
 
  * Specified the majority of schematic components still lacking footprints

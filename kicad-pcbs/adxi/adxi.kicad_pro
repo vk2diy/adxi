@@ -76,7 +76,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
@@ -89,15 +89,15 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
-        "silk_over_copper": "ignore",
+        "silk_over_copper": "warning",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -119,8 +119,8 @@
         "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.1,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -129,8 +129,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -179,6 +179,9 @@
       ],
       "track_widths": [
         0.0,
+        0.16,
+        0.2,
+        0.25,
         0.3,
         0.5,
         0.8,
@@ -220,7 +223,11 @@
         },
         {
           "diameter": 0.3,
-          "drill": 0.15
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -440,7 +447,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -462,19 +469,19 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
+        "microvia_diameter": 0.2,
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.16,
+        "via_diameter": 0.2,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
@@ -612,80 +619,16 @@
       "Root"
     ],
     [
-      "010884c4-fb02-4ee0-bf15-8744c5d425da",
-      "PA Switched Resonator1"
-    ],
-    [
-      "a962033c-61a7-482d-8d60-4ea125726cab",
-      "PA-RESONATOR-L-100UH-SWITCH-A"
-    ],
-    [
-      "03b68d4e-e799-4682-9f99-99addba490a3",
-      "PA-RESONATOR-L-100UH-SWITCH-A1"
-    ],
-    [
-      "351b9910-9533-4fcc-87fd-1e5a45fe5e20",
-      "PA-RESONATOR-L-10UH-SWITCH-B"
-    ],
-    [
-      "5e6b9912-9ee6-4af9-ab1f-aff273c60e1b",
-      "PA-RESONATOR-L-10UH-SWITCH-A"
-    ],
-    [
-      "02b6b893-c44f-4424-8073-76337c6977ff",
-      "PA-RESONATOR-L-50UH-SWITCH-A"
-    ],
-    [
-      "bb303924-f16a-4e0e-8a02-c058950294ba",
-      "PA-RESONATOR-L-50UH-SWITCH-B"
-    ],
-    [
-      "edb4c7e2-98aa-4e50-bf9b-f77a28c6219c",
-      "PA-RESONATOR-C-6.8PF"
-    ],
-    [
-      "72227932-67da-4c97-ba70-a3b85863a451",
-      "PA-RESONATOR-C-82PF"
-    ],
-    [
-      "29438f3a-aece-4d3b-8b82-e610b74b2afa",
-      "PA-RESONATOR-C-68NF"
-    ],
-    [
       "faeb3fbc-3621-4946-b7ef-4e1ddf3abfcb",
       "PA Transmit Power Modulation"
-    ],
-    [
-      "ba4d920d-fa36-4a6c-a5e4-660fd5853236",
-      "pa-lpf-ant"
     ],
     [
       "e2136599-5188-47e7-b249-ebabf1032893",
       "Late Stage Interface"
     ],
     [
-      "fb0d86ea-cd6a-47df-acc1-340a8cdbfd85",
-      "PA-RESONATOR-C-20PF"
-    ],
-    [
-      "8ab05852-1a83-406e-89be-89ec83e4c4f4",
-      "PA-RESONATOR-C-15PF"
-    ],
-    [
       "78428e41-003b-411e-a951-46f73eeac9f7",
       "Digital output expansion"
-    ],
-    [
-      "a3a9ff31-7e95-4359-a47e-0af79058720a",
-      "PA-RESONATOR-C-12PF"
-    ],
-    [
-      "da29f3c6-7b14-40de-ae64-978c1da64ba3",
-      "PA-RESONATOR-C-5.6NF"
-    ],
-    [
-      "c2273f4a-2fc3-4a08-a5bf-28ed232808be",
-      "PA-RESONATOR-C-150PF"
     ]
   ],
   "text_variables": {}
