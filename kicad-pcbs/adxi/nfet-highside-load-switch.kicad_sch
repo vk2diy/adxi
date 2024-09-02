@@ -1166,7 +1166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad-6-parts:HY1904C2"
+		(property "Footprint" "adxi-footprints:DFN-8_L5.9-W5.2-P1.27-LS6.2-BL"
 			(at 173.99 99.06 0)
 			(effects
 				(font
