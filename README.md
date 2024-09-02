@@ -19,10 +19,14 @@ This fork is called __adxi__ (or "ADX Improved") with the following major change
 The project is not yet complete but is well on the way to a first revision production.
 
 ## Update (2024-09-03)
+
+![image](adxi-draft-pcb-2024-09-03.webp)
+
  * Add silkscreen graphics
  * Add four M3 mounting holes with screw head footprint indicator silkscreen
  * Improve certain footprints
  * Simplify power supply to USBC only
+ * Complete layout and DRC. (Also [discover and report DRC bug in KiCad](https://gitlab.com/kicad/code/kicad/-/issues/18642).)
 
 ## Update (2024-09-02)
 

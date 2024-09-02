@@ -7689,6 +7689,12 @@
 		(uuid "da9272e7-9c4b-40c4-a48e-c0fd554e2e3e")
 	)
 	(junction
+		(at 110.49 342.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df37a3b8-fa38-4923-a787-46567973f8c0")
+	)
+	(junction
 		(at 238.76 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10881,6 +10887,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 342.9) (xy 110.49 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce647a7-e437-43ec-adfd-22f14eb3388c")
+	)
+	(wire
+		(pts
 			(xy 427.99 271.78) (xy 427.99 293.37)
 		)
 		(stroke
@@ -12632,6 +12648,16 @@
 			(type default)
 		)
 		(uuid "ed3a22e4-6c4f-4ab1-9acf-b69133098e30")
+	)
+	(wire
+		(pts
+			(xy 110.49 342.9) (xy 115.57 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8654ba-5818-4ccd-9c16-bb487a2f4d44")
 	)
 	(polyline
 		(pts
@@ -15458,7 +15484,7 @@
 	)
 	(global_label "12V"
 		(shape output)
-		(at 107.95 342.9 0)
+		(at 115.57 342.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15468,7 +15494,7 @@
 		)
 		(uuid "0eafd8a1-8959-4988-8de7-2e765509ebaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.4428 342.9 0)
+			(at 122.0628 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17080,6 +17106,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 110.49 347.98 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6df07300-b37c-4696-869f-9dff105cff83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 353.7244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -19706,6 +19754,103 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "R97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 110.49 345.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02abbf75-ea02-42e8-9463-e9fc27c35ef0")
+		(property "Reference" "C8"
+			(at 108.966 338.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470uF"
+			(at 108.966 340.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_10x10.2"
+			(at 110.49 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2202252130_ROQANG-RVE1E471M1010_C107397.pdf"
+			(at 110.49 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 110.49 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C107397"
+			(at 110.49 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RVE1E471M1010"
+			(at 110.49 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Roqang"
+			(at 110.49 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4108cde-3df3-40b8-9b65-3e81909cbcfa")
+		)
+		(pin "2"
+			(uuid "07d87d7e-af17-407b-ad74-e22ca138dfe5")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "C8")
 					(unit 1)
 				)
 			)
