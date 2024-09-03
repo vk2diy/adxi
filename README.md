@@ -56,6 +56,7 @@ The project scope generally includes the following:
      * A bunch about [antenna tuning hardware](doc/antenna-tuning)
      * Roughly how to use a vector network analyzer and link it with Linux software to characterize an antenna system, filter system, etc. with a frequency response curve
    * Also learned some better fundamentals including:
+     * More of a decent background on available filter topologies (usually I just copy whatever's recommended)
      * How to torture AI in to giving you insights in to aspects of electronics design you have no clue about
    * Also came up to date with a few ecosystem state of play issues regarding KiCad 8 library management, fabrication partner file format preferences, etc.
  * Outstanding items
