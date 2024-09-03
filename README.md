@@ -63,7 +63,7 @@ The project scope generally includes the following:
    * No idea if this will work, rather than attempting to roll in a frequency sweep / filter-characterization feature using the spare channel of the programmable clock generator I thought it was best to just order one revision and get things working.
    * Late stage boards with band-specific hardware still require layout
      * Perhaps first produce one popular band so that we can validate the overall design before investing in the others
-     * The 20m band has been selected as the band to go for, based upon [WSPRNet Activity](https://www.wsprnet.org/drupal/wsprnet/activity) which reporting the following bands with highest recent activity levels:
+     * The 20m band has been selected as the band to go for, based upon [WSPRNet Activity](https://www.wsprnet.org/drupal/wsprnet/activity) which is reporting the following bands have the highest recent activity levels:
        * 20m (675× contacts)
        * 40m (540× contacts)
        * 30m (437× contacts)
