@@ -18,6 +18,51 @@ This fork is called __adxi__ (or "ADX Improved") with the following major change
 
 The project is not yet complete but is well on the way to a first revision production.
 
+The project scope generally includes the following:
+ * Main board
+ * Late stage board modules (each for different frequency bands)
+ * Assembly information
+ * Design documentation
+
+## Update (2024-09-04)
+
+![image](adxi-3d-top.webp)
+![image](adxi-3d-side.webp)
+![image](adxi-3d-bottom.webp)
+
+ * Add mount point dimensions
+ * Updates to silkscreen, including a "what it does" description and MCU labels visible on all pins
+ * Significant updates test pads (preferred compact format for oscilloscope attachment, add more `GND` points, reposition a few pads)
+ * Add 3D model of Arduino Nano from [over here](https://github.com/g200kg/kicad-lib-arduino) for demonstrative visualization purposes
+ * Revisit layout for more cost effective vias (0.3mm vs 0.2mm)
+ * Specify (and order) standoffs and cables
+ * Moved out late stage schematics (done ages ago) to a separate directory in preparation for late-stage module PCBs
+ * __Layout complete! This is version 1.__
+ * Bullet point design review to date:
+   * Total part-time design time was about 4.5-5 weeks. Actual design time maybe 2 weeks.
+   * Initial estimate of "maybe one week" vs actual time investment of 2 weeks and calendar time investment of 5 weeks off by around 100%/500% (not a bad guesstimate!) ... 
+     * Learning: Next time multiply the optimistic estimate by five for a real calendar time estimate.
+   * Learned a *lot* of basic RF and radio design - both areas totally new to me - including:
+     * Which stages require frequency-specific considerations (almost all of them, thus a combined [late stage interface](doc/late-stage-interface) incorporating parts of the Class E Power Amplifier and the band filter made sense, this being an architectural distinction from the previous project)
+     * The various classes of amplifiers and detail regarding [Class E Power Amplifier design](doc/class-e-pa)
+     * [How to design band-specific LPFs](doc/multi-band-lpfs) and why SRF is important
+     * [How to get power from USB](doc/power-supply) and negotiate different power levels, without relying on the MCU module for the same
+     * How to on-board a [USB hub](doc/usb-hub)
+     * How to on-board a [USB audio chipset](doc/usb-audio-chipset)
+     * How to [combine audio channels in hardware](doc/audio-summing)
+     * [How to implement SWR, forward power and reverse power metering](doc/swr-and-power-metering)
+     * The design history and AM-side configuration of a major family of [receiver chipsets](doc/receiver)
+     * Why the old HAM radio trick of building your own coils is a pain in the ass but nonetheless useful to understand
+     * A bunch about [antenna tuning hardware](doc/antenna-tuning)
+     * Roughly how to use a vector network analyzer and link it with Linux software to obtain 
+   * Also learned some better fundamentals including:
+     * How to torture AI in to giving you insights in to aspects of electronics design you have no clue about
+   * Also came up to date with a few ecosystem state of play issues regarding KiCad 8 library management, fabrication partner file format preferences, etc.
+ * Outstanding items
+   * No idea if this will work, rather than attempting to roll in a frequenct sweep / filter-characterization feature using the spare channel of the programmable clock generator I thought it was best to just order one revision and get things working.
+   * Late stage boards with band-specific hardware still require layout
+   * Ordering
+
 ## Update (2024-09-03)
 
 ![image](adxi-draft-pcb-2024-09-03.webp)
