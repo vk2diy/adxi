@@ -1473,7 +1473,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "60V 115mA 200mW 7.5Ω@10V,500mA 2.5V@250uA 1PCSNChannel SOT-23 MOSFETs ROHS"
+			(at 125.095 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C8545"
+			(at 125.095 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2N7002"
+			(at 125.095 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Changjing"
 			(at 125.095 93.98 0)
 			(effects
 				(font

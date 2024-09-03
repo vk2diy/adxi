@@ -6,3 +6,6 @@ fp-info-cache
 _autosave-*
 ~*
 *.lck
+*.rpt
+*.zip
+gerbers/

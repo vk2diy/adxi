@@ -16582,6 +16582,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape passive)
+		(at 53.34 106.68 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49e154d9-4088-404c-b259-fa9ee0dcca47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 112.4244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IMODE1"
 		(shape output)
 		(at 60.96 264.16 180)
@@ -19266,6 +19288,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape passive)
+		(at 95.25 377.19 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e93d43fa-472c-4c45-aaab-73f8c41fafc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.25 382.9344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB-C-CC2"
 		(shape bidirectional)
 		(at 171.45 276.86 0)
@@ -19416,6 +19460,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 105.41 377.19 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed72c454-1902-470a-923f-0bd85e5cf5d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 382.9344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -20189,7 +20255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 191.77 166.37 0)
 			(effects
 				(font
@@ -20765,7 +20831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 68.58 377.19 0)
 			(effects
 				(font
@@ -22955,7 +23021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 93.98 158.75 0)
 			(effects
 				(font
@@ -23675,6 +23741,73 @@
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.25 377.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c5513bb-b81e-4f5f-a0b5-55929743fd09")
+		(property "Reference" "TP14"
+			(at 97.79 372.6179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 375.1579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 100.33 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.25 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8501d9c5-bb87-4e9d-8b39-89e315b2e9dc")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -24402,7 +24535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 46.99 106.68 0)
 			(effects
 				(font
@@ -24487,6 +24620,33 @@
 			)
 		)
 		(property "Description" "USB Type-C Configuration Channel Logic and Port Control with VCONN, X2QFN-12"
+			(at 76.2 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C139392"
+			(at 76.2 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TUSB321RWBR"
+			(at 76.2 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
 			(at 76.2 271.78 0)
 			(effects
 				(font
@@ -25777,7 +25937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 214.63 184.15 0)
 			(effects
 				(font
@@ -27533,7 +27693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 36.83 106.68 0)
 			(effects
 				(font
@@ -28865,7 +29025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 120.65 377.19 0)
 			(effects
 				(font
@@ -29314,7 +29474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 52.07 377.19 0)
 			(effects
 				(font
@@ -29381,7 +29541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 35.56 377.19 0)
 			(effects
 				(font
@@ -29662,6 +29822,73 @@
 			(project ""
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 53.34 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7a8bea9-26c6-496b-976c-229e085a705e")
+		(property "Reference" "TP15"
+			(at 55.88 102.1079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 104.6479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c459be62-cf05-4b0e-8905-37f64fcc4b9b")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -29979,7 +30206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 59.69 158.75 0)
 			(effects
 				(font
@@ -30156,6 +30383,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 105.41 377.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6b74857-7178-40d9-91a4-d8b2c8411c9c")
+		(property "Reference" "TP2"
+			(at 107.95 372.6179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 375.1579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 110.49 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b7f1ce3-7b2d-43b2-9717-d653c19da3e8")
+		)
+		(instances
+			(project "adxi"
+				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 247.65 207.01 0)
 		(mirror y)
 		(unit 1)
@@ -30182,7 +30476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 242.57 207.01 0)
 			(effects
 				(font
@@ -33338,7 +33632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 86.36 377.19 0)
 			(effects
 				(font
