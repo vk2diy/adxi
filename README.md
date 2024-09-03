@@ -59,9 +59,13 @@ The project scope generally includes the following:
      * How to torture AI in to giving you insights in to aspects of electronics design you have no clue about
    * Also came up to date with a few ecosystem state of play issues regarding KiCad 8 library management, fabrication partner file format preferences, etc.
  * Outstanding items
-   * No idea if this will work, rather than attempting to roll in a frequenct sweep / filter-characterization feature using the spare channel of the programmable clock generator I thought it was best to just order one revision and get things working.
+   * No idea if this will work, rather than attempting to roll in a frequency sweep / filter-characterization feature using the spare channel of the programmable clock generator I thought it was best to just order one revision and get things working.
    * Late stage boards with band-specific hardware still require layout
+     * Perhaps first produce one popular band so that we can validate the overall design before investing in the others
    * Ordering
+   * Post-ordering
+     * Further firmware review and development
+     * Try to plan out a test process for each block
 
 ## Update (2024-09-03)
 
