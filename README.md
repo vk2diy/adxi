@@ -26,9 +26,9 @@ The project scope generally includes the following:
 
 ## Update (2024-09-04)
 
-![image](adxi-3d-top.webp)
-![image](adxi-3d-side.webp)
-![image](adxi-3d-bottom.webp)
+![image](images/adxi-3d-top.webp)
+![image](images/adxi-3d-side.webp)
+![image](images/adxi-3d-bottom.webp)
 
  * Add mount point dimensions
  * Updates to silkscreen, including a "what it does" description and MCU labels visible on all pins
@@ -74,7 +74,7 @@ The project scope generally includes the following:
 
 ## Update (2024-09-03)
 
-![image](adxi-draft-pcb-2024-09-03.webp)
+![image](images/adxi-draft-pcb-2024-09-03.webp)
 
  * Add silkscreen graphics
  * Add four M3 mounting holes with screw head footprint indicator silkscreen
@@ -84,7 +84,7 @@ The project scope generally includes the following:
 
 ## Update (2024-09-02)
 
-![image](adxi-draft-pcb-2024-09-02-3d.webp)
+![image](images/adxi-draft-pcb-2024-09-02-3d.webp)
 
  * Remodeled and improved [receiver chip](doc/receiver) [power filter](doc/filter-models/cd2003-supply-low-pass-filter).
  * Changed [stereo to mono audio summing to op-amp based](doc/audio-summing) (despite probable functional futility thereof since this is sourced locally) as theoretically this results in a cleaner output for an extremely nominal cost, and integrated the correct output bias line.
@@ -118,8 +118,8 @@ The project scope generally includes the following:
    * An early stage prototype is shown in 3D and schematic views, based upon 3x2.54mm pin headers
    * Began to write this up as [doc/late-stage-interface](doc/late-stage-interface)
 
-![image](adxi-draft-pcb-2024-08-28-3d.webp)
-![image](adxi-draft-pcb-2024-08-28-schematic.webp)
+![image](images/adxi-draft-pcb-2024-08-28-3d.webp)
+![image](images/adxi-draft-pcb-2024-08-28-schematic.webp)
 
 
 ## Update (2024-08-27)
@@ -157,7 +157,7 @@ The project scope generally includes the following:
 
 ## Update (2024-08-21)
 
- * Early stage band module schematic proposal. ![image](adxi-draft-schematic-2024-08-21.png)
+ * Early stage band module schematic proposal. ![image](images/adxi-draft-schematic-2024-08-21.png)
    * The primary difference to the prior ADX design is that the physical module will include portions of the power amplifier (RF choke, Sokals' `C1`, resonator) in addition to the low pass filter (LPF).
    * This is thought to make sense because:
      1.  All of these elements were found to require adjustment when considering the revised design's wide aggregate proposed band capabilities; and
@@ -169,7 +169,7 @@ The project scope generally includes the following:
      * Since the modular portion includes all of the last stages of the transceiver, it would thus logically include the antenna connection
      * Since the antenna connection is something that people may want in various formats to suit various wavelengths and usage scenarios (IPEX, BNC, SMA) and some of those physical interfaces are not designed for longevity, and the "tiffin" approach will facilitate both vertical layering and improved EMI, it might make sense to zoom out to consider whether or not the antenna should be part of that module or signals should be routed back to the main board before connecting to the antenna.
        * Layering up makes sense because an antenna connection on top of the system would be a logical position, batteries are heavy and could fit below, and minimizing the overall inter-module routing of RF signals would be desirable.
-       * Routing back makes sense because fewer modules are required and the specific modules would presumably work out cheaper. ![image](tiffin-layers.png)
+       * Routing back makes sense because fewer modules are required and the specific modules would presumably work out cheaper. ![image](images/tiffin-layers.png)
  * Design conclusions:
    * Don't bother with a screen, instead rely on the computer to provide status information.
    * Don't bother with a battery or charge controller, instead rely on an external USB power bank when mobile.
@@ -208,7 +208,7 @@ The project scope generally includes the following:
 
 ## Update (2024-08-15)
 
-![image](adxi-draft-pcb-2024-08-13.webp)
+![image](images/adxi-draft-pcb-2024-08-13.webp)
 
  * [Further work on power amplifier theory and component selection](doc/class-e-pa/)
    * We now have theoretically adequate SRF on inductor arrays for all bands
@@ -221,12 +221,12 @@ Recent work:
  * More work on power amplifier
    * Three-mode RF choke inductor mostly completed (one tier to be re-specified)
    * Switchable capacitance calculated and to be added
- * Input of general dimensions of two boxes which have been selected as possible form factors. Have another idea to use this sort of thing as a modular approach: ![image](tiffin.webp)
+ * Input of general dimensions of two boxes which have been selected as possible form factors. Have another idea to use this sort of thing as a modular approach: ![image](images/tiffin.webp)
  * General cleanup of schematic
 
 ## Updated draft PCB (2024-08-10)
 
-![image](adxi-draft-pcb-2024-08-10.webp)
+![image](images/adxi-draft-pcb-2024-08-10.webp)
 
  * Further consideration of overall layout, switching placement.
  * It seems there will need to be a series-parallel array of RF choke inductors to cover the broad target frequency range.
@@ -238,8 +238,8 @@ Recent work:
 
 ## Updated draft PCB (2024-08-09)
 
-![image](adxi-draft-pcb-2024-08-09.webp)
-![image](adxi-draft-pcb-2024-08-09-rear.webp)
+![image](images/adxi-draft-pcb-2024-08-09.webp)
+![image](images/adxi-draft-pcb-2024-08-09-rear.webp)
 
 This version adopts a band-module approach in order to reduce iteration cost.
 
@@ -249,7 +249,7 @@ There is space on the front of the PCB for three of these modules, and on the re
 
 ## Initial draft PCB (2024-08-07)
 
-![image](adxi-draft-pcb-2024-08-07.webp)
+![image](images/adxi-draft-pcb-2024-08-07.webp)
 
  * Draft now changed, potentially to have pluggable LPFs instead of a monolithic all-band-onboard architecture
    * This requires the design of an interface for the same
