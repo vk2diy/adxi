@@ -67,6 +67,7 @@ The project scope generally includes the following:
        * 20m (675× contacts)
        * 40m (540× contacts)
        * 30m (437× contacts)
+     * Made an early-stage prototype with solder-selectable support for all three bands ![image](images/prototype-late-stage-module.webp)
    * Ordering
    * Post-ordering
      * Further firmware review and development
