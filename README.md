@@ -26,20 +26,17 @@ The project scope generally includes the following:
 
 ## Update (2024-09-05)
 
-![image](images/prototype-late-stage-module-2.webp)
+![image](adxi-lsm-20m-30m-40m-1.webp)
 
- * Improved prototype late stage interface module
+ * Improved prototype late stage interface module for 20m, 30m and 40m bands
    * Correct rather than vague geometry
+   * Correct orientation
    * Inclusion of RF choke
+   * Inclusion of Sokal `C1` capacitor
    * Silk screen labels
- * Ongoing reconsideration of antenna tuning approach
-   * I do not own an antenna tuner
-   * They are not cheap to buy
-   * The majority of modules are bulky and not very sophisticated, often using old-style mechanical relays
-   * Building in antenna tuning is not very hard but it seems the standard designs are based around variable inductor and variable capacitor pairings
-     * The procurement of these is a hassle and also expensive
-   * As an alternative, we may use a series of SMD-fixed elements with a solder-bridge enable
-     * This might allow for reasonable tuning without the need for a separate antenna tuning system
+ * Built-in antenna tuning
+   * Based on a series of SMD-fixed elements with a solder-bridge enable
+     * This should allow for reasonable tuning without the need for a separate antenna tuning system
 
 ## Update (2024-09-04)
 
