@@ -16,13 +16,32 @@ This fork is called __adxi__ (or "ADX Improved") with the following major change
  * __use of modern surface mount components__ for repeatability
  * __using platformio__ to manage the firmware build and dependencies in a modern way
 
-The project is not yet complete but is well on the way to a first revision production.
+## Project scope
 
 The project scope generally includes the following:
  * Main board
  * Late stage board modules (each for different frequency bands)
  * Assembly information
  * Design documentation
+
+## Current status of this fork
+
+The first boards are about to be ordered.
+
+Completed:
+
+ [x] Updated schematic (Kicad 8)
+ [x] Layout
+ [x] Late stage module interface design
+ [x] Design and layout of first late stage module 
+ [x] Firmware building correctly under platformio
+
+Next steps:
+
+ [ ] Order boards
+ [ ] Test plan
+ [ ] New firmware
+ [ ] Verify functionality
 
 ## Update (2024-09-05)
 
@@ -355,16 +374,6 @@ $ pio run
 
 Open the project in the IDE then use the buttons provided.
 
-
-## Current status of this fork
-
- - Firmware now builds correctly under platformio
- - KiCad 8 redrawing of the schematic and a draft layout are well underway and nearing completion
-
-### Next steps
- - Complete schematic and layout
- - Order boards
- - Verify functionality
 
 ## History
 
