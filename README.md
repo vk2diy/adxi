@@ -26,7 +26,7 @@ The project scope generally includes the following:
 
 ## Update (2024-09-05)
 
-![image](adxi-lsm-20m-30m-40m-1.webp)
+![image](images/adxi-lsm-20m-30m-40m-1.webp)
 
  * Improved prototype late stage interface module for 20m, 30m and 40m bands
    * Correct rather than vague geometry
