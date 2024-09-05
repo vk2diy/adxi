@@ -30,18 +30,18 @@ The first boards are about to be ordered.
 
 Completed:
 
- [x] Updated schematic (Kicad 8)
- [x] Layout
- [x] Late stage module interface design
- [x] Design and layout of first late stage module 
- [x] Firmware building correctly under platformio
-
+ - [x] Updated schematic (Kicad 8)
+ - [x] Layout
+ - [x] Late stage module interface design
+ - [x] Design and layout of first late stage module 
+ - [x] Firmware building correctly under platformio
+  
 Next steps:
 
- [ ] Order boards
- [ ] Test plan
- [ ] New firmware
- [ ] Verify functionality
+ - [ ] Order boards
+ - [ ] Test plan
+ - [ ] New firmware
+ - [ ] Verify functionality
 
 ## Update (2024-09-05)
 
