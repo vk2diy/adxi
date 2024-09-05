@@ -24,6 +24,23 @@ The project scope generally includes the following:
  * Assembly information
  * Design documentation
 
+## Update (2024-09-05)
+
+![image](images/prototype-late-stage-module-2.webp)
+
+ * Improved prototype late stage interface module
+   * Correct rather than vague geometry
+   * Inclusion of RF choke
+   * Silk screen labels
+ * Ongoing reconsideration of antenna tuning approach
+   * I do not own an antenna tuner
+   * They are not cheap to buy
+   * The majority of modules are bulky and not very sophisticated, often using old-style mechanical relays
+   * Building in antenna tuning is not very hard but it seems the standard designs are based around variable inductor and variable capacitor pairings
+     * The procurement of these is a hassle and also expensive
+   * As an alternative, we may use a series of SMD-fixed elements with a solder-bridge enable
+     * This might allow for reasonable tuning without the need for a separate antenna tuning system
+
 ## Update (2024-09-04)
 
 ![image](images/adxi-3d-top.webp)
