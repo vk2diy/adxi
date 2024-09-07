@@ -28,6 +28,7 @@ Examples of such approaches:
    * Based on http://f5rds.free.fr/F5RDS_remote_antenna_tuner.html
  * https://k6jca.blogspot.com/2016/01/antenna-auto-tuner-design-part-10-final.html (best project of the category in my view, especially the notes on [antenna tuning](https://k6jca.blogspot.com/2015/07/antenna-auto-tuner-design-part-6-notes.html) and [directional couplers](https://k6jca.blogspot.com/2015/07/antenna-auto-tuner-design-part-5.html))
  * https://hamprojects.wordpress.com/2016/12/31/hf-automatic-tuner/
+ * https://github.com/Dfinitski/N7DDC-ATU-100-mini-and-extended-boards
 
 Less commonly with servo motors:
  * https://www.pa3hcm.nl/?p=336
@@ -50,3 +51,5 @@ However, clicky mechanical relays have a few problems.
 These days it makes more sense to use solid state alternatives wherever possible, because solid state switching is faster, more efficient, more reliable, and doesn't make noise.
 
 While it would theoretically be possible to integrate an antenna tuning unit in to the adxi board, it seems like it would be more suitable as a later project.
+
+As a temporary fudge, adding solder-bridged passive components to the late-stage modules should provide some tuning ability without the need for an external ATU or complex built-in automated ATU.
