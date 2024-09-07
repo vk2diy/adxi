@@ -38,6 +38,7 @@ Completed:
   
 Next steps:
 
+ - [ ] Final design review
  - [ ] Order boards
  - [ ] Test plan
  - [ ] New firmware
