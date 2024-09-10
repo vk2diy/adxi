@@ -81,6 +81,10 @@ Next steps:
      * Many source suggest the L1 RF Choke should be 10-15x L2 (resonator inductance) but do not further specify tuning.
      * Some sources suggest the L1 RF Choke can be larger than specified without incident, thus a common large inductor might be selected to cross all bands.
      * L1 (RF Choke) is apparently possible to replace with a "finite DC feed inductance" (FDI) and this is apparently well known and desirable at higher frequencies, eg. our targeted 70cm.
+ * Next steps:
+    * It now makes sense to spin the emergent calculation tool off in to its own tool which can be managed separately
+    * After that is in a state of relative verification (re. generates values that generally concur with alternative calculators, includes reasonable defaults, provides useful output) then the component values will be recalculated for the initial late stage module board
+    * The late stage module will be modified to include a current sense resistor and test point explicitly to facilitate the visualization of current information on the oscilloscope to demonstrate and tune the Class E circuit operation
 
 ## Update (2024-09-05)
 
