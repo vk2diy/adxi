@@ -38,11 +38,39 @@ Completed:
   
 Next steps:
 
- - [ ] Final design review
+ - [ ] Final design review - underway
  - [ ] Order boards
- - [ ] Test plan
+ - [ ] Test plan - underway
  - [ ] New firmware
  - [ ] Verify functionality
+
+## Update (2024-09-11)
+
+ * No update for almost a week, but I have been busy! The design review has revealed a large number of issues requiring resolution.
+ * __Two full days were spent creating and enhancing new Class E calculator software__.
+   * This decision was prompted by the revelation that repeatedly running existing third party software was an inefficient means to explore the solution space and certain concerns were raised regarding ambiguities in the algorithm, inputs and outputs for third party tools. No final tool was created however a lot of functionality was explored, including:
+   * The generation of basic Class E circuit values.
+   * The generation of matching networks in both "L" and "Pi" configurations.
+   * The storage, retrieval and referencing of band information, transistor information, capacitor and inductor information.
+   * Efficient caching systems for achieving faster reslts than naive depth-first search in the solution space.
+ * __Development of the tool put on hold temporarily, and to assist with verification a number of existing third party tools were surveyed__.
+   * The conclusion of the existing software survey was that much existing (pre-SMD) software is sub-optimal for a modern SMD-based device design use case:
+     * Often the software is produced by HAM hobbyists to scratch and itch and does not meet broader requirements.
+     * A common shortcoming was the explicit assumption of the use of hand-wound coils and the provisioning of coil-winding instructions rather than SMD component selection information.
+     * Another common shortcoming was the use of 
+ * From a practical standpoint:
+   * __Transistor selection was shown to be bad__. The transistor somewhat arbitrarily selected has proven insufficient for the application and thus will be replaced. While the power handling was excellent, certain aspects of its design (in particular output capacitance) were shown to be far in excess of practical for this application. Currently it seems the preferred replacement citing availablity, cost and modeling will be the `SI2304DDS`.
+   * In terms of design verification, education and tuning, __current sensing would be very useful__.
+     * Specifically, the ability to sense current in order to visualize the switching action of the Class E Power Amplifier primary switching device across input drive signal, load current and load voltage in order to verify the primary properties of the Class E Power Amplifier are in tune with the required characteristics, ie. zero voltage and zero current at the time of switching.
+     * According to various sources ([TI](https://www.ti.com/lit/eb/slyy154b/slyy154b.pdf), [Analog Devices / Linear Technology](https://www.analog.com/media/en/technical-documentation/app-notes/an-105fa.pdf), [Renesas](https://www.renesas.com/us/en/document/apn/current-sensing-low-voltage-precision-op-amps), [Bourns](https://www.mouser.com/pdfdocs/bourns_n1702_current_sense_accurate_measurement_appnote.pdf), [Mouser/Microchip/Vishay](https://www.mouser.com/pdfDocs/microchip-vishay-current-sensing-whitepaper.pdf) and [ElectroicDesign](https://www.electronicdesign.com/technologies/power/article/21806322/electronic-design-using-resistors-for-current-sensing-its-more-than-just-i-v-r)) and a cursory review of lab equipment available for current sensing with oscilloscopes, plus some prior experience building current sensing circuits within boards using op amps, __it seems that it would be desirable to provide a measurement test point across a shunt resistor specifically for the provisoning of current measurement__.
+     * Not having had the need for higher frequency measurements in the past, my oscilloscope is limited to 70MHz which a the following calculations show is perhaps just within the recommended range for this purpose. For the higher frequency bands, this sampling and verification strategy will certainly run in to issues with my current test equipment.
+
+| Band | Frequency | Nyquist | Practical Rate (2.5x) | Recommended Rate (3-5x) |
++ ---- + --------- + ------- + ----------------------+------------------------ +
+| 20m  | 14 MHz	   | 28 MHz	 | 35 MHz                | 42-70 MHz               |
+| 30m  | 10 MHz    | 20 MHz  | 25 MHz                | 30-50 MHz               |
+| 40m  | 7 MHz     | 14 MHz  | 17.5 MHz              | 21-35 MHz               |
++ ---- + --------- + ------- + ----------------------+------------------------ +
 
 ## Update (2024-09-05)
 
