@@ -57,7 +57,9 @@ Next steps:
    * The conclusion of the existing software survey was that much existing (pre-SMD) software is sub-optimal for a modern SMD-based device design use case:
      * Often the software is produced by HAM hobbyists to scratch and itch and does not meet broader requirements.
      * A common shortcoming was the explicit assumption of the use of hand-wound coils and the provisioning of coil-winding instructions rather than SMD component selection information.
-     * Another common shortcoming was the use of 
+     * Another shortcoming was the use of imperial measurements (no metric support).
+     * Another shortcoming was the use of simple algorithms where more advanced information and methods are now available. For example, it is generally impossible with most tools to model the use of a given circuit with anything but a 50% duty cycle.
+     * The main and overwhelming shortcoming was a critical lack of design documentation, specifically including an explanation of which algorithm was in use, and for what purpose, informed by which literature, etc. The majority of HAM-grade tools just provide hand-wavey references to *Sokal*, *NM0S*, and it has been shown that the latter incorporate circular references of dubious or limited connection the broader scientific literature. This is just not a good basis for moving forward with a proper understanding of the design space.
  * From a practical standpoint:
    * __Transistor selection was shown to be bad__. The transistor somewhat arbitrarily selected has proven insufficient for the application and thus will be replaced. While the power handling was excellent, certain aspects of its design (in particular output capacitance) were shown to be far in excess of practical for this application. Currently it seems the preferred replacement citing availablity, cost and modeling will be the `SI2304DDS`.
    * In terms of design verification, education and tuning, __current sensing would be very useful__.
@@ -65,12 +67,22 @@ Next steps:
      * According to various sources ([TI](https://www.ti.com/lit/eb/slyy154b/slyy154b.pdf), [Analog Devices / Linear Technology](https://www.analog.com/media/en/technical-documentation/app-notes/an-105fa.pdf), [Renesas](https://www.renesas.com/us/en/document/apn/current-sensing-low-voltage-precision-op-amps), [Bourns](https://www.mouser.com/pdfdocs/bourns_n1702_current_sense_accurate_measurement_appnote.pdf), [Mouser/Microchip/Vishay](https://www.mouser.com/pdfDocs/microchip-vishay-current-sensing-whitepaper.pdf) and [ElectroicDesign](https://www.electronicdesign.com/technologies/power/article/21806322/electronic-design-using-resistors-for-current-sensing-its-more-than-just-i-v-r)) and a cursory review of lab equipment available for current sensing with oscilloscopes, plus some prior experience building current sensing circuits within boards using op amps, __it seems that it would be desirable to provide a measurement test point across a shunt resistor specifically for the provisoning of current measurement__.
      * Not having had the need for higher frequency measurements in the past, my oscilloscope is limited to 70MHz which a the following calculations show is perhaps just within the recommended range for this purpose. For the higher frequency bands, this sampling and verification strategy will certainly run in to issues with my current test equipment.
 
++ ---- + --------- + ------- + ----------------------+------------------------ +
 | Band | Frequency | Nyquist | Practical Rate (2.5x) | Recommended Rate (3-5x) |
 + ---- + --------- + ------- + ----------------------+------------------------ +
 | 20m  | 14 MHz	   | 28 MHz	 | 35 MHz                | 42-70 MHz               |
 | 30m  | 10 MHz    | 20 MHz  | 25 MHz                | 30-50 MHz               |
 | 40m  | 7 MHz     | 14 MHz  | 17.5 MHz              | 21-35 MHz               |
 + ---- + --------- + ------- + ----------------------+------------------------ +
+
+ * From a theoretical standpoint:
+   * It was found that Class F and Class E/F circuits are sometimes mislabelled as Class E in software and this should be kept in mind.
+   * The generation of Class F and Class E/F could be a rational decision for the analysis software.
+   * It seems *critical* to actually visualize the actual switching-time voltage and current in order to fully comprehend and verify a Class E implementation, thus hardware must be designed to facilitate.
+   * The degree to which different component blocks interact or are operation or replaceable should be more thoroughly investigated. For example:
+     * Many source suggest the L1 RF Choke should be 10-15x L2 (resonator inductance) but do not further specify tuning.
+     * Some sources suggest the L1 RF Choke can be larger than specified without incident, thus a common large inductor might be selected to cross all bands.
+     * L1 (RF Choke) is apparently possible to replace with a "finite DC feed inductance" (FDI) and this is apparently well known and desirable at higher frequencies, eg. our targeted 70cm.
 
 ## Update (2024-09-05)
 
