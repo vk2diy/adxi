@@ -4,7 +4,7 @@ One of the main ways that amateur radio operators traditionally evaluate their a
 
 The __SWR__ is simply the ratio of power forward (being sent out) to reverse (being reflected back), ie:
 
- * Github: $$SWR = \frac{P_forward}{P_reverse}$$
+ * Github: $$SWR = \frac{P_{forward}}{P_{reverse}}$$
  * Unicode/HTML: <code>SWR = P<sub>forward</sub> ÷ P<sub>reverse</sub></code>
 
 ## How it's normally done
