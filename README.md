@@ -44,6 +44,31 @@ Next steps:
  - [ ] New firmware
  - [ ] Verify functionality
 
+## Update (2024-09-18)
+
+ * __Still working on the novel Class E component calculator tool__. Turns out there's a lot of background to the evolution of the physics equations and AC circuit theory is a bit different to the DC stuff I'm used to.
+ * __Discovered another component concern__, this time Zener Diodes. 
+   * Basically due to the difficulty of finding high voltage rated components the approach of using zener protection had been put forward. This is not particularly common in resonators, and probably for good reason.
+   * Further research revealed the reason why.  So it seems that the use of Zener Diodes creates an increase in effective shunt capacitance (somewhat similar to the output gate capacitance or `C(OSS)` of a MOSFET) which effectively works in parallel to the shunt capacitor `C1`.
+   * The previous zener diode was selected for as low a voltage as possible, but this is not a good look, particularly when using multiple zener diodes in parallel (the design had three).
+   * Apparently, the higher the zener diode voltage rating, the lower the capacitance, because:
+     * Depletion region width: As the voltage rating of a zener diode increases, the width of the depletion region in the PN junction also increases, and the wider depletion region results in a lower capacitance, as capacitance is inversely proportional to the distance between charge carriers.
+     * Doping levels: Higher voltage zener diodes typically have lower doping levels. Lower doping leads to a wider depletion region and thus lower capacitance
+.
+     * Junction area: For a given power rating, higher voltage zener diodes often have smaller junction areas. A smaller junction area results in lower capacitance.
+     * Reverse bias effect: As reverse voltage is applied to a zener diode (before breakdown), the depletion region expands further, reducing capacitance.
+     * Higher voltage zeners operate at higher reverse voltages, leading to lower capacitance.
+     * This relationship can be expressed mathematically as $$C = \frac{K \times D^4}{(\rho V_C)^n}$$ or the Unicode equivalent `C = (K × D^4) / (ρV_C)^n`
+       * `C` = Capacitance
+       * `K` = Constant
+       * `D` = Junction diameter
+       * `ρ` ($\rho$) = Material resistivity (related to doping)
+       * `V_C` ($V_C$) = Voltage across the junction
+       * `n` = Exponent (typically around 0.5) 
+     * As the voltage rating (`V_C`) increases, the capacitance (`C`) decreases.
+     * Once the zener reaches its breakdown voltage, the capacitance tends to stabilize and doesn't change significantly with further increases in current.
+
+
 ## Update (2024-09-11)
 
  * No update for almost a week, but I have been busy! The design review has revealed a large number of issues requiring resolution.
