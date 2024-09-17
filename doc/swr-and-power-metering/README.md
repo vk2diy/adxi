@@ -95,11 +95,11 @@ More explicitly:
 
 Alternatively:
 
-$$cycle length in seconds = \frac{1 second}{Hz}\\
-cycle length in seconds = \frac{1 second}{440,000,000 Hz}\\
-\therefore cycle length in seconds = 0.00000000113636363636 seconds\\
-cycle length in nanoseconds = cycle length in seconds \times 1,000,000,000 ns/s\\
-\therefore cycle length in nanoseconds = 0.00000000113636363636 \times 1,000,000,000 = 1.13636363636 ns \approx 1.14ns$$
+$$t_{cycle length in seconds} = \frac{1 second}{Hz}\\
+t_{cycle length in seconds} = \frac{1 second}{440,000,000 Hz}\\
+\therefore t_{cycle length in seconds} = 0.00000000113636363636 seconds\\
+t_{cycle length in nanoseconds} = t_{cycle length in seconds} \times 1,000,000,000 ns/s\\
+\therefore t_{cycle length in nanoseconds} = 0.00000000113636363636 \times 1,000,000,000 = 1.13636363636 ns \approx 1.14ns$$
 
 ## Conclusion
 
