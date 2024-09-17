@@ -69,7 +69,7 @@ $$t_{rr} \approx \frac{0.5}{f_{target}}$$ (or, as Unicode: `t_rr ≈ 0.5 / f_tar
 
 So in our case:
 
-$$t_{rr} \approx \frac{0.5}{440MHz}} \approx 1.14ns$$ (or, as Unicode: `t_rr ≈ 0.5 / 440MHz ≈ 1.14ns`)
+$$t_{rr} \approx \frac{0.5}{440MHz} \approx 1.14ns$$ (or, as Unicode: `t_rr ≈ 0.5 / 440MHz ≈ 1.14ns`)
 
 You can see that 1ns falls within the hard limit but is rather close. Probably a non-issue since we just want low frequency sampling of a general rate of FWP/RVP and thus calculate SWR and we can potentially average the last few readings in the firmware in order to effectively reduce impact of any sampling rate related abberations.
 
@@ -85,20 +85,21 @@ More explicitly:
  * We have f = 440MHz, but we need to convert this to Hz:
    * 440MHz = 440,000,000 Hz
  * Now we can plug this into our equation:
-   * $$t_{rr} \approx 0.5 / 440,000,000 Hz$$
+   * $$t_{rr} \approx \frac{0.5}{440,000,000 Hz}$$
  * Perform the division:
    * $$t_{rr} \approx 0.00000000113636363636 seconds$$
  * Convert to nanoseconds:
    * $$0.00000000113636363636 seconds \times 1,000,000,000 ns/s = 1.13636363636 ns$$
- * Thus, rounded to two decimal places: $$t_{rr} \approx 0.5 / 440 MHz \approx 1.14 ns$$
+ * Thus, rounded to two decimal places:
+   * $$t_{rr} \approx \frac{0.5}{440 MHz} \approx 1.14 ns$$
 
 Alternatively:
 
-$$cycle_length_in_seconds = \frac{1 second}{Hz}\\
-cycle_length_in_seconds = \frac{1 second}{440,000,000 Hz}\\
-\therefore cycle_length_in_seconds = 0.00000000113636363636 seconds\\
-cycle_length_in_nanoseconds = cycle_length_in_seconds \times 1,000,000,000 ns/s\\
-\therefore cycle_length_in_nanoseconds = 0.00000000113636363636 \times 1,000,000,000 = 1.13636363636 ns \approx 1.14ns$$
+$$cycle length in seconds = \frac{1 second}{Hz}\\
+cycle length in seconds = \frac{1 second}{440,000,000 Hz}\\
+\therefore cycle length in seconds = 0.00000000113636363636 seconds\\
+cycle length in nanoseconds = cycle length in seconds \times 1,000,000,000 ns/s\\
+\therefore cycle length in nanoseconds = 0.00000000113636363636 \times 1,000,000,000 = 1.13636363636 ns \approx 1.14ns$$
 
 ## Conclusion
 
