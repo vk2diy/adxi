@@ -43,7 +43,7 @@ A common rule of thumb is that the maximum usable frequency for a diode is appro
 $$f_{max} \approx \frac{0.35}{t_{rr}}$$ (or, as Unicode: `f_max ≈ 0.35 / t_rr`)
 
  * Where:
-   * (`t_rr`) is the diode's "reverse recovery time" from the datasheet.
+   * $$t_{rr}$$ (`t_rr`) is the diode's "reverse recovery time" from the datasheet.
 
 This rule of thumb is based on the 0.35 factor, which corresponds to sampling approximately 2.86 times per cycle (1/0.35 ≈ 2.86). This is higher than the hard limit recommended by [Nyquist-Shannon sampling theorem](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem) of two times per cycle to avoid [aliasing](https://en.wikipedia.org/wiki/Aliasing).
 
@@ -61,7 +61,7 @@ $$t_{rr} \approx \frac{0.35}{f_{target}}$$ (or, as Unicode: `t_rr ≈ 0.35 / f_t
 
 So in our case:
 
-$$t_{rr} \approx \frac{0.35}{440MHz}} \approx 0.8ns$$ (or, as Unicode: `t_rr ≈ 0.35 / 440MHz ≈ 0.8ns`)
+$$t_{rr} \approx \frac{0.35}{440MHz} \approx 0.8ns$$ (or, as Unicode: `t_rr ≈ 0.35 / 440MHz ≈ 0.8ns`)
 
 A hard limit of two (not practically used as this is asking for problems) would substitute 0.5 instead of 0.35, so:
 
