@@ -203,105 +203,246 @@
 			)
 		)
 	)
-	(hierarchical_label "PA-SUPPLY"
+	(junction
+		(at 135.89 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03ef312a-a26b-441a-9355-fc9974463579")
+	)
+	(junction
+		(at 158.75 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dbdcacb-0598-4325-bf4d-879751f79380")
+	)
+	(junction
+		(at 135.89 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66155ba0-c600-4019-be92-da2bf9f21649")
+	)
+	(junction
+		(at 179.07 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91ea0d1d-cc44-4433-be11-e60d738b19f5")
+	)
+	(junction
+		(at 161.29 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad254a9d-c2aa-40b5-a900-2649f0e80e2b")
+	)
+	(junction
+		(at 179.07 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3b196c8-e762-47ee-a350-caee16beb48d")
+	)
+	(junction
+		(at 156.21 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cac12661-d237-440d-aa53-eecd1c60cb5c")
+	)
+	(junction
+		(at 179.07 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd708e47-f76a-4a11-85f9-0bf3c63aed4a")
+	)
+	(junction
+		(at 135.89 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb59e187-d79c-498a-bef7-3ea7c35bc1eb")
+	)
+	(wire
+		(pts
+			(xy 135.89 67.31) (xy 135.89 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032ecc11-b1b3-4f2e-b464-5c06bdfb422d")
+	)
+	(wire
+		(pts
+			(xy 133.35 60.96) (xy 135.89 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c33f882-2207-4b3e-987a-c1cb1b51c058")
+	)
+	(wire
+		(pts
+			(xy 181.61 74.93) (xy 179.07 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e8058a1-9249-4120-aaa2-d9f5224c9ebd")
+	)
+	(wire
+		(pts
+			(xy 179.07 74.93) (xy 179.07 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41959b16-adac-43c4-bf92-d449b618dd43")
+	)
+	(wire
+		(pts
+			(xy 163.83 91.44) (xy 161.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6443c663-5b8c-4b52-86e5-2d427e8b65d0")
+	)
+	(wire
+		(pts
+			(xy 135.89 60.96) (xy 135.89 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1cd203-6bd8-4d61-ac9c-76dd398b552e")
+	)
+	(wire
+		(pts
+			(xy 158.75 87.63) (xy 161.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814947d2-0909-41d3-97fb-0888ceb1e457")
+	)
+	(wire
+		(pts
+			(xy 179.07 67.31) (xy 179.07 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "831a4933-9edb-4c04-8747-66f25f2b982a")
+	)
+	(wire
+		(pts
+			(xy 161.29 91.44) (xy 161.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83dd0075-12f7-4f59-8108-51570784cd62")
+	)
+	(wire
+		(pts
+			(xy 135.89 69.85) (xy 135.89 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5c2eba-364a-4aa3-ae2b-884f3c5f5524")
+	)
+	(wire
+		(pts
+			(xy 135.89 64.77) (xy 135.89 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc033e1-9bee-4f6c-bd69-c5f34732e783")
+	)
+	(wire
+		(pts
+			(xy 179.07 69.85) (xy 179.07 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a285fd56-1c22-4d89-91ae-605fd786a40a")
+	)
+	(wire
+		(pts
+			(xy 156.21 87.63) (xy 158.75 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc736f28-d74c-4855-9350-5c2e3465d5ca")
+	)
+	(wire
+		(pts
+			(xy 153.67 87.63) (xy 156.21 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f914c0-75f4-4e00-8132-092e2dae9a90")
+	)
+	(wire
+		(pts
+			(xy 179.07 72.39) (xy 179.07 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a0c59b-b0e6-4918-b62c-3f72e191320d")
+	)
+	(text "THIS IS THE DC FEED ORIGIN FOR\nTHE POWER AMPLIFIER CIRCUITRY."
+		(exclude_from_sim no)
+		(at 116.332 67.056 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+		)
+		(uuid "85a274a4-b484-42d9-a15d-037996772b48")
+	)
+	(text "THIS IS THE MECHANICALLY SIGNIFICANT\n\"THIRD LEG\" OF THE LATE STAGE MODULE.\nIT IS IMPORTANT TO COUNTER THE FORCE\nOF THE ANTENNA INSERTION/REMOVAL.\nIN FUTURE SIGNALS MAY BE ADDED, FOR\nNOW ALL WILL BE LEFT AS GND TO REDUCE\nFLOATING CHARGES IN PROXIMITY TO THE\nPOWER AMPLIFIER'S RESONATOR."
+		(exclude_from_sim no)
+		(at 156.718 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+		)
+		(uuid "91b46e9c-841f-49c8-9cb9-539ead16ba6b")
+	)
+	(text "THIS IS THE SIGNAL OUTPUT AND\nMOSFET DRAIN SWITCH INTERFACE."
+		(exclude_from_sim no)
+		(at 198.882 66.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+		)
+		(uuid "bd189db6-d38a-4fc1-a7c8-ea431648d30c")
+	)
+	(hierarchical_label "L1-SUPPLY"
 		(shape input)
-		(at 135.89 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0d421168-9e11-42fd-a094-f2c371ed421c")
-	)
-	(hierarchical_label "PA-DRAIN"
-		(shape output)
-		(at 179.07 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2f38f443-027e-456e-8f12-7b6fc452ec01")
-	)
-	(hierarchical_label "PA-SUPPLY"
-		(shape input)
-		(at 135.89 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "457cfdd8-b6cf-4bf8-a5ad-0ce15c3778ba")
-	)
-	(hierarchical_label "RFC-GND"
-		(shape passive)
-		(at 156.21 87.63 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6e3bcaa1-7371-4d09-ad48-25d1ef6b4094")
-	)
-	(hierarchical_label "RFC-GND"
-		(shape passive)
-		(at 158.75 87.63 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6f8db51e-70d2-4729-95d6-fb7169db0e19")
-	)
-	(hierarchical_label "PA-DRAIN"
-		(shape output)
-		(at 179.07 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9dc51a8f-c9f5-4728-a838-106578505778")
-	)
-	(hierarchical_label "PA-DRAIN"
-		(shape output)
-		(at 179.07 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9f28243f-6163-462a-a5c7-bf1997eafc57")
-	)
-	(hierarchical_label "RFC-GND"
-		(shape passive)
-		(at 161.29 87.63 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a8bb56cf-9111-4444-af15-b89ecdc1fe22")
-	)
-	(hierarchical_label "PA-SUPPLY"
-		(shape input)
-		(at 135.89 64.77 180)
+		(at 133.35 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -311,21 +452,9 @@
 		)
 		(uuid "ab3f7b70-3499-45d0-afef-e2f369362567")
 	)
-	(hierarchical_label "PA-SUPPLY"
-		(shape input)
-		(at 135.89 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e31735cc-b8bb-47b7-aa99-ab2822c4b989")
-	)
 	(hierarchical_label "PA-DRAIN"
 		(shape output)
-		(at 179.07 72.39 0)
+		(at 181.61 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -335,15 +464,15 @@
 		)
 		(uuid "f1c9252d-ac33-422e-b2fc-c0b555aa0184")
 	)
-	(hierarchical_label "RFC-GND"
+	(hierarchical_label "GND"
 		(shape passive)
-		(at 153.67 87.63 270)
+		(at 163.83 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ff035d55-937b-414f-89cf-ed040f471d8b")
 	)
@@ -365,7 +494,7 @@
 				)
 			)
 		)
-		(property "Value" "RFC-GND"
+		(property "Value" "RESERVED"
 			(at 157.48 78.74 90)
 			(effects
 				(font
