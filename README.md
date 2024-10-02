@@ -44,9 +44,31 @@ Next steps:
  - [ ] New firmware
  - [ ] Verify functionality
 
+## Update (2024-10-03)
+
+ * Quite a lot of progress.
+   * [classe2-calculator](https://github.com/vk2diy/classe2-calculator) (pronounced "classier calculator") is reaching a fairly mature state with some very useful output.
+     * Three power amplifier topologies are support: `-t infinite`, `-t finite` and `-t inverse`.
+     * Three matching network topologies are supported: `-M l`, `-M t` and `-M pi`.
+     * 1st-7th order low pass Butterworth filter networks are supported, these are automatically generated for all orders.
+     * In all cases, practical approximations using standard component values are generated and ranked in descending order of accuracy along with part counts.
+   * Late stage module
+     * The late stage module has been redesigned with the new calculations.
+     * Upon advice, the antenna tuning features have been dropped.
+   * Main board
+     * The main board has been redesigned as v1.1 and subsequently (underway) as v1.2
+     * When the v1.1 was ordered, a number of issues were uncovered:
+       * Component selection: overpriced components, unavailable components and undue component quantities
+       * Double-sided assembly: one of the key components that is unrealistic to manually assemble is the USB-C port which had been placed on the underside. This however needs to move to the top side for process reasons.
+       * In order to facilitate the above, a hole must be cut in the board for the MCU to MCU USB-2 interface port cable, since it cannot be on top of the board.
+       * Thankfully some component upgrades (1000uF caps) and consequent board space downsizing has shown there is probably *just* enough space to make this happen.
+![image](images/adxi-draft-pcb-2024-10-03.webp)
+   * I will not be focused on this project for a little while due to other commitments but will finish it ASAP.
+
+
 ## Update (2024-09-18)
 
- * __Still working on the novel Class E component calculator tool__. Turns out there's a lot of background to the evolution of the physics equations and AC circuit theory is a bit different to the DC stuff I'm used to.
+ * __Still working on the [novel Class E component calculator tool](https://github.com/vk2diy/classe2-calculator)__. Turns out there's a lot of background to the evolution of the physics equations and AC circuit theory is a bit different to the DC stuff I'm used to, so this is taking awhile.
  * __Discovered another component concern__, this time Zener Diodes. 
    * Basically due to the difficulty of finding high voltage rated components the approach of using zener protection had been put forward. This is not particularly common in resonators, and probably for good reason.
    * Further research revealed the reason why.  So it seems that the use of Zener Diodes creates an increase in effective shunt capacitance (somewhat similar to the output gate capacitance or `C(OSS)` of a MOSFET) which effectively works in parallel to the shunt capacitor `C1`.
@@ -67,7 +89,16 @@ Next steps:
        * `n` = Exponent (typically around 0.5) 
      * As the voltage rating (`V_C`) increases, the capacitance (`C`) decreases.
      * Once the zener reaches its breakdown voltage, the capacitance tends to stabilize and doesn't change significantly with further increases in current.
-
+ * __Discovered some low-voltage components__.
+   * Certain components will be swapped out for higher voltage equivalents.
+ * __Discovered less than ideal diode selection__.
+   * Diode switching speed in the forward and reverse power sampling circuit was identified as a concern.
+   * I have done a [write-up on this](doc/swr-and-power-metering)
+ * __Discovered topology error__.
+   * Through a manual review, discovered not one but two topology errors in the late stage modules.
+   * One error was to do with the overall topology across the main board interface.
+   * One error was to do with the ordering of resonator components (`L2`/`C2` inverse).
+   * The first prototype late stage module schematic has been updated to reflect the correct topology.
 
 ## Update (2024-09-11)
 
