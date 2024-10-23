@@ -529,6 +529,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 156.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2713862d-9b26-40fb-a605-2b057729ddbc")
 		)
@@ -605,6 +614,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 173.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10c06175-045f-4bf4-9925-3d340e80d0b4")
 		)
@@ -673,6 +691,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 140.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 140.97 67.31 0)
 			(effects
 				(font

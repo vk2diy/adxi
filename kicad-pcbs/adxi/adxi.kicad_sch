@@ -19526,6 +19526,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6d46191b-3095-43c8-9847-bf1516a107d1")
 		)
@@ -19623,6 +19632,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 226.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ffa4a308-ac8d-45b3-a515-f800cc13cc2d")
 		)
@@ -19709,6 +19727,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
+			(at 113.03 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 113.03 345.44 0)
 			(effects
 				(font
@@ -19813,6 +19840,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 48.26 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c7af26f9-8aee-4703-ba2c-545c1c2f9799")
 		)
@@ -19875,6 +19911,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 204.47 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 204.47 166.37 0)
 			(effects
 				(font
@@ -19977,6 +20022,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 78.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63fbfb53-63f4-4911-a290-69462a389e03")
 		)
@@ -20064,6 +20118,15 @@
 		)
 		(property "Manufacturer" "Uniroyal"
 			(at 392.43 314.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 392.43 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20167,6 +20230,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 401.32 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35e17cfa-8258-4d2d-ad43-e3e519195fb5")
 		)
@@ -20254,6 +20326,15 @@
 		)
 		(property "Manufacturer" "Uniroyal"
 			(at 398.78 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 398.78 309.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20359,6 +20440,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 44.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "87995892-883a-4b4b-b31e-745d08c3fa80")
 		)
@@ -20448,6 +20538,15 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
+			(at 58.42 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 58.42 220.98 0)
 			(effects
 				(font
@@ -20553,6 +20652,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "738a378c-f450-47c1-808c-79f8ef5d4d47")
 		)
@@ -20642,6 +20750,15 @@
 			)
 		)
 		(property "Manfacturer" "Samsung"
+			(at 85.09 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 85.09 205.74 0)
 			(effects
 				(font
@@ -20744,6 +20861,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 132.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a6474cb-882a-432e-893f-defeaec1ca4f")
 		)
@@ -20832,6 +20958,15 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal"
+			(at 386.08 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 386.08 356.87 0)
 			(effects
 				(font
@@ -20937,6 +21072,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 203.2 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b6fb5b8-db86-4f31-a8dc-ab683bfeae69")
 		)
@@ -21033,6 +21177,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 149.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c5ea6a8c-ab48-4afd-a3da-7bec5375b471")
 		)
@@ -21119,6 +21272,15 @@
 			)
 		)
 		(property "Manfacturer" "Samsung"
+			(at 97.79 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 97.79 205.74 0)
 			(effects
 				(font
@@ -21224,6 +21386,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 45.72 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d123226-4a1a-4848-b954-70d4745efea4")
 		)
@@ -21310,6 +21481,15 @@
 			)
 		)
 		(property "Manfacturer" "Samsung"
+			(at 106.68 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 106.68 345.44 0)
 			(effects
 				(font
@@ -21415,6 +21595,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 78.74 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df288ff1-36c6-4b29-a44c-04ef53a6a98f")
 		)
@@ -21505,6 +21694,15 @@
 		)
 		(property "Manufacturer" "Diodes Incorporated"
 			(at 45.72 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 45.72 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21608,6 +21806,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0e51d079-0e89-40a8-91f9-2abb188fae2b")
 		)
@@ -21703,6 +21910,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 132.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0028fb6f-fba3-4fcb-943b-f35cb4e71c62")
 		)
@@ -21791,6 +22007,15 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal"
+			(at 78.74 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 78.74 163.83 0)
 			(effects
 				(font
@@ -21896,6 +22121,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 252.73 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "893ff1e0-2130-4df3-9b2c-fcd915ee97c8")
 		)
@@ -21985,6 +22219,15 @@
 		)
 		(property "Manufacturer" "Panjit"
 			(at 204.47 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 204.47 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22087,6 +22330,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 222.25 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4660b0ae-3fa2-4d15-9d61-c18e3e3e5472")
 		)
@@ -22182,6 +22434,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 106.68 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "91f321a9-6f1a-41e8-a951-646f270082ce")
 		)
@@ -22268,6 +22529,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
+			(at 161.29 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 161.29 195.58 0)
 			(effects
 				(font
@@ -22373,6 +22643,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 226.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "72432186-465a-4608-85a3-07038a80bb48")
 		)
@@ -22469,6 +22748,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 361.95 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3f125f4-0116-4af4-8e2e-2ec49ce64db1")
 		)
@@ -22531,6 +22819,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 88.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 88.9 158.75 0)
 			(effects
 				(font
@@ -22626,6 +22923,15 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
+			(at 208.28 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 208.28 195.58 0)
 			(effects
 				(font
@@ -22734,6 +23040,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 54.61 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "373eddfe-86ec-4d6b-8b55-f94cfbcd77e0")
 		)
@@ -22822,6 +23137,15 @@
 		)
 		(property "Manufacturer" "Uniroyal"
 			(at 222.25 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 222.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22923,6 +23247,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 171.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bc13f18d-de87-4721-ac70-dfbc087d6c12")
 		)
@@ -23012,6 +23345,15 @@
 			)
 		)
 		(property "Manufacturer" "Xi'an Aerosemi Tech"
+			(at 106.68 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 106.68 297.18 0)
 			(effects
 				(font
@@ -23129,6 +23471,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 367.03 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ae2485f4-c9ac-4387-b80e-43783e105299")
 		)
@@ -23218,6 +23569,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 271.78 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 271.78 328.93 0)
 			(effects
 				(font
@@ -23323,6 +23683,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 149.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b7675e29-983a-4291-93a7-685e9d0a0878")
 		)
@@ -23385,6 +23754,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 95.25 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 95.25 377.19 0)
 			(effects
 				(font
@@ -23484,6 +23862,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 101.6 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a56ae4da-c063-437f-aa71-d83fac1c5946")
 		)
@@ -23572,6 +23959,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 214.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 214.63 120.65 0)
 			(effects
 				(font
@@ -23677,6 +24073,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 255.27 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6ecec0d9-813a-495b-a464-b487f9143b4c")
 		)
@@ -23765,6 +24170,15 @@
 		)
 		(property "Manufacturer" "Fenghua"
 			(at 166.37 274.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 166.37 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23869,6 +24283,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 91.44 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "561ea10b-c80b-46d8-b6bb-461c0acaacb4")
 		)
@@ -23955,6 +24378,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 41.91 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 41.91 106.68 0)
 			(effects
 				(font
@@ -24056,6 +24488,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 76.2 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "db75aaba-2de4-4535-8549-3ada5bf42ac2")
 		)
@@ -24148,6 +24589,15 @@
 			)
 		)
 		(property "Description" "Arduino Nano v3.x"
+			(at 66.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 66.04 62.23 0)
 			(effects
 				(font
@@ -24336,6 +24786,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 375.92 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "517db747-d364-4772-a72d-47556f424c8f")
 		)
@@ -24425,6 +24884,15 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal"
+			(at 81.28 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 81.28 302.26 0)
 			(effects
 				(font
@@ -24530,6 +24998,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 78.74 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92807146-4b45-416e-b448-257bcb52165a")
 		)
@@ -24617,6 +25094,15 @@
 		)
 		(property "Manufacturer" "Uniroyal"
 			(at 382.27 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 382.27 307.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24712,6 +25198,15 @@
 		)
 		(property "Manufacturer" "Uniroyal"
 			(at 168.91 283.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 168.91 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24817,6 +25312,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0369ca9-bcb1-4833-a42c-e95b29ce8fb5")
 		)
@@ -24904,6 +25408,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 167.64 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 167.64 195.58 0)
 			(effects
 				(font
@@ -25006,6 +25519,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 45.72 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c63cbbc2-e74e-460a-973b-e491f1247377")
 		)
@@ -25093,6 +25615,15 @@
 		)
 		(property "LCSC Part #" "C9006"
 			(at 68.58 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 68.58 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25202,6 +25733,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 283.21 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4e5d9d9-dfc4-443d-ac0d-5030f668d211")
 		)
@@ -25288,6 +25828,15 @@
 			)
 		)
 		(property "Manfacturer" "Samsung"
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 140.97 76.2 0)
 			(effects
 				(font
@@ -25392,6 +25941,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 161.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "94098999-0962-43f7-95fd-f76d23f32528")
 		)
@@ -25488,6 +26046,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 54.61 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0dc0bd8a-1448-4d18-b4df-33866c307704")
 		)
@@ -25576,6 +26143,15 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
+			(at 173.99 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 173.99 195.58 0)
 			(effects
 				(font
@@ -25684,6 +26260,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a4e7349-edaa-4cb7-b3b4-6231303e6008")
 		)
@@ -25781,6 +26366,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 81.28 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90a0ac66-9da4-4ad2-b7f1-f2841ff8ec7e")
 		)
@@ -25867,6 +26461,15 @@
 			)
 		)
 		(property "Manufacturer" "Shou Han"
+			(at 213.36 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 213.36 273.05 0)
 			(effects
 				(font
@@ -25978,6 +26581,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 262.89 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d4879f9-c09d-415b-a206-ea10ff0da13b")
 		)
@@ -26072,6 +26684,15 @@
 		)
 		(property "Manufacturer" "Uniroyal"
 			(at 392.43 289.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 392.43 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26175,6 +26796,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 45.72 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4d732b5a-ec49-4262-971e-6fd8576b65d7")
 		)
@@ -26262,6 +26892,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
+			(at 403.86 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 403.86 274.32 0)
 			(effects
 				(font
@@ -26358,6 +26997,15 @@
 			)
 		)
 		(property "Manufacturer" "Honor"
+			(at 86.36 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 86.36 345.44 0)
 			(effects
 				(font
@@ -26463,6 +27111,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 218.44 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "49a0f55e-16da-4ab8-833d-500889275c9e")
 		)
@@ -26560,6 +27217,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 45.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1ff1206-9464-454b-ad7a-5a43a7be3952")
 		)
@@ -26647,6 +27313,15 @@
 		)
 		(property "Manufacturer" "CoreChips"
 			(at 237.49 337.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 237.49 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26793,6 +27468,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 252.73 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff8d90ed-958f-442b-9dff-9455e0e82d43")
 		)
@@ -26855,6 +27539,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 31.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 31.75 106.68 0)
 			(effects
 				(font
@@ -26950,6 +27643,15 @@
 		)
 		(property "Manufacturer" "Uniroyal"
 			(at 45.72 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 45.72 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27053,6 +27755,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 408.94 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "89bc82e7-09c8-4cf4-af51-71abceaf87ae")
 		)
@@ -27140,6 +27851,15 @@
 		)
 		(property "Manufacturer" "Uniroyal"
 			(at 137.16 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 137.16 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27241,6 +27961,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 199.39 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "279bb6ce-edea-496b-83ee-4690c6aefa0e")
 		)
@@ -27327,6 +28056,15 @@
 			)
 		)
 		(property "Manfacturer" "Samsung"
+			(at 125.73 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 125.73 118.11 0)
 			(effects
 				(font
@@ -27447,6 +28185,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15f2b229-e6b2-497f-a919-524a01d5f07f")
 		)
@@ -27537,6 +28284,15 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal"
+			(at 144.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 144.78 118.11 0)
 			(effects
 				(font
@@ -27642,6 +28398,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5db2a0e-a1cb-4984-9be7-509659e83102")
 		)
@@ -27731,6 +28496,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
+			(at 269.24 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 269.24 311.15 0)
 			(effects
 				(font
@@ -27837,6 +28611,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 256.54 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5f17458-ddab-4f3a-84e8-6bb71e822420")
 		)
@@ -27899,6 +28682,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 115.57 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 115.57 377.19 0)
 			(effects
 				(font
@@ -27990,6 +28782,15 @@
 			)
 		)
 		(property "Manfacturer" "Samsung"
+			(at 161.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 161.29 40.64 0)
 			(effects
 				(font
@@ -28094,6 +28895,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 251.46 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "acf01d35-fd04-46dc-91e1-db47990d5f3b")
 		)
@@ -28182,6 +28992,15 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal"
+			(at 302.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 302.26 34.29 0)
 			(effects
 				(font
@@ -28286,6 +29105,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 95.25 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e428fad-0839-4f7c-acec-d6453ee87980")
 		)
@@ -28356,6 +29184,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 46.99 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9913deba-24e3-47cf-b9e4-19807d35e1df")
 		)
@@ -28415,6 +29252,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 30.48 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 30.48 377.19 0)
 			(effects
 				(font
@@ -28516,6 +29362,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 214.63 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ee13c008-122c-4531-ba6b-e09b94073688")
 		)
@@ -28605,6 +29460,15 @@
 			)
 		)
 		(property "Manufacturer" "TI"
+			(at 181.61 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 181.61 226.06 0)
 			(effects
 				(font
@@ -28737,6 +29601,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 53.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c459be62-cf05-4b0e-8905-37f64fcc4b9b")
 		)
@@ -28829,6 +29702,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 167.64 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8ae994d0-a443-4232-b430-d053ed22bffd")
 		)
@@ -28891,6 +29773,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 54.61 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 54.61 158.75 0)
 			(effects
 				(font
@@ -28982,6 +29873,15 @@
 			)
 		)
 		(property "LCSC Part #" "C7421626"
+			(at 158.75 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 158.75 53.34 0)
 			(effects
 				(font
@@ -29102,6 +30002,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 105.41 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b7f1ce3-7b2d-43b2-9717-d653c19da3e8")
 		)
@@ -29195,6 +30104,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 250.19 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a73cc073-ace7-4a5e-b764-2c7bc12b28e6")
 		)
@@ -29257,6 +30175,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 231.14 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 231.14 189.23 0)
 			(effects
 				(font
@@ -29349,6 +30276,15 @@
 		)
 		(property "Manufacturer" "Uniroyal"
 			(at 382.27 317.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 382.27 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29456,6 +30392,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 140.97 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "821403d4-29b3-4cd1-a312-9715595d3739")
 		)
@@ -29544,6 +30489,15 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal"
+			(at 370.84 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 370.84 351.79 0)
 			(effects
 				(font
@@ -29646,6 +30600,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 78.74 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "19ff8194-3a4d-40d5-af64-9e5eca65536b")
 		)
@@ -29734,6 +30697,15 @@
 		)
 		(property "Manufacturer" "Uniroyal"
 			(at 222.25 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 222.25 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29838,6 +30810,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 226.06 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6376d373-cb69-475d-b42b-64479934373f")
 		)
@@ -29900,6 +30881,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 115.57 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 115.57 391.16 0)
 			(effects
 				(font
@@ -29993,6 +30983,15 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal"
+			(at 355.6 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 355.6 346.71 0)
 			(effects
 				(font
@@ -30098,6 +31097,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 226.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bdc8dd2b-2f83-4757-9fb3-3b8ca765fe9b")
 		)
@@ -30160,6 +31168,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 271.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 271.78 62.23 0)
 			(effects
 				(font
@@ -30250,6 +31267,15 @@
 			)
 		)
 		(property "Manufacturer" "Hanschip"
+			(at 406.4 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 406.4 318.77 0)
 			(effects
 				(font
@@ -30363,6 +31389,15 @@
 		)
 		(property "Manufacturer" "CMedia"
 			(at 341.63 344.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 341.63 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30604,6 +31639,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 88.9 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fd7d5a45-36fb-4a37-8a53-9693b3027f9b")
 		)
@@ -30716,6 +31760,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 95.25 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7d3d6b0-3724-4dc2-b126-d4e5c1c12f06")
 		)
@@ -30804,6 +31857,15 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal"
+			(at 252.73 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 252.73 279.4 0)
 			(effects
 				(font
@@ -30909,6 +31971,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 68.58 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a1078281-501c-4024-addb-682a91d17bb6")
 		)
@@ -30996,6 +32067,15 @@
 			)
 		)
 		(property "Manfacturer" "Samsung"
+			(at 410.21 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 410.21 274.32 0)
 			(effects
 				(font
@@ -31101,6 +32181,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 78.74 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "792e4346-31b0-4e0c-8cbd-5447d8db4527")
 		)
@@ -31190,6 +32279,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 218.44 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 218.44 327.66 0)
 			(effects
 				(font
@@ -31294,6 +32392,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 340.36 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ed26adc-d990-439e-a5d4-c4b242a46d26")
 		)
@@ -31381,6 +32488,15 @@
 		)
 		(property "Manufacturer" "Fenghua"
 			(at 166.37 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 166.37 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31482,6 +32598,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 140.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "82ec5c35-34bd-444e-826b-8e98f7383cde")
 		)
@@ -31544,6 +32669,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 271.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 271.78 55.88 0)
 			(effects
 				(font
@@ -31634,6 +32768,15 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 375.92 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 375.92 317.5 0)
 			(effects
 				(font
@@ -31739,6 +32882,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 414.02 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eed3533e-5989-46a5-b74f-2734d14b48d7")
 		)
@@ -31809,6 +32961,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 271.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "adxi"
 				(path "/c3abf330-1856-4368-a03b-0e6191ae29a9"
@@ -31865,6 +33026,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 271.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 271.78 74.93 0)
 			(effects
 				(font
@@ -31955,6 +33125,15 @@
 			)
 		)
 		(property "Manufacturer" "XBLW"
+			(at 66.04 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 66.04 342.9 0)
 			(effects
 				(font
@@ -32061,6 +33240,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 168.91 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36c0df54-000d-4e44-8767-8275563dbd7e")
 		)
@@ -32147,6 +33335,15 @@
 			)
 		)
 		(property "Manufacturer" "Shou Han"
+			(at 148.59 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 148.59 294.64 0)
 			(effects
 				(font
@@ -32294,6 +33491,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 81.28 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d25a62f2-34be-41f0-be9f-b678e2755818")
 		)
@@ -32381,6 +33587,15 @@
 		)
 		(property "Manufacturer" "Uniroyal"
 			(at 226.06 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 226.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32482,6 +33697,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 176.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5944a4ca-fcdb-4586-956f-eb5f6f1e6424")
 		)
@@ -32569,6 +33793,15 @@
 		)
 		(property "Manufacturer" "Uniroyal"
 			(at 392.43 287.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 392.43 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32689,6 +33922,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 132.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11773bc9-55d5-4a8a-b69f-ff5a54c825e5")
 		)
@@ -32778,6 +34020,15 @@
 			)
 		)
 		(property "Manufacturer" "Fenghua"
+			(at 416.56 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 416.56 274.32 0)
 			(effects
 				(font

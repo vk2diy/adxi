@@ -651,6 +651,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 127 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "1724680e-b8c5-49f8-ae50-218c46908c47")
 		)

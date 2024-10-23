@@ -1195,6 +1195,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 148.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05a40e97-7264-40f2-8766-005bb3eb8590")
 		)
@@ -1282,6 +1291,15 @@
 		)
 		(property "Manufacturer" "Uniroyal"
 			(at 114.935 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
+			(at 114.935 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1380,6 +1398,15 @@
 			)
 		)
 		(property "Manufacturer" "Changjing"
+			(at 125.095 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 125.095 93.98 0)
 			(effects
 				(font
@@ -1487,6 +1514,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 135.89 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "88979600-efed-4450-b4b6-e67278a54b5a")
 		)
@@ -1576,6 +1612,15 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal"
+			(at 133.35 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 133.35 73.025 0)
 			(effects
 				(font
@@ -1678,6 +1723,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternatives" ""
+			(at 141.605 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18685afa-9ace-4db4-81e7-620206ec0413")
 		)
@@ -1769,6 +1823,15 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" ""
 			(at 165.1 88.9 0)
 			(effects
 				(font
