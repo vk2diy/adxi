@@ -45,7 +45,7 @@ Underway:
 
 ## Update (2024-10-24)
 
- * Finally ordered the boards, final versions as follows. ![image](adxi-final.webp) ![image](adxi-lsm-20-30-40-2-final.webp)
+ * Finally ordered the boards, final versions as follows. ![image](images/adxi-final.webp) ![image](images/adxi-lsm-20-30-40-2-final.webp)
    * Delays were mostly due to the need to update [classe2-calculator](https://github.com/vk2diy/classe2-calculator) to replace portions deemed inappropriate during DFM review and other matters taking my time.
    * I expect to receive the boards in a couple of weeks... looking forward to testing!
 
