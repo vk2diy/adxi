@@ -26,7 +26,7 @@ The project scope generally includes the following:
 
 ## Current status of this fork
 
-The first boards are about to be ordered.
+The first boards have been ordered.
 
 Completed:
 
@@ -35,14 +35,19 @@ Completed:
  - [x] Late stage module interface design
  - [x] Design and layout of first late stage module 
  - [x] Firmware building correctly under platformio
-  
-Next steps:
+ - [x] Final design review
+ - [x] Order boards
 
- - [ ] Final design review - underway
- - [ ] Order boards
+Underway:
  - [ ] Test plan - underway
  - [ ] New firmware
  - [ ] Verify functionality
+
+## Update (2024-10-24)
+
+ * Finally ordered the boards, final versions as follows. ![image](adxi-final.webp) ![image](adxi-lsm-20-30-40-2-final.webp)
+   * Delays were mostly due to the need to update [classe2-calculator](https://github.com/vk2diy/classe2-calculator) to replace portions deemed inappropriate during DFM review and other matters taking my time.
+   * I expect to receive the boards in a couple of weeks... looking forward to testing!
 
 ## Update (2024-10-03)
 
