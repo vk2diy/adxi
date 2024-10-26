@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\the liro group\Documents\Barb\Arduino projects\ADX Quadband Project\ADX_THD_V1.00\ADX.sch</source>
+    <source>library-files/ADX_THD_V1.00\ADX.sch</source>
     <date>4/11/2022 10:17:29 AM</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
@@ -30,7 +30,7 @@
     <comp ref="U2">
       <value>SI535X_Module</value>
       <footprint>VFO_footprint:SI5351 Module_Vertical</footprint>
-      <libsource lib="ADX-rescue" part="SI535X_Module-VFO-ESP-WSPR-PCB-TTL-PA_FINAL-rescue-DIGI_UNO_TX-rescue-DTX-rescue" description=""/>
+      <libsource lib="library-files/VFO_footprint.pretty/SI5351 Module" part="SI535X_Module-VFO-ESP-WSPR-PCB-TTL-PA_FINAL" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E636D32</tstamp>
     </comp>
@@ -126,7 +126,7 @@
     <comp ref="U4">
       <value>uSDX_LPF_BAND_MODULE</value>
       <footprint>uSDX_LPF_BAND_MODULE:uSDX_LPF_Band_Module</footprint>
-      <libsource lib="ADX-rescue" part="uSDX_LPF_BAND_MODULE-uSDX_LPF_BAND_Module-DIGI_UNO_TX-rescue-DTX-rescue" description=""/>
+      <libsource lib="library-files/uSDX_LPF_BAND_MODULE.pretty/uSDX_LPF_BAND_MODULE_2" part="uSDX_LPF_BAND_MODULE-uSDX_LPF_BAND_Module-DIGI_UNO_TX" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61D779A9</tstamp>
     </comp>
@@ -784,10 +784,10 @@
         <pin num="20" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="ADX-rescue" part="SI535X_Module-VFO-ESP-WSPR-PCB-TTL-PA_FINAL-rescue-DIGI_UNO_TX-rescue-DTX-rescue">
+    <libpart lib="library-files/VFO/VFO_footprint.pretty/SI5351 Module" part="SI535X_Module-VFO-ESP-WSPR-PCB-TTL-PA_FINAL">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">SI535X_Module-VFO-ESP-WSPR-PCB-TTL-PA_FINAL-rescue-DIGI_UNO_TX-rescue-DTX-rescue</field>
+        <field name="Value">SI535X_Module-VFO-ESP-WSPR-PCB-TTL-PA_FINAL</field>
       </fields>
       <pins>
         <pin num="1" name="VIN" type="input"/>
@@ -799,10 +799,10 @@
         <pin num="7" name="SO" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="ADX-rescue" part="uSDX_LPF_BAND_MODULE-uSDX_LPF_BAND_Module-DIGI_UNO_TX-rescue-DTX-rescue">
+    <libpart lib="library-files/uSDX_LPF_BAND_MODULE.pretty/uSDX_LPF_BAND_MODULE_2" part="uSDX_LPF_BAND_MODULE">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">uSDX_LPF_BAND_MODULE-uSDX_LPF_BAND_Module-DIGI_UNO_TX-rescue-DTX-rescue</field>
+        <field name="Value">uSDX_LPF_BAND_MODULE</field>
         <field name="Footprint">uSDX_LPF_BAND_MODULE:uSDX_LPF_Band_Module</field>
       </fields>
       <pins>
@@ -1115,41 +1115,31 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="74xx">
-      <uri>C:\Program Files\KiCad2\share\kicad\library/74xx.lib</uri>
+    <!-- historic project library -->
+    <library logical="ADX">
+      <uri>library-files/ADX.lib</uri>
     </library>
-    <library logical="ADX-rescue">
-      <uri>C:\Users\the liro group\Documents\Barb\Arduino projects\ADX Quadband Project\ADX_THD_V1.00/ADX-rescue.lib</uri>
-    </library>
+    <!-- actual historic libraries -->
     <library logical="CD2003 Library">
-      <uri>C:\Users\the liro group\Documents\Barb\Arduino projects\ADX Quadband Project\ADX_THD_V1.00/CD2003 Library.lib</uri>
+      <uri>library-files/CD2003/CD2003 Library.lib</uri>
     </library>
     <library logical="Connector">
-      <uri>C:\Program Files\KiCad2\share\kicad\library/Connector.lib</uri>
+      <uri>library-files/Connector.lib</uri>
     </library>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad2\share\kicad\library/Device.lib</uri>
+      <uri>library-files/Device.lib</uri>
     </library>
     <library logical="Mechanical">
-      <uri>C:\Program Files\KiCad2\share\kicad\library/Mechanical.lib</uri>
+      <uri>library-files/Mechanical.lib</uri>
     </library>
     <library logical="Switch">
-      <uri>C:\Program Files\KiCad2\share\kicad\library/Switch.lib</uri>
+      <uri>library-files/Switch.lib</uri>
     </library>
     <library logical="arduino">
       <uri>C:/Users/the liro group/Documents/Barb/KiCAD/arduino-kicad-library/arduino.lib</uri>
     </library>
-    <library logical="dk_Barrel-Audio-Connectors">
-      <uri>C:/Users/the liro group/Documents/Barb/KiCAD/digikey-kicad-library-master/digikey-kicad-library-master/digikey-symbols/dk_Barrel-Audio-Connectors.lib</uri>
-    </library>
-    <library logical="dk_Barrel-Power-Connectors">
-      <uri>C:/Users/the liro group/Documents/Barb/KiCAD/digikey-kicad-library-master/digikey-kicad-library-master/digikey-symbols/dk_Barrel-Power-Connectors.lib</uri>
-    </library>
-    <library logical="dk_Transistors-FETs-MOSFETs-Single">
-      <uri>C:/Users/the liro group/Documents/Barb/KiCAD/digikey-kicad-library-master/digikey-kicad-library-master/digikey-symbols/dk_Transistors-FETs-MOSFETs-Single.lib</uri>
-    </library>
     <library logical="pspice">
-      <uri>C:\Program Files\KiCad2\share\kicad\library/pspice.lib</uri>
+      <uri>library-files/pspice.lib</uri>
     </library>
   </libraries>
   <nets>
