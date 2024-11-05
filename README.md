@@ -49,9 +49,10 @@ Underway:
 ## Update (2024-11-05)
 
  * Boards arrived yesterday!
- * There is an issue with the USB power circuitry which I am working to resolve. Basically I made a mistake on this part of the design due to inexperience.
+ * A [detailed log of debugging is available here](kicad-pcbs/adxi/)
+ * Currently there is an issue with the USB power circuitry which I am working to resolve. It seems I made a mistake on this part of the design due to inexperience.
  * Bypassing that supply with a bench supply results in correct USB connectivity to all devices, which is very promising and quite rewarding given this is my first USB device.  ![image](kicad-pcbs/adxi/debugging/scope-screenshot-12vtest-powerup.png)
- * Probably, this means I can use the current boards by adding some external components.
+ * Probably, this means I can use the current boards by adding some external components, which have been ordered.
  * Further testing continues.
 
 ## Update (2024-10-24)
