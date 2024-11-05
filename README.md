@@ -449,15 +449,6 @@ The original design was based on the following major physical modules:
  * External PC microphone interface (for sending received signals to the computer)
  * External PC speaker interface (for receiving encoded signals from the computer)
 
-## Revised design
-
-The revised design is not religiously focused on minimizing the number of components through using external circuit boards.
-
-Instead, it:
- * brings the clock generator and band-specific filters on-board
- * seeks to remove the physical interface and replace it fully with host computer control (known as a "computer aided transceiver" or "CAT") via [wsjtx](https://wsjt.sourceforge.io/) (G4WJS/K9AN/IV3NWV) which is itself based on [hamlib](https://hamlib.github.io/) (VK3FCS/F8CFE/etc.)
- * provides a more flexible and well filtered power supply so that available AC-DC ~12-36V inputs can be used
-
 ## Building the firmware
 
 Firmware is managed through [platformio](https://github.com/platformio/platformio-core).
