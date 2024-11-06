@@ -6,12 +6,13 @@
  * Designed: 2024-08-03 - 2024-10-10ish
  * Ordered: 2024-10-24
    * Cost: $41.40 for 10 boards + $154.20 for 10 pieces SMT = $195.60 for 10 pieces / 10 = $19.56 each (ex shipping)
-   * Note that the ordering was delayed for 2 weeks or something owing to the late stage module design needing revision and wanting to share shipping costs, and this required updates to the classe2-calculator software.
+   * Note that the ordering was delayed for 2 weeks or something owing to the late stage module design needing revision and wanting to share shipping costs, and this required updates to the [classe2-calculator](https://github.com/vk2diy/classe2-calculator) software.
  * ETA: 2024-11-06 
  * Received: 2024-11-04 (~midday) - total time since ordering ~10-11 days
  * Testing:
    * 2024-11-04: Blew up two boards, discovered USB power issue.
    * 2024-11-05: USB hub, audio and MCU passthru verified with bypass supply. Restored lab to functionality. Worked on a fix, ordered parts.
+   * 2024-11-06: Parts received.
 
 ## Initial test
 
@@ -311,3 +312,169 @@ Some potential fixes:
  * Then, move on to `MT3608B` subsystem testing based on the newly clarified and verified context.
    * If, as suspected, the `TUSB321` negotiates changes to the `VBUS` line that present a voltage higher than desired for the `MT3608B`, use a 12V regulator module instead.
    * If, after verifying power-up, the `TUSB321` negotiates changes to the `VBUS` line that only present a higher amperage, further consideration will be required.
+
+## Regulator insertion
+
+It seems this test point is the correct place to target: solderable, large, out of the way.
+
+![image](5v-target.webp)
+
+However, before executing that plan it may be beneficial to first use the bench supply with a low current set just to see what happens when voltage is applied.
+
+### Bench supply pre-test
+
+The first step was removing the `MT3608B` boost converter which had anyway blown up. After failing with the soldering iron I succeeded with the hot air gun, while holding the part with tweezers and applying horizontal pressure to dislodge it. This effectively isolates the `VDD` pin of the `TUSB321` so that the 'USBC CLEAN' test point can be used to feed it a specific and precise current from the bench supply.
+
+The next step was to move the alligator clip for supply from the previous 12V configuration used for board bringup to 5V terminals on the PSU and this new target test point on the board.
+
+The next step was to solder on test leads to allow instrumenting the lines of interest in order to monitor the power-up and functioning of the `TUSB321` chip.
+ * `CC1`
+ * `CC2`
+ * `VBUS-DET` (detection pin input, after 909K resistor, at 'USBC' test point)
+ * `VBUS` (post ferrite, pre-resistor)
+
+The final step is to write a test program to set the PSU configuration and enable power temporarily.
+
+The expected functionality is something like:
+ * USB is connected to an external powered hub
+ * Power is introduced to the `VDD` pin from the bench supply
+ * Some sort of process occurs on `CC1` and `CC2` representing negotiation for more power
+ * Change occurs on the `VBUS` and should be measured
+ * The bench supply powers off
+
+The orignal state, with USB disconnected and no power applied, is as follows.
+
+![image](debugging/benchtest-prestate-nousb.png)
+
+In other words, everything is at zero as expected.
+
+More interestingly, the original state, with USB connected and no bench power applied, is as follows.
+
+![image](debugging/benchtest-prestate-usb.png)
+
+Here you can see:
+ * `CH1` = `CC1` is ~0V
+ * `CH2` = `CC2` is ~0.9V
+ * `CH3` = `VBUS-DET` is ~0.5V
+ * `CH4` = `VBUS` is ~5.25V
+
+We now need to define a trigger from which to action our oscilloscope capture.
+
+Perhaps a voltage higher than 5.5V occuring on `VBUS` would be good signal, or a signal appearing on `CC1`. Let's try the latter first, since it should occur before any VBUS rise.
+
+I tested the proposed trigger on plugging in the USB cable and obtained this capture.
+
+![image](debugging/benchtest-prestate-plugevent.png)
+
+Here you can see:
+ * `CH1` = `CC1` begins at an initial 0.4V or so before rapidly dropping to 0V.
+ * `CH2` = `CC2` rises from an initial 0.6V to 0.9V within around 100us.
+ * `CH3` = `VBUS-DET` remains stable at 0.5V
+ * `CH4` = `VBUS` remains stable at ~5.25V
+
+This may be useful as a point of comparison for subsequent captures.
+
+Let's try powering up the `TUSB321` chipset with the bench supply and seeing what happens.
+
+```
+DP832 PSU
+ - Status: OFF
+ - Version: RIGOL TECHNOLOGIES,DP832,DP8C233203778,00.01.16
+ - Self test: TopBoard:PASS,BottomBoard:PASS,Fan:PASS
+
+Turning channels off... OK
+Setting up channel #1
+ - Voltage: 24.000V
+ - Voltage limit: 24.000V
+ - Voltage limiting: ON
+ - Current: 0.500A
+ - Current limit: 0.500A
+ - Current limiting: ON
+Setting up channel #2
+ - Voltage: 12.000V
+ - Voltage limit: 12.000V
+ - Voltage limiting: ON
+ - Current: 0.300A
+ - Current limit: 0.300A
+ - Current limiting: ON
+Setting up channel #3
+ - Voltage: 5.000V
+ - Voltage limit: 5.000V
+ - Voltage limiting: ON
+ - Current: 0.100A
+ - Current limit: 0.100A
+ - Current limiting: ON
+
+Triggering channel 3 (5V) for test period
+ - Enable
+Saved screenshot_192.168.8.3_2024-11-06T11:43:32.png
+ - Disable
+```
+
+I repeated the test a few times, but in each case the screenshot showed no power draw, the scope did not trigger.
+
+After that, attempting to power on the 5V channel manually resulted in an error about overvoltage protection.
+
+![image](debugging/psu-screenshot-5v-overvoltage.png)
+
+The overvoltage protection was adjusted to 5.5V and then the test was retried.
+
+![image](debugging/psu-screenshot-5v-draw.png)
+
+This appears to work.
+
+However, still the scope does not trigger.
+
+Rather than worrying about triggering, I switched it to auto mode to see if anything was visibly changing when the `TUSB321` chip is powered by the bench supply.
+
+It was then apparent that things were changing.
+
+Recall the USB connected, `TUSB321` unpowered state.
+
+![image](debugging/benchtest-prestate-usb.png)
+
+ * `CH1` = `CC1` is ~0V
+ * `CH2` = `CC2` is ~0.9V
+ * `CH3` = `VBUS-DET` is ~0.5V
+ * `CH4` = `VBUS` is ~5.25V
+
+Contrast the USB connected, `TUSB321` powered state.
+
+![image](debugging/benchtest-poststate-usb-scopeshot.png)
+
+ * `CH1` = `CC1` is ~0V (same)
+ * `CH2` = `CC2` is ~0.4V (reduced from ~0.9V)
+ * `CH3` = `VBUS-DET` is ~0.5V (same)
+ * `CH4` = `VBUS` is ~5.25V (same)
+
+![image](debugging/benchtest-poststate-usb-psushot.png)
+
+We also note some 56mA of power draw evidenced on the PSU.
+
+So what's going on here? According to the `TUSB321` datasheet, there are various signalling levels used on the `CC1` and `CC2` channels.
+
+ * "LOW" is 0.4V, which is perhaps what we are seeing in the second state
+ * "MEDIUM" is 0.28-0.56 x VDD which works out to 1.47-2.94V, most likely in the middle, or around 2.2V
+ * "HIGH" is VDD-0.3V which works out to 4.95V
+
+None of these levels appear to describe the rest state we are seeing (0.9V).
+
+Probably it would be best not to try to spend time understanding all of the signalling state transitions and just get the thing working.
+
+Given that the `VBUS` voltage doesn't change in this case, but some negotiation does appear to have occurred, perhaps a higher amperage 5V supply has been negotiated successfully.
+
+Checking the power supply design notes I did state that 5V 1.5A = 7.5W was the negotiation target, so this would appear to be the case.
+
+In terms of next steps:
+ * We could connect a DC load to test what the power draw is under each scenario: no `TUSB321` power, and `TUSB321` powered and negotiations complete.
+ * Since the USB powered device which we plugged in to in this case is a USB2.0 hub, perhaps we will see a different result if we plug in to a USBC "wall wart" AC charger with known high current capability. Unfortunately that's hard to achieve in the current position due to cable length constraints and AC outlet locations on my bench.
+   * While I could muck around with existing extension cords, it's a lot of hassle. Instead, I have ordered a small benchtop AC extension lead and sockets to resolve this, it should arrive tomorrow and make this feasible.
+ * We could instrument the output pins of the `TUSB321` and look for state changes. This appears to be the best immediate course of action.
+
+
+## Complete issues list
+
+ * Cable passthru too difficult, hole should be enlarged
+ * USB PD incorrect topology
+ * USB PD chip missing 100nF cap at VDD
+ * Boost converter self-destructs
