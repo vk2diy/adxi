@@ -317,7 +317,7 @@ Some potential fixes:
 
 It seems this test point is the correct place to target: solderable, large, out of the way.
 
-![image](5v-target.webp)
+![image](debugging/5v-target.webp)
 
 However, before executing that plan it may be beneficial to first use the bench supply with a low current set just to see what happens when voltage is applied.
 
