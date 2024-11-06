@@ -13,6 +13,7 @@
    * 2024-11-04: Blew up two boards, discovered USB power issue.
    * 2024-11-05: USB hub, audio and MCU passthru verified with bypass supply. Restored lab to functionality. Worked on a fix, ordered parts.
    * 2024-11-06: Parts received. Testing done manually powering the `TUSB321` chipset and negotiation appears to occur. This suggests a fixable situation. The boost converter still needs debugging.
+   * 2024-11-07: Boost converter block instrumentation and testing.
 
 ## Initial test
 
@@ -472,9 +473,244 @@ In terms of next steps:
    * While I could muck around with existing extension cords, it's a lot of hassle. Instead, I have ordered a small benchtop AC extension lead and sockets to resolve this, it should arrive tomorrow and make this feasible.
  * We could instrument the output pins of the `TUSB321` and look for state changes.
 
+## 2024-11-07 Testing
+
+The game plan today is to instrument the `MT3608B` boost converter stage of the power system and see what happens when very short pulses of controlled power are inserted in order to characterise its performance and determine why it may have blown up on board 2.
+
+Since exposure to any very short pulses is less likely to damage the system, and we have access to an easy insertion point for power in, the main challenge is going to be finding a way to get a read off of the other pins, such as the feedback pin (critical) and the output pin (what the rest of the system takes as input).
+
+In this way we can test the performance of the subsystem against projected behaviour and determine the magnitude of any differences.
+
+In theory when 5V is applied, 12V is output.
+
+For this testing I will revert from using board 2 to using board 1. Board 1 has a backward MCU hard-soldered in, but that's OK because we're uninterested in any later stages. This gives us a clean start with the boost converter in place without risking another board.
+
+Oscilloscope configuration:
+ * `CH1` = 'USB CLEAN' test point and also our input voltage supply point. Anticipated range in test: 0-5V.
+ * `CH2` = Boost converter output (after the diode). Anticipated range in test: 0-12V.
+ * `CH3` = Boost converter feedback (scaled down with resistor divider). Anticipated range in test: 0-1V.
+ * `CH4` = '12V' test point, after subsequent regulator. In case everything works (wouldn't that be nice!). Anticipated range in test: 0-12V.
+
+According to the [`MT3608B` datasheet](https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf), page 3:
+ * `VIN` can take 2-24V. Anticipated range in test: 0-5V.
+ * `EN` needs only 1.5V, but we are feeding it 5V, which is allowed and expected. Anticipated range in test: 0-5V.
+ * `FB` should range between 0.588-0.612V (ie. 0.6V is the target). Anticipated range in test: 0-1V.
+ * `SW` can take up to 4A of current at 50% duty cycle and 5V.
+
+In double-checking the configuration against the datasheet we do not notice anything significant, only missing input-side capacitance which should not be required to test basic circuit configuration and one may assume mainly comes in to play under dynamically supply and load conditions.
+
+Now we are ready to write a test routine for the boost converter subsystem.
+
+Our general strategy should be to start at a short interval of supply, for which we will use the datasheet to ascertain a reasonable value, and a low voltage.
+
+We will then work our way up in terms of time until we see the output stabilise (ie. the integrated feedback process has enough time to enter a stable state).
+
+Once we have a stable output at a low voltage, we will increase the voltage toward the target input voltage of 5V.
+
+In this way we will minimize the potential for damage to the component.
+
+The suggested start parameters are 2.1V (being a safe margin above the 2V nominal input limit) and 5ms. We note that on page 5 of the datasheet poor efficiency and reduced switching frequency are anticipated until around 4V, therefore we should not worry too much about behaviour seen at 2.1V and seek to verify any observations at higher voltages 4V, 4.5V, 5V. The datasheet had no information on timing, which may possibly be because it is circuit-dependant and thus of dubious utility to include.
+
+Before power is applied, the oscilloscope setup is as follows.
+
+![image](debugging/scope-screenshot-boosttest-pre.png)
+
+After running a setup script, the PSU configuration is as follows.
+
+![image](debugging/psu-screenshot-boosttest-pre.png)
+
+Since there is no easy way to apply a voltage for a very short interval, I have written the script to simply apply power with one command then immediately run another command to disable it.
+
+This should provide a short burst that is safe, at least 2.1V 0.1A should not burn anything!
+
+```
+./psu-boosttest
+DP832 PSU
+ - Status: OFF
+ - Version: RIGOL TECHNOLOGIES,DP832,DP8C233203778,00.01.16
+ - Self test: TopBoard:PASS,BottomBoard:PASS,Fan:PASS
+
+Turning channels off... OK
+Setting up channel #1
+ - Voltage: 24.000V
+ - Voltage limit: 24.000V
+ - Voltage limiting: ON
+ - Current: 0.500A
+ - Current limit: 0.500A
+ - Current limiting: ON
+Setting up channel #2
+ - Voltage: 12.000V
+ - Voltage limit: 12.000V
+ - Voltage limiting: ON
+ - Current: 0.300A
+ - Current limit: 0.300A
+ - Current limiting: ON
+Setting up channel #3
+ - Voltage: 2.100V
+ - Voltage limit: 2.300V
+ - Voltage limiting: ON
+ - Current: 0.100A
+ - Current limit: 0.100A
+ - Current limiting: ON
+
+Triggering channel 3 (2.1V) for test period
+ - Enable
+ - Disable
+```
+
+This test obtained the following result.
+
+![image](debugging/scope-screenshot-boosttest-initial.png)
+
+Here we can see the `VIN` ramping up, the `OUT`put ramping up, and the `FB` (feedback) ramping up.
+
+However, we can't see enough detail owing to scale. I will reconfigure the oscilloscope to show higher scale and place all channels at the base.
+
+We can't see any 12V output past the subsequent regulator, which is to be expected as its threshold turn-on voltage is never achieved.
+
+Let's see the same result with more details.
+
+![image](debugging/scope-screenshot-boosttest-ramping.png)
+
+Here we can see the same data, partly obscured by overlay and with some significant abberations on the feedback pin.
+
+The key takeaway is that the maximum voltage attained on the input pin is still short of the target voltage, implying that we haven't provided power long enough.
+
+We should therefore add a small delay in the script and determine whether input reaches the programmed level before proceeding.
+
+![image](debugging/scope-screenshot-boosttest-ramped.png)
+
+We now see the boost converter appear to reach a fully ramped-up state, with stable output attained.
+
+While we're seeing quite some abberations on the feedback pin, this may partly be to do with the lack of a load and the lack of capacitance before the subsequent 12v regulator.
+
+The stable output levels are:
+
+| Input | Feedback | Output |
+| ----- | -------- | ------ |
+| 2.1V  | 75mV     | 1.95V  |
+
+Let's try again, increasing the maximum current from 0.1A to 0.2A, just to see if there's a change.
+
+![image](debugging/scope-screenshot-boosttest-ramped2.png)
+
+We see similar curves with similar final values and a similar period here, that is to say again with about a 20ms ramp-up time. So it seems the additional current has not really changed things. We can turn it down again and proceed to increase voltage. Let's try 2.5V.
+
+![image](debugging/scope-screenshot-boosttest-2v5.png)
+
+OK, so that's interesting. We appear to have reached a particularly high abberation point within the circuit. This is certainly not looking healthy.
+
+When we zoom in here's what we see.
+
+![image](debugging/scope-screenshot-boosttest-2v5-detail.png)
+
+This shows that the output is cycling between a series of decreasing peaks, and the feedback pin (which should be a scaled-down version of the same waveform, albeit at higher scale/detail) echoes this perspective. The input voltage is very stable.
+
+We note that the peak of the feedback pin occurs at nearly 8x50mV = 600mV which is around the point at which it is supposed to stabilize. So this is potentially correct activity.
+
+Let's look at the frequency ranges shown at this voltage in the `MT3608B` boost converter datasheet and compare those to any curves present in the inductor datasheet and in the capture.
+
+![image](debugging/boost-frequencies.webp)
+
+This implies that the boost converter switching frequency we are seeing should be around 800kHz which works out to around one cycle per 1250ns.
+
+In the oscilloscope output we can see the cycle repeats at around 1000ns. This is in the range of expected behaviour.
+
+A key problem seems to be that the output is not stable, this is due to lack of capacitance, and may improve with load.
+
+![image](debugging/inductor-issues.webp)
+
+Double-checking the inductor we find that it is not really rated for more than 1.2A which at 5V gives us only around 6W less losses, which is cutting it fine for a 5W output.
+
+Probably we could have selected a better inductor, but this one should - at a minimum - function fine until we exceed 1A load, at which heat should be expected, and safely for short periods up to 1.2A load (if the datasheet may be believed). So in short we're probably slightly underpowered but that may not be a problem given bulk capacitance is present in later stages.
+
+Now let's try the same capture after updating the voltage to 3.5V and observe how the detailed curves change. We would anticipate the potential of an increased switching frequency, according to the frequencies graph we just saw in the boost converter datasheet.
+
+![image](debugging/scope-screenshot-boosttest-3v5-detail.png)
+
+Here we see the same frequency as we had before, which is around 1000ns.
+
+Notably, we only see a small increase in the input voltage and the output power which is not in line with the input voltage increase. This implies the current may be insufficient. Let's increase the current to 0.2A and see what happens.
+
+![image](debugging/scope-screenshot-boosttest-3v5-0.2a-detail.png)
+
+Wow, that's a substantial difference. We're seeing periods of total output power absence which implies we're browning out the boost regulator in some way. This is definitely bad news.
+
+Let's increase the current again to 0.3A and see what happens.
+
+![image](debugging/scope-screenshot-boosttest-3v5-0.3a-detail.png)
+
+We are still seeing this issue. Let's increase it again, this time to 0.4A.
+
+![image](debugging/scope-screenshot-boosttest-3v5-0.4a-detail.png)
+
+We are still seeing this issue. Let's increase it again, this time to 0.5A.
+
+![image](debugging/scope-screenshot-boosttest-3v5-0.5a-detail.png)
+
+OK, so that's not really doing it for us. Let's try to increase the voltage instead. We'll bring it up from 3.5V to 4.0V and look for change.
+
+![image](debugging/scope-screenshot-boosttest-4v-0.5a-detail.png)
+
+Here we can see that the previously flat period with no output has begun to recover. I think we're just sailing too close to the low-end of the functional paramters for this subsystem and this is made worse by a lack of local capacitance on the input side. Let's bring the voltage up to 5V and get in to standard operating territory. This should give us a clear view of what's going on and move us now closer to the intended circuit configuration.
+
+![image](debugging/scope-screenshot-boosttest-5v-0.5a-detail.png)
+
+We're still seeing similar results. We can try adding a load now and we'll likely see things become stable.
+
+I had a 12V 0.3A fan lying around, we'll see what that does to things.
+
+![image](debugging/scope-screenshot-boosttest-5v-0.5a-loaded-detail.png)
+
+Well that's apparently working. The fan began to move before the power cut out, and what we see in the oscilloscope that has changed is the introduction of a period of oscillations in the feedback output which matches the addition of a load. If we add a capacitor rather than just the load itself the anticipation would be a smoothing out of the curves.
+
+However, first of all let's zoom back out to the bigger picture before making any changes.
+
+![image](debugging/scope-screenshot-boosttest-5v-0.5a-loaded-wide1.png)
+
+Here we see the ramp-up period of around 4ms. Let's get a slightly better view.
+
+![image](debugging/scope-screenshot-boosttest-5v-0.5a-loaded-wide2.png)
+
+And better...
+
+![image](debugging/scope-screenshot-boosttest-5v-0.5a-loaded-wide3.png)
+
+Here we can see some interesting properties.
+
+Firstly, we are seeing the output (light blue) touching around 15V.
+
+Secondly, we are seeing the feedback exceed the range which is set to 8x50=600mV. That's expected, since we were anticipating 680mV. Let's scale that down and see how high it gets. We'd expect it to move higher than the reference point during the periods at which the output oscillates beyond 12V.
+
+![image](debugging/scope-screenshot-boosttest-5v-0.5a-loaded-wide4.png)
+
+So here we can see a much more useful view of the overall system startup. 
+ * `VIN` scales up smoothly but oscillates with the switching load due to lack of local capacitance.
+ * `OUT` reaches around 15V at peak but generally is in the range we would anticipate but oscillates probably due to lack of local capacitance.
+ * `FB` oscillates as high as around 4.5V or slightly below `VIN`, which again is probably expected and will disappear if capacitance is added.
+ * `12V` is actually powering on, it seems the regulator downstream begins to generate output as power arrives albeit at something less than its input level in this time period. We should zoom out further to see if it actually completes its rise.
+
+![image](scope-screenshot-boosttest-5v-0.5a-loaded-ultrawide.png)
+
+Well that's interesting. Looking at the overall picture now, we notice that the regulator flattens its output to around 6V or half of what it should anticipate. This may be due to the effect of the fan as an additional load drawing too much power. Let's unplug that and see what happens.
+
+![image](scope-screenshot-boosttest-5v-0.5a-unloaded-ultrawide.png)
+
+A very different picture as we anticipated.
+
+We're seeing the downstream 12V regulator output plateau, this is unexpected.
+
+Next steps:
+ - Double check the calculations for the resistor divider on the feedback pin. If these are wrong, it can affect the output voltage. However, they appear correct, and we are actually seeing ~15V peaks.
+ - Add some capacitance to see how this smooths out the curves.
+ - Try increasing the length of on time and seeing what happens, checking for thermal buildup.
+
 ## Complete issues list
 
  * Cable passthru too difficult, hole should be enlarged
  * USB PD incorrect topology
  * USB PD chip missing 100nF cap at VDD
- * Boost converter self-destructs
+ * MT3608B self-destructs
+ * MT3608B inductor maxes out at 1.2A giving only 6W nominal power, less losses
+ * MT3608B missing local cap at VIN input
+ * MT3608B missing output cap (maybe not required)
