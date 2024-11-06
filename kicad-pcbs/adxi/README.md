@@ -12,7 +12,7 @@
  * Testing:
    * 2024-11-04: Blew up two boards, discovered USB power issue.
    * 2024-11-05: USB hub, audio and MCU passthru verified with bypass supply. Restored lab to functionality. Worked on a fix, ordered parts.
-   * 2024-11-06: Parts received.
+   * 2024-11-06: Parts received. Testing done manually powering the `TUSB321` chipset and negotiation appears to occur. This suggests a fixable situation. The boost converter still needs debugging.
 
 ## Initial test
 
@@ -467,10 +467,10 @@ Checking the power supply design notes I did state that 5V 1.5A = 7.5W was the n
 
 In terms of next steps:
  * We could connect a DC load to test what the power draw is under each scenario: no `TUSB321` power, and `TUSB321` powered and negotiations complete.
+   * The hypothesis would be that ~1.5A can be drawn in the second case only.
  * Since the USB powered device which we plugged in to in this case is a USB2.0 hub, perhaps we will see a different result if we plug in to a USBC "wall wart" AC charger with known high current capability. Unfortunately that's hard to achieve in the current position due to cable length constraints and AC outlet locations on my bench.
    * While I could muck around with existing extension cords, it's a lot of hassle. Instead, I have ordered a small benchtop AC extension lead and sockets to resolve this, it should arrive tomorrow and make this feasible.
- * We could instrument the output pins of the `TUSB321` and look for state changes. This appears to be the best immediate course of action.
-
+ * We could instrument the output pins of the `TUSB321` and look for state changes.
 
 ## Complete issues list
 

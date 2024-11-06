@@ -2,10 +2,7 @@
 echo "Triggering channel 3 for test period"
 echo " - Enable"
 lxi scpi -a 192.168.8.3 ":OUTPUT CH3,ON"
-sleep 0.5 
-psushot
-scopeshot
-sleep 0.5
+sleep 2
 lxi scpi -a 192.168.8.3 ":OUTPUT CH3,OFF"
 echo " - Disable"
 echo ""
