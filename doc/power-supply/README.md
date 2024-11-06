@@ -21,15 +21,16 @@ Later, this decision was rescinded and only USB-C was retained.
 ## Design overview
 
 The USB-C input power path is governed by the TUSB321 chipset, which:
+ - Requires power through its `VDD` pin
  - Detects connectivity using its `VBUS_DET` pin
  - Reads the requested USB power configuration from its `CURRENT_MODE` pin
  - Negotiates the delivery of power through its `CC1` and `CC2` pins
  - Reports on its current states through the `OUT1`, `OUT2` and `VCONN_FAULT` pins
- - Provides power through its `VDD` pin
+ - Negotiates changes in the USB `VBUS` power delivery from or to the peer device(s)
 
 The chip can be configured to support a range of [USB-PD (USB power delivery)](https://en.wikipedia.org/wiki/USB_hardware#USB_Power_Delivery) modes.
 
-If you are unfamiliar with the internals of USB-PD as I was, then the best high-level summary of the evolution of USB connectors and capabilities with respect to USB power delivery I have found online is [this article](https://www.toradex.com/blog/add-usb-c-to-your-next-carrier-board-design-1). Basically, the connector has to support orientation detection and negotiation and fallback across a number of different power delivery configurations, which is where the complexity lies and the need for the IC.
+If you are unfamiliar with the internals of USB-PD as I was, then the best high-level summary of the evolution of USB connectors and capabilities with respect to USB power delivery I have found online is [this article](https://www.toradex.com/blog/add-usb-c-to-your-next-carrier-board-design-1). Basically, the connector has to support orientation detection and negotiation and fallback across a number of different power delivery configurations, which is where the complexity lies and the need for the IC. Another good reference is [this PDF](https://www.usb.org/sites/default/files/D2T2-1%20-%20USB%20Power%20Delivery.pdf).
 
 An important point of note is:
  - "One crucial aspect of USB-C is that the VBUS is not always powered. Unlike the previous USB standards, which had VBUS always powered, the VBUS on the USB-C is switched only after the source side detects a connected sink by observing the voltage levels at the CC pins."
