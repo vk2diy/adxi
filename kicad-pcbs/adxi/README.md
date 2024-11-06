@@ -690,11 +690,11 @@ So here we can see a much more useful view of the overall system startup.
  * `FB` oscillates as high as around 4.5V or slightly below `VIN`, which again is probably expected and will disappear if capacitance is added.
  * `12V` is actually powering on, it seems the regulator downstream begins to generate output as power arrives albeit at something less than its input level in this time period. We should zoom out further to see if it actually completes its rise.
 
-![image](scope-screenshot-boosttest-5v-0.5a-loaded-ultrawide.png)
+![image](debugging/scope-screenshot-boosttest-5v-0.5a-loaded-ultrawide.png)
 
 Well that's interesting. Looking at the overall picture now, we notice that the regulator flattens its output to around 6V or half of what it should anticipate. This may be due to the effect of the fan as an additional load drawing too much power. Let's unplug that and see what happens.
 
-![image](scope-screenshot-boosttest-5v-0.5a-unloaded-ultrawide.png)
+![image](debugging/scope-screenshot-boosttest-5v-0.5a-unloaded-ultrawide.png)
 
 A very different picture as we anticipated.
 
