@@ -955,22 +955,25 @@ Here is the same capture in peak mode.
  * Layout is specified strictly and we have an absolute chop-shop slop job, so this needs rejigging.
    * Key issues are large loops, unduly long traces, and thin traces.
  * Inductor is specified as 4.7uH-22uH and we selected 22uH. Just relying on general assumption, it may be beneficial to move toward the middle of the range (10uH). [This option](https://jlcpcb.com/partdetail/Sunlord-WPN4020H100MT/C98364) looks good, or an [overkill high current option](https://jlcpcb.com/partdetail/Sunlord-MWSA0603S100MT/C132141). Checking relevant theory, based on the circuit parameters we should have selected something in the 5-10uH range anyway, 6.8uH or 10uH would be better. 22uH is too large which leads to feedback loop issues and slow transient response which is what we were perhaps seeing.
+ * Inductor should be low DCR, according to [this similar (same clone) part Chinese datasheet](https://www.lcsc.com/datasheet/lcsc_datasheet_2105242005_NATLINEAR-LN2220PAR_C2833712.pdf).
  * Recommended 22uF caps missing on input and output pins
- * Schottky diode must have current rating over RMS, so...
+ * Schottky diode is 75V rated, and must have current rating over RMS, so looks OK from that perspective.
  ```
 ID(RMS) = SQRT(IOUT x IPEAK)
 ID(RMS) = SQRT(12V x 67V)
 ID(RMS) = SQRT(804V)
 ID(RMS) = 28.35V
 ```
+ * Schottky diode should be selected for low forward voltage drop, to achieve higher load efficiency.
 
 ## Complete issues list
 
  * Cable passthru too difficult, hole should be enlarged
  * `TUSB321` PD chip incorrect topology
- * `TUSB321` PD chip missing 100nF cap at VDD
+ * `TUSB321` PD chip missing 100uF and 100nF caps at VDD
  * `MT3608B` self-destructed for unknown reasons
- * `MT3608B` inductor too large at 22uH, reduce to 6.8uH or 10uH
+ * `MT3608B` inductor too large at 22uH, reduce to 6.8uH or 10uH.
+ * `MT3608B` inductor should be low DCR.
  * `MT3608B` missing 22uF cap at VIN input (place directly across terminals)
  * `MT3608B` missing 22uF output cap at OUT
  * `MT3608B` block layout is crap: large loops, unduly long traces, thin traces.
