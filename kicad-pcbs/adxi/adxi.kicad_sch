@@ -8429,6 +8429,17 @@
 		)
 		(uuid "0caf5dac-3e6a-4394-8b6a-195548ae9bc3")
 	)
+	(polyline
+		(pts
+			(xy 115.57 293.37) (xy 120.65 293.37)
+		)
+		(stroke
+			(width 0.2794)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "0d7b2159-036a-47a6-b8d5-afee681414f5")
+	)
 	(wire
 		(pts
 			(xy 45.72 160.02) (xy 54.61 160.02)
@@ -10564,6 +10575,17 @@
 	)
 	(polyline
 		(pts
+			(xy 71.12 311.15) (xy 71.12 292.1)
+		)
+		(stroke
+			(width 0.2794)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "8477e007-0df5-41b4-b9a8-6a89fb1e645d")
+	)
+	(polyline
+		(pts
 			(xy 188.595 88.9) (xy 188.595 138.43)
 		)
 		(stroke
@@ -11489,6 +11511,28 @@
 			(color 194 194 194 1)
 		)
 		(uuid "bc612862-06c1-42ab-9e43-ab581e3f4ece")
+	)
+	(polyline
+		(pts
+			(xy 86.36 292.1) (xy 71.12 292.1)
+		)
+		(stroke
+			(width 0.2794)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "bc7e2923-5eac-4f70-bea1-a77aba797a5d")
+	)
+	(polyline
+		(pts
+			(xy 86.36 292.1) (xy 86.36 294.005)
+		)
+		(stroke
+			(width 0.2794)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "bccb0852-ae1a-4ca7-80e4-f30405f064ec")
 	)
 	(wire
 		(pts
@@ -12598,6 +12642,17 @@
 		)
 		(uuid "f0235c31-808b-478e-b8a7-e1958bea3812")
 	)
+	(polyline
+		(pts
+			(xy 100.33 285.115) (xy 103.505 285.115)
+		)
+		(stroke
+			(width 0.2794)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "f0663409-fa91-40bf-b009-96df5011ccb3")
+	)
 	(wire
 		(pts
 			(xy 278.13 308.61) (xy 278.13 321.31)
@@ -13341,6 +13396,20 @@
 		)
 		(uuid "04ffc962-a4de-4d9c-a3ce-a340ac5d65c7")
 	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 106.934 254.508 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "057f4b7c-9b32-43ea-9cbe-0bbc22822414")
+	)
 	(text "BATTERIES"
 		(exclude_from_sim no)
 		(at 290.068 394.335 0)
@@ -13600,6 +13669,20 @@
 		)
 		(uuid "28fd213f-a6c5-4c0b-ae36-d17a575a8d62")
 	)
+	(text "WRONG TOPOLOGY!\nVDD MUST BE FED\nFROM VBUS BEFORE\nPOWER-ON COMPLETE"
+		(exclude_from_sim no)
+		(at 84.582 247.396 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "2f21a27c-136d-4d6b-a97c-37fc4b688e26")
+	)
 	(text "REC. ENABLED \"HEADSET MODE\""
 		(exclude_from_sim no)
 		(at 324.612 294.894 0)
@@ -13687,7 +13770,7 @@
 	)
 	(text "5V 1.5A NOMINAL"
 		(exclude_from_sim no)
-		(at 70.104 255.016 0)
+		(at 120.904 284.48 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13832,6 +13915,20 @@
 			(justify right)
 		)
 		(uuid "46ea1b7b-e6d3-4af9-8a20-d7aa429b22c0")
+	)
+	(text "MISSING 22uF\nCERAMIC LOW\nESR X5R/X7R\nOUTPUT SIDE\nCAPACITANCE"
+		(exclude_from_sim no)
+		(at 69.85 301.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right top)
+		)
+		(uuid "47ff5827-daeb-4643-b114-8d2227f5c41f")
 	)
 	(text "PA/LPF INTERFACE"
 		(exclude_from_sim no)
@@ -14264,6 +14361,20 @@
 		)
 		(uuid "894cc857-4600-4b90-9828-4668fbecbe62")
 	)
+	(text "MISSING 330nF\nINPUT BYPASS"
+		(exclude_from_sim no)
+		(at 45.72 338.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right top)
+		)
+		(uuid "8fea548a-9ce6-499a-b69f-9809f0ce7546")
+	)
 	(text "SPI LEVEL CONVERSION 5V TO 3.3V"
 		(exclude_from_sim no)
 		(at 218.694 25.654 0)
@@ -14336,6 +14447,20 @@
 		)
 		(uuid "983dae0f-1317-4898-a91b-6d46f572c5da")
 	)
+	(text "MISSING 22uF\nCERAMIC LOW\nESR X5R/X7R\nINPUT SIDE\nCAPACITANCE"
+		(exclude_from_sim no)
+		(at 121.158 289.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "987d4214-0e84-451b-80c2-fe2a9fbde99c")
+	)
 	(text "USB PD\nLINES"
 		(exclude_from_sim no)
 		(at 189.23 276.352 0)
@@ -14364,7 +14489,7 @@
 	)
 	(text "SEE doc/power-supply"
 		(exclude_from_sim no)
-		(at 111.506 364.49 0)
+		(at 110.49 365.506 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14508,6 +14633,20 @@
 		)
 		(uuid "ac4d0d79-ebe2-4105-9a28-41b67eea4a57")
 	)
+	(text "CONSIDER ANY\n5V LDO, LATER\nDISABLED"
+		(exclude_from_sim no)
+		(at 110.49 248.158 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "aca096f8-acc9-461d-a7d2-1fea72a9db4d")
+	)
 	(text "\"100mA\""
 		(exclude_from_sim no)
 		(at 323.088 287.528 0)
@@ -14533,6 +14672,20 @@
 		)
 		(uuid "ada242e8-ecd4-40ce-87f7-f5b275a1eef5")
 	)
+	(text "THESE SHOULD BE\nNEXT TO REGULATOR"
+		(exclude_from_sim no)
+		(at 110.236 359.918 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify top)
+		)
+		(uuid "adbe1163-8d73-43a5-9e4d-76de1ee2c529")
+	)
 	(text "THIRD PARTY\nSCREEN MODULE"
 		(exclude_from_sim no)
 		(at 254.889 381.381 0)
@@ -14546,7 +14699,7 @@
 	)
 	(text "12V 0.5A NOMINAL"
 		(exclude_from_sim no)
-		(at 72.39 293.116 0)
+		(at 49.022 293.116 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14712,9 +14865,9 @@
 		)
 		(uuid "c94bbeb2-d650-49bb-a6c2-449f26f24416")
 	)
-	(text "BOOST IC\nVIN = 5V\nVOUT = 12V"
+	(text "BOOST IC\nVIN = 5V\nVOUT = 12V\nI < 4A"
 		(exclude_from_sim no)
-		(at 109.728 309.626 0)
+		(at 110.49 310.896 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14737,6 +14890,20 @@
 		)
 		(uuid "cd90eef4-229d-435d-a195-3d092321d83c")
 	)
+	(text "MISSING 100uF\nAND 100nF CAPS"
+		(exclude_from_sim no)
+		(at 81.788 251.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right top)
+		)
+		(uuid "ce3da362-4c99-4295-95df-3d11fe1d63a0")
+	)
 	(text "THIRD PARTY CHARGE\nCONTROL MODULE"
 		(exclude_from_sim no)
 		(at 308.61 392.049 0)
@@ -14747,6 +14914,20 @@
 			(justify left)
 		)
 		(uuid "cec391ee-1d24-40a6-b1fd-447f0bdec241")
+	)
+	(text "MISSING 5.1Ω\nRIPPLE REJECTION\nSERIES RESISTOR"
+		(exclude_from_sim no)
+		(at 45.72 329.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right top)
+		)
+		(uuid "d11a2a06-5caf-46a0-bb2d-966ed2b6325c")
 	)
 	(text "ONBOARD USB2.0 4 PORT HUB"
 		(exclude_from_sim no)
@@ -14811,6 +14992,20 @@
 			)
 		)
 		(uuid "d69269e3-4f7b-4f17-a7e5-9099968bccb0")
+	)
+	(text "CHOOSE 6.8-10uH\nLOW DCR INDUCTOR"
+		(exclude_from_sim no)
+		(at 99.568 283.972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right top)
+		)
+		(uuid "d71d326b-d7ee-4091-90d8-1e047fde49c2")
 	)
 	(text "BATTERIES"
 		(exclude_from_sim no)
@@ -23308,7 +23503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311081139_XI-AN-Aerosemi-Tech-MT3608B_C19189893.pdf"
 			(at 113.03 285.75 0)
 			(effects
 				(font
@@ -23353,7 +23548,16 @@
 				(hide yes)
 			)
 		)
-		(property "Alternatives" ""
+		(property "Alternatives" "C2833712 C78162 C22396393 C77805"
+			(at 106.68 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "China version of original Olimex part. Very widely cloned, identical clones from many manufacturers."
 			(at 106.68 297.18 0)
 			(effects
 				(font
