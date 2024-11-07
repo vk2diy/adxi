@@ -745,6 +745,8 @@ Overall however we still see the following picture:
 
 While waiting for new capacitors to arrive, let's give the system a bit more time and see what happens.
 
+### More power!
+
 ![image](debugging/scope-screenshot-boosttest-5v-0.9a-longer.png)
 
 Here we can see:
@@ -782,19 +784,194 @@ As you can see it drops quite abruptly.
 
 Theories:
  * The boost converter changed state, eg. frequency?
-   * We can verify or discount this by zooming in to the detailed curves around the time of transition.
+   * We can verify or discount this by zooming in to the detailed curves around the time of transition.  ![image](debugging/scope-screenshot-boosttest-5.3v-1.1a-transition.png) ![image](debugging/scope-screenshot-boosttest-5.3v-1.1a-transition2.png)
+     * Result: The switching indeed appears to have altered in character although not necessarily frequency. Could this be the boost converter unexpectedly entering a stable "hold" state? Could it be that the resistors defining the output voltage point are poorly matched to their nominal values?
  * The boost converter enters a state in which it requires more power than is available?
+   * Unlikely, since we are supply a lot of power at this point.
+     * Result: Discount this theory.
  * Non-local input or output capacitance finished charging?
    * We can potentially confirm or discount the capacitance as a cause of state change by adding and removing capacitance.
- * The downstream 12V regulator changed state?
+ * The downstream 12V regulator changed state? 
    * We should discount the 12V regulator as the cause since it curves down slowly in resonse to the abrupt change earlier in the circuit, the earliest of course being the input voltage, which is affected by the boost converter switching frequency and current draw.
+     * Result: Discount this theory.
+
+### Bad resistance?
+
+Other than waiting for extra and superior capacitance to arrive, it seems the best way to move forward at this point is perhaps to cover the basics by double-checking the resistor values. If the resistors do not appear to be correct, we may have found our issue. Reflowing the area with the heat gun may also help. First let's measure.
+ * 97.1k
+ * 5.04k
+
+After recalculating against the 0.6V nominal reference, 12.16v. If the reference is at the extreme ends of the datasheet quoted range, then this could be as low as 11.9V and as high as 12.4V.
+
+None of these account for the observed behaviour.
+
+### Irregular regulator?
+
+Another option is that the 12V regulator is outputting 9V because the wrong part was added.
+
+However, the label on the part matches the label on the [JLCPCB component page](https://jlcpcb.com/partdetail/Xblw-L7812CDTR_XBLW/C22357877), and the label in the datasheet for a 12V part, specifically `XBLW L7812 CHN 343B`.
+
+What if I remove the regulator part from the board, and test it with the bench supply? This would finally determine whether in fact the part is 9V internally or 12V.
+
+After investigation, removal seems irritating owing to the close proximity to other components, and the soldered ground plate being a large surface area.
+
+Another option would be lifting a pin, however this is hard to achieve with my present hand tools.
+
+A final option which does seem feasible is to cut the regulator's output pin, bend a portion upward, and instrument that. This would presumably isolate it from the rest of the circuit sufficiently to identify whether or not there is a problem. I have ordered a precision cutting tool for this purpose, which should arrive tomorrow.
+
+In the mean time, I will consider that the 9V being shown is some sort of mix between 12V correct output and 5V elsewhere (so 7V difference meaning 8.5V is the nominal middle) due to the MCU module being incorrectly installed and thus through some combination of circumstance this regulator may be fighting another regulator, or some kind of alternate circumstance having similar outcomes.
+
+### Third time lucky?
+
+Perhaps a fresh board would not have this problem, in other words. Re-instrumenting a third board could be a way forward, since this board #1 has the backward MCU and board #2 had a burned out boost converter. The question that then remains is why did the boost converter burn out? It seems I may have found the issue in terms of current. Nothing is really limiting current on the board, whereas the boost converter only supports ~1.2A (or really 1A comfortably) the other components like the 12V regulator are higher rated and there's quite a bit of capacitance to fill. Perhaps the issue was that the boost converter simply fried due to too much inrush current?
+
+This would explain everything.
+
+However, this does not position things well for a revision without a new board.
+
+Perhaps a plug-in board could be developed which provides an alternative circuit path to the part of the board currently broken.
+
+I will look in to alternative boost converters with higher current potential.
+
+Shortlist:
+ * [MT3540-F23](https://jlcpcb.com/partdetail/xi_an_AerosemiTech-MT3540F23/C181783) @ 1.5A (Xi'an Aerosemi Tech) - same manufacturer as current chip
+ * [L7812CV-DG](https://jlcpcb.com/partdetail/Stmicroelectronics-L7812CVDG/C2914) @ 1.5A (STMicro)
+ * [MC34063ECN](https://jlcpcb.com/partdetail/Stmicroelectronics-MC34063ECN/C5180) @ 1.5A (STMicro)
+
+... argh! So it turns out the component selection was good, and it's actully a 4A part. However, it's a 'China clone' part that's based on an original part with ~1-1.2A limits.
+
+The China ones are much better, and available from multiple manufacturers for ~nothing. So the part selection was actually ideal.
+
+Unsure what the issue is/was about it blowing up then.
+
+I've managed to find a tool to cut the leg on the downstream regulator and re-instrument directly off the pin, so let's check out a retry.
+
+### Reintroducing Mr. Regulator (Xi'an Special Edition)
+
+A retry with the same settings yielded this capture.
+
+![image](debugging/scope-screenshot-boosttest-5v-1.1a-rejig.png)
+
+Looking a lot more regular. Let's zoom out and see where we're at.
+
+![image](debugging/scope-screenshot-boosttest-5v-1.1a-rejig-zoomout.png)
+
+This looks like now we are only getting around 5V output from the regulator.
+
+I am now worried that we've fried the resistor through over-zealous soldering (the probes came loose).
+
+To test this theory I will run the multimeter over both sides to determine resistance.
+
+Yes, it appears to have dropped from ~100K to ~35K.
+
+This explains the drop in voltage, from `VOUT = VREF × (1 + (R1/R2))`.
+
+```
+VREF = 0.6V (reference voltage)
+R1 = 35k (damaged upper resistor)
+R2 = 5.04k (lower resistor, previously measured) Let's calculate: VOUT = 0.6V × (1 + (35k/5.04k))
+= 0.6V × (1 + 6.9444444)
+= 0.6V × 7.9444444
+= 4.76666667V
+```
+
+Therefore, with the damaged upper resistor now measuring 35k, the expected output voltage of the boost converter would be approximately 4.77V. 
+
+This is exactly what we are seeing. We note also that the previous 9V may have also been due to resistor damage from soldering performed after measuring the resistor.
+
+## New Mister Resistor
+
+Found another 100K resistor and installed in place. It measures 96.4K which should be fine.
+
+Let's try again.
+
+![image](debugging/scope-after-resistor-1.png)
+
+Well, here we can see very little, it's all over the place. Let's try a second capture, after moving some probes around to ensure good grounding.
+
+![image](debugging/scope-after-resistor-2.png)
+
+Very similar to what we had before the resistor replacement, except all the curves are much higher. It seems that the output voltage continues to rise the whole way through the capture until power is cut, reaching something like 15V average but 30V peaks.
+
+Let's see if we scale that down and recapture just how high it goes.
+
+![image](debugging/scope-after-resistor-3.png)
+
+Wow. Again off the charts, reaching something like 50V or more.
+
+Let's see what happens if we temporarily remove the 1000uF capacitor.
+
+![image](debugging/scope-after-resistor-4.png)
+
+OK that's definitely bad.
+
+I think we need to wait for the capacitors to arrive and try some functioning caps.
+
+I put the cap back in and got back to this sort of thing, similar to two images ago.
+
+![image](debugging/scope-after-resistor-5.png)
+
+The key takeaway is that, once the power is cut and all is said and done, the 12V regulator actually outputs 12V.
+
+The hope is that, after we add some more capacitance, we will see this without unplugging, and that will be a stable output suitable for the rest of the circuit.
+
+In the mean time we will try running a little longer to see what happens.
+
+![image](debugging/scope-highres-longterm-1.png)
+
+I flipped the acquire mode to 'high res' which seems to have removed the sketchyness and shows more of a reasonable output.
+
+Here you can see:
+ * The `VIN` voltage comes up in about 200ms on the supply side (yellow)
+ * While this is happening, the boost output (light blue) ramps steadily upward toward 20V or more
+ * While this is going on the 24V regulator is cutting its output back to something tiny, probably sensing dangerous levels of supply.
+ * Finally, the power is cut. Immediately, boost output begins to drain as the 1000uF 25V capacitor empties, but the regulator is now happy and switches to a 12V output which remains stable.
+
+It seems, perhaps, that the state of the circuit between the boost converter and the regulator is causing issues for the regulator. 
+
+We can hope that the new capacitance fixes the problem, noting the old 1000uF is ~25 years old and only rated for 25V which is already being exceeded.
+
+![image](debugging/scope-highres-longterm-2.png)
+
+This was the 'peak' acquire mode, zoomed out to maximum level. Less clear, but it shows some high voltages on the output side well above 35V.
+
+After that we see stability, which continues until the boost stage output drops below 12V, at which point the later-stage 12V regulator begins a steady decline.
+
+![image](debugging/scope-highres-longterm-3.png)
+
+This is the same capture in 'normal' acquire mode.
+
+![image](debugging/scope-highres-longterm-4.png)
+
+Here is a zoomed in version, with layers selected so as to increase legibility.
+
+![image](debugging/scope-highres-longterm-5.png)
+
+Here is the same capture in peak mode.
+
+### MT3608B Design Review
+
+ * With regards to the mode switch we have been seeing, it seems the datasheet has a clue: "The MT3608B has internal soft start to limit the amount of input current at startup and to also limit the amount of overshoot on the output." This suggests we're seeing the end of the soft start ramp-up.
+ * Layout is specified strictly and we have an absolute chop-shop slop job, so this needs rejigging.
+   * Key issues are large loops, unduly long traces, and thin traces.
+ * Inductor is specified as 4.7uH-22uH and we selected 22uH. Just relying on general assumption, it may be beneficial to move toward the middle of the range (10uH). [This option](https://jlcpcb.com/partdetail/Sunlord-WPN4020H100MT/C98364) looks good, or an [overkill high current option](https://jlcpcb.com/partdetail/Sunlord-MWSA0603S100MT/C132141). Checking relevant theory, based on the circuit parameters we should have selected something in the 5-10uH range anyway, 6.8uH or 10uH would be better. 22uH is too large which leads to feedback loop issues and slow transient response which is what we were perhaps seeing.
+ * Recommended 22uF caps missing on input and output pins
+ * Schottky diode must have current rating over RMS, so...
+ ```
+ID(RMS) = SQRT(IOUT x IPEAK)
+ID(RMS) = SQRT(12V x 67V)
+ID(RMS) = SQRT(804V)
+ID(RMS) = 28.35V
+```
 
 ## Complete issues list
 
  * Cable passthru too difficult, hole should be enlarged
- * USB PD incorrect topology
- * USB PD chip missing 100nF cap at VDD
- * MT3608B self-destructs
+ * USB321 PD chip incorrect topology
+ * USB321 PD chip missing 100nF cap at VDD
+ * MT3608B self-destructed for unknown reasons
  * MT3608B inductor maxes out at 1.2A giving only 6W nominal power, less losses
- * MT3608B missing local cap at VIN input
- * MT3608B missing output cap (maybe not required)
+ * MT3608B inductor too large at 22uH, reduce to 6.8uH or 10uH
+ * MT3608B missing 22uF cap at VIN input (place directly across terminals)
+ * MT3608B missing 22uF output cap at OUT
+ * MT3608B layout is crap
