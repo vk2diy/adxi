@@ -48,22 +48,22 @@ echo "ON"
 
 echo "Setting up channel #2"
 echo -n " - Voltage: "
-lxi scpi -a 192.168.8.3 ":SOURCE2:VOLTAGE:LEVEL 12"
+lxi scpi -a 192.168.8.3 ":SOURCE2:VOLTAGE:LEVEL 5.3"
 voltage=`lxi scpi -a 192.168.8.3 ":SOURCE2:VOLTAGE:LEVEL?"`
 echo "${voltage}V"
 echo -n " - Voltage limit: "
-lxi scpi -a 192.168.8.3 ":SOURCE2:VOLTAGE:PROTECTION:LEVEL 12"
+lxi scpi -a 192.168.8.3 ":SOURCE2:VOLTAGE:PROTECTION:LEVEL 5.5"
 voltage=`lxi scpi -a 192.168.8.3 ":SOURCE2:VOLTAGE:PROTECTION:LEVEL?"`
 echo "${voltage}V"
 echo -n " - Voltage limiting: "
 state=`lxi scpi -a 192.168.8.3 ":SOURCE2:VOLTAGE:PROTECTION:STATE ON"`
 echo "ON"
 echo -n " - Current: "
-lxi scpi -a 192.168.8.3 ":SOURCE2:CURRENT:LEVEL 0.3"
+lxi scpi -a 192.168.8.3 ":SOURCE2:CURRENT:LEVEL 1.1"
 current=`lxi scpi -a 192.168.8.3 ":SOURCE2:CURRENT:LEVEL?"`
 echo "${current}A"
 echo -n " - Current limit: "
-lxi scpi -a 192.168.8.3 ":SOURCE2:CURRENT:PROTECTION:LEVEL 0.3"
+lxi scpi -a 192.168.8.3 ":SOURCE2:CURRENT:PROTECTION:LEVEL 1.2"
 current=`lxi scpi -a 192.168.8.3 ":SOURCE2:CURRENT:PROTECTION:LEVEL?"`
 echo "${current}A"
 echo -n " - Current limiting: "
@@ -72,22 +72,22 @@ echo "ON"
 
 echo "Setting up channel #3"
 echo -n " - Voltage: "
-lxi scpi -a 192.168.8.3 ":SOURCE3:VOLTAGE:LEVEL 5"
+lxi scpi -a 192.168.8.3 ":SOURCE3:VOLTAGE:LEVEL 5.3"
 voltage=`lxi scpi -a 192.168.8.3 ":SOURCE3:VOLTAGE:LEVEL?"`
 echo "${voltage}V"
 echo -n " - Voltage limit: "
-lxi scpi -a 192.168.8.3 ":SOURCE3:VOLTAGE:PROTECTION:LEVEL 5.2"
+lxi scpi -a 192.168.8.3 ":SOURCE3:VOLTAGE:PROTECTION:LEVEL 5.3"
 voltage=`lxi scpi -a 192.168.8.3 ":SOURCE3:VOLTAGE:PROTECTION:LEVEL?"`
 echo "${voltage}V"
 echo -n " - Voltage limiting: "
 state=`lxi scpi -a 192.168.8.3 ":SOURCE3:VOLTAGE:PROTECTION:STATE ON"`
 echo "ON"
 echo -n " - Current: "
-lxi scpi -a 192.168.8.3 ":SOURCE3:CURRENT:LEVEL 0.5"
+lxi scpi -a 192.168.8.3 ":SOURCE3:CURRENT:LEVEL 1.1"
 current=`lxi scpi -a 192.168.8.3 ":SOURCE3:CURRENT:LEVEL?"`
 echo "${current}A"
 echo -n " - Current limit: "
-lxi scpi -a 192.168.8.3 ":SOURCE3:CURRENT:PROTECTION:LEVEL 0.5"
+lxi scpi -a 192.168.8.3 ":SOURCE3:CURRENT:PROTECTION:LEVEL 1.2"
 current=`lxi scpi -a 192.168.8.3 ":SOURCE3:CURRENT:PROTECTION:LEVEL?"`
 echo "${current}A"
 echo -n " - Current limiting: "
@@ -96,13 +96,13 @@ echo "ON"
 
 echo ""
 
-echo "Triggering channel 3 for test period"
+echo "Triggering channel 2 for test period"
 echo " - Enable"
-lxi scpi -a 192.168.8.3 ":OUTPUT CH3,ON"
-sleep 0.05 
+lxi scpi -a 192.168.8.3 ":OUTPUT CH2,ON"
+sleep 0.5 
 #psushot
 #sleep 0.5
-lxi scpi -a 192.168.8.3 ":OUTPUT CH3,OFF"
+lxi scpi -a 192.168.8.3 ":OUTPUT CH2,OFF"
 echo " - Disable"
 
 echo ""

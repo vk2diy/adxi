@@ -705,6 +705,90 @@ Next steps:
  - Add some capacitance to see how this smooths out the curves.
  - Try increasing the length of on time and seeing what happens, checking for thermal buildup.
 
+On the double-checking front, from the datasheet:
+ * "The feedback voltage is 0.6V." (Elsewhere the range is specified as 0.588-0.612V)
+ * The formula is given: `VOUT = VREF x (1 + (R1/R2))`
+ * Substituting:
+   * `12V ~= 0.6V x (1 + (100K/5.1K))`
+   * `12V ~= 0.6V x (1 + (19.6078431))`
+   * `12V ~= 0.6V x 20.6078431`
+   * `12V ~= 12.36470588V`
+ * In the most extreme cases within stated manufacturing tolerance (ie. VREF is misplaced between 0.588V or 0.612V) we expect instead 12.12V through 12.61V
+
+So in theory the output should be correct or within a few percent, we should not see a half output. We could add a capacitor to smooth things out, this will need to be ordered as I don't have any leaded ones lying around. Correction, found one! 1000uF.
+
+Let's see what a recapture looks like now.
+
+![image](debugging/scope-screenshot-boosttest-5v-0.5a-ultrawide-with-output-cap.png)
+
+That's looking a lot cleaner. We can see a substantial reduction in the oscillations.
+
+Let's try increasing the current to 0.9A and see what happens.
+
+![image](debugging/scope-screenshot-boosttest-5v-0.9a-ultrawide-with-output-cap.png)
+
+The 12V regulator output now rises to around 7V. Let's give it a bit more time and see what happens.
+
+![image](debugging/scope-screenshot-boosttest-5v-0.9a-ultrawide-with-output-cap-longer.png)
+
+This is interesting. It seems at a later point we now see the boost converter circuit state change. Once this occurs, feedback oscillations decrease, output voltage oscillation decreases and he 12V regulator settles on a 7V output. As we are stil seeing large oscillations in the input volatage, it seems that area is critically missing capacitance. If only we could find another leaded cap... I will go hunt one down. Got one, 100uF 50V.
+
+Let's retry with both the input cap and the output cap and see what happens.
+
+![image](debugging/scope-screenshot-boosttest-5v-0.9a-bothcaps.png)
+
+This has removed the state change, and the voltage continues to ramp upwards.
+
+Overall however we still see the following picture:
+ * __Very high oscillation in the input voltage__ due presumably to non-local capacitance, insufficient current, and wrong capacitor type. The switched inductor is 'right next to' the boost converter (actually the layout of this part of the board is sub-optimal) but the off-board capacitor is some distance away. This does not help. Checking the datasheet for the boost converter, the recommended capacitor type is ceramic whereas we are using electrolytic which are less suitable for high frequencies. I have ordered some ceramics to test with. This may become stable once downstream caps have charged and the load has normalized.
+ * __Input and output voltage still both trending upwards at input termination__. This suggests a longer power-on period may assist with achieving more stable output.
+
+While waiting for new capacitors to arrive, let's give the system a bit more time and see what happens.
+
+![image](debugging/scope-screenshot-boosttest-5v-0.9a-longer.png)
+
+Here we can see:
+ * Input voltage stabilizes around 3.5V after 250ms. This suggests it is insufficiently powerful to drive the boost converter.
+ * Boost output voltage stabilizes around 10V after 250ms. Given we have checked our calculations and added capacitance, this suggests a power shortage.
+ * The feedback pin continues to oscillate with peaks up to 6.5V
+ * The 12V regulator output voltage does stabilize (around 250ms) at 9V.
+
+At this point we will try adding more power by bringing the amperage up to 1.1A.
+
+![image](debugging/scope-screenshot-boosttest-5v-1.1a-longer.png)
+
+Here we see much the same picture, although the input voltage stabilizes at 3.5V more quickly, here about 100ms or so.
+
+We could try raising the input voltage slightly to see if it affects the output voltage.
+ * Hypothesis: If the input voltage increase yields a higher than 9V output of the 12V regulator, then we are still underpowered. Otherwise, we are not underpowered and the issue may be in the resistor divider being inaccurate.
+
+Let's try 5.3V.
+
+![image](debugging/scope-screenshot-boosttest-5.3v-1.1a-fail.png)
+
+This appears to have triggered the built-in overvoltage protection in the third channel of the bench PSU.
+
+I will reprogram the PSU to have 5V on channel 2 (which has higher output capacity to 30V/3A) and retry the same capture.
+
+![image](debugging/scope-screenshot-boosttest-5.3v-1.1a-fail2.png)
+
+This appears to have the same curve, which appears to show the input voltage rising abruptly before decreasing.
+
+Here is the channel 1 view.
+
+![image](debugging/scope-screenshot-boosttest-5.3v-1.1a-fail2-ch1.png)
+
+As you can see it drops quite abruptly.
+
+Theories:
+ * The boost converter changed state, eg. frequency?
+   * We can verify or discount this by zooming in to the detailed curves around the time of transition.
+ * The boost converter enters a state in which it requires more power than is available?
+ * Non-local input or output capacitance finished charging?
+   * We can potentially confirm or discount the capacitance as a cause of state change by adding and removing capacitance.
+ * The downstream 12V regulator changed state?
+   * We should discount the 12V regulator as the cause since it curves down slowly in resonse to the abrupt change earlier in the circuit, the earliest of course being the input voltage, which is affected by the boost converter switching frequency and current draw.
+
 ## Complete issues list
 
  * Cable passthru too difficult, hole should be enlarged
