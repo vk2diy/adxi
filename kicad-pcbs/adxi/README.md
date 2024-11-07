@@ -967,11 +967,10 @@ ID(RMS) = 28.35V
 ## Complete issues list
 
  * Cable passthru too difficult, hole should be enlarged
- * USB321 PD chip incorrect topology
- * USB321 PD chip missing 100nF cap at VDD
- * MT3608B self-destructed for unknown reasons
- * MT3608B inductor maxes out at 1.2A giving only 6W nominal power, less losses
- * MT3608B inductor too large at 22uH, reduce to 6.8uH or 10uH
- * MT3608B missing 22uF cap at VIN input (place directly across terminals)
- * MT3608B missing 22uF output cap at OUT
- * MT3608B layout is crap
+ * `TUSB321` PD chip incorrect topology
+ * `TUSB321` PD chip missing 100nF cap at VDD
+ * `MT3608B` self-destructed for unknown reasons
+ * `MT3608B` inductor too large at 22uH, reduce to 6.8uH or 10uH
+ * `MT3608B` missing 22uF cap at VIN input (place directly across terminals)
+ * `MT3608B` missing 22uF output cap at OUT
+ * `MT3608B` block layout is crap: large loops, unduly long traces, thin traces.
