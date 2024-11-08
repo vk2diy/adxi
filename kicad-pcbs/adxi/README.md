@@ -966,6 +966,103 @@ ID(RMS) = 28.35V
 ```
  * Schottky diode should be selected for low forward voltage drop, to achieve higher load efficiency.
 
+### 2024-11-08 Debugging
+
+I am going to start the day by reading up on boost converter design equations, documenting the novel material in the power supply notes, and then revisiting the current situation with a new board. Only electrolytic capacitors arrived last night, I have no ceramics, and the fundamental problem of a larger inductor than is preferred is going to be difficult to solve without a new board given that the inductors are so small and come in such a range of disparate form factors.
+
+#### New board plan
+
+One option is to produce an intermediate board that upgrades the current boards with a reimplmentation of the power supply stages. This would have to pull in the `VBUS` current to power the `TUSB321` chipset. Presumably we can rely on the `VBUS` current never being over 5V because we will not negotiate such. Therefore, we should aim to have a resistor just large enough to provide power to the `TUSB321` directly from bus power, with some kind of protection diode, but perhaps have this circuit disabled once the local 5V comes online so that supply is continuous and transitions to onboard 5V as the preferred source. It would implement interfaces to the `VDD` and `VBUSDET` pins, as well as to a reimplementation of the `MT3608B` block, then output to the input of the 12V regulator. So it would need connections to raw `VBUS`, `TUSB321:VDD`, `5V`, `GND`, and the 12V regulator input. On the board itself, some modifications would be required, including the removal of at last one of the feedback resistors and the `MT3608B` chip.
+ * `VBUS`: Raw USB bus voltage
+   * Used for: Early stage and later stage power to boot the `TUSB321`, new input to re-implemented `MT3608B` block for main power draw.
+   * Source from: Ferrite bead terminal or resistor terminal (both dangerous as overheating may damage the components)
+ * `TUSB321:VDD`: Power input to `TUSB321`
+   * Used for: Powering on the chip to negotiate a higher amperage on `VBUS`.
+   * Source from: Test point 'USBC CLEAN', after removing existing `MT3608B` and inductor which are the only other things on the net.
+ * `5V`: Regulated 5V supply
+   * Used for: Power input to `TUSB321` after boot completes
+   * Source from: Test point '5V'.
+ * `GND`: Ground
+   * Used for: Everything
+   * Source from: Test point 'GND'.
+ * `L7812:VIN`: Regulator input.
+   * Used for: Boost stage power passthru from bus.
+   * Source from: L7812 VIN pin directly (trace width too thin on test point).
+
+Here's what I came up with in terms of those five connection points.
+
+![image](debugging/fix-pcb-scheme.png)
+
+This could be quite a small 2 layer board, the only issue is I will need to import the geometry which KiCad is not great for.
+
+Its components will be: 100uF + 100nF cap for TUSB321 VDD, diodes and resistors for smooth power transition sourcing from `VBUS` to `5V`, `MT3608B` and associated inductor (6.8uF or 10uF this time), diode (same as last time), resistors (same as last time) and input and output capacitors (22uF each), 330nF cap before `L7812:VIN`, and 100nF cap after `L7812:OUT` output before passing to mainboard 12V regulator.
+
+Although it seems from various comments that TI does not encourage people to power `VDD` from the `VBUS` source although other people have stated this goal and tried. [One attempt](https://e2e.ti.com/support/interface-group/interface/f/interface-forum/873752/tusb321-configuration-issues-when-using-tusb321-as-ufp) (inconclusive result) tries to use two bypass capacitors of 10uF and 0.1uF at the port with no filtering or limiting. We already have a ferrite, at least. Other sources suggest the combination of transients during connect/disconnect events and potentially higher bus voltages such as from misbehaving peers mean that this is a bad idea.
+
+Overall I think that small board will be a good cheap fix, at least it should work.
+
+The power transition stuff might be buggy, perhaps it would be good to model that first with a bench PSU changeover.
+
+#### Bench model
+
+The power switching situation to model would be a 4.5V-5.5V VBUS supply needing a schottky diode, some zener protection and a slight voltage reduction (say to 4.55V regulated, say through a 5V regulator like L6705CV plus a subsequent voltage divider of 10K/100K to reduce voltage) before feeding to an output. After this occurs, a second supply channel is switched on at 5V (simulating the regulated output) and should take over. We should see the bench supply current level switch over entirely to the new supply channel. If this works, we can progress with confidence.
+
+The relationship between the two sources should be as follows:
+ * A schottky diode from each source ensures unidirectional flow
+ * When the higher voltage source appears, it will take precedence
+
+I have ordered some schottky diodes for testing, they will arrive tomorrow.
+
+I already have the other components: 5V regulator, associated 0.33uF/0.1uF in/out ceramic caps, 100K/10K resistors and 7.5V zener diodes.
+
+With the following PSU configuration, ie. 6V...
+
+![image](debugging/downregulator-benchmodel-6v-psu.png)
+
+We observe the following output, ie. 4.45V, as expected.
+
+![image](debugging/downregulator-benchmodel-6v-scope.png)
+
+However, with the following PSU configuration, ie. 5V...
+
+![image](debugging/downregulator-benchmodel-5v-psu.png)
+
+We observe the following output, ie. 3.4V, which is too low!
+
+This means the output before the voltage divider was about 3.74V. Let's instrument that and confirm.
+
+![image](debugging/downregulator-model-5v-scope-with-raw-output.png)
+
+Yes, 3.72V.
+
+There must be substantial losses in the regulator at low draw.
+
+Apparently an 'LDO' regulator will not have this level of losses.
+
+Unfortunately, such regulators are not available locally at short notice.
+
+Therefore, I will have to trust the datasheet in selecting one in the final circuit and hope for adequate performance.
+
+In the mean time, we could remove the divider network to yield the higher current.
+
+Whether the current exceeds our required 4.5V threshold for turning on the `TUSB321` via its `VDD` pin or not, we still can test an automatic changeover of source channel when the zener diodes arrive.
+
+#### Stepping back
+
+It would be worthwhile to check later stage functionality on a fresh board before committing to a fix. Point being, if there are other issues, we probably want to discover them first and decide whether it makes sense to just do a new revision of the main board instead of mucking about with fixes. Today then I will start to mark out those portions of the schematic which have been tested and work through programming the MCU. 
+
+Areas needing attention today:
+ * MCU/audio chipset interface
+ * Clock generator
+ * Power amplifier
+ * 3.3V outputs
+ * Forward power, reverse power and SWR
+
+Best approach:
+ * Get a totally fresh board supplied with 12V bench power
+ * Plug in a fresh MCU module (use mounts this time not direct soldering)
+ * Begin process to alter firmware from previous reference firmware to current schematic
+
 ## Complete issues list
 
  * Cable passthru too difficult, hole should be enlarged

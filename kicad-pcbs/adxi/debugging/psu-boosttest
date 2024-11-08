@@ -99,7 +99,7 @@ echo ""
 echo "Triggering channel 2 for test period"
 echo " - Enable"
 lxi scpi -a 192.168.8.3 ":OUTPUT CH2,ON"
-sleep 0.5 
+sleep  0.75
 #psushot
 #sleep 0.5
 lxi scpi -a 192.168.8.3 ":OUTPUT CH2,OFF"
