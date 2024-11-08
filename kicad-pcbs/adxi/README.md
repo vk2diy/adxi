@@ -14,6 +14,8 @@
    * 2024-11-05: USB hub, audio and MCU passthru verified with bypass supply. Restored lab to functionality. Worked on a fix, ordered parts.
    * 2024-11-06: Parts received. Testing done manually powering the `TUSB321` chipset and negotiation appears to occur. This suggests a fixable situation. The boost converter still needs debugging.
    * 2024-11-07: Boost converter block instrumentation and testing.
+   * 2024-11-08: Plan for potential power stage resolution patch board, scheme for early stage power and failover, benchtop regulator testing.
+   * 2024-11-09: Irregular 'regulator free' early stage power solution, new board setup, prepare for firmware programming.
 
 ## Initial test
 
@@ -1037,21 +1039,21 @@ Yes, 3.72V.
 
 There must be substantial losses in the regulator at low draw.
 
-Apparently an 'LDO' regulator will not have this level of losses.
+Apparently an 'LDO' type regulator will not have this level of losses.
 
-Unfortunately, such regulators are not available locally at short notice.
+Unfortunately, I don't have any lying around and such regulators are not available locally at short notice.
 
 Therefore, I will have to trust the datasheet in selecting one in the final circuit and hope for adequate performance.
 
 In the mean time, we could remove the divider network to yield the higher current.
 
-Whether the current exceeds our required 4.5V threshold for turning on the `TUSB321` via its `VDD` pin or not, we still can test an automatic changeover of source channel when the zener diodes arrive.
+Whether the current exceeds our required 4.5V threshold for turning on the `TUSB321` via its `VDD` pin or not, we still can test an automatic changeover of source channel when the zener diodes arrive. That will be the limit of available bench testing.
 
 #### Stepping back
 
 It would be worthwhile to check later stage functionality on a fresh board before committing to a fix. Point being, if there are other issues, we probably want to discover them first and decide whether it makes sense to just do a new revision of the main board instead of mucking about with fixes. Today then I will start to mark out those portions of the schematic which have been tested and work through programming the MCU. 
 
-Areas needing attention today:
+Areas needing attention:
  * MCU/audio chipset interface
  * Clock generator
  * Power amplifier
@@ -1063,12 +1065,54 @@ Best approach:
  * Plug in a fresh MCU module (use mounts this time not direct soldering)
  * Begin process to alter firmware from previous reference firmware to current schematic
 
+### 2024-11-09
+
+Interesting to [see people recommending uSDX](https://news.ycombinator.com/item?id=42085304) today.
+
+Began with looking at the datasheets for the LDOs. None of them seem to actually state 'for X voltage in, expect Y voltage out'.
+
+However, the L7805s seem to be in higher efficiency category for what is out there. A quick look showed this is really *the* standard component and anything else is a hassle.
+
+Given what we learned yesterday about efficiency, this makes the whole "regulate then reduce" architecture on the proposed `VBUS` early stage power supply prior to USB power distribution (PD) negotiation completing somewhat dead in the water. The mindset was 'achieve a known stable output, then precisely reduce'. This has to be reconsidered.
+
+Perhaps:
+ * We can try to add a nominal resistor divider to ensure:
+   * The maximum anticipated legacy bus voltage remains below the MCU module's 5V regulator output
+   * The minimum anticipated legacy bus voltage remains above the `TUSB321` chipset minimum voltage for turn-on
+ * Protect from overvoltage transients with a zener diode
+ * Assumptions
+   * Maximum legacy bus voltage: 5.5V (ie. 5V+10% per USB spec) 
+   * Minimum legacy bus voltage: 4.5V (ie. 5V-10% per USB spec)
+   * Minimum MCU module 5V regulator output 4.9V
+   * Minimum output voltage = workable `TUSB321` `VDD` turn-on voltage >=4.4V (since 4.5V is 'recommended')
+   * Maximum output voltage < MCU module 5V regulator output = 4.85V (since MCU regulator output is 4.9V)
+
+Given this requirement, a proposed resistor divider is as follows:
+ * R1 = 11Ω 1%
+ * R2 = 91Ω 1%
+
+This should land us in the expected range:
+ * At 5.5V input: `Vout = 5.5V * (91 / (11 + 91)) = 4.85V`
+ * At 4.5V input: `Vout = 4.5V * (91 / (11 + 91)) = 4.40V`
+
+While theoretically some issues may occur with `VBUS` voltages extremely close to the extreme limits if component tolerances are also taken in to account, it is perhaps reasonable to consider such situations to be extremely unlikely to occur in practice.
+
+An alternative design would be to utilize some form of active switching, such that when `TUSB321` reports negotiation completed the raw `VBUS` supply is cut off.
+
+This strikes me as unduly complicated, expensive, error-prone and component-linked for our purposes. The resistor approach should be sufficient.
+
+So that's simplified things moving forward. Time to move on to the firmware testing, I'll clean the bench now and set up a new board, #3.
+
+Cleaned the bench off, got to work setting up the new board and wanted to add some 2.54mm pin headers to make the MCU removable this time. Had to search a bit, found some but almost out. Bought some more. My soldering skills have returned, this one is much better than the previous board. I think part of it was changing soldering irons, but also JLC's default through hole finish must have changed, I guess they may have removed some lead from their HASL formula or something.
+
+All set up: bench cleaned, new MCU module, new cable, standoffs attached, cable routed in. Ready for MCU programming.
+
 ## Complete issues list
 
  * Cable passthru too difficult, hole should be enlarged
  * `TUSB321` PD chip incorrect topology
  * `TUSB321` PD chip missing 100uF and 100nF caps at VDD
- * `MT3608B` self-destructed for unknown reasons
+ * `MT3608B` self-destructed for unknown reasons, maybe voltage peaks from oversized inductor
  * `MT3608B` inductor too large at 22uH, reduce to 6.8uH or 10uH.
  * `MT3608B` inductor should be low DCR.
  * `MT3608B` missing 22uF cap at VIN input (place directly across terminals)
