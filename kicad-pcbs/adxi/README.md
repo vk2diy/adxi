@@ -1039,9 +1039,9 @@ Yes, 3.72V.
 
 There must be substantial losses in the regulator at low draw.
 
-Apparently an 'LDO' type regulator will not have this level of losses.
+Internet hearsay suggests an 'LDO' type regulator will not have high levels of losses, however it turns out this is an LDO.
 
-Unfortunately, I don't have any lying around and such regulators are not available locally at short notice.
+Unfortunately, I don't have any others lying around and such regulators are not available locally at short notice.
 
 Therefore, I will have to trust the datasheet in selecting one in the final circuit and hope for adequate performance.
 
@@ -1069,7 +1069,7 @@ Best approach:
 
 Interesting to [see people recommending uSDX](https://news.ycombinator.com/item?id=42085304) today.
 
-Began with looking at the datasheets for the LDOs. None of them seem to actually state 'for X voltage in, expect Y voltage out'.
+Began with looking at the datasheets for the LDOs. None of them seem to actually state 'for X voltage in, expect Y voltage out'. Maybe there is a good reason for this, maybe it is also and to a significant extent a function of current, load, temperature, etc.
 
 However, the L7805s seem to be in higher efficiency category for what is out there. A quick look showed this is really *the* standard component and anything else is a hassle.
 
