@@ -1019,15 +1019,15 @@ I already have the other components: 5V regulator, associated 0.33uF/0.1uF in/ou
 
 With the following PSU configuration, ie. 6V...
 
-![image](debugging/downregulator-benchmodel-6v-psu.png)
+![image](debugging/downregulator-model-6v-psu.png)
 
 We observe the following output, ie. 4.45V, as expected.
 
-![image](debugging/downregulator-benchmodel-6v-scope.png)
+![image](debugging/downregulator-model-6v-scope.png)
 
 However, with the following PSU configuration, ie. 5V...
 
-![image](debugging/downregulator-benchmodel-5v-psu.png)
+![image](debugging/downregulator-model-5v-psu.png)
 
 We observe the following output, ie. 3.4V, which is too low!
 
