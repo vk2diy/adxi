@@ -43,8 +43,22 @@ Underway:
    - [x] USB hub verified
    - [x] USB audio verified
    - [x] USB MCU module passthru verified
+   - [x] Power stage testing completed (issues found; resolution proposed and bench tested)
  - [ ] Firmware authoring
  - [ ] Verify functionality
+
+## Update (2024-11-09)
+ * A [very busy week testing](kicad-pcbs/adxi/). 
+   * Issues found in the power stages were numerous.
+     * First there was a topology error in the USB power, mostly due to lack of personal dilligence in critically evaluating the datasheets, but also inexperience with USB power.
+       * I am confident this should be resolved in the next revision or in a fix.
+     * Second the boost converter had huge issues
+       * First it was missing capacitance which was actually critical (unlike bulk output capacitance which may often be removed or reduced, high frequency capacitors are very important for stable boost conversion)
+       * Second the inductor was oversized, as the datasheet simply suggested a range and I'd picked the larger end. Well, turns out there's a way to select these and I should have picked the middle to low end.
+     * Third the unstable boost converter output with huge 75V swings was probably responsible for burning itself out, but also it was responsible for making the subsequent 12V regulator fail. Thankfully I was able to demonstrate that as soon as power was cut, however, the capacitor (added) was able to feed the 12V regulator and achieve perfect output.
+   * None of these issues are critical, all can be resolved by power bypass or modification.
+   * A potential fix board has been generally designed, but firmware testing to allow the evaluation of other functional blocks will proceed before an order is placed, just in case we have other issues and it may be more useful to redo the board as a whole.
+   * Once this has been done, the new problem of testing the late stage module begins, which will no doubt involve some pretty NanoVNA graphs. I might cut one board to segment it in to functional blocks so that each can be characterised independently. This will not cause any loss of boards, because after testing is complete the board can be solder-configured for an alternate band (each initial late stage module supports 20m/30m/40m bands, but only one at a time, and I had 20 made for only 10 radios).
 
 ## Update (2024-11-05)
 
