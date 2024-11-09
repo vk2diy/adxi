@@ -13050,6 +13050,19 @@
 		(uuid 32f0531d-0496-43f7-bb8e-33ff4f51cae3)
 	)
 	(rectangle
+		(start 26.035 327.025)
+		(end 51.435 344.17)
+		(stroke
+			(width 0.5588)
+			(type dot)
+			(color 255 153 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 37364798-a564-4f7a-8f7a-b6ae4df6b159)
+	)
+	(rectangle
 		(start 166.497 379.857)
 		(end 190.627 388.747)
 		(stroke
@@ -13169,6 +13182,19 @@
 			(color 0 194 0 1)
 		)
 		(uuid 7cb9b1f5-4209-4733-9bb8-06f609307c0e)
+	)
+	(rectangle
+		(start 64.135 245.745)
+		(end 125.73 259.08)
+		(stroke
+			(width 0.5588)
+			(type dot)
+			(color 255 153 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 87ed9407-90e9-48e1-b16e-f4498172a883)
 	)
 	(rectangle
 		(start 224.917 378.333)
@@ -13332,6 +13358,19 @@
 		(uuid ed2fda93-4bd0-4155-90ed-6158e3a0f635)
 	)
 	(rectangle
+		(start 55.245 283.21)
+		(end 135.255 318.77)
+		(stroke
+			(width 0.5588)
+			(type dot)
+			(color 255 153 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f0daeb8f-705f-4865-8958-bd498735db95)
+	)
+	(rectangle
 		(start 138.557 379.857)
 		(end 162.687 388.747)
 		(stroke
@@ -13398,7 +13437,7 @@
 	)
 	(text "X"
 		(exclude_from_sim no)
-		(at 106.934 254.508 0)
+		(at 117.348 284.988 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -13462,6 +13501,20 @@
 		)
 		(uuid "0a91cfe4-b334-4cee-80ea-f1c1567b32b2")
 	)
+	(text "REIMPLEMENT"
+		(exclude_from_sim no)
+		(at 70.866 315.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 153 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "0e2868df-ecaa-4c88-bdd1-e4729761e7e6")
+	)
 	(text "FEEDBACK VOLTAGE 0.6V\nMEANS 12V:0.6V SO 19:1\nRATIO OF RESISTANCE"
 		(exclude_from_sim no)
 		(at 91.186 314.452 0)
@@ -13510,6 +13563,20 @@
 		)
 		(uuid "116d25c6-9564-4e39-94cd-e39d74df4ba3")
 	)
+	(text "VERIFIED\n2024-11-06"
+		(exclude_from_sim no)
+		(at 237.49 335.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+			(justify top)
+		)
+		(uuid "1324e69e-2bdd-4acb-ae91-688fd33b1209")
+	)
 	(text "MAIN BOARD"
 		(exclude_from_sim no)
 		(at 177.927 384.429 0)
@@ -13522,6 +13589,20 @@
 			)
 		)
 		(uuid "13739bb1-98d3-4588-af7d-6d7eccfafc08")
+	)
+	(text "REIMPLEMENT"
+		(exclude_from_sim no)
+		(at 98.044 257.302 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 153 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "164dcfe5-9bc4-4771-8ba5-25c03c1f5d9d")
 	)
 	(text "0-12V\nNOMINAL"
 		(exclude_from_sim no)
@@ -14106,6 +14187,20 @@
 		)
 		(uuid "685aee8b-a827-4480-99d7-0f3c19d81e5f")
 	)
+	(text "VERIFIED\n2024-11-06"
+		(exclude_from_sim no)
+		(at 166.37 331.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+			(justify top)
+		)
+		(uuid "69b6ee45-d853-4031-975e-a8fee1a412a1")
+	)
 	(text "SEE doc/usb-hub"
 		(exclude_from_sim no)
 		(at 215.646 300.482 0)
@@ -14596,6 +14691,20 @@
 		)
 		(uuid "a7ed1656-0a2c-4839-8107-48c403e14d50")
 	)
+	(text "VERIFIED\n2024-11-06"
+		(exclude_from_sim no)
+		(at 228.854 279.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+			(justify top)
+		)
+		(uuid "a7f9cb9f-21fa-4de3-b513-7b5e3ce3645d")
+	)
 	(text "POTENTIAL PHYSICAL LAYER ARCHITECTURES UNDER 'TIFFIN' PROPOSAL"
 		(exclude_from_sim no)
 		(at 274.828 402.082 0)
@@ -14632,20 +14741,6 @@
 			(justify right)
 		)
 		(uuid "ac4d0d79-ebe2-4105-9a28-41b67eea4a57")
-	)
-	(text "CONSIDER ANY\n5V LDO, LATER\nDISABLED"
-		(exclude_from_sim no)
-		(at 110.49 248.158 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "aca096f8-acc9-461d-a7d2-1fea72a9db4d")
 	)
 	(text "\"100mA\""
 		(exclude_from_sim no)
@@ -14710,6 +14805,20 @@
 		)
 		(uuid "afe3b1c3-a251-48b9-9b1b-ad8825557571")
 	)
+	(text "REIMPLEMENT"
+		(exclude_from_sim no)
+		(at 47.752 328.676 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 153 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "b021f92f-5faf-4cea-9407-6178f4e2e810")
+	)
 	(text "ANTENNA CONNECTION"
 		(exclude_from_sim no)
 		(at 236.093 374.523 0)
@@ -14744,6 +14853,20 @@
 			)
 		)
 		(uuid "b2b0bde5-e9ee-4be2-a70a-34adf7296997")
+	)
+	(text "VERIFIED\n2024-11-06"
+		(exclude_from_sim no)
+		(at 268.732 269.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+			(justify top)
+		)
+		(uuid "b45a13b9-2d52-43ad-9e30-7494d96b1c16")
 	)
 	(text "RECEIVER"
 		(exclude_from_sim no)
@@ -15134,6 +15257,20 @@
 		)
 		(uuid "e806e9da-9f3a-4b4e-86de-19553d88f1f3")
 	)
+	(text "VERIFIED\n2024-11-06"
+		(exclude_from_sim no)
+		(at 372.364 262.128 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+			(justify top)
+		)
+		(uuid "e9a34066-a391-4f6b-9bde-adc0354c7da0")
+	)
 	(text "ANTENNA OUTPUT"
 		(exclude_from_sim no)
 		(at 254.635 368.935 0)
@@ -15144,6 +15281,20 @@
 			(justify left)
 		)
 		(uuid "e9c587da-b9f1-43de-8891-6227bea0cbb3")
+	)
+	(text "VERIFIED\n2024-11-07"
+		(exclude_from_sim no)
+		(at 66.548 337.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+			(justify top)
+		)
+		(uuid "eb087410-6c46-482a-866c-663ea2d90723")
 	)
 	(text "TO DEMODULATION AND\nFP/RP/SWR DETECTION"
 		(exclude_from_sim no)

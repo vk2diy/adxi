@@ -44866,6 +44866,106 @@
 		(layer "Edge.Cuts")
 		(uuid "ffeb589a-a085-4c47-bf19-a58e35c8d876")
 	)
+	(gr_line
+		(start 46.5836 150.7744)
+		(end 52.6796 155.6512)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "2fa2e20a-00ab-4c65-9109-b85948a730cc")
+	)
+	(gr_line
+		(start 72.7964 132.4356)
+		(end 31.9532 132.4356)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "67b1b972-4998-4e78-9dc1-48847f5aecab")
+	)
+	(gr_line
+		(start 40.8432 145.1356)
+		(end 46.5836 150.7744)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "6d46426b-62a4-46f1-bda3-847a19553c01")
+	)
+	(gr_line
+		(start 63.2968 161.544)
+		(end 67.9196 163.4236)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "831a54e5-0aa4-47b9-a906-d79f7ac05616")
+	)
+	(gr_line
+		(start 37.1348 140.5636)
+		(end 40.8432 145.1356)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "845a867c-645d-42a3-9d88-557c651456d4")
+	)
+	(gr_line
+		(start 67.9196 163.4236)
+		(end 72.7964 164.8968)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "8876d5ff-3c16-44c0-95e5-010b65e32f0c")
+	)
+	(gr_line
+		(start 31.9532 132.4864)
+		(end 37.1348 140.5636)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "8c51438e-1678-4e29-8a58-31096d670150")
+	)
+	(gr_line
+		(start 58.0136 158.8516)
+		(end 63.2968 161.544)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "bb719008-d1b8-49a5-b76a-0214a5742038")
+	)
+	(gr_line
+		(start 52.6796 155.6512)
+		(end 58.0136 158.8516)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "d898f61c-bf80-4f45-97f1-ff6e41d7e6b9")
+	)
+	(gr_line
+		(start 72.7964 164.8968)
+		(end 72.7964 132.4356)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "f8f85028-482a-4ba9-8113-7d5479d9a7cc")
+	)
 	(gr_text "NC.A3"
 		(at 101.36 141.78 -0)
 		(layer "B.SilkS")
@@ -61548,6 +61648,130 @@
 					(xy 85.248522 140.961668) (xy 85.267648 140.931032) (xy 85.485512 140.589581) (xy 85.742944 140.589581)
 				)
 			)
+		)
+	)
+	(gr_text "GND"
+		(at 36.6268 136.2456 0)
+		(layer "User.4" knockout)
+		(uuid "13c3973d-c94b-4dfd-9f96-c0822e91201a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "X"
+		(at 56.9976 147.574 0)
+		(layer "User.4")
+		(uuid "1d3d1449-dc9d-4c54-a92f-76d9fde4ca44")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "X"
+		(at 65.4304 159.9692 0)
+		(layer "User.4")
+		(uuid "1d7de1ff-169b-4b6f-85f5-e180b1c92bbc")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "X"
+		(at 69.1896 158.8008 0)
+		(layer "User.4")
+		(uuid "3f4c57dc-d2a9-4c86-987a-f7df6d0271ce")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "TUSB321\n/VDD"
+		(at 47.1932 147.5232 0)
+		(layer "User.4" knockout)
+		(uuid "6968ba20-faa5-48b4-aeea-6fd6604e4837")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "POTENTIAL FIX BOARD\nINTERFACE LOCATIONS\nAND COMPONENT REMOVALS"
+		(at 36.2204 162.4584 0)
+		(layer "User.4")
+		(uuid "b0d269c1-b043-471a-ad0a-12fb30143283")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V\nSUPPLY"
+		(at 67.0052 161.798 0)
+		(layer "User.4" knockout)
+		(uuid "b5d306ba-b6ce-46db-8549-dfc294226d18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "VBUS"
+		(at 57.912 135.5344 0)
+		(layer "User.4" knockout)
+		(uuid "df0317d9-3ecd-48c0-bc6e-998f7b1db535")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "VIN"
+		(at 63.0936 158.5468 0)
+		(layer "User.4" knockout)
+		(uuid "eb635c1f-447d-4b42-88e7-1e6f3e0c9e48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "X"
+		(at 60.8076 139.0904 0)
+		(layer "User.4")
+		(uuid "ef180a35-a6e6-449b-81f3-99cbe2610d91")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(dimension
