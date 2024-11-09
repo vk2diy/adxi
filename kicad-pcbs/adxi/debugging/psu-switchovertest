@@ -1,0 +1,117 @@
+#!/bin/bash
+## configure the PSU
+version=`lxi scpi -a 192.168.8.3 "*IDN?"`
+tmp=`lxi scpi -a 192.168.8.3 ":*TST?"`
+status=`lxi scpi -a 192.168.8.3 ":OUTPUT?"`
+echo "DP832 PSU"
+echo " - Status: $status"
+echo " - Version: $version"
+echo " - Self test: $tmp"
+echo ""
+#echo -n "Resetting... "
+#lxi scpi -a 192.168.8.3 "*RST"
+#status=`lxi scpi -a 192.168.8.3 ":OUTPUT?"`
+#echo "$status"
+#echo -n "Waiting for clean cold start... "
+#sleep 5
+#echo "OK"
+
+echo -n "Turning channels off... "
+lxi scpi -a 192.168.8.3 ":OUTPUT CH1,OFF"
+lxi scpi -a 192.168.8.3 ":OUTPUT CH2,OFF"
+lxi scpi -a 192.168.8.3 ":OUTPUT CH3,OFF"
+echo "OK"
+
+echo "Setting up channel #1"
+echo -n " - Voltage: "
+lxi scpi -a 192.168.8.3 ":SOURCE1:VOLTAGE:LEVEL 4.85"
+voltage=`lxi scpi -a 192.168.8.3 ":SOURCE1:VOLTAGE:LEVEL?"`
+echo "${voltage}V"
+echo -n " - Voltage limit: "
+lxi scpi -a 192.168.8.3 ":SOURCE1:VOLTAGE:PROTECTION:LEVEL 5"
+voltage=`lxi scpi -a 192.168.8.3 ":SOURCE1:VOLTAGE:PROTECTION:LEVEL?"`
+echo "${voltage}V"
+echo -n " - Voltage limiting: "
+state=`lxi scpi -a 192.168.8.3 ":SOURCE1:VOLTAGE:PROTECTION:STATE ON"`
+echo "ON"
+echo -n " - Current: "
+lxi scpi -a 192.168.8.3 ":SOURCE1:CURRENT:LEVEL 0.1"
+current=`lxi scpi -a 192.168.8.3 ":SOURCE1:CURRENT:LEVEL?"`
+echo "${current}A"
+echo -n " - Current limit: "
+lxi scpi -a 192.168.8.3 ":SOURCE1:CURRENT:PROTECTION:LEVEL 0.2"
+current=`lxi scpi -a 192.168.8.3 ":SOURCE1:CURRENT:PROTECTION:LEVEL?"`
+echo "${current}A"
+echo -n " - Current limiting: "
+state=`lxi scpi -a 192.168.8.3 ":SOURCE1:CURRENT:PROTECTION:STATE ON"`
+echo "ON"
+
+echo "Setting up channel #2"
+echo -n " - Voltage: "
+lxi scpi -a 192.168.8.3 ":SOURCE2:VOLTAGE:LEVEL 5"
+voltage=`lxi scpi -a 192.168.8.3 ":SOURCE2:VOLTAGE:LEVEL?"`
+echo "${voltage}V"
+echo -n " - Voltage limit: "
+lxi scpi -a 192.168.8.3 ":SOURCE2:VOLTAGE:PROTECTION:LEVEL 5.2"
+voltage=`lxi scpi -a 192.168.8.3 ":SOURCE2:VOLTAGE:PROTECTION:LEVEL?"`
+echo "${voltage}V"
+echo -n " - Voltage limiting: "
+state=`lxi scpi -a 192.168.8.3 ":SOURCE2:VOLTAGE:PROTECTION:STATE ON"`
+echo "ON"
+echo -n " - Current: "
+lxi scpi -a 192.168.8.3 ":SOURCE2:CURRENT:LEVEL 0.05"
+current=`lxi scpi -a 192.168.8.3 ":SOURCE2:CURRENT:LEVEL?"`
+echo "${current}A"
+echo -n " - Current limit: "
+lxi scpi -a 192.168.8.3 ":SOURCE2:CURRENT:PROTECTION:LEVEL 0.1"
+current=`lxi scpi -a 192.168.8.3 ":SOURCE2:CURRENT:PROTECTION:LEVEL?"`
+echo "${current}A"
+echo -n " - Current limiting: "
+state=`lxi scpi -a 192.168.8.3 ":SOURCE2:CURRENT:PROTECTION:STATE ON"`
+echo "ON"
+
+echo "Setting up channel #3"
+echo -n " - Voltage: "
+lxi scpi -a 192.168.8.3 ":SOURCE3:VOLTAGE:LEVEL 5"
+voltage=`lxi scpi -a 192.168.8.3 ":SOURCE3:VOLTAGE:LEVEL?"`
+echo "${voltage}V"
+echo -n " - Voltage limit: "
+lxi scpi -a 192.168.8.3 ":SOURCE3:VOLTAGE:PROTECTION:LEVEL 5"
+voltage=`lxi scpi -a 192.168.8.3 ":SOURCE3:VOLTAGE:PROTECTION:LEVEL?"`
+echo "${voltage}V"
+echo -n " - Voltage limiting: "
+state=`lxi scpi -a 192.168.8.3 ":SOURCE3:VOLTAGE:PROTECTION:STATE ON"`
+echo "ON"
+echo -n " - Current: "
+lxi scpi -a 192.168.8.3 ":SOURCE3:CURRENT:LEVEL 0.01"
+current=`lxi scpi -a 192.168.8.3 ":SOURCE3:CURRENT:LEVEL?"`
+echo "${current}A"
+echo -n " - Current limit: "
+lxi scpi -a 192.168.8.3 ":SOURCE3:CURRENT:PROTECTION:LEVEL 0.02"
+current=`lxi scpi -a 192.168.8.3 ":SOURCE3:CURRENT:PROTECTION:LEVEL?"`
+echo "${current}A"
+echo -n " - Current limiting: "
+state=`lxi scpi -a 192.168.8.3 ":SOURCE3:CURRENT:PROTECTION:STATE ON"`
+echo "ON"
+
+echo ""
+
+#echo "Triggering channel 1 for test period"
+#echo " - Enable"
+#lxi scpi -a 192.168.8.3 ":OUTPUT CH2,ON"
+#sleep  0.75
+##psushot
+##sleep 0.5
+#lxi scpi -a 192.168.8.3 ":OUTPUT CH2,OFF"
+#echo " - Disable"
+#
+#echo ""
+
+#echo -n "Turning on... "
+#lxi scpi -a 192.168.8.3 ":OUTPUT CH1,ON"
+#lxi scpi -a 192.168.8.3 ":OUTPUT CH2,ON"
+#lxi scpi -a 192.168.8.3 ":OUTPUT CH3,ON"
+#state=`lxi scpi -a 192.168.8.3 ":OUTP:STATE?"`
+#echo "${state}"
+#
+#echo ""

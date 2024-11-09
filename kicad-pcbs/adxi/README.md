@@ -1107,6 +1107,59 @@ Cleaned the bench off, got to work setting up the new board and wanted to add so
 
 All set up: bench cleaned, new MCU module, new cable, standoffs attached, cable routed in. Ready for MCU programming.
 
+### Bench test of power priority failover
+
+[Schottky diodes 10SQ050 (10A 50V)](https://www.smc-diodes.com/propdf/10SQ050%20N0019%20REV.A.pdf) arrived, bench testing with first Schottky diode's anode to bench supply channel 1 (4.85V), second Schottky diode's anode to bench supply channel 2 (5.0V), cathodes are a common load point which links to GND through a 100K load resistor.
+
+The common load point links is instrumented with the oscilloscope to determine the output voltage.
+
+Test process:
+ 1. __Channel 1 (4.85V 0.1A) is on, Channel 2 (5.0V 0.05A) diode path is physically disconnected.__
+   * Expected result: ~4.85V shows at common load point.
+   * Result: 4.8V shows at common load point, equating to a loss of 0.05V for one diode present. ![image](debugging/failover-test-step1-scope.png) ![image](debugging/failover-test-step1-psu.png)
+ 2. __Channel 1 (4.85V 0.1A) is on, Channel 2 (5.0V 0.05A) diode path is physically connected but switched off.__
+   * Expected result: ~4.85V shows at common load point, or ~4.8V (previous result) or ~4.75V (less similar losses for second diode).
+   * Result: Not as expected. 4.55V shows at common load point, equating to a further loss from 4.8V of 0.25V for the second diode present.  ![image](debugging/failover-test-step2-scope.png) ![image](debugging/failover-test-step2-psu.png)
+   * Hypothesis: Some kind of reverse voltage loss is present in the second diode path. Perhaps this can be mitigated by adding a small, high amperage rated resistor? It is interesting to see the scale of difference between the two diodes, these diodes may have higher manufacturing tolerances because they are intended for less precision loads and therefore probably do not have many users considering this level of precision. I should really have acquired some smaller Schottky diodes... went off to the store, which was closing in 30 min, and got some `1N5822` for $3 for 2 (Bargain! And even included a stack of free [Silicon Chip](https://www.siliconchip.com.au/) back-issues!) which are 40V 3A rated. This is about the level we'd like.
+ 3. __Diodes both `1N5822`, repeated test 1 with Channel 1 (4.85V 0.1A) on, Channel 2 (5.0V 0.05A) diode path physically disconnected.__
+   * Expected result: ~4.85V shows at common load point.
+   * Result: 4.74V shows at common load point. 0.4V shows with the PSU off. So around 4.7V is present. This is a 0.15V loss from the source for one diode present. This is around 3x the losses we saw with the previous `10SQ050` diodes.  ![image](debugging/failover-test-step3-scope.png) ![image](debugging/failover-test-step3-psu.png)
+ 4. __Diodes both `1N5822`, repeated test 2 with Channel 1 (4.85V 0.1A) on, Channel 2 (5.0V 0.05A) diode path physically connected but switched off.__
+   * Expected result: Increased losses.
+   * Result: Better than expected! 4.75V shows at common load point.  ![image](debugging/failover-test-step4-scope.png) ![image](debugging/failover-test-step4-psu.png)
+ 5. __Diodes both `1N5822`. Scope trigger is set for 4.9V. Channel 1 (4.85V, with 4.75V presenting) remains on, Channel 2 (5.0V) is switched on as well.__
+   * Expected result: 5.0V shows at common load point, limited or no overshoot.
+   * Result: Doesn't trigger. While voltage raises from 4.75V to 4.89V, channel 1 continues to supply while channel 2 is available, despite having a higher voltage.  ![image](debugging/failover-test-step5-scope.png) ![image](debugging/failover-test-step5-psu.png)
+   * Hypothesis: This may be due to the established state of the Schottky diode holding it open in preference to the second one, in terms of relative resistance being lower due to established current flow, or even just manufacturing differences in tolerance, but also perhaps due to the current limit on the bench supply channel. One way to vastly increase preference for a second source is to add a resistor to the first source to create a favourable circumstance for switching to the second source. Let's first increase the current limit to 0.3A and see what that does.
+ 6. __Diodes both `1N5822`. Same test as last time, with Channel 2 current set to 0.3A.__
+   * Expected result: Possibly cleanly switches to Channel 2 when activated.
+   * Result: Still fails to switch over, although voltage rise is seen. ![image](debugging/failover-test-step6-scope.png) ![image](debugging/failover-test-step6-psu.png)
+   * Hypothesis: Since the current limit didn't help, let's add a resistor to Channel 1. We'll make it 10K.
+ 7. __Diodes both `1N5822`. Same test as last time, with Channel 1 having a 10K resistor before the Schottky diode.__
+   * Expected result: Possibly cleanly switches to Channel 2 when activated.
+   * Result: Still fails to switch over, although voltage rise is seen. ![image](debugging/failover-test-step7-scope.png) ![image](debugging/failover-test-step7-psu.png)
+   * Hypothesis: The voltage difference is insufficient to make the change occur. To test this, we can increase the voltage to 10V and see if the change occurs.
+ 8. __Diodes both `1N5822`. Same test as last time, with Channel 1 having a 10K resistor before the Schottky diode.__
+   * Expected result: Possibly cleanly switches to Channel 2 when activated.
+   * Result: 9.88V, which is a difference of 0.12V from the nominal voltage. However, switchover does not occur. ![image](debugging/failover-test-step8-scope.png) ![image](debugging/failover-test-step8-psu.png)
+   * Hypothesis: Earthing the common multi-channel ground point may assist with establishing a switchover. Let's repeat with the bench PSU earth connected to the load resistor cathode at which the PSU supply channels connect.
+ 9. __Diodes both `1N5822`. Same test as last time, with earth lead from PSU earth to common cathode after load resistor.__
+   * Expected result: Possibly cleanly switches to Channel 2 when activated.
+   * Result: Changeover still fails. ![image](debugging/failover-test-step9-scope.png) ![image](debugging/failover-test-step9-psu.png)
+
+Further plans if it worked were:
+
+ 1. Both channels are switched off.
+ 2. A >5V zener diode is added between the load point and ground.
+ 3. The tests are repeated, but with Channel 1 being raised to 6V.
+   * Expected result: Zener diode protection voltage shows at load, somewhere between the original voltage and 6V. This shows transient protection works. Channel 2 never engages and shows no load, even after being turned on, since it's under the Zener protection voltage.
+ 4. The tests are repeated, but with Channel 2 being raised to 6V.
+   * Expected result: When Channel 2 is switched on, the Zener protection voltage is shown.
+
+Since this fairly detailed bench test din't work however, and the power priority circuit therefore cannot be reasonably expected to function, we should look at alternatives.
+
+It seems the alternative to two passive Schottkys is an active MOSFET switch, which would necessitate applying the voltage from the second source to the switch to cut off the initial supply.
+
 ## Complete issues list
 
  * Cable passthru too difficult, hole should be enlarged
