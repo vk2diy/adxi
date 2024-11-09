@@ -43,9 +43,14 @@ Underway:
    - [x] USB hub verified
    - [x] USB audio verified
    - [x] USB MCU module passthru verified
-   - [x] Power stage testing completed (issues found; resolution proposed and bench tested)
+   - [x] Power stage testing completed (issues found; resolution proposed and partly bench tested)
  - [ ] Firmware authoring
  - [ ] Verify functionality
+
+## Updates (2024-11-10)
+ * [Bench testing](kicad-pcbs/adxi/) of the switchover part of the proposed power solution did not go according to plan, despite attempting two different combinations of Schottky diodes in a passive configuration, adding resistors and generally investing time.
+   * The final perspective was that the issue could be the components themselves, could be the topology or could be a property of the bench supply channels when simultaneously applied to a circuit (various earthing options were tested).
+   * The conclusion was to move to an active switching topology using a power MOSFET in a standard package size. This will disconnect the early stage supply once the regulated supply becomes available.
 
 ## Update (2024-11-09)
  * A [very busy week testing](kicad-pcbs/adxi/). 
