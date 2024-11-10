@@ -1187,14 +1187,14 @@ First I had to fix my KiCad project duplication script, which had a bug and had 
 
 Then I replicated the entire board to a new project, then began to edit it.
 
-## Design the schematic
+#### Design the schematic
 
  * Shifted the old schematic off the page
  * Copied the power block back to the page as a reference
  * Drew the five identified input/output points per last two days' research
  * Began reimplementing the power stages with recommended changes
 
-## Final part selection
+#### Final part selection
 
  * During this phase I found a new error, the previously selected Schottky diode was insufficiently rated for the anticipated current. This may also have contributed to the breakdown seen in the earlier testing. This was duly replaced with an `SS34` which is 40V 3A rated with 80A peak support (should be adequate).
  * The MOSFET selected was JLCPCB's recommended ('basic') [`AO3401A`](https://jlcpcb.com/partdetail/Alpha_OmegaSemicon-AO3400A/C20917) which handily supports 4.7A RMS / 5.7A peak current.
@@ -1290,7 +1290,19 @@ Deviated slightly from the recommended layout around the boost converter, but no
 ![image](debugging/powerfix.png)
 ![image](debugging/powerfix2.png)
 
-Now ordering.
+Got that ordered.
+
+#### Firmware beginnings
+
+Began the process of rewriting the prior firmware.
+
+When I actually sat down and looked at it, something like 50% was LED control and button processing, the other 50% had about 50% comments.
+
+Removing that stuff has whittled it down to a much shorter and more comprehensible length.
+
+Removed the EEPROM use (not long-term reliable anyway), I would prefer to have the device power on to a known state and all configuration to be made from the host machine.
+
+Discovered another hardware bug through the process of firmware alteration: namely the `SI5351` requires 6pf, 8pf or 10pf crystal load capacitance and this must be set internally. While alternatives are available, one must be selected. We had already set load capacitance externally with capacitors. While this is a supported mode, it appears to be a differential configuration rather than an exclusive configuration option with regards to the internal load capacitance setting which appears to be mandatory. This could be a significant source of timing inaccuracy in this hardware revision and will need a rejig at some future point. However, for now, it will suffice, and worst case we can probably fix it with a new external cap. Added this to the list of hardware issues. There's [way more Si5351 documentation than any sane person can read before taking it for a spin](https://github.com/MR-DOS/Si5351-lib/tree/master/documentation). The critical info was buried in an associated application note and not even in the main datasheet. Thanks a lot guys...
 
 ## Complete issues list
 
@@ -1304,4 +1316,5 @@ Now ordering.
  * `MT3608B` missing 22uF output cap at OUT
  * `MT3608B` fast-switching diode had insufficient current capacity and should be replaced with `SS34`.
  * `MT3608B` block layout is crap: large loops, unduly long traces, thin traces.
-
+ * `SI5351B` crystal capacitance is unsuitable: *must* be 6, 8 or 10pF per AN554
+ * `SI5351B` external load capacitors for crystal unnecessary per AN554
