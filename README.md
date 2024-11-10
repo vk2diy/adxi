@@ -49,6 +49,7 @@ Underway:
  - [ ] Verify functionality
 
 ## Updates (2024-11-11)
+ * Began rewriting firmware, made gross simplifications, probably broke some stuff, and found another hardware bug.
  * Designed and ordered a power stage fix board. This should resolve the issues detected to date.  ![image](kicad-pcbs/adxi/debugging/powerfix.png) ![image](kicad-pcbs/adxi/debugging/powerfix2.png)
 
 ## Updates (2024-11-10)
