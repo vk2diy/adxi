@@ -2,7 +2,9 @@
 
 [ADX](https://github.com/WB2CBA/ADX) is an abbreviation for Arduino Digital Xceiver, a project emphasizing simplicity and Arduino hardware creating a [direct-conversion receiver](https://en.wikipedia.org/wiki/Direct-conversion_receiver) focused on [digital modes](http://www.arrl.org/digital-data-modes).
 
-This fork is called __adxi__ (or "ADX Improved") with the following major changes:
+The ADX project was based upon firmware by [JE1RAV](https://github.com/je1rav/QP-7C) extending on original work by Burkhard Kainka (DK7JD) ([original German](https://www.elektronik-labor.de/HF/FT8QRP.html), [English translation](https://www-elektronik--labor-de.translate.goog/HF/FT8QRP.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp)).
+
+This (very distant!) fork of ADX is called __adxi__ (or "ADX Improved") with the following major changes:
  * __abandon simplicity as a design philosophy__ since it limits our feature set and understanding
  * __improved design documentation__ to facilitate learning
  * __restores access to the project for modern KiCad__
@@ -23,6 +25,7 @@ The project scope generally includes the following:
  * Late stage board modules (each for different frequency bands)
  * Assembly information
  * Design documentation
+ * Debugging documentation
 
 ## Current status of this fork
 
