@@ -1304,6 +1304,14 @@ Removed the EEPROM use (not long-term reliable anyway), I would prefer to have t
 
 Discovered another hardware bug through the process of firmware alteration: namely the `SI5351` requires 6pf, 8pf or 10pf crystal load capacitance and this must be set internally. While alternatives are available, one must be selected. We had already set load capacitance externally with capacitors. While this is a supported mode, it appears to be a differential configuration rather than an exclusive configuration option with regards to the internal load capacitance setting which appears to be mandatory. This could be a significant source of timing inaccuracy in this hardware revision and will need a rejig at some future point. However, for now, it will suffice, and worst case we can probably fix it with a new external cap. Added this to the list of hardware issues. There's [way more Si5351 documentation than any sane person can read before taking it for a spin](https://github.com/MR-DOS/Si5351-lib/tree/master/documentation). The critical info was buried in an associated application note and not even in the main datasheet. Thanks a lot guys...
 
+### 2024-11-11
+
+Continued to set firmware initial states.
+
+Discovered unduly thin traces in PA drain MOSFET area, added to issues list.
+
+Discovered that the borrowed third-party optimized implementation for inbound receieve decoding in the original firmware ([documented narratively with reference to other projects and hardware in Japanese over here](https://github.com/je1rav/QP-7C); [auto-translation](https://github-com.translate.goog/je1rav/QP-7C?tab=readme-ov-file&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp)) depended on having a seemingly but not actually redundant ground input to an otherwise unused pin via a relatively obscure microcontroller feature known as the "analog comparator", which has an explicit reliance on that particular pin despite never naming it in the code. Nowhere was this effectively documented, thus it was missed as design time as I have never used this feature despite making 100s of boards. It was necessary to read the [ATMega328P microcontroller datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf) (page 202 onward of 294) to determine this dependency. This is a great example of why hardware is tedious: you can't make this stuff up. Anyway, the situation can be worked around with a jumper cable for now. Subsequent revisions will require explicit grounding of this pin.
+
 ## Complete issues list
 
  * Cable passthru too difficult, hole should be enlarged
@@ -1318,3 +1326,6 @@ Discovered another hardware bug through the process of firmware alteration: name
  * `MT3608B` block layout is crap: large loops, unduly long traces, thin traces.
  * `SI5351B` crystal capacitance is unsuitable: *must* be 6, 8 or 10pF per AN554
  * `SI5351B` external load capacitors for crystal unnecessary per AN554
+ * `SI5351B` lacks test points on clock outputs
+ * PA drain traces to MOSFET too thin, which will cause issuses with the power amplifier at higher current.
+ * `ATMEGA328P` analog comparator input (undocumented in original design and firmware) requires grounding.
