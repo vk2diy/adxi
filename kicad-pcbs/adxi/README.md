@@ -1160,14 +1160,148 @@ Since this fairly detailed bench test din't work however, and the power priority
 
 It seems the alternative to two passive Schottkys is an active MOSFET switch, which would necessitate applying the voltage from the second source to the switch to cut off the initial supply.
 
+### 2024-11-10 Power fix board
+
+The goal for today is to get the power fix board designed and ordered.
+
+With reference to yesterday's failed bench testing of a passive Schottky diode and resistor based topology, the fix will instead use an n-channel MOSFET to perform the changeover for the `TUSB321` chip from early-stage power (`VBUS`) to later stage power (regulated `5V` rail).
+
+There are a few stages to this:
+ * Get the correct geometry out of the existing board and in to the new board
+ * Design the schematic
+   * `VBUS` to n-channel MOSFET drain
+   * `TUSB321:VDD` to n-channel MOSFET source
+   * `5V` regulated supply to n-channel MOSFET gate via pulldown and current-limiting resistor
+   * Zener diode between gate (cathode; but after a 100-1000 ohm transient current-limiting resistor) and source (anode) for transient protection with voltage rating:
+     * less than MOSFET V_GS(max); but
+     * significantly higher than MOSFET V_GS(th);
+       * ... so that the MOSFET can turn on fully and reach its lowest RDS(on).
+ * Final part selection
+ * Lay out the schematic
+
+OK, now time to get started on the KiCad.
+
+#### Copy geometry
+
+First I had to fix my KiCad project duplication script, which had a bug and had not been used in awhile. Fixed that.
+
+Then I replicated the entire board to a new project, then began to edit it.
+
+## Design the schematic
+
+ * Shifted the old schematic off the page
+ * Copied the power block back to the page as a reference
+ * Drew the five identified input/output points per last two days' research
+ * Began reimplementing the power stages with recommended changes
+
+## Final part selection
+
+ * During this phase I found a new error, the previously selected Schottky diode was insufficiently rated for the anticipated current. This may also have contributed to the breakdown seen in the earlier testing. This was duly replaced with an `SS34` which is 40V 3A rated with 80A peak support (should be adequate).
+ * The MOSFET selected was JLCPCB's recommended ('basic') [`AO3401A`](https://jlcpcb.com/partdetail/Alpha_OmegaSemicon-AO3400A/C20917) which handily supports 4.7A RMS / 5.7A peak current.
+   * `V_GS` is 12V
+   * `V_GS(th)` is <1.45V
+   * Therefore we need a zener diode with a voltage rating set to limit voltage between 1.45-12V.
+   * However, since our supply voltage is only 5V, we actually need a zener diode with a voltage rating between 1.45V and 5V.
+   * For this purpose, 3.3V would do.
+ * The Zener diode selected was [BZT52B3V3](https://jlcpcb.com/partdetail/Hongjiacheng-BZT52B3V3/C19077392).
+ * Current limiting resistors were selected from basic parts available at JLC which means 3 x 1.2k in parallel, based on the calculation on the schematic.
+ * The inductor selected was [Changjiang FXL1350_100M](https://jlcpcb.com/partdetail/544122-FXL1350_100M/C526017) which has the benefits of being:
+   * Wide and short, meaning a higher surface area to volume ratio, meaning lower EMI due to better shielding
+   * Large in current rating and therefore stable over the anticipated range of current draw
+   * In good stock
+   * Unlikely to be suddenly a favourite of others, since it has a non-standard package size
+
+The completed schematic looked like this:
+
+![image](debugging/fix-pcb-schematic.png)
+
+## Lay out the schematic
+
+First, I carefully added pad edges and placeholder positioning indicators to a board comment layer. This allows easier reasoning around interface pin placement, particularly where a test point is not available and an interface must be made at the edge of an existing component.
+
+Second, I had to import the footprint for the inductor since it was non standard. This was achieved using a [modified form of the `JLC2KiCad_lib` python script](https://github.com/vk2diy/JLC2KiCad_lib) as follows:
+
+```
+$ cd ~/code/JLC2KiCad_lib/ # enter the directory
+$ . ./bin/activate # activate previously prepared local virtual python environment (venv)
+$ $ JLC2KiCadLib --no_symbol C526017
+2024-11-10 11:49:12,310 - INFO - creating library for component C526017
+2024-11-10 11:49:12,619 - INFO - creating footprint ...
+2024-11-10 11:49:13,438 - INFO - creating 3D model ...
+2024-11-10 11:49:14,378 - INFO - added /home/vk2diy/code/JLC2KiCad_lib/JLC2KiCad_lib/footprint/packages3d/IND-SMD_L12.6-W13.5.wrl to footprint
+2024-11-10 11:49:14,379 - INFO - created 'JLC2KiCad_lib/footprint/IND-SMD_L12.6-W13.5.kicad_mod'
+```
+
+Owing to an [open pull request](https://github.com/TousstNicolas/JLC2KiCad_lib/pull/75) it is necessary to do some hacking.
+
+```
+$ sed -i -e 's/model .*\//model /' JLC2KiCad_lib/footprint/IND-SMD_L12.6-W13.5.kicad_mod # replace absolute path with relative path
+```
+
+Now we want to copy the footprint definition file and the associated 3D model to the KiCad project.
+
+```
+$ mkdir ../adxi/kicad-pcbs/adxi-1.2-powerfix-1/library # make a library subdirectory for the project
+$ cp JLC2KiCad_lib/footprint/IND-SMD_L12.6-W13.5.kicad_mod JLC2KiCad_lib/footprint/packages3d/IND-SMD_L12.6-W13.5.wrl ../adxi/kicad-pcbs/adxi-1.2-powerfix-1/library/
+```
+
+Before associating the new footprint with the symbol in the schematic it was necessary to tell the KiCad project about the footprint library.
+
+This is a very ridiculous process which will hopefully improve in future.
+
+First, you have to enter the layout part of the program.
+
+Then, you click 'Manage Footprint Libraries' from the top menus to specify the path using the shorthand value `${KIPRJMOD}/library`.
+
+![image](debugging/manage-footprint-libraries.png)
+
+Then, once saved you go back to the schematic.
+
+In the schematic you edit the symbol.
+
+![image](debugging/symbol-properties.png)
+
+Here you specify the footprint via the chooser. To save time you can type a part of the footprint, like '12.6' and the long list will be shortened for easy selection.
+
+![image](debugging/footprint-chooser.png)
+
+Actually you should edit library footprint here, set 'SMD' instead of 'Through Hole' in the properties ([open issue here](https://github.com/TousstNicolas/JLC2KiCad_lib/issues/77)), and draw a courtyard box ([open issue here](https://github.com/TousstNicolas/JLC2KiCad_lib/issues/76)). Save. Then return to the dialog, and click 'Update from library footprint'. This prevents errors later.
+
+I made a backup of the directory before updating the board to import new items to allow me to clear old components for clarity while maintaining geometry without fear of losing any data.
+
+```
+$ cp -R ../adxi/kicad-pcbs/adxi-1.2-powerfix-1/ ../adxi/kicad-pcbs/adxi-1.2-powerfix-1-backup/
+```
+
+Once the footprints were imported it looked like this.
+
+![image](debugging/footprints-before-layout.png)
+
+With a few placements, the gist of the board began to appear.
+
+![image](debugging/fix-first-3d.png)
+
+The main problem is after adding the oversized inductor (good quality; nice part; worth testing) there wasn't a lot of board space left. I could have done a double-sided board for top dollar but that's sort of ridiculous. So I chose to drop the 27 ohm ripple rejection resistors which in aggregate take half the board since they are 1W each. I guess that's the price you pay for current. This should be safe enough to get us past the finish line regardless, since there's already a regulator between this part of the circuit and the functional blocks, and there's a lot of capacitance spread around.
+
+After awhile, all done.
+
+Deviated slightly from the recommended layout around the boost converter, but nothing that should be significant.
+
+![image](debugging/powerfix.png)
+![image](debugging/powerfix2.png)
+
+Now ordering.
+
 ## Complete issues list
 
  * Cable passthru too difficult, hole should be enlarged
  * `TUSB321` PD chip incorrect topology
  * `TUSB321` PD chip missing 100uF and 100nF caps at VDD
- * `MT3608B` self-destructed for unknown reasons, maybe voltage peaks from oversized inductor
+ * `MT3608B` self-destructed for unknown reasons, maybe voltage peaks from oversized inductor, current-incapable diode
  * `MT3608B` inductor too large at 22uH, reduce to 6.8uH or 10uH.
  * `MT3608B` inductor should be low DCR.
  * `MT3608B` missing 22uF cap at VIN input (place directly across terminals)
  * `MT3608B` missing 22uF output cap at OUT
+ * `MT3608B` fast-switching diode had insufficient current capacity and should be replaced with `SS34`.
  * `MT3608B` block layout is crap: large loops, unduly long traces, thin traces.
+

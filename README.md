@@ -44,8 +44,12 @@ Underway:
    - [x] USB audio verified
    - [x] USB MCU module passthru verified
    - [x] Power stage testing completed (issues found; resolution proposed and partly bench tested)
+ - [x] Design and order power stage fix board
  - [ ] Firmware authoring
  - [ ] Verify functionality
+
+## Updates (2024-11-11)
+ * Designed and ordered a power stage fix board. This should resolve the issues detected to date.  ![image](kicad-pcbs/adxi/debugging/powerfix.png) ![image](kicad-pcbs/adxi/debugging/powerfix2.png)
 
 ## Updates (2024-11-10)
  * [Bench testing](kicad-pcbs/adxi/) of the switchover part of the proposed power solution did not go according to plan, despite attempting two different combinations of Schottky diodes in a passive configuration, adding resistors and generally investing time.
