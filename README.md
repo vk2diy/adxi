@@ -26,7 +26,7 @@ The project scope generally includes the following:
 
 ## Current status of this fork
 
-The first boards have been ordered.
+The first boards have been received and despite issues have been verified as partly functional.
 
 Completed:
 
