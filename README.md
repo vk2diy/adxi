@@ -39,14 +39,20 @@ Completed:
  - [x] Order boards
 
 Underway:
+
  - [x] Board testing and bringup
    - [x] USB hub verified
    - [x] USB audio verified
    - [x] USB MCU module passthru verified
    - [x] Power stage testing completed (issues found; resolution proposed and partly bench tested)
- - [x] Design and order power stage fix board
- - [ ] Firmware authoring
- - [ ] Verify functionality
+     - [x] Design and order power stage fix board
+   - [ ] Firmware authoring to verify remaining functional blocks
+ - [ ] Integrate and test late stage module
+ - [ ] Verify system functionality
+
+Future:
+
+ - [ ] adxi-1.3 main board revision - incorporating power stage fixes and other improvements, after a full set are known
 
 ## Updates (2024-11-11)
  * Began rewriting firmware, made gross simplifications, probably broke some stuff, and found another hardware bug.
