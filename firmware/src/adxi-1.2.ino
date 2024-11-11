@@ -98,7 +98,7 @@ void setup() {
   pinMode(PIN_RECEIVE_ENABLE_WHEN_LOW_OUTPUT,OUTPUT);
   pinMode(PIN_PA_DRIVE_PWM_OUTPUT,OUTPUT);
   pinMode(PIN_SPI_MOSI,OUTPUT);
-  pinMode(PIN_SPI_SS,OUTPUT);
+  pinMode(PIN_SPI_SS_3V3OUTPUTS,OUTPUT);
   pinMode(PIN_SPI_SCK,OUTPUT);
   pinMode(PIN_FORWARD_POWER_INPUT,INPUT);
   pinMode(PIN_REVERSE_POWER_INPUT,INPUT);
@@ -108,7 +108,7 @@ void setup() {
   digitalWrite(PIN_RECEIVE_ENABLE_WHEN_LOW_OUTPUT,HIGH);
   digitalWrite(PIN_PA_DRIVE_PWM_OUTPUT,LOW);
   digitalWrite(PIN_SPI_MOSI,LOW);
-  digitalWrite(PIN_SPI_SS,LOW);
+  digitalWrite(PIN_SPI_SS_3V3OUTPUTS,LOW);
   digitalWrite(PIN_SPI_SCK,LOW);
   digitalWrite(PIN_I2C_SCL,LOW);
 
