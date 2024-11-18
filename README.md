@@ -49,7 +49,9 @@ Underway:
    - [x] USB MCU module passthru verified
    - [x] Power stage testing completed (issues found; resolution proposed and partly bench tested)
      - [x] Design and order power stage fix board
-   - [ ] Firmware authoring to verify remaining functional blocks
+     - [x] Receive and assemble power stage fix board
+     - [x] Debug power stages with fix board
+   - [ ] Firmware authoring to verify remaining functional blocks (in progress)
  - [ ] Integrate and test late stage module
  - [ ] Verify system functionality
 
@@ -57,11 +59,15 @@ Future:
 
  - [ ] adxi-1.3 main board revision - incorporating power stage fixes and other improvements, after a full set are known
 
-## Updates (2024-11-11)
+## Update (2024-11-19)
+ * Power stage fix board [fully debugged](kicad-pcbs/adxi-1.2-powerfix-1/), plugs in and works from USB-C
+ * Firmware can now be uploaded and tested with no bench supply
+
+## Update (2024-11-11)
  * Began rewriting firmware, made gross simplifications, probably broke some stuff, and found another hardware bug.
  * Designed and ordered a power stage fix board. This should resolve the issues detected to date.  ![image](kicad-pcbs/adxi/debugging/powerfix.png) ![image](kicad-pcbs/adxi/debugging/powerfix2.png)
 
-## Updates (2024-11-10)
+## Update (2024-11-10)
  * [Bench testing](kicad-pcbs/adxi/) of the switchover part of the proposed power solution did not go according to plan, despite attempting two different combinations of Schottky diodes in a passive configuration, adding resistors and generally investing time.
    * The final perspective was that the issue could be the components themselves, could be the topology or could be a property of the bench supply channels when simultaneously applied to a circuit (various earthing options were tested).
    * The conclusion was to move to an active switching topology using a power MOSFET in a standard package size. This will disconnect the early stage supply once the regulated supply becomes available.
