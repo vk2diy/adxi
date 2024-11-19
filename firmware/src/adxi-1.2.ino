@@ -7,6 +7,8 @@
 //  major changes from ADX-era firmware:
 //   - restructured for platformio
 //   - restructured for adxi-1.2 hardware
+//     - added forward and reverse power and SWR sensing
+//     - added USB and audio chipset status display
 //   - removed blinkenlights / buttons interface
 //   - removed EEPROM use
 
