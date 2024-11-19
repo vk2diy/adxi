@@ -62,6 +62,7 @@ Future:
 ## Update (2024-11-19)
  * Power stage fix board [fully debugged](kicad-pcbs/adxi-1.2-powerfix-1/), plugs in and works from USB-C
  * Firmware can now be uploaded and tested with no bench supply
+ * Modified platformio configuration to get firmware uploads reliably working 
 
 ## Update (2024-11-11)
  * Began rewriting firmware, made gross simplifications, probably broke some stuff, and found another hardware bug.
