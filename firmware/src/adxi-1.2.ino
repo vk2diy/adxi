@@ -114,7 +114,15 @@ void setup() {
 
   Serial.begin(115200);
   //Serial.setTimeout(4);
+
+  Serial.println(F("adxi-1.2"));
+  Serial.println(F(" "));
+  Serial.println(F("init"));
   
+  Serial.print(F(" - "));
+  Serial.print(F("si5351"));
+  Serial.print(F("..."));
+  Serial.print(F(" "));
   si5351.init(SI5351_CRYSTAL_LOAD_10PF, 0, 0); // Ooh dang! We have 12pF. That's not good. Bug!
   si5351.set_correction(SI5351_CALIBRATION_FACTOR, SI5351_PLL_INPUT_XO);
   si5351.set_pll(SI5351_PLL_FIXED, SI5351_PLLA);
@@ -124,11 +132,23 @@ void setup() {
   si5351.set_clock_pwr(SI5351_CLK0, 0); // disable at startup
   si5351.set_clock_pwr(SI5351_CLK1, 0); // disable at startup
   si5351.set_clock_pwr(SI5351_CLK2, 0); // unused
+  Serial.println(F("ok"));
 
+  Serial.print(F(" - "));
+  Serial.print(F("timer"));
+  Serial.print(F("..."));
+  Serial.print(F(" "));
   TCCR1A = 0x00;
   TCCR1B = 0x01; // Timer1 Timer 16 MHz
   TCCR1B = 0x81; // Timer1 Input Capture Noise Canceller
+  Serial.println(F("ok"));
+
+  Serial.print(F(" - "));
+  Serial.print(F("comparator"));
+  Serial.print(F("..."));
+  Serial.print(F(" "));
   ACSR |= (1<<ACIC);  // Analog Comparator Capture Input
+  Serial.println(F("ok"));
 
 }
 
@@ -143,14 +163,63 @@ void transmit_enable() {
  si5351.output_enable(SI5351_CLK0, 1); // transmit enable
 }
 
+unsigned int get_forward_power(void) {
+ return analogRead(PIN_FORWARD_POWER_INPUT);
+}
+
+unsigned int get_reverse_power(void) {
+ return analogRead(PIN_REVERSE_POWER_INPUT);
+}
+
+unsigned int get_standing_wave_ratio(void) {
+ unsigned int rvp;
+ unsigned int fwp;
+ rvp = get_reverse_power();
+ if(rvp!=0) {
+  fwp = get_forward_power();
+  return fwp/rvp;
+ }
+ return 0;
+}
+
 void loop() {
 
+  unsigned int fwp;
+  fwp = get_forward_power();
+  unsigned int rvp;
+  rvp = get_reverse_power();
+  unsigned int swr;
+  swr = get_standing_wave_ratio();
+
+  // print status information
+  Serial.print(F(" - "));
+  Serial.print(F("FWP"));
+  Serial.print(F(": "));
+  Serial.print(fwp);
+  Serial.print(F(" / "));
+  Serial.print(F("RVP"));
+  Serial.print(F(": "));
+  Serial.print(rvp);
+  Serial.print(F(" / "));
+  Serial.print(F("SWR"));
+  Serial.print(F(": "));
+  Serial.println(swr);
+
+  delay(200);
+  // simply print what is received
+//  if(Serial.available()>0) {
+//   Serial.print(Serial.readString());
+//  }
+
+/*
   if ((Serial.available() > 0) || (cat_stat == 1)) {
+    Serial.print(F("_"));
     cat_stat = 1;
     process_host_serial_input();
     receive_enable();
   }
   else {  
+    Serial.print(F("*"));
 
    // The following code is from JE1RAV https://github.com/je1rav/QP-7C
    //(Using 3 cycles for timer sampling to improve the precision of frequency measurements)
@@ -278,6 +347,7 @@ void loop() {
    TX_State = 0;
    FSKtx = 0;
  }
+ */
 }
 
 // void band_frequencies(void) {
