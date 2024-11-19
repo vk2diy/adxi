@@ -10,9 +10,14 @@
 //   - removed blinkenlights / buttons interface
 //   - removed EEPROM use
 
+// debug strings
+#define __COMPILER__ "gcc " __VERSION__ " @ " __DATE__ " " __TIME__
+#define __FILENAME__ (strrchr(__FILE__, '/') ? strrchr(__FILE__, '/') + 1 : __FILE__)
+
 // libraries
 #include <si5351.h>     // clock generator
 #include "Wire.h"       // I2C
+#include "SPI.h"        // SPI
 
 // MCU pin definitions
 #define PIN_CM108B_LEDR_INPUT 2
@@ -90,6 +95,18 @@ Si5351 si5351;
 
 //*************************************[ SETUP FUNCTION ]**************************************
 void setup() {
+  Serial.begin(115200);
+  //Serial.setTimeout(4);
+
+  Serial.println(__FILENAME__);
+  Serial.println(__COMPILER__);
+  Serial.println();
+  Serial.println(F("init"));
+
+  Serial.print(F(" - "));
+  Serial.print(F("pins"));
+  Serial.print(F("..."));
+  Serial.print(F(" "));
   pinMode(PIN_CM108B_LEDR_INPUT,INPUT);
   pinMode(PIN_CM108B_LEDO_INPUT,INPUT);
   pinMode(PIN_TUSB321_IMODE1_INPUT,INPUT);
@@ -104,20 +121,13 @@ void setup() {
   pinMode(PIN_REVERSE_POWER_INPUT,INPUT);
   pinMode(PIN_I2C_SDA,INPUT);
   pinMode(PIN_I2C_SCL,OUTPUT);
-
   digitalWrite(PIN_RECEIVE_ENABLE_WHEN_LOW_OUTPUT,HIGH);
   digitalWrite(PIN_PA_DRIVE_PWM_OUTPUT,LOW);
   digitalWrite(PIN_SPI_MOSI,LOW);
   digitalWrite(PIN_SPI_SS_3V3OUTPUTS,LOW);
   digitalWrite(PIN_SPI_SCK,LOW);
   digitalWrite(PIN_I2C_SCL,LOW);
-
-  Serial.begin(115200);
-  //Serial.setTimeout(4);
-
-  Serial.println(F("adxi-1.2"));
-  Serial.println(F(" "));
-  Serial.println(F("init"));
+  Serial.println(F("OK"));
   
   Serial.print(F(" - "));
   Serial.print(F("si5351"));
@@ -132,7 +142,14 @@ void setup() {
   si5351.set_clock_pwr(SI5351_CLK0, 0); // disable at startup
   si5351.set_clock_pwr(SI5351_CLK1, 0); // disable at startup
   si5351.set_clock_pwr(SI5351_CLK2, 0); // unused
-  Serial.println(F("ok"));
+  Serial.println(F("OK"));
+
+  Serial.print(F(" - "));
+  Serial.print(F("SPI"));
+  Serial.print(F("..."));
+  Serial.print(F(" "));
+  SPI.begin();
+  Serial.println(F("OK"));
 
   Serial.print(F(" - "));
   Serial.print(F("timer"));
@@ -141,14 +158,14 @@ void setup() {
   TCCR1A = 0x00;
   TCCR1B = 0x01; // Timer1 Timer 16 MHz
   TCCR1B = 0x81; // Timer1 Input Capture Noise Canceller
-  Serial.println(F("ok"));
+  Serial.println(F("OK"));
 
   Serial.print(F(" - "));
   Serial.print(F("comparator"));
   Serial.print(F("..."));
   Serial.print(F(" "));
   ACSR |= (1<<ACIC);  // Analog Comparator Capture Input
-  Serial.println(F("ok"));
+  Serial.println(F("OK"));
 
 }
 
@@ -182,6 +199,22 @@ unsigned int get_standing_wave_ratio(void) {
  return 0;
 }
 
+int get_cm108b_ledr(void) {
+ return digitalRead(PIN_CM108B_LEDR_INPUT);
+}
+
+int get_cm108b_ledo(void) {
+ return digitalRead(PIN_CM108B_LEDO_INPUT);
+}
+
+int get_tusb321_imode1(void) {
+ return digitalRead(PIN_TUSB321_IMODE1_INPUT);
+}
+
+int get_tusb321_imode2(void) {
+ return digitalRead(PIN_TUSB321_IMODE2_INPUT);
+}
+
 void loop() {
 
   unsigned int fwp;
@@ -190,6 +223,14 @@ void loop() {
   rvp = get_reverse_power();
   unsigned int swr;
   swr = get_standing_wave_ratio();
+  unsigned int ledr;
+  ledr = get_cm108b_ledr();
+  unsigned int ledo;
+  ledo = get_cm108b_ledo();
+  unsigned int imode1;
+  imode1 = get_tusb321_imode1();
+  unsigned int imode2;
+  imode2 = get_tusb321_imode2();
 
   // print status information
   Serial.print(F(" - "));
@@ -203,9 +244,25 @@ void loop() {
   Serial.print(F(" / "));
   Serial.print(F("SWR"));
   Serial.print(F(": "));
-  Serial.println(swr);
+  Serial.print(swr);
+  Serial.print(F(" / "));
+  Serial.print(F("LEDR"));
+  Serial.print(F(": "));
+  Serial.print(ledr);
+  Serial.print(F(" / "));
+  Serial.print(F("LEDO"));
+  Serial.print(F(": "));
+  Serial.print(ledo);
+  Serial.print(F(" / "));
+  Serial.print(F("IMODE1"));
+  Serial.print(F(": "));
+  Serial.print(imode1);
+  Serial.print(F(" / "));
+  Serial.print(F("IMODE2"));
+  Serial.print(F(": "));
+  Serial.println(imode2);
 
-  delay(200);
+  delay(500);
   // simply print what is received
 //  if(Serial.available()>0) {
 //   Serial.print(Serial.readString());
