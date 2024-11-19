@@ -8,6 +8,20 @@ See [What is PlatformIO?](https://docs.platformio.org/en/latest/what-is-platform
 
 ## Using platformio
 
+### Python venv
+
+You may need a python virtual environment to run. This cross-platform mechanism provides a way for different python environments to be manage on one system.
+
+In order to create a python virtual environment, run `python venv init`.
+
+In order to enter a pre-existing python virtual environment, change to the correct directory at the top of the tree and run `. ./bin/activate`.
+
+In this environment, all python commands (including `pio` for platform IO) will use the virtual python environment and its packages.
+
+When you are done, type `exit` to return to the normal system shell.
+
+### General use
+
 To compile simply type `pio run`.
 
 For other commands, see [CLI command list](https://docs.platformio.org/en/latest/core/userguide/index.html#piocore-userguide).
