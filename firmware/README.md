@@ -30,7 +30,8 @@ For example:
 
  * `pio project config --lint` will verify project configuration.
  * `pio package install` will install missing dependencies.
+ * `pio pkg update` will update dependencies.
  * `pio check` will run a static code analysis.
  * `pio run` will build the project.
- * `pio pkg update` will update dependencies.
+ * `pio run -t upload` will upload the project to the device.
  * `pio test -h` will show testing related commands.
