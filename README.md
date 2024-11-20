@@ -51,13 +51,16 @@ Underway:
      - [x] Design and order power stage fix board
      - [x] Receive and assemble power stage fix board
      - [x] Debug power stages with fix board
+   - [x] Assemble, solder-configure and mount late stage module
    - [ ] Firmware authoring to verify remaining functional blocks (in progress)
- - [ ] Integrate and test late stage module
- - [ ] Verify system functionality
+   - [ ] WSJT software integration testing (in progress)
+ - [ ] Test late stage module
+ - [ ] Verify overall system functionality
+ - [ ] adxi-1.3 main board revision - incorporating power stage fixes and other improvements.
+   - [x] Created new board tree
 
-Future:
-
- - [ ] adxi-1.3 main board revision - incorporating power stage fixes and other improvements, after a full set are known
+## Update (2024-11-20)
+ * Went to test the [WSJT](https://wsjt.sourceforge.io/) integration and found my kernel doesn't have audio, wasted most of a day rejigging Gentoo packages and kernels (to be fair, upgraded almost everything on the system to latest and overcame some rustic and pythonic meta-situational transgressions)
 
 ## Update (2024-11-19)
  * Power stage fix board [fully debugged](kicad-pcbs/adxi-1.2-powerfix-1/), plugs in and works from USB-C
