@@ -59,6 +59,40 @@ Underway:
  - [ ] adxi-1.3 main board revision - incorporating power stage fixes and other improvements.
    - [x] Created new board tree
 
+## Update (2024-11-22)
+ * Got host system audio working.
+ * WSJT initial errors all resolved
+   * Audio interface errors resolved
+   * USB serial interface errors resolved
+   * Configuration errors resolved
+   * Basic interface testing should now be possible.  The following error simply indicates the firmware is not responding as expected over serial (because we have been modifying it for testing).
+
+```
+Hamlib error: read_string_generic called, rxmax=4095 direct=1, expected_len=1
+tcflush
+write_block(): TX 3 bytes, method=2
+0000    46 41 3b                                            FA;
+read_string_generic called, rxmax=128 direct=1, expected_len=1
+read_string_generic(): Timed out 0.200 seconds after 0 chars, direct=1
+kenwood_transaction: read_string(expected=128, len=0)=''
+kenwood_transaction: read_string retval < 0, retval = -5, retry_read=0, rs->rigport.retry=0
+kenwood.c(628):kenwood_transaction returning2(-5) Communication timed out
+
+kenwood_open: no response from rig
+  2:kenwood.c(940):kenwood_open returning(-5) Communication timed out
+
+  2:rig.c(7525):async_data_handler_stop entered
+  2:rig.c(7555):async_data_handler_stop returning(0)
+ser_close: restoring options
+ 1:rig.c(1301):rig_open returning(-5) Communication timed out
+
+Communication timed out
+Communication timed out
+ while opening connection to rig
+
+Timestamp: 2024-11-21T23:32:09.208Z
+```
+
 ## Update (2024-11-20)
  * Went to test the [WSJT](https://wsjt.sourceforge.io/) integration and found my kernel doesn't have audio, wasted most of a day rejigging Gentoo packages and kernels (to be fair, upgraded almost everything on the system to latest and overcame some rustic and pythonic meta-situational transgressions)
 
