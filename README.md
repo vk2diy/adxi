@@ -92,6 +92,13 @@ Communication timed out
 
 Timestamp: 2024-11-21T23:32:09.208Z
 ```
+ * Turned out that even when dropping the effectively original serial handling code in place, the same error persisted.
+   * This lead me to believe that there was some sort of timeout going on; perhaps in the I2C communication with the clock generator chip.
+     * I tried uploading the same firmware to an MCU module with no hardware connected and obtained the same result; this was semi-confirmatory.
+     * I instrumented the code by hand to obtain an understanding of where the latency was occurring.
+     * After re-enabling `Serial.setTimeout(4)` things sped up.
+   * I tried going back to the assembled board with this revised code to see if WSJT would initialize correctly.
+ * WSJT now starts with no error! This is a pretty good milestone for further work. ![image](images/first-wsjt.png)
 
 ## Update (2024-11-20)
  * Went to test the [WSJT](https://wsjt.sourceforge.io/) integration and found my kernel doesn't have audio, wasted most of a day rejigging Gentoo packages and kernels (to be fair, upgraded almost everything on the system to latest and overcame some rustic and pythonic meta-situational transgressions)
