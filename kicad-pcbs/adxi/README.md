@@ -16,6 +16,7 @@
    * 2024-11-07: Boost converter block instrumentation and testing.
    * 2024-11-08: Plan for potential power stage resolution patch board, scheme for early stage power and failover, benchtop regulator testing.
    * 2024-11-09: Irregular 'regulator free' early stage power solution, new board setup, prepare for firmware programming.
+   * 2024-11-24: Test clock generator.
 
 ## Initial test
 
@@ -1311,6 +1312,33 @@ Continued to set firmware initial states.
 Discovered unduly thin traces in PA drain MOSFET area, added to issues list.
 
 Discovered that the borrowed third-party optimized implementation for inbound receieve decoding in the original firmware ([documented narratively with reference to other projects and hardware in Japanese over here](https://github.com/je1rav/QP-7C); [auto-translation](https://github-com.translate.goog/je1rav/QP-7C?tab=readme-ov-file&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp)) depended on having a seemingly but not actually redundant ground input to an otherwise unused pin via a relatively obscure microcontroller feature known as the "analog comparator", which has an explicit reliance on that particular pin despite never naming it in the code. Nowhere was this effectively documented, thus it was missed as design time as I have never used this feature despite making 100s of boards. It was necessary to read the [ATMega328P microcontroller datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf) (page 202 onward of 294) to determine this dependency. This is a great example of why hardware is tedious: you can't make this stuff up. Anyway, the situation can be worked around with a jumper cable for now. Subsequent revisions will require explicit grounding of this pin.
+
+### 2024-11-24
+
+ * Watching the clock
+   * I instrumented the TX clock line by soldering a pin to the corner of `U4`.
+   * First clock generator output observed. ![image](debugging/clock1.png)
+   * The clock generator output appears to be short (around 12ms) and is occurring at a frequency of 2.94kHz with 170us peaks and troughs. ![image](debugging/clock2.png)
+   * Why is the output this brief?
+     * Perhaps the clock is reconfigured
+     * Perhaps the power state changes
+     * Perhaps the input timing crystal signal exceeds anticipated capacitance due to duplicate capacitance being added
+   * Tried changing the configuration to `si5351.init(SI5351_CRYSTAL_LOAD_0PF, 0, 0)` to account for external load capacitance. The result was ![image](debugging/clock3.png)
+   * Resoldered the tap pin after knocking it loose, tried disabling calibration calls
+   * New capture looks like this: ![image](debugging/clock4.png)
+   * On the basis that was frequency related, I dropped the test frequency to `5 * 100ULL`, resulting in a 4kHz capture. ![image](debugging/clock5.png)
+   * On the basis that doubling that frequency should be feasible, I increased the test frequency to `10 * 100ULL`, still resulting in a 4kHz capture. ![image](debugging/clock6.png)
+   * After commenting out the test code, nothing changed. This meant the issue was coming from the device `setup()` routine.
+   * After re-ordering the `setup()` code, specifically placing the output disable lines immediately after the `.init()` call, I was able to obtain a situation having no output during a reset.
+ * Verifying control
+   * After then adding the test code, I obtained correct signal frequency of 1MHz. ![image](debugging/clock7.png)
+   * After halving the frequency, I obtained correct signal frequency of 500kHz. ![image](debugging/clock8.png)
+   * It can now be said that the clock generator is functioning correctly for the TX clock channel (channel 0).
+ * Verifying dual channel control
+   * I instrumented the north pad of `C13` to get access to the RX clock channel (channel 1). Initial capture was as expected. ![image](debugging/clock9.png)
+   * After modifying the test code to set double frequency on the RX clock, the observed signals were not as expected, the RX showed nothing.
+   * The reason was determined to be that the north pad instrumentation soldering had bridged to the adjacent capacitor ground pad. After much fiddling I was able to remedy this, and repeated the test. I obtained the correct frequency (1MHz) but not the correct levels (1.1V low to 2.8V high instead of 0V low to 3.3V high).
+   * The issue could either be due to board damage due to hot air gun for instrumentation, or could be a topology problem in the original layout. ![image](debugging/clock10.png)
 
 ## Complete issues list
 
