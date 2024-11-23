@@ -1339,6 +1339,9 @@ Discovered that the borrowed third-party optimized implementation for inbound re
    * After modifying the test code to set double frequency on the RX clock, the observed signals were not as expected, the RX showed nothing.
    * The reason was determined to be that the north pad instrumentation soldering had bridged to the adjacent capacitor ground pad. After much fiddling I was able to remedy this, and repeated the test. I obtained the correct frequency (1MHz) but not the correct levels (1.1V low to 2.8V high instead of 0V low to 3.3V high).
    * The issue could either be due to board damage due to hot air gun for instrumentation, or could be a topology problem in the original layout. ![image](debugging/clock10.png)
+   * One issue was the instrumentation pin breaking loose and shorting. Once replaced, the capture was restored. ![image](debugging/clock11.png) ![image](debugging/clock12.png)
+   * The levels are as expected, because the RXC line has a 100nF capacitor meaning the trace is [AC-coupled](https://www.youtube.com/watch?v=y5aAjd9YPok).
+   * Therefore, we can reasonably expect that we can proceed with testing the Power Amplifier.
 
 ## Complete issues list
 
