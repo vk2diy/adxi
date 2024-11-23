@@ -59,6 +59,10 @@ Underway:
  - [ ] adxi-1.3 main board revision - incorporating power stage fixes and other improvements.
    - [x] Created new board tree
 
+## Update (2024-11-24)
+
+ * [Stepping through manual clock control](kicad-pcbs/adxi/README.md) with the `SI5351` as a means to test the subsystem.
+
 ## Update (2024-11-22)
  * Got host system audio working.
  * WSJT initial errors all resolved
