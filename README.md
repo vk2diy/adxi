@@ -59,6 +59,18 @@ Underway:
  - [ ] adxi-1.3 main board revision - incorporating power stage fixes and other improvements.
    - [x] Created new board tree
 
+## Update (2024-11-25)
+
+ * Researched Linux-based serial data capture solutions with an eye toward Wireshark and hit on [socat](http://www.dest-unreach.org/socat/), which should do the job.
+   * To date I have been attempting to manually interact with the firmware using [minicom](https://salsa.debian.org/minicom-team/minicom) which is tedious.
+   * It would be much better idea to create a test harness using [platformio](https://platformio.org/) to fire up [WSJT-X](https://wsjt.sourceforge.io/) and monitor the serial traffic to verify suspected interactions are taking place.
+   * The best time to do this is immediately after a successful firmware upload.
+   * Well written, such a test harness should:
+     * Catch changes to `WSJT-X`
+     * Catch firmware bugs
+     * Protect against firmware regressions.
+     * Be portable to alternative, future MCUs (eg. `RP2040`).
+
 ## Update (2024-11-24)
 
  * [Stepping through manual clock control](kicad-pcbs/adxi/README.md) with the `SI5351` as a means to test the subsystem.
