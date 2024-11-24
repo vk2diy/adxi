@@ -29,8 +29,14 @@
 #define PIN_HOST_FSK_INPUT 7
 #define PIN_RECEIVE_ENABLE_WHEN_LOW_OUTPUT 8
 #define PIN_PA_DRIVE_PWM_OUTPUT 9
+#ifdef PIN_SPI_MOSI
+ #undef PIN_SPI_MOSI
+#endif
 #define PIN_SPI_MOSI 11
 #define PIN_SPI_SS_3V3OUTPUTS 12
+#ifdef PIN_SPI_SCK
+ #undef PIN_SPI_SCK
+#endif
 #define PIN_SPI_SCK 13
 #define PIN_FORWARD_POWER_INPUT 14
 #define PIN_REVERSE_POWER_INPUT 15
@@ -75,8 +81,8 @@ String command;
 String command2;
 String parameter;
 String parameter2;
-String sent;
-String sent2;
+String serial_response;
+String serial_response_additional;
 
 //**********************************[ BAND SELECT ]************************************************
 // ADX can support up to 4 bands on board. Those 4 bands needs to be assigned to Band1 ... Band4 from supported 6 bands.
@@ -98,8 +104,13 @@ Si5351 si5351;
 //*************************************[ SETUP FUNCTION ]**************************************
 void setup() {
   Serial.begin(115200);
-  //Serial.setTimeout(4);
+  Serial.setTimeout(4);
 
+  //delay(150);
+
+/*
+  Serial.println();
+  Serial.println();
   Serial.println(__FILENAME__);
   Serial.println(__COMPILER__);
   Serial.println();
@@ -109,6 +120,7 @@ void setup() {
   Serial.print(F("pins"));
   Serial.print(F("..."));
   Serial.print(F(" "));
+*/
   pinMode(PIN_CM108B_LEDR_INPUT,INPUT);
   pinMode(PIN_CM108B_LEDO_INPUT,INPUT);
   pinMode(PIN_TUSB321_IMODE1_INPUT,INPUT);
@@ -129,56 +141,78 @@ void setup() {
   digitalWrite(PIN_SPI_SS_3V3OUTPUTS,LOW);
   digitalWrite(PIN_SPI_SCK,LOW);
   digitalWrite(PIN_I2C_SCL,LOW);
+/*
   Serial.println(F("OK"));
   
   Serial.print(F(" - "));
   Serial.print(F("si5351"));
   Serial.print(F("..."));
   Serial.print(F(" "));
-  si5351.init(SI5351_CRYSTAL_LOAD_10PF, 0, 0); // Ooh dang! We have 12pF. That's not good. Bug!
+*/
+  //si5351.init(SI5351_CRYSTAL_LOAD_10PF, 0, 0); // Ooh dang! We have 12pF. That's not good. Bug!
+  si5351.init(SI5351_CRYSTAL_LOAD_0PF, 0, 0); // Ooh dang! We have 12pF. That's not good. Bug!
+  si5351.set_clock_pwr(SI5351_CLK0, 0); // disable at startup
+  si5351.set_clock_pwr(SI5351_CLK1, 0); // disable at startup
+  si5351.set_clock_pwr(SI5351_CLK2, 0); // unused
   si5351.set_correction(SI5351_CALIBRATION_FACTOR, SI5351_PLL_INPUT_XO);
   si5351.set_pll(SI5351_PLL_FIXED, SI5351_PLLA);
   si5351.drive_strength(SI5351_CLK0, SI5351_DRIVE_8MA); // maximum power on transmit clock
   si5351.drive_strength(SI5351_CLK1, SI5351_DRIVE_2MA); // reduced power on receive clock
   si5351.drive_strength(SI5351_CLK2, SI5351_DRIVE_2MA); // unused
-  si5351.set_clock_pwr(SI5351_CLK0, 0); // disable at startup
-  si5351.set_clock_pwr(SI5351_CLK1, 0); // disable at startup
-  si5351.set_clock_pwr(SI5351_CLK2, 0); // unused
+/*
   Serial.println(F("OK"));
 
   Serial.print(F(" - "));
   Serial.print(F("SPI"));
   Serial.print(F("..."));
   Serial.print(F(" "));
+*/
   SPI.begin();
+/*
   Serial.println(F("OK"));
 
   Serial.print(F(" - "));
   Serial.print(F("timer"));
   Serial.print(F("..."));
   Serial.print(F(" "));
+*/
   TCCR1A = 0x00;
   TCCR1B = 0x01; // Timer1 Timer 16 MHz
   TCCR1B = 0x81; // Timer1 Input Capture Noise Canceller
+/*
   Serial.println(F("OK"));
 
   Serial.print(F(" - "));
   Serial.print(F("comparator"));
   Serial.print(F("..."));
   Serial.print(F(" "));
+*/
   ACSR |= (1<<ACIC);  // Analog Comparator Capture Input
+/*
   Serial.println(F("OK"));
+*/
+
 
 }
 
-void receive_enable() {
- si5351.output_enable(SI5351_CLK0, 0); // transmit disable
+void receive_enable(void) {
+ transmit_disable();
+ digitalWrite(PIN_RECEIVE_ENABLE_WHEN_LOW_OUTPUT,LOW);
  si5351.set_freq(freq * 100ULL, SI5351_CLK1); // set receive frequency
  si5351.output_enable(SI5351_CLK1, 1); // receive enable
 }
 
-void transmit_enable() {
+void receive_disable(void) {
+ digitalWrite(PIN_RECEIVE_ENABLE_WHEN_LOW_OUTPUT,HIGH);
  si5351.output_enable(SI5351_CLK1, 0); // receive disable
+}
+
+void transmit_disable(void) {
+ si5351.output_enable(SI5351_CLK0, 0); // transmit disable
+}
+
+void transmit_enable(void) {
+ receive_disable();
  si5351.output_enable(SI5351_CLK0, 1); // transmit enable
 }
 
@@ -217,8 +251,26 @@ int get_tusb321_imode2(void) {
  return digitalRead(PIN_TUSB321_IMODE2_INPUT);
 }
 
-void loop() {
+void test_signal() {
+ // test signal
+ //si5351.set_freq((1 * 100ULL), SI5351_CLK0);
+ //si5351.output_enable(SI5351_CLK0, 1); // transmit enable
 
+ si5351.set_freq(SI5351_CALIBRATION_FREQUENCY_HZ * 100ULL / 2, SI5351_CLK0);
+ si5351.set_freq(SI5351_CALIBRATION_FREQUENCY_HZ * 100ULL, SI5351_CLK1);
+ si5351.drive_strength(SI5351_CLK0, SI5351_DRIVE_2MA); // low power
+ si5351.set_clock_pwr(SI5351_CLK0, 1); // enable clock
+ si5351.drive_strength(SI5351_CLK1, SI5351_DRIVE_2MA); // low power
+ si5351.set_clock_pwr(SI5351_CLK1, 1); // enable clock
+ delay(100); // FIXTHIS: avoid delay()
+ si5351.set_clock_pwr(SI5351_CLK0, 0); // disable clock
+ si5351.set_clock_pwr(SI5351_CLK1, 0); // disable clock
+ delay(100); // FIXTHIS: avoid delay()
+}
+
+void loop() {
+ //test_signal();
+/*
   unsigned int fwp;
   fwp = get_forward_power();
   unsigned int rvp;
@@ -265,20 +317,30 @@ void loop() {
   Serial.println(imode2);
 
   delay(500);
-  // simply print what is received
-//  if(Serial.available()>0) {
-//   Serial.print(Serial.readString());
-//  }
 
-/*
+*/
+
+  // ------------------------ start previous code (modified) --------------------------
   if ((Serial.available() > 0) || (cat_stat == 1)) {
-    Serial.print(F("_"));
+//Serial.print(F("_"));
     cat_stat = 1;
+//    Serial.print(F(" process_host_serial_input() "));
+//    Serial.print(F("start"));
+//    Serial.println(F("..."));
     process_host_serial_input();
+//    Serial.print(F(" process_host_serial_input() "));
+//    Serial.println(F("stop"));
+//    Serial.print(F(" receive_enable() "));
+//    Serial.print(F("start"));
+//    Serial.println(F("..."));
     receive_enable();
+//    Serial.print(F(" receive_enable() "));
+//    Serial.println(F("stop"));
+//    Serial.println(F("/"));
   }
   else {  
-    Serial.print(F("*"));
+//   Serial.println(" other()");
+//   Serial.print(F("*"));
 
    // The following code is from JE1RAV https://github.com/je1rav/QP-7C
    //(Using 3 cycles for timer sampling to improve the precision of frequency measurements)
@@ -406,7 +468,8 @@ void loop() {
    TX_State = 0;
    FSKtx = 0;
  }
- */
+ // -------------------------------- end previous code (modified) ----------------------------------
+
 }
 
 // void band_frequencies(void) {
@@ -472,9 +535,9 @@ void loop() {
 //   - parse character by character instead of converting to lines in multiple passes then pulling substrings
 void process_host_serial_input(void) {
 
-  received = Serial.readString();
-  received.toUpperCase(); // this is a performance loss
-  received.replace("\n",""); // this is a performance loss
+  received = Serial.readStringUntil("\n"); // was readString()
+  //received.toUpperCase(); // this is a performance loss
+  //received.replace("\n",""); // this is a performance loss
 
   String data = "";
   int bufferIndex = 0;
@@ -500,69 +563,79 @@ void process_host_serial_input(void) {
     }
   }
 
+
   command = receivedPart1.substring(0,2);
   command2 = receivedPart2.substring(0,2);
   parameter = receivedPart1.substring(2,receivedPart1.length());
   parameter2 = receivedPart2.substring(2,receivedPart2.length());
+ /*
+  Serial.print("Command = '");
+  Serial.print(command);
+  Serial.println("'");
+ */
 
   if (command == "FA") {
     if (parameter != "") {
       freq = parameter.toInt();
       //VfoRx = VfoTx;
     }
-    sent = "FA" // Return 11 digit frequency in Hz.
+    serial_response = "FA" // Return 11 digit frequency in Hz.
       + String("00000000000").substring(0,11-(String(freq).length()))
       + String(freq) + ";";
   }
   else if (command == "PS") {
-    sent = "PS1;";
+    serial_response = "PS1;";
   }
   else if (command == "TX") {
-    sent = "TX0;";
+    serial_response = "TX0;";
     transmit_enable();
     TxStatus = 1;
   }
   else if (command == "RX") {
-    sent = "RX0;";
+    serial_response = "RX0;";
     receive_enable();
     TxStatus = 0;
   }
   else  if (command == "ID") {
-    sent = "ID019;";
+    serial_response = "ID019;";
   }
   else if (command == "AI") {
-    sent = "AI0;";
+    serial_response = "AI0;";
   }
   else if (command == "IF") {
     if (TxStatus == 1) {
-      sent = "IF" // Return 11 digit frequency in Hz.
+      serial_response = "IF" // Return 11 digit frequency in Hz.
         + String("00000000000").substring(0,11-(String(freq).length()))
         + String(freq) + "00000" + "+" + "0000" + "0" + "0" + "0" + "00" + "1" + String(CAT_mode) + "0" + "0" + "0" + "0" + "000" + ";";
     }
     else {
-      sent = "IF" // Return 11 digit frequency in Hz.
+      serial_response = "IF" // Return 11 digit frequency in Hz.
         + String("00000000000").substring(0,11-(String(freq).length()))
         + String(freq) + "00000" + "+" + "0000" + "0" + "0" + "0" + "00" + "0" + String(CAT_mode) + "0" + "0" + "0" + "0" + "000" + ";";
     }
   }
   else if (command == "MD") {
-    sent = "MD2;";
+    serial_response = "MD2;";
   }
 
   //------------------------------------------------------------------------------
 
+  // Now actually respond
   if (command2 == "ID") {
-    sent2 = "ID019;";
+    serial_response_additional = "ID019;";
   }
-
   if (bufferIndex == 2) {
-    Serial.print(sent2);
+    Serial.print(serial_response_additional);
   }
   else {
-    Serial.print(sent);
+    Serial.print(serial_response);
   }
 
   if ((command == "RX") || (command = "TX")) delay(50); // FIXTHIS: avoid delay()
-  sent = String("");
-  sent2 = String("");
+
+  // Flush for next iteration
+  serial_response = String("");
+  serial_response_additional = String("");
+  command="";
+  command2="";
 }
