@@ -61,7 +61,7 @@ Underway:
 
 ## Update (2024-11-25)
 
- * Researched Linux-based serial data capture solutions with an eye toward Wireshark and hit on [socat](http://www.dest-unreach.org/socat/), which should do the job.
+ * Researched Linux-based serial data capture solutions with an eye toward [Wireshark](https://www.wireshark.org/) (which my brain still calls *Ethereal*!) and hit on [socat](http://www.dest-unreach.org/socat/), which should do the job.
    * To date I have been attempting to manually interact with the firmware using [minicom](https://salsa.debian.org/minicom-team/minicom) which is tedious.
    * It would be much better idea to create a test harness using [platformio](https://platformio.org/) to fire up [WSJT-X](https://wsjt.sourceforge.io/) and monitor the serial traffic to verify suspected interactions are taking place.
    * The best time to do this is immediately after a successful firmware upload.
