@@ -66,6 +66,7 @@ Underway:
    * It would be much better idea to create a test harness using [platformio](https://platformio.org/) to fire up [WSJT-X](https://wsjt.sourceforge.io/) and monitor the serial traffic to verify suspected interactions are taking place.
    * The best time to do this is immediately after a successful firmware upload.
    * Well written, such a test harness should:
+     * Provide a high iteration speed platform for firmware testing and development
      * Catch changes to `WSJT-X`
      * Catch firmware bugs
      * Protect against firmware regressions.
