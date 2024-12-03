@@ -1343,6 +1343,63 @@ Discovered that the borrowed third-party optimized implementation for inbound re
    * The levels are as expected, because the RXC line has a 100nF capacitor meaning the trace is [AC-coupled](https://www.youtube.com/watch?v=y5aAjd9YPok).
    * Therefore, we can reasonably expect that we can proceed with testing the Power Amplifier.
 
+### 2024-12-03
+
+ * After a week or so of other matters, I plugged the system in again and revisited the current status:
+   * Board plugs in
+   * USB devices detected
+   * Firmware can upload
+   * WSJTX starts
+ * After studying the apparent functionality of WSJTX, I found that no audio is received from the device.
+
+### 2024-12-04
+
+ * First of all, strapping `D6` to `GND` to fix the analog comparator should be done ![image](debugging/patch-comparator.jpg)
+ * There are a daunting series of layers between the verified core and audio reception
+   * The antenna system
+   * The antenna to late stage module connection
+   * The power amplifier
+     * The low pass filter
+     * The matching network
+     * The PA resonator inductance
+     * The PA resonator capacitance
+     * The RF choke
+   * MCU power amplifier drive PWM signal
+   * The demodulator chip
+   * The channel-mixing logic
+   * The USB sound chip
+ * Proposed test strategies for:
+   * The antenna system
+     * NanoVNA with attenuator for protection
+     * Need a viable antenna first
+   * The antenna to late stage module connection
+     * Multimeter on connectivity test mode, resistance test mode
+     * NanoVNA for further verification as an option
+   * The power amplifier
+     * Power amplifier low pass filter, matching network and resonator
+       * NanoVNA between the band-specific solder bridges (fresh board, none soldered closed)
+     * RF choke
+       * NanoVNA between the `PA-SUPPLY` and the nearby solder bridges (fresh board, none soldered closed)
+   * MCU power amplifier drive PWM signal
+     * Instrument appropriately with scope then test with custom firmware 
+   * MCU receive enable signal
+     * Instrument appropriately with scope then test with custom firmware 
+   * The demodulator chip
+     * Verify configuration straps with scope
+     * Verify expected input signal is present with scope
+     * Verify output signal is present with scope
+   * The USB sound chip
+     * Verify configuration straps and/or MCU control lines
+     * Verify input from demodulator and channel mixing is present
+     * Monitor computer audio through regular audio software
+     * Try creating static if necessary by shorting low voltage leads
+     * Verify static comes through to computer audio software
+ * Potential test strategies
+   * For individual PA stages
+     * It would be possible to isolate these by cutting traces then repeating NanoVNA tests if necessary
+   * Channel mixing logic
+     * If problematic, bypass entirely
+
 ## Complete issues list
 
  * Cable passthru too difficult, hole should be enlarged

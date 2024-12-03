@@ -59,6 +59,9 @@ Underway:
  - [ ] adxi-1.3 main board revision - incorporating power stage fixes and other improvements.
    - [x] Created new board tree
 
+## Update (2024-12-04)
+ * [Proposed test plan](kicad-pcbs/adxi/README.md) for resolving current state focused on iterative verification
+
 ## Update (2024-11-25)
 
  * Researched Linux-based serial data capture solutions with an eye toward [Wireshark](https://www.wireshark.org/) (which my brain still calls *Ethereal*!) and hit on [socat](http://www.dest-unreach.org/socat/), which is a spiritual successor to Hobbit's [netcat](https://sectools.org/tool/netcat/) that talks serial in addition to TCP/UDP and should therefore do the job.
