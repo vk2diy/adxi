@@ -1400,12 +1400,12 @@ Discovered that the borrowed third-party optimized implementation for inbound re
    * Channel mixing logic
      * If problematic, bypass entirely
  * Progress
-   [x] Soldered fix jumper for comparator to `GND`
-     [x] Re-verified bootup contact, programming, WSJTX
-   [x] Altered firmware to ensure receive enable pin is set low (enabled)
-   [x] Soldered contact pin to instrument `RXEN`
-   [x] Instrumented `RXEN` with scope
-     [x] Verified pin is brought high momentarily during `setup()` then set low for 'force receive enable', which should trigger audio passthru at `Q1` ![image](debugging/scope-rxen-verify.png)
+   * Soldered fix jumper for comparator to `GND`
+     * Re-verified bootup contact, programming, WSJTX
+   * Altered firmware to ensure receive enable pin is set low (enabled)
+   * Soldered contact pin to instrument `RXEN`
+   * Instrumented `RXEN` with scope
+     * Verified pin is brought high momentarily during `setup()` then set low for 'force receive enable', which should trigger audio passthru at `Q1` ![image](debugging/scope-rxen-verify.png)
 
 ## Complete issues list
 
