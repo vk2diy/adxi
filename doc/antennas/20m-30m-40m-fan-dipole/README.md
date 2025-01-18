@@ -15,9 +15,9 @@ First I ordered [30.48m (100ft) of cheap AWG16 speaker wire from Amazon](https:/
 Then I ordered [10m of terminated RG316 coax from Amazon](https://www.amazon.com.au/dp/B09SCKGDLH) as the lst time I terminated coax was approximately 1995 and I have no interest in revisiting that stuff.
 
 Thus armed, I proceeded to cut six lengths of wire as follows:
- - 2 x 20m 1/4 wavelength pieces @ ~
- - 2 x 30m 1/4 wavelength pieces @ ~
- - 2 x 40m 1/4 wavelength pieces @ ~
+ - 2 x 20m 1/4 wavelength pieces @ 5.1m
+ - 2 x 30m 1/4 wavelength pieces @ 7.7m
+ - 2 x 40m 1/4 wavelength pieces @ 10.2m
 
 ![image](line-end-stripped-twisted.webp)
 
