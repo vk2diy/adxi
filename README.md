@@ -59,6 +59,11 @@ Underway:
  - [ ] adxi-1.3 main board revision - incorporating power stage fixes and other improvements.
    - [x] Created new board tree
 
+## Update (2025-01-19)
+
+ * Been awhile since an update, but haven't been idle.
+ * [Built, tuned and tested a 20m/30m/40m fan dipole antenna](doc/antennas/20m-30m-40m-fan-dipole) and got this running with an RTLSDR as a reference point in order to support further testing.
+
 ## Update (2024-12-04)
  * [Proposed test plan](kicad-pcbs/adxi/README.md) for resolving current state focused on iterative verification
 
