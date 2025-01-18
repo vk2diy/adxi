@@ -64,24 +64,24 @@ Underway:
  * Been awhile since an update, but haven't been idle.
  * [Built, tuned and tested a 20m/30m/40m fan dipole antenna](doc/antennas/20m-30m-40m-fan-dipole) and got this running with an RTLSDR as a reference point in order to support further testing. Despite being barely 1.5m off the ground and threaded through foliage, it works! Signals have been received from most continents already. ![image](doc/antennas/20m-30m-40m-fan-dipole/antenna-deployed-wide.webp)
  * Updated test plan:
-   [x] Antenna system
-     [x] Build or acquire a viable antenna
-     [x] Verify with NanoVNA and attenuator for protection
-     [x] Verify with other radio hardware
-   [ ] The power amplifier
+   - [x] Antenna system
+     - [x] Build or acquire a viable antenna
+     - [x] Verify with NanoVNA and attenuator for protection
+     - [x] Verify with other radio hardware
+   - [ ] The power amplifier
      * Power amplifier low pass filter, matching network and resonator
        * NanoVNA between the band-specific solder bridges (fresh board, none soldered closed)
      * RF choke
        * NanoVNA between the `PA-SUPPLY` and the nearby solder bridges (fresh board, none soldered closed)
-   [ ] MCU power amplifier drive PWM signal
+   - [ ] MCU power amplifier drive PWM signal
      * Instrument appropriately with scope then test with custom firmware
-   [ ] MCU receive enable signal
+   - [ ] MCU receive enable signal
      * Instrument appropriately with scope then test with custom firmware
-   [ ] The demodulator chip
+   - [ ] The demodulator chip
      * Verify configuration straps with scope
      * Verify expected input signal is present with scope
      * Verify output signal is present with scope
-   [ ] The USB sound chip
+   - [ ] The USB sound chip
      * Verify configuration straps and/or MCU control lines
      * Verify input from demodulator and channel mixing is present
      * Monitor computer audio through regular audio software
