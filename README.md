@@ -18,6 +18,16 @@ This (very distant!) fork of ADX is called __adxi__ (or "ADX Improved") with the
  * __use of modern surface mount components__ for repeatability
  * __using platformio__ to manage the firmware build and dependencies in a modern way
 
+## Other projects
+ * Same MCU
+   * [ADX](https://github.com/WB2CBA/ADX) ($? / ATMega328P based / multiple bands with effort / LED blinkenlights)
+   * [(tr)uSDX](https://dl2man.de/) (PE1NNZ and DL2MAN) ($50 / ATMega328P based / multiple bands with effort / small OLED)
+     * Based on [µSDX](https://github.com/threeme3/usdx)
+ * Fancy-pants MCU
+   * [sbitx](https://github.com/afarhan/sbitx) ($150+ / RPi4 based / 8 bands preconfigured / large OLED)
+ * Discussion
+   * [ucx discussion group](https://groups.io/g/ucx)
+
 ## Project scope
 
 The project scope generally includes the following:
