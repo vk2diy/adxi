@@ -80,10 +80,18 @@ Underway:
    * Output for approximation configuration (used): `7th ≈ (13.57% error, 7 parts): C1_lpf=150.00pF L1_lpf=1µH C2_lpf=470.00pF L2_lpf=1.5µH C3_lpf=470.00pF L3_lpf=1µH C4_lpf=150.00pF`
  * I had expected to see a rapid falloff at a specific frequency, like this modeled version: ![image](images/40m-lpf-model.webp)
  * However, instead I obtained very different results.
-   * Test setup. I did try to test with the extra ground cable shown with a red X, but removed it (ground loop). No substantial change.  ![image](images/40m-lpf-1.webp)
-   * Test result. This remained fairly constant in all test configurations (with and without termination resistors, various ground configurations). ![image](images/40m-lpf-2.webp)
-   * Broader result. This shows markers for the 40m as well as 30m and 20m bands. You can see the frequency response restores rather than decays with increasing frequency after a certain point, which is unexpected. ![image](images/40m-lpf-3.webp) 
-   * Final test setup. Note cut trace, solder points and 47 ohm series resistors at either end. No substantial difference. ![image](images/40m-lpf-4.webp)
+   * __Test setup__. I did try to test with the extra ground cable shown with a red X, but removed it (ground loop). No substantial change.  ![image](images/40m-lpf-1.webp)
+   * __Test result__. This remained fairly constant in all test configurations (with and without termination resistors, various ground configurations). ![image](images/40m-lpf-2.webp)
+     * What we can see here is:
+       * __S21 Logmag__ in yellow (~"through signal attenuation") shows a downward slope within the target band (marker location) before a flat response through around 13MHz at which it begins to taper off fairly steeply until 17MHz at which point it begins to climb again.
+         * Our expectation would have been "falling off a cliff" after the filter cutoff frequency and not recovering until very high frequencies due to self-resonance of individual components.
+         * This is a head scratcher.
+       * __S21 Q10__ in green (~"resonance or energy storage potential") is an undesirable feature in a low pass filter. However, we can see significant Q values around 5MHz and 9MHz.
+         * This would seem to indicate there is a source of resonance within the test circuit which we have not identified. However, without other points of comparison it may be hard to determine how abnormal this is.
+       * __S21 Rsh__ in cyan (~"shunt resistance") exhibits a small peak around the target frequency but is otherwise flat.
+       * __S21 Phase__ in magenta (~"phase angle") shows the target frequency band exists within the middle of a smooth phase cycle. There is no information in this to suggest an issue. However, it is notable that the phase shifts at 13MHz where we see the attenuation increase markedly. From prior experience it is common and expected for phase change to align with the end of designed frequency ranges.
+   * __Broader result__. This shows markers for the 40m as well as 30m and 20m bands. You can see the attenuation restores rather than decays with increasing frequency after 17MHz, which is unexpected. ![image](images/40m-lpf-3.webp) 
+   * __Final test setup__. Note cut trace, solder points and 47 ohm series resistors at either end. No substantial difference. ![image](images/40m-lpf-4.webp)
  * I am as yet uncertain why this is.
    * Hypothesis: Incorrect impedance matching.
      * Determination: Invalid. Added 47Ω resistors either site of the LPF DUT with no substantial difference observed.
@@ -93,7 +101,7 @@ Underway:
      * Determination: Possible but unlikely. Connecting the ground at both ends of the DUT (ie. ground loop) causes no significant shift in the VNA output, versus just one end.
    * Hypothesis: Poor calibration.
      * Determination: Used a range of new calibrations, stored calibrations and recalibrations but in no case did this alter the general frequency response.
- * Next steps:
+ * __Next steps__
    * I put it away and will come back to it another day to look at the 30M and 20M LPFs - hopefully one of them works!
    * I could try adding a solid ground plane just to see the difference.
    * I could try fabricating a range of physically separate filters as standalone PCBs to simplify debugging (no test points and cutting traces is a real pain).
