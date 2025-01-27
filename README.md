@@ -24,7 +24,7 @@ This (very distant!) fork of ADX is called __adxi__ (or "ADX Improved") with the
    * [(tr)uSDX](https://dl2man.de/) (PE1NNZ and DL2MAN) ($50 / ATMega328P based / multiple bands with effort / small OLED)
      * Based on [µSDX](https://github.com/threeme3/usdx)
  * Fancy-pants MCU
-   * [sbitx](https://github.com/afarhan/sbitx) ($150+ / RPi4 based / 8 bands preconfigured / large OLED)
+   * [sbitx](https://github.com/afarhan/sbitx) ($150+ / RPi4 based / 8 bands preconfigured / large OLED) ([documentation](https://www.sbitx.net/), [designer website](https://www.hfsignals.com/index.php/sbitx-v3/)) (newer zbitx)
  * Discussion
    * [ucx discussion group](https://groups.io/g/ucx)
 
@@ -68,6 +68,35 @@ Underway:
  - [ ] Verify overall system functionality
  - [ ] adxi-1.3 main board revision - incorporating power stage fixes and other improvements.
    - [x] Created new board tree
+
+## Update (2025-01-27)
+
+ * Started on looking at the late stage module (LSM) board.
+ * Isolated 40M band LPF on a new board by cutting the trace from the impedance matching.
+ * Instrumented both sides with NanoVNA but did not get expected results from the 7th order Butterworth approximation with values produced by [classe2-calculator](https://github.com/vk2diy/classe2-calculator), namely:
+   * Command line: `./classe2 -p 5 -v 12 -b 40m -t infinite --l1 7.755uh -m SI2304DDS`
+     * ie. Power 5W, voltage 12V, band 40m, type infinite, Class E L1 value 7.755uH, MOSFET SI2304DDS.
+   * Output for precise configuration (not used): `7th = (0.23% error, 18 parts): C1_lpf=132.00pF (220.00pF || 330.00pF) L1_lpf=0.93µH (2.2µH || 2.7µH || 3.9µH) C2_lpf=536.00pF (33.00pF + 33.00pF + 470.00pF) L2_lpf=1.5µH (2.7µH || 3.3µH) C3_lpf=536.00pF (33.00pF + 33.00pF + 470.00pF) L3_lpf=0.93µH (2.2µH || 2.7µH || 3.9µH) C4_lpf=132.00pF (220.00pF || 330.00pF)`
+   * Output for approximation configuration (used): `7th ≈ (13.57% error, 7 parts): C1_lpf=150.00pF L1_lpf=1µH C2_lpf=470.00pF L2_lpf=1.5µH C3_lpf=470.00pF L3_lpf=1µH C4_lpf=150.00pF`
+ * I had expected to see a rapid falloff at a specific frequency, like this modeled version: ![image](images/40m-lpf-model.webp)
+ * However, instead I obtained very different results.
+   * Test setup. I did try to test with the extra ground cable shown with a red X, but removed it (ground loop). No substantial change.  ![image](images/40m-lpf-1.webp)
+   * Test result. This remained fairly constant in all test configurations (with and without termination resistors, various ground configurations). ![image](images/40m-lpf-2.webp)
+   * Broader result. This shows markers for the 40m as well as 30m and 20m bands. You can see the frequency response restores rather than decays with increasing frequency after a certain point, which is unexpected. ![image](images/40m-lpf-3.webp) 
+   * Final test setup. Note cut trace, solder points and 47 ohm series resistors at either end. No substantial difference. ![image](images/40m-lpf-4.webp)
+ * I am as yet uncertain why this is.
+   * Hypothesis: Incorrect impedance matching.
+     * Determination: Invalid. Added 47Ω resistors either site of the LPF DUT with no substantial difference observed.
+   * Hypothesis: Low SRF components.
+     * Determination: Invalid. All components in the filter, both small capacitors and inductors should have higher SRFs, at least in the 100-200M+ range at a minimum. However, they are not reported in the datasheet as they are not high end components. Even with low end assumptions this should provide a safe 'order of magnitude' (<10M vs 100M+) buffer.
+   * Hypothesis: Poor grounding.
+     * Determination: Possible but unlikely. Connecting the ground at both ends of the DUT (ie. ground loop) causes no significant shift in the VNA output, versus just one end.
+   * Hypothesis: Poor calibration.
+     * Determination: Used a range of new calibrations, stored calibrations and recalibrations but in no case did this alter the general frequency response.
+ * Next steps:
+   * I put it away and will come back to it another day to look at the 30M and 20M LPFs - hopefully one of them works!
+   * I could try adding a solid ground plane just to see the difference.
+   * I could try fabricating a range of physically separate filters as standalone PCBs to simplify debugging (no test points and cutting traces is a real pain).
 
 ## Update (2025-01-19)
 
