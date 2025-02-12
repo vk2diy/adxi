@@ -20,8 +20,8 @@ This (very distant!) fork of ADX is called __adxi__ (or "ADX Improved") with the
 
 ## Other projects
  * Same MCU
-   * [ADX](https://github.com/WB2CBA/ADX) ($? / ATMega328P based / multiple bands with effort / LED blinkenlights)
-   * [(tr)uSDX](https://dl2man.de/) (PE1NNZ and DL2MAN) ($50 / ATMega328P based / multiple bands with effort / small OLED)
+   * [ADX](https://github.com/WB2CBA/ADX) ($? / ATMega328P based / multiple bands with effort / LED blinkenlights/ CD2003GP direct conversion receiver)
+   * [(tr)uSDX](https://dl2man.de/) (PE1NNZ and DL2MAN) ($50 / ATMega328P based / multiple bands with effort / small OLED / direct sampling)
      * Based on [µSDX](https://github.com/threeme3/usdx)
  * Fancy-pants MCU
    * [sbitx](https://github.com/afarhan/sbitx) ($150+ / RPi4 based / 8 bands preconfigured / large OLED) ([documentation](https://www.sbitx.net/), [designer website](https://www.hfsignals.com/index.php/sbitx-v3/)) (newer zbitx)
